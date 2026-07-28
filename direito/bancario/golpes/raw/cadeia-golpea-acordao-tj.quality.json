@@ -1,0 +1,26 @@
+{
+  "score": 75,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 3473,
+    "proporcao_letras": 0.91,
+    "tokens_com_vogal": 0.984,
+    "artefatos": 37,
+    "celulas_vazias_tabelas": 0.0,
+    "ancoras_encontradas": [
+      "EMENTA",
+      "RELATOR",
+      "Art.",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [
+    "muitos_artefatos"
+  ],
+  "modo_ocr": "tesseract",
+  "arquivo": "cadeia-golpea-acordao-tj.pdf",
+  "paginas": 11,
+  "gerado_em": "2026-07-05",
+  "ferramenta": "pdfmd"
+}

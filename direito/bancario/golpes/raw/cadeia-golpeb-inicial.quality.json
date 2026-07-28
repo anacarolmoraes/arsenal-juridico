@@ -1,0 +1,19 @@
+{
+  "score": 100,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 1511,
+    "proporcao_letras": 0.854,
+    "tokens_com_vogal": 0.97,
+    "artefatos": 5,
+    "ancoras_encontradas": [
+      "Súmula"
+    ]
+  },
+  "penalidades": [],
+  "modo_ocr": "auto",
+  "arquivo": "cadeia-golpeb-inicial.pdf",
+  "paginas": 5,
+  "gerado_em": "2026-07-05",
+  "ferramenta": "pdfmd"
+}

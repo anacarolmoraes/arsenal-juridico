@@ -1,0 +1,21 @@
+{
+  "score": 90,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 1946,
+    "proporcao_letras": 0.904,
+    "tokens_com_vogal": 0.971,
+    "artefatos": 6,
+    "ancoras_encontradas": [
+      "Súmula"
+    ]
+  },
+  "penalidades": [
+    "alguns_artefatos"
+  ],
+  "modo_ocr": "auto",
+  "arquivo": "cadeia-golpec-inicial.pdf",
+  "paginas": 6,
+  "gerado_em": "2026-07-05",
+  "ferramenta": "pdfmd"
+}

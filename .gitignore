@@ -26,19 +26,23 @@ LIVROS/
 
 
 # ------------------------------------------------------------
-# 2. DOCUMENTO DE PROCESSO COM DADO PESSOAL — LGPD
+# 2. PDF DE PROCESSO DE TERCEIRO — LGPD
 #
-# A cadeia "golpe" é composta por petições de OUTRO escritório,
-# com nome completo e CPF de pessoas que não são clientes da
-# PMA. Não há base legal para redistribuí-las.
+# A cadeia "golpe" é de processo de OUTRO escritório e trazia
+# nome, CPF, RG, endereço, telefone, e-mail e conta bancária de
+# pessoas que não são clientes da PMA.
 #
-# Auditoria de 28/07/2026: mesmo a sentença publicada qualifica
-# a parte com CPF. Por isso sai a cadeia inteira, não só as
-# petições. O conhecimento extraído dela permanece em teses/,
-# heuristicas/ e jurisprudencia/ — o que fica de fora é o
-# documento bruto do processo alheio.
+# Os arquivos .md foram ANONIMIZADOS em 28/07/2026 e circulam:
+# parte, beneficiário e advogado viraram rótulo de papel, e os
+# identificadores foram suprimidos. O raciocínio da decisão, as
+# instituições financeiras (pessoas jurídicas) e o número do
+# processo permanecem — é o que dá valor de estudo.
+#
+# O PDF continua fora: não há como redigir um binário com
+# segurança nem conferir o resultado. Quem depositou o original
+# o mantém na própria máquina.
 # ------------------------------------------------------------
-direito/bancario/golpes/raw/cadeia-*
+direito/bancario/golpes/raw/cadeia-*.pdf
 
 
 # ------------------------------------------------------------

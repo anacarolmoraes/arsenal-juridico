@@ -1,0 +1,24 @@
+{
+  "score": 90,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 3284,
+    "proporcao_letras": 0.906,
+    "tokens_com_vogal": 0.981,
+    "artefatos": 9,
+    "celulas_vazias_tabelas": 0.0,
+    "ancoras_encontradas": [
+      "SENTENÇA",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [
+    "alguns_artefatos"
+  ],
+  "modo_ocr": "auto",
+  "arquivo": "cadeia-golpeb-sentenca.pdf",
+  "paginas": 9,
+  "gerado_em": "2026-07-05",
+  "ferramenta": "pdfmd"
+}

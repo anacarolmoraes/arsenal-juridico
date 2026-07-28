@@ -1,0 +1,21 @@
+{
+  "score": 100,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 2516,
+    "proporcao_letras": 0.887,
+    "tokens_com_vogal": 0.974,
+    "artefatos": 5,
+    "celulas_vazias_tabelas": 0.0,
+    "ancoras_encontradas": [
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [],
+  "modo_ocr": "auto",
+  "arquivo": "cadeia-golpea-inicial.pdf",
+  "paginas": 13,
+  "gerado_em": "2026-07-05",
+  "ferramenta": "pdfmd"
+}
