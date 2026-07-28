@@ -1,0 +1,23 @@
+{
+  "score": 100,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 2880,
+    "proporcao_letras": 0.886,
+    "tokens_com_vogal": 0.982,
+    "artefatos": 0,
+    "ancoras_encontradas": [
+      "EMENTA",
+      "ACÓRDÃO",
+      "RELATOR",
+      "Art.",
+      "Súmula"
+    ]
+  },
+  "penalidades": [],
+  "modo_ocr": "auto",
+  "arquivo": "earesp-600663-rs.pdf",
+  "paginas": 16,
+  "gerado_em": "2026-07-05",
+  "ferramenta": "pdfmd"
+}

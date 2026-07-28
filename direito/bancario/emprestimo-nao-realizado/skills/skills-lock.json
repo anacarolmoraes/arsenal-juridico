@@ -1,0 +1,12 @@
+{
+  "descricao": "Skills pinadas na cópia para este bundle. Fonte canônica: D:/WORK/advocacia/skills. Divergência entre cópia e origem é verificada no lint mensal (Q5 do registro de decisões). Divergência intencional permanente: legal-writer usa nomes anonimizados (CLIENTE-A/CLIENTE-B) no bundle; a origem mantém os nomes reais (camada C1).",
+  "copiado_em": "2026-07-07",
+  "skills": {
+    "pre-peticionamento": { "version": "2.1.0" },
+    "legal-orchestrator": { "version": "4.1.0" },
+    "legal-writer": { "version": "3.2.0", "nota": "conteúdo anonimizado no bundle (peças-ouro CLIENTE-A/CLIENTE-B); origem mantém nomes reais" },
+    "tipografia-pma": { "version": "1.1.0" },
+    "legal-consistency-validator": { "version": "2.2.0" },
+    "peca-pma-builder": { "version": "1.1.0" }
+  }
+}

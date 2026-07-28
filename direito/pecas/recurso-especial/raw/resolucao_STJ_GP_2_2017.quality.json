@@ -1,0 +1,21 @@
+{
+  "score": 100,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 1649,
+    "proporcao_letras": 0.879,
+    "tokens_com_vogal": 0.984,
+    "artefatos": 0,
+    "celulas_vazias_tabelas": 0.043,
+    "ancoras_encontradas": [
+      "Art.",
+      "artigo"
+    ]
+  },
+  "penalidades": [],
+  "modo_ocr": "auto",
+  "arquivo": "resolucao_STJ_1.pdf",
+  "paginas": 6,
+  "gerado_em": "2026-07-06",
+  "ferramenta": "pdfmd"
+}

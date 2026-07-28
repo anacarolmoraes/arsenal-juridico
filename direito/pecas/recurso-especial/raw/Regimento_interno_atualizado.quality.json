@@ -1,0 +1,27 @@
+{
+  "score": 75,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 1690,
+    "proporcao_letras": 0.921,
+    "tokens_com_vogal": 0.996,
+    "artefatos": 230,
+    "celulas_vazias_tabelas": 0.012,
+    "ancoras_encontradas": [
+      "ACÓRDÃO",
+      "RELATOR",
+      "SENTENÇA",
+      "Art.",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [
+    "muitos_artefatos"
+  ],
+  "modo_ocr": "auto",
+  "arquivo": "Regimento_interno_atualizado.pdf",
+  "paginas": 444,
+  "gerado_em": "2026-07-06",
+  "ferramenta": "pdfmd"
+}

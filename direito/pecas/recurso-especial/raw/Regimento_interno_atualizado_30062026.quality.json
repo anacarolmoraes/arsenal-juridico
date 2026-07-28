@@ -1,0 +1,28 @@
+{
+  "score": 75,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 1693,
+    "proporcao_letras": 0.921,
+    "tokens_com_vogal": 0.995,
+    "artefatos": 236,
+    "celulas_vazias_tabelas": 0.015,
+    "ancoras_encontradas": [
+      "ACÓRDÃO",
+      "RELATOR",
+      "SENTENÇA",
+      "Art.",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [
+    "muitos_artefatos"
+  ],
+  "modo_ocr": "auto",
+  "arquivo": "Regimento_interno_atualizado_30062026.pdf",
+  "paginas": 454,
+  "gerado_em": "2026-07-09",
+  "ferramenta": "pdfmd",
+  "nota": "convertido manualmente (pdfmd, flags canonicas); sidecar via score_markdown do ingest-prep — ver log 2026-07-09"
+}

@@ -1,0 +1,26 @@
+{
+  "score": 90,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 2815,
+    "proporcao_letras": 0.876,
+    "tokens_com_vogal": 0.984,
+    "artefatos": 13,
+    "celulas_vazias_tabelas": 0.0,
+    "ancoras_encontradas": [
+      "EMENTA",
+      "RELATOR",
+      "Art.",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [
+    "alguns_artefatos"
+  ],
+  "modo_ocr": "auto",
+  "arquivo": "resp-1199782-pr.pdf",
+  "paginas": 13,
+  "gerado_em": "2026-07-05",
+  "ferramenta": "pdfmd"
+}

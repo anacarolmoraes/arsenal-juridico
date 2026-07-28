@@ -1,0 +1,54 @@
+# ============================================================
+# arsenal-juridico — acervo de conhecimento jurídico da PMA
+#
+# Repositório único: substitui a antiga estrutura em que cada
+# bundle era um repositório separado (o que obrigava a equipe a
+# baixar cinco projetos).
+#
+# O que está listado aqui continua na máquina de quem já tem o
+# arquivo, mas NÃO é distribuído para a equipe.
+# ============================================================
+
+
+# ------------------------------------------------------------
+# 1. OBRAS DE TERCEIROS — direito autoral
+#
+# Manuais e livros comerciais usados como fonte de estudo. A Lei
+# 9.610/98 proíbe a reprodução e a distribuição; um repositório
+# compartilhado distribui. As teses e heurísticas derivadas
+# deles continuam no acervo — o que não circula é a obra em si.
+# ------------------------------------------------------------
+direito/pecas/raw/iuris-dpc-*
+direito/pecas/raw/manual-dpc-*
+direito/pecas/raw/pratica-processo-civil-*
+direito/pecas/recurso-especial/raw/manual_resp_perfeito.*
+LIVROS/
+
+
+# ------------------------------------------------------------
+# 2. DOCUMENTO DE PROCESSO COM DADO PESSOAL — LGPD
+#
+# A cadeia "golpe" é composta por petições de OUTRO escritório,
+# com nome completo e CPF de pessoas que não são clientes da
+# PMA. Não há base legal para redistribuí-las.
+#
+# Auditoria de 28/07/2026: mesmo a sentença publicada qualifica
+# a parte com CPF. Por isso sai a cadeia inteira, não só as
+# petições. O conhecimento extraído dela permanece em teses/,
+# heuristicas/ e jurisprudencia/ — o que fica de fora é o
+# documento bruto do processo alheio.
+# ------------------------------------------------------------
+direito/bancario/golpes/raw/cadeia-*
+
+
+# ------------------------------------------------------------
+# 3. RASCUNHO E ESTADO LOCAL
+# ------------------------------------------------------------
+.tmp/
+scratch/
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+.~lock.*#

@@ -1,0 +1,22 @@
+{
+  "score": 100,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 1724,
+    "proporcao_letras": 0.929,
+    "tokens_com_vogal": 0.981,
+    "artefatos": 0,
+    "ancoras_encontradas": [
+      "ACÓRDÃO",
+      "RELATOR",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [],
+  "modo_ocr": "auto",
+  "arquivo": "resp-1846649-ma.pdf",
+  "paginas": 5,
+  "gerado_em": "2026-07-05",
+  "ferramenta": "pdfmd"
+}

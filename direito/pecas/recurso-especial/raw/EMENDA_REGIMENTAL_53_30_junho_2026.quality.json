@@ -1,0 +1,21 @@
+{
+  "score": 100,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 2568,
+    "proporcao_letras": 0.858,
+    "tokens_com_vogal": 0.995,
+    "artefatos": 0,
+    "celulas_vazias_tabelas": 0.0,
+    "ancoras_encontradas": [
+      "Art.",
+      "artigo"
+    ]
+  },
+  "penalidades": [],
+  "modo_ocr": "auto",
+  "arquivo": "EMENDA_REGIMENTAL_53_30_junho_2026.pdf",
+  "paginas": 5,
+  "gerado_em": "2026-07-06",
+  "ferramenta": "pdfmd"
+}

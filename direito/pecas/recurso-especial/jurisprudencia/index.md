@@ -1,0 +1,37 @@
+# Jurisprudência e legislação do REsp
+
+Dispositivos com texto literal + remissões, e súmulas obstativas com aplicação prática. Súmulas STJ conferidas contra a compilação oficial (SumulasSTJ.pdf) em 2026-07-07. Documentos superados permanecem (D7) com superseded_by.
+
+- [CF, art. 105, III — permissivo constitucional do REsp](cf-art-105-iii.md) — As três hipóteses de cabimento do Recurso Especial (alíneas a, b e c)
+- [CPC, art. 1.003 — prazo recursal e feriado local](cpc-art-1003.md) — Prazo de 15 dias úteis (cível) e comprovação do feriado local no ato da interposição (redação da Lei 14.939/2024)
+- [CPC, art. 1.007 — preparo e deserção](cpc-art-1007.md) — Comprovação do preparo no ato da interposição; regimes distintos para insuficiência e não recolhimento
+- [CPC, art. 1.022 — embargos de declaração (vícios)](cpc-art-1022.md) — Os vícios embargáveis — a porta do prequestionamento ficto exige indicar o INCISO violado
+- [CPC, art. 1.025 — prequestionamento ficto](cpc-art-1025.md) — Elementos suscitados em EDcl consideram-se incluídos no acórdão, se o tribunal superior reconhecer o vício
+- [CPC, art. 1.029 — interposição do REsp](cpc-art-1029.md) — Forma de interposição, requisitos da petição, prova do dissídio, desconsideração de vício formal e efeito suspensivo
+- [CPC, art. 1.030 — juízo de admissibilidade na origem](cpc-art-1030.md) — O que o presidente/vice do tribunal recorrido faz com o REsp e qual recurso cabe de cada decisão
+- [CPC, art. 941, §3º — voto vencido integra o acórdão](cpc-art-941-p3.md) — O voto vencido é parte do acórdão para todos os fins, inclusive prequestionamento — superou a Súmula 320/STJ
+- [CPC, arts. 1.036–1.041 — regime dos repetitivos](cpc-arts-1036-1041-repetitivos.md) — Afetação, sobrestamento, distinção (distinguishing) e juízo de retratação — o regime que muda a rota do seu REsp
+- [Resolução STJ/GP n. 2/2017 — custas e porte no STJ](res-stj-gp-2-2017.md) — Regula preparo dos recursos ao STJ — GRU Cobrança exclusiva, campos obrigatórios, isenções, dispensa de porte em autos eletrônicos e prorrogação por indisponibilidade do sistema
+- [RISTJ, art. 255 — o REsp dentro do STJ](ristj-art-255.md) — Efeito devolutivo (salvo IRDR), prova do dissídio, repositórios oficiais (Emenda 49/2026) e os poderes do relator ao receber o REsp
+- [RISTJ, art. 343-A — resumo obrigatório na petição (Emenda 53/2026)](ristj-art-343a.md) — Toda petição de recurso ao STJ deve conter resumo dos fundamentos, pedidos, decisões impugnadas e dispositivos invocados
+- [Súmula 123/STJ — fundamentação da admissibilidade](sumula-123-stj.md) — A decisão que admite, ou não, o recurso especial deve ser fundamentada, com o exame dos seus pressupostos gerais e constitucionais
+- [Súmula 126/STJ — fundamento constitucional não infirmado](sumula-126-stj.md) — É inadmissível recurso especial, quando o acórdão recorrido assenta em fundamentos constitucional e infraconstitucional, qualquer deles s
+- [Súmula 13/STJ — divergência interna](sumula-13-stj.md) — A divergência entre julgados do mesmo Tribunal não enseja recurso especial
+- [Súmula 187/STJ — deserção por falta de preparo](sumula-187-stj.md) — É deserto o recurso interposto para o Superior Tribunal de Justiça, quando o recorrente não recolhe, na origem, a importância das despesa
+- [Súmula 207/STJ — embargos infringentes penais](sumula-207-stj.md) — É inadmissível recurso especial quando cabíveis embargos infringentes contra o acórdão proferido no Tribunal de origem
+- [Súmula 211/STJ — omissão persistente](sumula-211-stj.md) — Inadmissível recurso especial quanto à questão que, a despeito da oposição de embargos declaratórios, não foi apreciada pelo Tribunal a quo
+- [Súmula 280/STF — direito local](sumula-280-stf.md) — Por ofensa a direito local não cabe recurso extraordinário
+- [Súmula 281/STF — esgotamento de instância](sumula-281-stf.md) — É inadmissível o recurso extraordinário, quando couber na justiça de origem, recurso ordinário da decisão impugnada
+- [Súmula 282/STF — prequestionamento](sumula-282-stf.md) — É inadmissível o recurso extraordinário, quando não ventilada, na decisão recorrida, a questão federal suscitada
+- [Súmula 283/STF — impugnação de todos os fundamentos](sumula-283-stf.md) — É inadmissível o recurso extraordinário, quando a decisão recorrida assenta em mais de um fundamento suficiente e o recurso não abrange t
+- [Súmula 284/STF — fundamentação deficiente](sumula-284-stf.md) — É inadmissível o recurso extraordinário, quando a deficiência na sua fundamentação não permitir a exata compreensão da controvérsia
+- [Súmula 320/STJ — voto vencido](sumula-320-stj.md) — A questão federal somente ventilada no voto vencido não atende ao requisito do prequestionamento — **superada**
+- [Súmula 356/STF — ponto omisso sem embargos](sumula-356-stf.md) — O ponto omisso da decisão, sobre o qual não foram opostos embargos declaratórios, não pode ser objeto de recurso extraordinário, por falt
+- [Súmula 418/STJ — ratificação (cancelada)](sumula-418-stj.md) — É inadmissível o recurso especial interposto antes da publicação do acórdão dos embargos de declaração, sem posterior ratificação — **superada**
+- [Súmula 456/STF — aplicar o direito à espécie](sumula-456-stf.md) — O Supremo Tribunal Federal, conhecendo do recurso extraordinário, julgará a causa, aplicando o direito à espécie
+- [Súmula 518/STJ — violação de súmula](sumula-518-stj.md) — Para fins do art. 105, III, a, da Constituição Federal, não é cabível recurso especial fundado em alegada violação de enunciado de súmula
+- [Súmula 579/STJ — ratificação só se houver alteração](sumula-579-stj.md) — Não é necessário ratificar o recurso especial interposto na pendência do julgamento dos embargos de declaração, quando inalterado o resul
+- [Súmula 7/STJ — reexame de prova](sumula-7-stj.md) — A pretensão de simples reexame de prova não enseja recurso especial
+- [Súmula 735/STF — decisão provisória](sumula-735-stf.md) — Não cabe recurso extraordinário contra acórdão que defere medida liminar
+- [Súmula 83/STJ — jurisprudência no mesmo sentido](sumula-83-stj.md) — Não se conhece do recurso especial pela divergência, quando a orientação do Tribunal se firmou no mesmo sentido da decisão recorrida
+- [Súmula 98/STJ — embargos para prequestionar](sumula-98-stj.md) — Embargos de declaração manifestados com notório propósito de prequestionamento não têm caráter protelatório

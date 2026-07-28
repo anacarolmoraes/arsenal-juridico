@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "fp=$(sed -n \"s/.*\\\"file_path\\\"[[:space:]]*:[[:space:]]*\\\"\\([^\\\"]*\\)\\\".*/\\1/p\"); shopt -s nocasematch; if [[ \"$fp\" == *.pdf ]]; then echo \"{\\\"hookSpecificOutput\\\":{\\\"hookEventName\\\":\\\"PreToolUse\\\",\\\"permissionDecision\\\":\\\"deny\\\",\\\"permissionDecisionReason\\\":\\\"Etapa 0 do schema (D11): LLM nao le PDF diretamente. Rode ingest-prep.py (Python do pdfmd_env) para converter/pontuar e leia o par .md apos checar o sidecar .quality.json.\\\"}}\"; fi",
+            "statusMessage": "Verificando portão de qualidade de PDF (Etapa 0)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "score": 100,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 1986,
+    "proporcao_letras": 0.84,
+    "tokens_com_vogal": 0.978,
+    "artefatos": 0,
+    "celulas_vazias_tabelas": 0.056,
+    "ancoras_encontradas": [
+      "EMENTA",
+      "ACÓRDÃO",
+      "RELATOR",
+      "SENTENÇA",
+      "Art.",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [],
+  "modo_ocr": "auto",
+  "arquivo": "SumulasSTJ_oficial.pdf",
+  "paginas": 2847,
+  "gerado_em": "2026-07-07",
+  "ferramenta": "pdfmd"
+}
