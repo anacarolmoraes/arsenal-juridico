@@ -32,10 +32,13 @@ direito/imobiliario/raw/modelos-scavone/*
 !direito/imobiliario/raw/modelos-scavone/index.md
 direito/imobiliario/raw/scavone-direito-imobiliario-*
 
-# Curso "Método MMA" (Prof. José Andrade) — defesa do executado:
-# slides e mapas mentais (PDF + .md convertido). Obra comercial;
-# só o conhecimento reescrito nas páginas do bundle circula.
+# Cursos do Prof. José de Andrade Neto (Método MMA / Semana da
+# Execução de Sucesso / Semana da Audiência Sem Medo): slides e
+# mapas mentais (PDF + .md convertido). Obra comercial; só o
+# conhecimento reescrito nas páginas dos bundles circula.
 direito/execucao/defesa-executado/raw/metodo-mma-*
+direito/execucao/credor/raw/curso-execucao-*
+direito/audiencias/raw/curso-audiencias-*
 
 
 # ------------------------------------------------------------
@@ -62,6 +65,11 @@ direito/bancario/golpes/raw/cadeia-*.pdf
 # anonimizado em 01/08/2026 (regra dura 10) e circula; o PDF fica
 # na máquina de quem o depositou.
 direito/execucao/defesa-executado/raw/peticao-terceiro-bem-de-familia-tjsp.pdf
+
+# Decisão judicial de processo de terceiro (negócio processual para
+# audiência por videoconferência, TJMS): o .md foi anonimizado em
+# 01/08/2026 e circula; o PDF fica na máquina de quem o depositou.
+direito/audiencias/raw/decisao-negocio-processual-videoconferencia-tjms.pdf
 
 
 # ------------------------------------------------------------

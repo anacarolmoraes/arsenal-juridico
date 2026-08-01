@@ -46,6 +46,18 @@
     {
       "glob": "direito/execucao/defesa-executado/raw/peticao-terceiro-bem-de-familia-tjsp.pdf",
       "motivo": "PDF de petição de processo de terceiro com dado pessoal (LGPD; regra dura 10) — nunca rastrear; a versão anonimizada é o .md."
+    },
+    {
+      "glob": "direito/execucao/credor/raw/curso-execucao-*",
+      "motivo": "Obra comercial (curso Semana da Execução de Sucesso, Prof. José de Andrade Neto) — nunca rastrear; só o conhecimento reescrito circula."
+    },
+    {
+      "glob": "direito/audiencias/raw/curso-audiencias-*",
+      "motivo": "Obra comercial (curso Semana da Audiência Sem Medo, Prof. José de Andrade Neto) — nunca rastrear; só o conhecimento reescrito circula."
+    },
+    {
+      "glob": "direito/audiencias/raw/decisao-negocio-processual-videoconferencia-tjms.pdf",
+      "motivo": "PDF de decisão judicial de processo de terceiro com nome de parte (LGPD; regra dura 10) — nunca rastrear; a versão anonimizada é o .md."
     }
   ],
   "exclusoes": [
@@ -68,6 +80,18 @@
     {
       "glob": "direito/execucao/defesa-executado/raw/index.md",
       "motivo": "Catálogo de obra de terceiro: circula na equipe, mas em pacote externo referencia arquivos que o destinatário não tem e revela acervo interno."
+    },
+    {
+      "glob": "direito/execucao/credor/raw/index.md",
+      "motivo": "Catálogo de obra de terceiro: circula na equipe, mas em pacote externo referencia arquivos que o destinatário não tem e revela acervo interno."
+    },
+    {
+      "glob": "direito/audiencias/raw/index.md",
+      "motivo": "Catálogo de obra de terceiro: circula na equipe, mas em pacote externo referencia arquivos que o destinatário não tem e revela acervo interno."
+    },
+    {
+      "glob": "direito/audiencias/raw/decisao-negocio-processual-videoconferencia-tjms.md",
+      "motivo": "Decisão de processo de terceiro (§6.5): mesmo anonimizada é material de estudo interno; em pacote externo só viajam as páginas derivadas."
     },
     {
       "glob": "distribuicao.json",
