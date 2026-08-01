@@ -46,6 +46,10 @@
       "motivo": "Dados do escritório (subscritoras, contatos) — o schema o define como excluído em distribuição externa."
     },
     {
+      "glob": "direito/imobiliario/raw/modelos-scavone/index.md",
+      "motivo": "Catálogo de obra de terceiro: circula na equipe, mas em pacote externo referencia arquivos que o destinatário não tem e revela acervo interno."
+    },
+    {
       "glob": "direito/bancario/golpes/raw/cadeia-*",
       "motivo": "Peças de processo de terceiro (§6.5): mesmo anonimizadas são material de estudo interno; em pacote externo só viajam as páginas derivadas."
     },
