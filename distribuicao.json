@@ -1,0 +1,65 @@
+{
+  "schema": "manifesto-distribuicao/1",
+  "descricao": "Fronteiras de distribuição do acervo, em duas camadas. Camada 1 (.gitignore, seções 1 e 2): o que NUNCA entra no git — obra comercial de terceiro e PDF de processo de terceiro; fica na máquina de quem depositou. Camada 2 (este arquivo): o que É rastreado e circula para a equipe pelo repositório privado, mas NÃO sai em pacote externo (white-label, cliente, público). Executado por empacotar.py.",
+  "regras": [
+    "Distribuir para fora da equipe = SEMPRE exportar via empacotar.py. NUNCA tornar este repositório público nem fazer fork/mirror: o histórico contém material da camada 2.",
+    "Glob em sintaxe fnmatch sobre o caminho relativo à raiz, com '/'; atenção: '*' atravessa diretórios.",
+    "Antes de qualquer pacote: python empacotar.py --verificar tem de passar sem erro."
+  ],
+  "camada1_gitignore": [
+    {
+      "glob": "direito/pecas/raw/iuris-dpc-*",
+      "motivo": "Obra comercial (Lei 9.610/98) — nunca rastrear."
+    },
+    {
+      "glob": "direito/pecas/raw/manual-dpc-*",
+      "motivo": "Obra comercial — nunca rastrear."
+    },
+    {
+      "glob": "direito/pecas/raw/pratica-processo-civil-*",
+      "motivo": "Obra comercial — nunca rastrear."
+    },
+    {
+      "glob": "direito/pecas/recurso-especial/raw/manual_resp_perfeito.*",
+      "motivo": "Obra comercial — nunca rastrear."
+    },
+    {
+      "glob": "direito/imobiliario/raw/modelos-scavone/*.rtf",
+      "motivo": "Obra comercial (modelos Scavone) — nunca rastrear; só o index.md (catálogo, conhecimento reescrito) circula."
+    },
+    {
+      "glob": "direito/imobiliario/raw/modelos-scavone/*_modelo*.md",
+      "motivo": "Obra comercial (modelos Scavone convertidos) — nunca rastrear."
+    },
+    {
+      "glob": "direito/imobiliario/raw/scavone-direito-imobiliario-*",
+      "motivo": "Obra comercial (livro integral) — nunca rastrear."
+    },
+    {
+      "glob": "direito/bancario/golpes/raw/cadeia-*.pdf",
+      "motivo": "PDF de processo de terceiro com dado pessoal (LGPD; regra dura 10) — nunca rastrear; a versão anonimizada é o .md."
+    }
+  ],
+  "exclusoes": [
+    {
+      "glob": "*/escritorio.md",
+      "motivo": "Dados do escritório (subscritoras, contatos) — o schema o define como excluído em distribuição externa."
+    },
+    {
+      "glob": "direito/bancario/golpes/raw/cadeia-*",
+      "motivo": "Peças de processo de terceiro (§6.5): mesmo anonimizadas são material de estudo interno; em pacote externo só viajam as páginas derivadas."
+    },
+    {
+      "glob": "distribuicao.json",
+      "motivo": "O manifesto revela o que existe internamente."
+    },
+    {
+      "glob": "empacotar.py",
+      "motivo": "Ferramenta interna de empacotamento."
+    },
+    {
+      "glob": ".gitignore",
+      "motivo": "Revela a camada 1; o pacote não precisa dele."
+    }
+  ]
+}

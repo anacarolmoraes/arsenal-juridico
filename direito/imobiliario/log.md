@@ -1,5 +1,54 @@
 # Log — imobiliario (rescisão contratual)
 
+## 2026-08-01
+
+**Ingestão dos modelos Scavone (v0.2.0 → v0.3.0).** Execução das Fases A e B do plano
+`planos/2026-08-01_plano-consumo-scavone-imobiliario.md` (motor).
+
+- **raw/modelos-scavone/**: 94 modelos de petição do material que acompanha SCAVONE JR.,
+  *Direito Imobiliário — Teoria e Prática*, depositados como par `.rtf` (original imutável)
+  e `.md` (conversão striprtf, aviso de obra de terceiro no topo de cada arquivo). 3 arquivos
+  curtos (< 800 chars) conferidos à vista — são documentos genuinamente curtos, não erro de
+  conversão. Catálogo por tema em `raw/modelos-scavone/index.md`. **Regra de fronteira
+  (corrigida na mesma data):** obra comercial **não entra no git** (`.gitignore` §1, mesma
+  regra dos manuais de DPC) — os arquivos vivem só na máquina de quem depositou; **o
+  catálogo é o que circula**. A primeira versão desta ingestão havia rastreado os arquivos;
+  os commits locais foram reescritos antes de qualquer push.
+- **Fase B — conhecimento reescrito da anatomia dos modelos 3.10.x** (lado credor da mesma
+  relação deste bundle) nas páginas existentes:
+  - `heuristicas/verificar-vicio-formal-de-notificacao-extrajudicial.md` — checklist ampliado
+    (itens 5-7): prazo de purga por regime (art. 32 Lei 6.766/79 × art. 1º DL 745/69 ×
+    art. 1º V-VI Lei 4.864/65), conteúdo mínimo da notificação, e o fallback da notificação
+    judicial (arts. 726-729 CPC) quando a diligência é frustrada.
+  - `teses/notificacao-previa-invalida-obsta-rescisao-por-loteadora.md` — novo contra-argumento:
+    diligência frustrada não supre a mora; a via correta era a notificação judicial, que a
+    loteadora não usou.
+  - `playbooks/playbook-contestacao-notificacao-viciada.md` — preliminares ampliadas (valor da
+    causa art. 292 II/§3º; incompetência art. 101 I CDC; mecânica do art. 338 CPC na
+    ilegitimidade), mérito ampliado (descaracterização da culpa da mora por encargo ilegal;
+    adimplemento substancial; retenção por benfeitorias art. 1.219 CC; combate à tutela pelo
+    art. 300 §3º) e reconvenção para inverter a culpa da resolução. Novo alerta: **as ementas
+    citadas nos modelos Scavone (1998-2015) não passaram por verificação — buscar precedente
+    atual via radar-jurisprudencia antes de citar.**
+- **Livro-fonte depositado** (`raw/scavone-direito-imobiliario-9ed-2015.{pdf,md}`, fora
+  do git como acima): OCR concluído no mesmo dia (5,4 MB de texto). **Achado da
+  validação: é a 9ª edição, de 2015** — anterior à Lei 13.786/2018, à Lei 14.382/2022
+  (SERP) e à Lei 14.711/2023 (Marco Legal das Garantias). Aviso com dupla trava (edição
+  + ruído de OCR) no topo do `.md` e no `raw/index.md`; sumário aproximado por Livro
+  anotado no catálogo dos modelos. O livro **não** é fonte de transcrição literal: lei e
+  julgado se conferem na fonte oficial.
+- **Manifesto de distribuição criado na raiz do acervo** (`distribuicao.json` +
+  `empacotar.py`), formalizando as duas camadas: camada 1 = `.gitignore` (obra de
+  terceiro e PDF de processo alheio nunca entram no git); camada 2 = manifesto (o que é
+  rastreado mas não sai em pacote externo: `escritorio.md`, peças anonimizadas da cadeia
+  golpe, o próprio manifesto). `python empacotar.py --verificar` é portão obrigatório
+  antes de qualquer pacote; o modo padrão gera o zip distribuível em `dist/`.
+- **Escopo:** os demais temas dos modelos (possessórias, locação/despejo, usucapião,
+  condomínio, incorporação, alienação fiduciária/leilão) permanecem fora do escopo deste
+  bundle. Decisão registrada: quando chegar o primeiro caso de um tema novo, promover
+  `direito/imobiliario/` → `direito/imobiliario/rescisao-lote/` e criar o bundle irmão
+  (Fase C do plano — aprovada pela titular em 2026-08-01, execução sob demanda).
+
 ## 2026-07-22
 
 **Verificação oficial + resolução de pendências (v0.1.0 → v0.2.0).** Sessão dedicada a fechar as pendências de lint da ingestão.

@@ -24,6 +24,14 @@ direito/pecas/raw/pratica-processo-civil-*
 direito/pecas/recurso-especial/raw/manual_resp_perfeito.*
 LIVROS/
 
+# Scavone, Direito Imobiliário — Teoria e Prática (9ª ed., 2015):
+# o livro (OCR) e os 94 modelos que o acompanham. O CATÁLOGO
+# (raw/modelos-scavone/index.md) circula — é conhecimento
+# reescrito; a obra em si fica na máquina de quem a depositou.
+direito/imobiliario/raw/modelos-scavone/*
+!direito/imobiliario/raw/modelos-scavone/index.md
+direito/imobiliario/raw/scavone-direito-imobiliario-*
+
 
 # ------------------------------------------------------------
 # 2. PDF DE PROCESSO DE TERCEIRO — LGPD
@@ -48,6 +56,7 @@ direito/bancario/golpes/raw/cadeia-*.pdf
 # ------------------------------------------------------------
 # 3. RASCUNHO E ESTADO LOCAL
 # ------------------------------------------------------------
+dist/
 .tmp/
 scratch/
 *.log
