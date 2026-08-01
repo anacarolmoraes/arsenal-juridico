@@ -32,6 +32,11 @@ direito/imobiliario/raw/modelos-scavone/*
 !direito/imobiliario/raw/modelos-scavone/index.md
 direito/imobiliario/raw/scavone-direito-imobiliario-*
 
+# Curso "Método MMA" (Prof. José Andrade) — defesa do executado:
+# slides e mapas mentais (PDF + .md convertido). Obra comercial;
+# só o conhecimento reescrito nas páginas do bundle circula.
+direito/execucao/defesa-executado/raw/metodo-mma-*
+
 
 # ------------------------------------------------------------
 # 2. PDF DE PROCESSO DE TERCEIRO — LGPD
@@ -51,6 +56,12 @@ direito/imobiliario/raw/scavone-direito-imobiliario-*
 # o mantém na própria máquina.
 # ------------------------------------------------------------
 direito/bancario/golpes/raw/cadeia-*.pdf
+
+# Petição de processo de terceiro (impugnação à penhora de bem de
+# família, TJSP) depositada no bundle defesa-executado: o .md foi
+# anonimizado em 01/08/2026 (regra dura 10) e circula; o PDF fica
+# na máquina de quem o depositou.
+direito/execucao/defesa-executado/raw/peticao-terceiro-bem-de-familia-tjsp.pdf
 
 
 # ------------------------------------------------------------

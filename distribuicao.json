@@ -38,6 +38,14 @@
     {
       "glob": "direito/bancario/golpes/raw/cadeia-*.pdf",
       "motivo": "PDF de processo de terceiro com dado pessoal (LGPD; regra dura 10) — nunca rastrear; a versão anonimizada é o .md."
+    },
+    {
+      "glob": "direito/execucao/defesa-executado/raw/metodo-mma-*",
+      "motivo": "Obra comercial (curso Método MMA, Prof. José Andrade) — nunca rastrear; só o conhecimento reescrito circula."
+    },
+    {
+      "glob": "direito/execucao/defesa-executado/raw/peticao-terceiro-bem-de-familia-tjsp.pdf",
+      "motivo": "PDF de petição de processo de terceiro com dado pessoal (LGPD; regra dura 10) — nunca rastrear; a versão anonimizada é o .md."
     }
   ],
   "exclusoes": [
@@ -52,6 +60,14 @@
     {
       "glob": "direito/bancario/golpes/raw/cadeia-*",
       "motivo": "Peças de processo de terceiro (§6.5): mesmo anonimizadas são material de estudo interno; em pacote externo só viajam as páginas derivadas."
+    },
+    {
+      "glob": "direito/execucao/defesa-executado/raw/peticao-terceiro-bem-de-familia-tjsp.md",
+      "motivo": "Petição de processo de terceiro (§6.5): mesmo anonimizada é material de estudo interno; em pacote externo só viajam as páginas derivadas."
+    },
+    {
+      "glob": "direito/execucao/defesa-executado/raw/index.md",
+      "motivo": "Catálogo de obra de terceiro: circula na equipe, mas em pacote externo referencia arquivos que o destinatário não tem e revela acervo interno."
     },
     {
       "glob": "distribuicao.json",
