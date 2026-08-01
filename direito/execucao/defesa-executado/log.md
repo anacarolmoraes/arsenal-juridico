@@ -1,5 +1,23 @@
 # Log — defesa do executado
 
+## 2026-08-01 (segunda entrada)
+
+**Ingestão** — Prescrição intercorrente entrou no bundle, por decisão de arquitetura da titular: é **matéria de defesa**, e não ganha bundle próprio.
+
+- `jurisprudencia/cpc-art-921-prescricao-intercorrente.md` — descreve o regime na redação da **Lei 14.195/2021** (nova redação dos §§ 4º e 5º; acréscimo dos §§ 4º-A, 6º e 7º). **Sem transcrição depositada:** o Planalto estava inacessível na sessão de ingestão. A página descreve a arquitetura da norma e proíbe citação literal até o depósito.
+- `teses/prescricao-intercorrente-corre-da-primeira-tentativa-infrutifera.md` — como montar a alegação: datar a primeira frustração, qualificar cada ato posterior como interruptivo ou não, somar, e pedir a oitiva prévia do § 5º.
+
+**Decisão de arquitetura registrada.** Não se criou `direito/execucao/prescricao-intercorrente/`. Três razões: bundle é matéria, não instituto; a regra do roteador global manda resolver sobreposição por link, não por hierarquia; e o `lint-bundle.py` descarta bundles aninhados mantendo o mais externo, de modo que uma camada-mãe em `direito/execucao/` engoliria `credor/` e `defesa-executado/`. O bundle do credor guarda só a conduta inversa e aponta para cá.
+
+**Gatilho declarado para revisão futura.** Há três institutos bilaterais no domínio — prescrição intercorrente, fraude à execução e impenhorabilidade. Quando os três tiverem páginas próprias nos dois lados, propor à titular a criação de `direito/execucao/comum/` como terceiro irmão, migrando a camada de norma e deixando em cada lado apenas a tática. Antes disso, não fragmentar.
+
+**Pendências novas (bloqueantes para citação):**
+
+1. Baixar o art. 921 vigente do Planalto e depositar em `raw/`; conferir parágrafo por parágrafo, inclusive o § 4º-A.
+2. Conferir o dispositivo da Lei 14.195/2021 que promoveu a alteração.
+3. Levantar jurisprudência **posterior a 2021** sobre a fixação da "ciência da primeira tentativa infrutífera" e sobre **direito intertemporal** (execuções em curso quando a lei entrou em vigor) — os dois pontos mais disputados e ambos ausentes do acervo.
+4. Não transportar a tese para **execução fiscal**, que tem regime próprio (Lei 6.830/80 e súmula específica do STJ), também ausente do acervo.
+
 ## 2026-08-01
 
 **Ingestão** — Semente v0.1.0 do bundle, criada a partir de `consumir/EXECUCOES_DEFESA_EXECUTADO` (workspace da titular):

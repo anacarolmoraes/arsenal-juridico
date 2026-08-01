@@ -28,8 +28,14 @@ autor: escritorio
 ## As consultas voltaram todas negativas
 
 - **Gatilhos:** "não achei bens", "vou ser intimado para indicar bens", "execução parada"
-- **Conhecimento obrigatório:** [pedir os sistemas um a um](heuristicas/pedir-os-sistemas-um-a-um.md), [ler a declaração de renda](heuristicas/ler-a-declaracao-de-renda-como-mapa-de-bens.md), [documentar a recusa administrativa](heuristicas/documentar-a-recusa-administrativa-antes-de-pedir-ao-juiz.md), [manter a execução em movimento](heuristicas/manter-a-execucao-em-movimento.md)
-- **URGÊNCIA:** nunca deixar os autos sem requerimento pendente — arquivamento inicia o relógio
+- **Conhecimento obrigatório:** [pedir os sistemas um a um](heuristicas/pedir-os-sistemas-um-a-um.md), [ler a declaração de renda](heuristicas/ler-a-declaracao-de-renda-como-mapa-de-bens.md), [documentar a recusa administrativa](heuristicas/documentar-a-recusa-administrativa-antes-de-pedir-ao-juiz.md), [perseguir constrição efetiva](heuristicas/manter-a-execucao-em-movimento.md)
+- **URGÊNCIA:** a primeira tentativa infrutífera já disparou o prazo da prescrição intercorrente — e requerimento pendente **não** o interrompe. Manter os autos em movimento protege contra o arquivamento; só citação, intimação ou constrição efetivas protegem o crédito
+
+## A execução está parada há muito tempo
+
+- **Gatilhos:** "essa execução é antiga", "vale a pena continuar?", "o executado alegou prescrição intercorrente"
+- **Conhecimento obrigatório:** [perseguir constrição efetiva](heuristicas/manter-a-execucao-em-movimento.md) e, no bundle irmão, a [tese do executado](../defesa-executado/teses/prescricao-intercorrente-corre-da-primeira-tentativa-infrutifera.md) — ler o que virá contra você
+- **Diagnóstico antes de investir:** medir o intervalo entre a primeira tentativa infrutífera e o último ato **interruptivo** (citação, intimação ou constrição efetivas). Petições não contam desde a Lei 14.195/2021
 
 ## O devedor tem bens, mas nada está no nome dele
 

@@ -21,7 +21,7 @@
 
 **Lacunas bloqueantes (a fonte não cobre — completar de fora antes de orientar caso real):**
 
-1. **Prescrição intercorrente — art. 921 e parágrafos.** Zero ocorrências em 12 arquivos de procedimento. A omissão mais grave do conjunto, em curso dirigido ao credor.
+1. ~~**Prescrição intercorrente — art. 921.**~~ **Parcialmente suprida em 2026-08-01:** a norma foi para o bundle irmão (`defesa-executado/jurisprudencia/cpc-art-921-prescricao-intercorrente.md`), por ser matéria de defesa, e a heurística deste bundle foi **corrigida** — a **Lei 14.195/2021** deslocou o termo inicial para a primeira tentativa infrutífera e restringiu a interrupção a citação, intimação ou constrição efetivas (§ 4º-A), o que **esvazia a tática de encadear requerimentos** que o material de 2020 ensina. Continua pendente a transcrição oficial do artigo e a jurisprudência posterior a 2021.
 2. **Art. 406 do Código Civil e critério de correção monetária.** Nenhum arquivo diz qual taxa ou índice aplicar, embora exija que o demonstrativo os declare. A alteração pela Lei 14.905/2024 atinge todo cálculo montado a partir daqui.
 3. **Art. 782, §§3º a 5º** (inscrição em cadastro de inadimplentes) e **art. 517** (protesto da decisão) — duas medidas de pressão baratas, ausentes.
 4. **Art. 854** — penhora de dinheiro por meio eletrônico, com os prazos de 24 horas e 5 dias. Ausente.

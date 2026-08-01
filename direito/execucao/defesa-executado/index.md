@@ -12,7 +12,7 @@ Defesa de quem está no polo passivo de execução de título extrajudicial ou c
 - [README.md](README.md) — onboarding do agente consumidor
 - [atividades.md](atividades.md) — roteador: atividade → conhecimento obrigatório
 - [jurisprudencia/](jurisprudencia/index.md) — os dois repetitivos que redesenharam o tema em 2024
-- [teses/](teses/index.md) — impenhorabilidades: 40 SM, salário, bem de família, pequena propriedade rural
+- [teses/](teses/index.md) — impenhorabilidades (40 SM, salário, bem de família, pequena propriedade rural) e **prescrição intercorrente na redação da Lei 14.195/2021**
 - [heuristicas/](heuristicas/index.md) — regras de decisão: quando arguir, por qual via, com que prova
 - [playbooks/](playbooks/index.md) — impugnação ao bloqueio SISBAJUD e embargos à execução
 - [raw/](raw/index.md) — fontes depositadas (curso de terceiro fora do git; ProAfR oficial do Tema 1.235; petição de terceiro anonimizada)
