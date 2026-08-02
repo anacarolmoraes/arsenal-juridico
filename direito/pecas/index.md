@@ -25,11 +25,12 @@ Conhecimento de **peça** (como construir cada recurso/petição, independente d
 - [atividades.md](atividades.md) — roteador: atividade → peça → recursos
 - [heuristicas/estrutura-ai-first.md](heuristicas/estrutura-ai-first.md) — **transversal**: estrutura de peça para leitura primária por IA de triagem (BLUF, títulos-conclusão, jurisprudência transcrita, RISTJ 343-A) — TUDO em prosa natural, sem rótulos meta-textuais visíveis (rev. 2026-07-16)
 - [log.md](log.md) — histórico de ingestões, lints e alterações
-- `raw/` (raiz) — obras de terceiros transversais às peças (livros de processo civil); `recurso-especial/raw/` — fontes específicas do REsp
+- [`raw/`](raw/index.md) (raiz) — **onde o CPC integral mora, para todo o acervo**, ao lado das obras de terceiros transversais às peças; `recurso-especial/raw/` — fontes específicas do REsp
 
 ## Regras deste bundle
 
 1. Conhecimento de peça **não cita matéria**: exemplos usam placeholders ("tese X", "art. Y da lei Z"). A matéria vem do bundle temático na composição.
-2. `raw/` contém obras comerciais de terceiros (manual REsp Perfeito; livros de DPC) e normas oficiais — **uso interno; excluído de qualquer distribuição** (schema do bundle, seção 6.6).
-3. Jurisprudência citada aponta fonte oficial (STJ/STF), nunca a obra de terceiro.
-4. Antes de ler qualquer `.md` de `raw/`, ler o sidecar `.quality.json` (Etapa 0): `reprovado` não se lê.
+2. `raw/` mistura dois regimes: **obras comerciais** (manual REsp Perfeito, livros de DPC) são uso interno e não circulam; **texto de lei circula** — não é obra protegida (Lei 9.610/98, art. 8º, IV). Ver o [catálogo](raw/index.md).
+3. **Código integral mora aqui uma vez, para todo o acervo.** Bundle que cita artigo isolado recebe recorte gerado por `python recortar-artigo.py <artigo> <bundle>`, nunca cópia do código.
+4. Jurisprudência citada aponta fonte oficial (STJ/STF), nunca a obra de terceiro.
+5. Antes de ler qualquer `.md` de `raw/`, ler o sidecar `.quality.json` (Etapa 0): `reprovado` não se lê.

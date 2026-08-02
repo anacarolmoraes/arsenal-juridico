@@ -13,7 +13,7 @@
 
 **Pendências novas (bloqueantes para citação):**
 
-1. Baixar o art. 921 vigente do Planalto e depositar em `raw/`; conferir parágrafo por parágrafo, inclusive o § 4º-A.
+1. **Depositar o CPC e recortar o art. 921.** Procedimento definido em 2026-08-01 e documentado no [catálogo do raw transversal](../../pecas/raw/index.md): o código integral vai **uma vez** para `direito/pecas/raw/`, e cada bundle recebe recorte via `python recortar-artigo.py 921 direito/execucao/defesa-executado`. **Tentativa frustrada na mesma data:** o PDF depositado pela titular em `consumir/cpc_01082026.pdf` estava com **0 byte** (download não concluído), e o Planalto está inacessível deste ambiente. Refazer o download e rodar o recorte — daí a página promove a `vigente`.
 2. Conferir o dispositivo da Lei 14.195/2021 que promoveu a alteração.
 3. Levantar jurisprudência **posterior a 2021** sobre a fixação da "ciência da primeira tentativa infrutífera" e sobre **direito intertemporal** (execuções em curso quando a lei entrou em vigor) — os dois pontos mais disputados e ambos ausentes do acervo.
 4. Não transportar a tese para **execução fiscal**, que tem regime próprio (Lei 6.830/80 e súmula específica do STJ), também ausente do acervo.

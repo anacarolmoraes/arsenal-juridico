@@ -15,7 +15,7 @@
 
 **Pendências de conferência (bloqueiam promoção a `vigente`):**
 
-1. Texto vigente dos arts. 381 a 383, 495, 523, 524, 534, 535, 784, 798, 799, 828, 835, 844 e 910 — depositar do Planalto em `raw/`.
+1. Texto vigente dos arts. 381 a 383, 495, 523, 524, 534, 535, 784, 798, 799, 828, 835, 844 e 910. **Não depositar o CPC aqui:** o código integral mora uma vez em `direito/pecas/raw/` e este bundle recebe recortes — `python recortar-artigo.py 381-383 direito/execucao/credor`, e assim por diante. Procedimento no [catálogo do raw transversal](../../pecas/raw/index.md).
 2. Súmulas 317 e 376 do STJ — conferir enunciado literal no repositório oficial.
 3. Precedentes citados sem relator, turma ou data confiáveis: o da desnecessidade de esgotamento para deferir consulta aos sistemas; o da inexistência de quebra de sigilo na consulta fiscal; o da reiteração de bloqueio após tempo razoável; os dois sobre prova indiciária de simulação; e o do sequestro por descumprimento do prazo da requisição de pequeno valor.
 
