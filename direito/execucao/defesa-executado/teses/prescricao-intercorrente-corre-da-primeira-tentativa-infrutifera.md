@@ -43,8 +43,10 @@ O § 5º autoriza expressamente o reconhecimento **de ofício**, o que a torna a
 - **"Houve suspensão do art. 921, §1º":** houve, e só pode haver uma.
 - **"Nunca houve decisão suspendendo o processo":** irrelevante — a nova redação desatrelou o termo inicial de qualquer decisão.
 - **"Nulidade do procedimento, porque não fui intimado":** o § 6º só admite a alegação com **prejuízo efetivo** demonstrado. A presunção que ele prevê remete à "intimação de que trata o § 4º", e o § 4º não trata de intimação — a remissão é defeituosa, e o acervo não tem jurisprudência sobre como os tribunais a resolvem.
-- **Execução fiscal:** regime próprio (Lei 6.830/80), com súmula específica do STJ. Não transportar esta tese para lá.
+- **Execução fiscal:** regime próprio e **oposto no ponto que decide** — pelo art. 40, *caput*, da LEF a prescrição **não corre** enquanto não localizado devedor ou bens, e o marco do § 4º é a decisão que ordenou o arquivamento. Ver [LEF, art. 40](/jurisprudencia/lei-6830-1980-art-40-prescricao-intercorrente-fiscal.md). Invocar o art. 921 do CPC em execução fiscal entrega ao juízo o argumento de que se aplicou norma errada.
 
 ## Pendências
 
-O dispositivo está conferido letra por letra (fundamento `vigente`). O que falta é sustentação jurisprudencial em dois pontos que decidem casos reais e **não estão no acervo**: como os tribunais fixam a "ciência da primeira tentativa infrutífera", e o **direito intertemporal** para execuções em curso quando a lei entrou em vigor. Enquanto isso, tratar o cálculo de caso concreto como orientado pela lei, mas não respaldado por precedente conferido. Ver [log](/log.md).
+O dispositivo está conferido letra por letra (fundamento `vigente`). O que falta é sustentação jurisprudencial em dois pontos que decidem casos reais e **não estão no acervo**: como os tribunais fixam a "ciência da primeira tentativa infrutífera", e o **direito intertemporal** para execuções em curso quando a lei entrou em vigor. Enquanto isso, tratar o cálculo de caso concreto como orientado pela lei, mas não respaldado por precedente conferido.
+
+**Fronteira fechada em 2026-08-02:** a [LEF, art. 40](/jurisprudencia/lei-6830-1980-art-40-prescricao-intercorrente-fiscal.md) está depositada e conferida, de modo que a distinção entre os dois regimes já se sustenta em texto legal. O que continua ausente é a **jurisprudência do STJ sobre o art. 40** — sem ela, defesa em execução fiscal não se constrói neste acervo. Ver [log](/log.md).

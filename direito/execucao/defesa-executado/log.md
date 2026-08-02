@@ -1,5 +1,18 @@
 # Log — defesa do executado
 
+## 2026-08-02 (segunda entrada)
+
+**Ingestão** — Depositada a **Lei 6.830/1980 (LEF)**, a partir do HTML oficial do Planalto fornecido pela titular. Derivada a página `jurisprudencia/lei-6830-1980-art-40-prescricao-intercorrente-fiscal.md`, **`vigente`**, com transcrição conferida palavra a palavra contra o depósito.
+
+**Por que uma lei fiscal entra num bundle de execução comum.** Para fechar uma fronteira que estava declarada como pendência e agora tem texto: o art. 40 da LEF é **oposto** ao art. 921 do CPC no ponto que decide. No CPC o prazo **corre** desde a ciência da primeira tentativa infrutífera; na LEF ele **não corre** enquanto não localizado devedor ou bens, e o marco do § 4º é a decisão que ordenou o arquivamento. Quem invoca o art. 921 em execução fiscal entrega ao juízo o argumento de que aplicou norma errada. A página traz a comparação lado a lado dos dois regimes.
+
+**Achado de método, que vale para todo depósito futuro de lei.** O HTML da LEF usa `<strike>` para a redação superada — 6 trechos. A primeira conversão achatou a marcação e passou a apresentar **texto revogado como se fosse vigente**: o art. 16, II aparecia em duas versões. Refeita a conversão, os trechos agora saem rotulados `[REVOGADO — NAO CITAR]`. O CPC compilado foi verificado e **não** tem riscado, então aquele depósito está a salvo.
+
+**Nota de transcrição registrada na página:** o Planalto grafa os parágrafos inseridos por leis posteriores com o ordinal como letra (`§ 4o`). A transcrição normaliza para `§ 4º`; conferência palavra a palavra acusou divergência zero fora desse sinal.
+
+**Pendência que permanece, e é a que importa:** a **jurisprudência do STJ sobre o art. 40** não está no acervo. Sem ela, a página serve para marcar fronteira, não para construir defesa em execução fiscal — que segue sem bundle.
+
+
 ## 2026-08-02
 
 **Ingestão** — Depositados os recortes do CPC que faltavam: `cpc-arts-833-834` (impenhorabilidade), `cpc-art-854` (penhora eletrônica e o prazo de 5 dias), `cpc-art-525` (impugnação) e `cpc-art-917` (matérias dos embargos). Gerados por `recortar-artigo.py` a partir do depósito transversal e **conferidos um a um**: fronteira de artigo, ausência de ruído de conversão, completude de incisos, alíneas e parágrafos.

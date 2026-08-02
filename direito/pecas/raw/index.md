@@ -47,6 +47,14 @@ O `lint-citacoes` confere a transcrição contra um arquivo **do próprio bundle
    Saída: `<bundle>/raw/cpc-art-921.md`, `<bundle>/raw/cpc-arts-381-383.md`.
 5. **Conferir o recorte à vista** antes de transcrever em página derivada, e só então promover a página a `vigente` preenchendo `verificado_em`.
 
+### ⚠️ Conferir se o HTML usa riscado para texto revogado
+
+Descoberto em 2026-08-02, ao depositar a Lei 6.830/1980 em `direito/execucao/defesa-executado/raw/`: o Planalto marca a **redação superada com `<strike>`**, e a conversão automática achata a marcação. O resultado é texto **revogado apresentado como vigente** — na LEF, o art. 16, II aparecia em duas versões, e nada indicava qual valia.
+
+Regra para todo depósito de lei: **antes de converter, contar as tags `<strike>` no HTML.** Havendo, a conversão precisa preservá-las com rótulo explícito (`[REVOGADO — NAO CITAR]`). O CPC compilado foi verificado e não tem nenhuma, por isso aquele depósito é seguro.
+
+Outra armadilha da mesma família: o Planalto grafa o ordinal como letra nos parágrafos inseridos por leis posteriores (`§ 4o`, não `§ 4º`). A transcrição pode normalizar, mas a **nota de normalização vai na página**, para que a conferência futura não acuse divergência falsa.
+
 **Nunca editar recorte à mão.** Veio errado, corrige-se o script ou o depósito e regera-se — recorte editado deixa de refletir a fonte e derrota o `lint-citacoes`.
 
 ### Fila de recortes

@@ -75,7 +75,7 @@ Não bloqueiam a citação do dispositivo, mas bloqueiam a solidez da tese:
 
 1. **Jurisprudência posterior a 2021** sobre como se fixa, na prática, a "ciência da primeira tentativa infrutífera". Ausente do acervo.
 2. **Direito intertemporal:** aplicação da nova redação a execuções que já corriam em 2021. Ausente do acervo.
-3. **Execução fiscal** tem regime próprio (Lei 6.830/80 e súmula específica do STJ) — não transportar este artigo para lá.
+3. **Execução fiscal** tem regime próprio e **oposto no termo inicial** — comparação lado a lado em [LEF, art. 40](/jurisprudencia/lei-6830-1980-art-40-prescricao-intercorrente-fiscal.md), depositada e conferida em 2026-08-02.
 4. ~~Conferir se houve alteração posterior.~~ **Feito em 2026-08-01:** comparação artigo por artigo entre o depósito e o PDF oficial impresso naquela data — o art. 921 não mudou, e a Lei nº 15.479/2026 não altera o Código.
 
 ## Onde é empregada
