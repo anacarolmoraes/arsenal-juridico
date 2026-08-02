@@ -8,12 +8,25 @@ Texto de lei **não é obra protegida** (Lei 9.610/98, art. 8º, IV): entra no g
 
 Este é o lugar onde o **código integral** mora **uma vez**. Bundles que citam artigos isolados não recebem cópia do código: recebem um **recorte** gerado por script, com cabeçalho de proveniência.
 
-| Arquivo | Estado |
+| Arquivo | Papel |
 |---|---|
-| `cpc-l13105-compilada.html` | **depositado** — texto compilado oficial do CPC, em `cp1252`. Estava desde 2026-07-06 em `recurso-especial/raw/`; movido para cá em 2026-08-01, quando passou a servir a todo o acervo. 14 páginas o citam no campo `raw:`. |
-| `cpc-l13105-compilada.md` | **depositado** — conversão em texto do HTML ao lado, gerada em 2026-08-01. É a fonte que o `recortar-artigo.py` lê. |
+| `cpc-l13105-compilada.html` | **fonte oficial canônica.** Texto compilado do CPC, em `cp1252`. Estava desde 2026-07-06 em `recurso-especial/raw/`; movido para cá em 2026-08-01, quando passou a servir a todo o acervo. 14 páginas o citam no campo `raw:`. |
+| `cpc-l13105-compilada.md` | **é esta que o `recortar-artigo.py` lê.** Conversão do HTML ao lado, feita em 2026-08-01. Limpa e completa. |
+| `cpc-l13105-compilada-2026-08-01.pdf` | PDF oficial do Planalto (168 p.), impresso pela titular em 2026-08-01. Guardado como artefato oficial. **Sem par `.md`, de propósito** — ver o aviso abaixo. |
 
-**Cobertura do depósito:** a compilação incorpora alterações até a **Lei nº 14.976**. Alteração posterior a essa **não** está refletida — conferir antes de citar dispositivo sensível, e substituir o par de arquivos quando houver versão mais nova.
+**Cobertura:** o depósito incorpora alterações até a **Lei nº 15.109, de 2025** (visível no art. 82). A **Lei nº 15.479, de 2026** aparece apenas como "Vide" na capa do PDF, **sem nota de alteração em nenhum artigo** — não mudou o texto do Código.
+
+### ⚠️ Não converter o PDF do Planalto com o pdfmd para uso como fonte literal
+
+Tentado e **rejeitado em conferência** em 2026-08-01. A conversão do PDF pareceu boa (612 mil caracteres, 994 artigos, mesma contagem do HTML), mas a comparação artigo por artigo contra o HTML expôs 35 divergências, e nenhuma era alteração legislativa:
+
+- **Truncamento grave.** O art. 525 saiu com **479 caracteres contra 4.082** — perdeu o § 1º inteiro, que é o rol das matérias da impugnação ao cumprimento de sentença. O artigo pulava do *caput* para o § 5º.
+- **Fragmentos deslocados.** Parágrafos apareceram em artigos aos quais não pertencem (93, 529, 662, 913), **sem nota de alteração** e com marcação de tabela vazando no meio do texto — efeito do layout de duas colunas do PDF.
+- **Alíneas perdidas.** Em 12 artigos (22, 53, 152, 313, 487, 620, 653, 742, 798, 932, 967, 984) as letras `a)`, `b)`, `c)` desapareceram.
+- **Hífens comidos.** Em 16 artigos, palavras compostas colaram: `salariosminimos`, `observandose`, `subrogatorias`, `aplicandose`. Isso sozinho já derrota o `lint-citacoes`, cuja normalização não reinsere espaço.
+- Além disso, o `pdfmd` injeta cabeçalho e rodapé de página (data, título, URL, `139/168`) **no meio dos artigos, às vezes na mesma linha do texto legal**.
+
+**Regra que fica:** para texto de lei, a fonte é o **HTML do Planalto**, não o PDF. O PDF serve como artefato oficial e para conferência visual. Se algum dia for preciso converter um PDF de lei, a conversão só entra no acervo depois de comparação artigo por artigo contra uma fonte limpa.
 
 ### Por que recorte, e não cópia
 

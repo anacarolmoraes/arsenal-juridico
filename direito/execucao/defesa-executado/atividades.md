@@ -41,7 +41,7 @@ autor: escritorio
 - **Gatilhos:** "essa execução é de 2015", "está parada há anos", "prescreveu?", "prescrição intercorrente"
 - **Conhecimento obrigatório:** [tese da prescrição intercorrente](teses/prescricao-intercorrente-corre-da-primeira-tentativa-infrutifera.md), [art. 921 na redação da Lei 14.195/2021](jurisprudencia/cpc-art-921-prescricao-intercorrente.md)
 - **Entrada mínima:** data da **primeira** certidão negativa de citação ou de busca de bens, e a lista datada de todos os atos posteriores — separando o que alcançou o devedor ou o patrimônio do que foi mera petição
-- **Portão:** transcrição oficial do art. 921 ainda pendente; não citar o dispositivo em peça sem conferir no Planalto
+- **Base conferida:** o art. 921 está transcrito e `vigente` no acervo, conferido contra o texto compilado — pode ser citado. O que **não** está coberto é jurisprudência posterior a 2021 sobre o marco inicial e sobre direito intertemporal
 
 ## Penhora de trator/caminhão/ferramenta ou imóvel rural
 

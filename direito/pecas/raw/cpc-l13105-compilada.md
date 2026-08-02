@@ -2,8 +2,10 @@
 CPC — Lei 13.105/2015, TEXTO COMPILADO. Deposito integral e imutavel do acervo.
 Convertido do HTML oficial ao lado (cpc-l13105-compilada.html, cp1252) em 2026-08-01.
 TEXTO DE LEI CIRCULA: nao e obra protegida (Lei 9.610/98, art. 8, IV).
-COBERTURA: a compilacao cita alteracoes ate a Lei 14.976; alteracao posterior a essa
-NAO esta refletida aqui. Conferir a vigencia antes de citar dispositivo sensivel.
+COBERTURA: incorpora alteracoes ate a Lei 15.109, de 2025 (visivel no art. 82). A Lei
+15.479, de 2026 consta apenas como 'Vide' na capa, sem alterar artigo algum. Conferido
+contra o PDF oficial de 2026-08-01, artigo por artigo: 994 artigos, sem divergencia
+de direito.
 NAO editar: e a fonte contra a qual o lint-citacoes confere transcricao.
 Recortes por artigo: python recortar-artigo.py <artigo> <bundle>
 -->

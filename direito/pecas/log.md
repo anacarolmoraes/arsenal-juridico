@@ -4,7 +4,14 @@
 
 **Schema** — O CPC compilado deixou de morar dentro de `recurso-especial/raw/` e passou a ser **fonte transversal do acervo**, em `raw/` na raiz deste bundle. Motivo: 14 páginas de quatro fluxos diferentes já o citavam, e os bundles de execução passaram a precisar dele. O campo `raw:` das 14 páginas foi corrigido de `/recurso-especial/raw/...` para `/raw/...`. *(Entradas anteriores deste log citam o caminho antigo — registro histórico, não corrigido.)*
 
-Gerada a conversão em texto (`cpc-l13105-compilada.md`) a partir do HTML, que é `cp1252`. É a fonte que o `recortar-artigo.py` lê para produzir recortes por artigo nos bundles consumidores. Cobertura da compilação: alterações até a Lei nº 14.976. Catálogo e procedimento em [`raw/index.md`](raw/index.md).
+Gerada a conversão em texto (`cpc-l13105-compilada.md`) a partir do HTML, que é `cp1252`. É a fonte que o `recortar-artigo.py` lê para produzir recortes por artigo nos bundles consumidores.
+
+**Conferência de atualidade e de qualidade, na mesma data.** A titular forneceu o PDF oficial do Planalto impresso em 2026-08-01. Ele foi convertido com o `pdfmd` e comparado ao depósito **artigo por artigo**: 994 artigos nas duas fontes, 35 divergências, **nenhuma de direito**. Duas conclusões:
+
+1. **O depósito está atual.** Incorpora alterações até a **Lei nº 15.109, de 2025** (art. 82). A **Lei nº 15.479, de 2026** consta apenas como "Vide" na capa do PDF, sem nota de alteração em artigo algum.
+2. **A conversão do PDF foi rejeitada** e não entrou no acervo. Ela truncava o art. 525 de 4.082 para 479 caracteres — perdendo o rol do § 1º —, deslocava parágrafos para artigos alheios (93, 529, 662, 913), apagava alíneas em 12 artigos e colava palavras hifenizadas em 16 (`salariosminimos`, `observandose`). O PDF ficou depositado como artefato oficial, **sem par `.md`**, com o aviso no [catálogo](raw/index.md). **Regra que fica: para texto de lei, a fonte é o HTML do Planalto, não o PDF.**
+
+O `recortar-artigo.py` foi endurecido no mesmo movimento: o cabeçalho de artigo passou a ser reconhecido por `Art. N.` com maiúscula e ponto — o que distingue o artigo das remissões em minúsculo e funciona mesmo quando a conversão cola o cabeçalho do capítulo na mesma linha.
 
 
 ## 2026-07-16 (dissolução dos rótulos meta-textuais + fluxo novo: Réplica, v0.5.0)

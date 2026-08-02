@@ -17,6 +17,8 @@
 
    **O texto real corrigiu três imprecisões da descrição anterior:** a suspensão do § 4º ocorre **uma única vez**; o § 4º-A, além de restringir a interrupção, **protege o credor diligente** (o prazo não corre pelo tempo dos atos, se ele cumpriu os prazos); e o § 5º autoriza expressamente o reconhecimento **de ofício**, com extinção **sem ônus para as partes**. O § 7º estende o regime ao cumprimento de sentença. A heurística do bundle do credor foi corrigida no mesmo movimento.
 2. Conferir o dispositivo da Lei 14.195/2021 que promoveu a alteração.
+
+   **Adendo do mesmo dia:** a titular forneceu o PDF oficial do Planalto impresso em 2026-08-01. Comparado ao depósito artigo por artigo, **o art. 921 é idêntico** — a transcrição `vigente` está confirmada contra duas fontes independentes, e a Lei nº 15.479/2026 não alterou o Código. A conversão do PDF, porém, foi **rejeitada** por corromper outros artigos (o 525 perdeu o rol do § 1º); detalhes no [catálogo do raw transversal](../../pecas/raw/index.md).
 3. Levantar jurisprudência **posterior a 2021** sobre a fixação da "ciência da primeira tentativa infrutífera" e sobre **direito intertemporal** (execuções em curso quando a lei entrou em vigor) — os dois pontos mais disputados e ambos ausentes do acervo.
 4. Não transportar a tese para **execução fiscal**, que tem regime próprio (Lei 6.830/80 e súmula específica do STJ), também ausente do acervo.
 

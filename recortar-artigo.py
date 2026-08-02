@@ -36,10 +36,14 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent
 CODIGO_PADRAO = RAIZ / "direito" / "pecas" / "raw" / "cpc-l13105-compilada.md"
 
-# "Art. 921." / "Art. 921-A." / "Art 921" — tolera OCR sem ponto e com espaco
+# Cabecalho de artigo: "Art. 921." com A MAIUSCULO e ponto depois do numero.
+# O maiusculo + ponto e o que distingue o artigo em si das remissoes internas,
+# que a lei escreve em minusculo ("nos termos do art. 921", "arts. 313 e 315").
+# Nao ancorar em inicio de linha: a conversao as vezes cola o cabecalho do
+# capitulo na mesma linha do artigo ("CAPITULO I ... Art. 921. Suspende-se...").
 def rx_artigo(n: str) -> re.Pattern:
     num = re.escape(n)
-    return re.compile(rf"^\s*Art\.?\s*{num}\s*(?:[-º°.\s]|$)", re.M | re.I)
+    return re.compile(rf"\bArt\.\s*{num}(-[A-Z])?\.")
 
 
 def achar_inicio(texto: str, n: str) -> int:

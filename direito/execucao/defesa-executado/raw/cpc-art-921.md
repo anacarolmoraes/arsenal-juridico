@@ -8,7 +8,6 @@ Para atualizar apos nova versao do codigo: regerar, nunca corrigir aqui.
 
 # CPC, art. 921
 
-
 Art. 921. Suspende-se a execução:
 
 I - nas hipóteses dos

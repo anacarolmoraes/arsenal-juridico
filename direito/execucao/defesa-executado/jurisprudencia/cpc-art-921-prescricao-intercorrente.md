@@ -15,7 +15,7 @@ verificado_em: '2026-08-01'
 
 # CPC, art. 921 — suspensão da execução e prescrição intercorrente
 
-Transcrição conferida em 2026-08-01 contra o [recorte depositado](/raw/cpc-art-921.md), extraído do texto compilado do CPC que está em `direito/pecas/raw/cpc-l13105-compilada.{html,md}`. **Cobertura do depósito:** a compilação incorpora alterações até a Lei nº 14.976 — alteração posterior a essa não está refletida.
+Transcrição conferida em 2026-08-01 contra o [recorte depositado](/raw/cpc-art-921.md), extraído do texto compilado do CPC que está em `direito/pecas/raw/cpc-l13105-compilada.{html,md}`. **Cobertura do depósito:** incorpora alterações até a Lei nº 15.109, de 2025. Conferido em 2026-08-01 contra o PDF oficial do Planalto impresso na mesma data — o art. 921 é idêntico nas duas fontes, e a Lei nº 15.479, de 2026 não alterou o Código.
 
 ## Texto
 
@@ -76,7 +76,7 @@ Não bloqueiam a citação do dispositivo, mas bloqueiam a solidez da tese:
 1. **Jurisprudência posterior a 2021** sobre como se fixa, na prática, a "ciência da primeira tentativa infrutífera". Ausente do acervo.
 2. **Direito intertemporal:** aplicação da nova redação a execuções que já corriam em 2021. Ausente do acervo.
 3. **Execução fiscal** tem regime próprio (Lei 6.830/80 e súmula específica do STJ) — não transportar este artigo para lá.
-4. Conferir se houve alteração do art. 921 **posterior à Lei nº 14.976**, limite de cobertura do depósito.
+4. ~~Conferir se houve alteração posterior.~~ **Feito em 2026-08-01:** comparação artigo por artigo entre o depósito e o PDF oficial impresso naquela data — o art. 921 não mudou, e a Lei nº 15.479/2026 não altera o Código.
 
 ## Onde é empregada
 
