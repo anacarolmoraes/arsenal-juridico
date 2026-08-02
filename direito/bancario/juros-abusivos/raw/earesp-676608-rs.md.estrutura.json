@@ -1,0 +1,71 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "earesp-676608-rs.md",
+  "source_sha256": "d08184ab2dee88688e71d92a00624e574763e61f886e22291ac55dea5a152bb9",
+  "chars": 12785,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": null,
+    "orgao_julgador": "CORTE ESPECIAL",
+    "classe": null,
+    "numero": null
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 357,
+      "linha_inicio": 1,
+      "linha_fim": 15
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 357,
+      "fim": 10299,
+      "linha_inicio": 16,
+      "linha_fim": 38
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 10299,
+      "fim": 12785,
+      "linha_inicio": 39,
+      "linha_fim": 53
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 2718,
+      "fim": 4104,
+      "linha_inicio": 23,
+      "linha_fim": 23,
+      "chars": 1386,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\". Em outras palavras, se não houver justificativa para a cobrança indevida, a repetição do indébito será em dobro. A di",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "ementa"
+    ],
+    "blocos_citados": 1,
+    "chars_citados": 1386,
+    "proporcao_citada": 0.108
+  },
+  "avisos": [
+    "Sem secao VOTO: a ratio nao pode ser localizada; so a ementa esta disponivel.",
+    "1 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

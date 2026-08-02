@@ -1,0 +1,436 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-2035848-to-acordao-nao-conhecimento.md",
+  "source_sha256": "77b637e37cf365b371ab9a66af6b9e78f47c148394ddda149d4822c338158e8a",
+  "chars": 34807,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "RAUL ARAÚJO",
+    "orgao_julgador": null,
+    "classe": "RECURSO ESPECIAL",
+    "numero": "2035848"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 53,
+      "linha_inicio": 1,
+      "linha_fim": 2
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 53,
+      "fim": 890,
+      "linha_inicio": 3,
+      "linha_fim": 20
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 890,
+      "fim": 2472,
+      "linha_inicio": 21,
+      "linha_fim": 31
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 2472,
+      "fim": 12220,
+      "linha_inicio": 32,
+      "linha_fim": 105
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO **(e-STJ Fl.3303)**",
+      "inicio": 12220,
+      "fim": 34807,
+      "linha_inicio": 106,
+      "linha_fim": 220
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "diante do exposto",
+      "inicio": 34350,
+      "fim": 34501,
+      "linha_inicio": 214,
+      "linha_fim": 216,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 2917,
+      "fim": 4624,
+      "linha_inicio": 36,
+      "linha_fim": 36,
+      "chars": 1707,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*INCIDENTE DE RESOLUÇÃO DE DEMANDA REPETITIVA. COMPRA E* *VENDA * *DE * *LOTE * *URBANO. * *RESCISÃO * *CONTRATUAL * *PE",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 5424,
+      "fim": 7882,
+      "linha_inicio": 45,
+      "linha_fim": 49,
+      "chars": 2458,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*VENDEDOR. SUPERVENIÊNCIA DA LEI FEDERAL NO 13.786/2018 QUE* *DISCIPLINA A MATÉRIA. TESES FIRMADAS PELO TRIBUNAL DE JUST",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "REsp 1300418"
+      ]
+    },
+    {
+      "inicio": 8497,
+      "fim": 8896,
+      "linha_inicio": 51,
+      "linha_fim": 57,
+      "chars": 399,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "* \"o v. acórdão ora embargado é omisso, pois não fundamenta* *os motivos pelos quais a* * não poderia ser aplicada aos",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 9566,
+      "fim": 10565,
+      "linha_inicio": 66,
+      "linha_fim": 84,
+      "chars": 999,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "* \"a Súmula 543 e os Julgamentos dos Repetitivos - Tema 577 do STJ* *não têm origem em conflitos no âmbito de loteament",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 10714,
+      "fim": 11025,
+      "linha_inicio": 86,
+      "linha_fim": 92,
+      "chars": 311,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Súmula 543 do STJ e do* *REsp 1300418 (Tema 577), que tratam de matérias afetas à Incorporação Imobiliária - regida*",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "REsp 1300418"
+      ]
+    },
+    {
+      "inicio": 13787,
+      "fim": 15107,
+      "linha_inicio": 125,
+      "linha_fim": 125,
+      "chars": 1320,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"Tese 1: Os contratos de compromisso de compra e venda de lotes urbanos* *configuram-se como contratos de adesão.* *Tes",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 15218,
+      "fim": 15932,
+      "linha_inicio": 127,
+      "linha_fim": 127,
+      "chars": 714,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*I) alterar a Tese 4 para fazer constar que a retenção no percentual de 10%* *sobre o valor atualizado do contrato, prev",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 16238,
+      "fim": 17492,
+      "linha_inicio": 132,
+      "linha_fim": 136,
+      "chars": 1254,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*dará em 17% do valor pago; Pagamento acima de 50% a 75%, a retenção se* *dará em 15% do valor pago; Pagamento acima de",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "REsp 1300418"
+      ]
+    },
+    {
+      "inicio": 17703,
+      "fim": 18936,
+      "linha_inicio": 136,
+      "linha_fim": 146,
+      "chars": 1233,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "* amicus curiae* jurídicas firmadas pelo Tribunal de origem: *Por todo o exposto, a Recorrente, na qualidade de amicus",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 19130,
+      "fim": 19832,
+      "linha_inicio": 148,
+      "linha_fim": 148,
+      "chars": 702,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "* in verbis* *Seja conhecido e provido o Presente Especial nos seguintes termos:* *a) Pela alínea \"a\" do artigo 105 da C",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 20138,
+      "fim": 22327,
+      "linha_inicio": 153,
+      "linha_fim": 167,
+      "chars": 2189,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Tese 4: Os valores a serem retidos pela empresa administradora devem* *respeitar o disposto no Artigo 32-A, incisos I a",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 23322,
+      "fim": 23794,
+      "linha_inicio": 175,
+      "linha_fim": 185,
+      "chars": 472,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*recurso especial contra acórdão* *proferido pelo Tribunal de origem que fixa tese jurídica em abstrato em julgamento d",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 24140,
+      "fim": 25080,
+      "linha_inicio": 190,
+      "linha_fim": 192,
+      "chars": 940,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*PROCESSUAL CIVIL. AGRAVO INTERNO NO RECURSO ESPECIAL.* *SERVIDORES PÚBLICOS ESTADUAIS. INCIDENTE DE RESOLUÇÃO DE* *DEMA",
+      "precedente": "REsp 1.798.374",
+      "precedentes": [
+        "REsp 1.798.374"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 25080,
+      "fim": 25506,
+      "linha_inicio": 192,
+      "linha_fim": 192,
+      "chars": 426,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "* * 18/5/2022,* * 21/6/2022.* *2. No caso dos autos, considerando-se que o acórdão recorrido limitou-se a* *fixar a tese",
+      "precedente": "REsp 2.057.448",
+      "precedentes": [
+        "REsp 2.057.448"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 25506,
+      "fim": 26468,
+      "linha_inicio": 192,
+      "linha_fim": 196,
+      "chars": 962,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*PROCESSUAL CIVIL. ADMINISTRATIVO. SERVIDOR PÚBLICO. AGRAVO* *INTERNO NO AGRAVO EM RECURSO ESPECIAL. INCIDENTE DE* *RES",
+      "precedente": "AREsp 2.427.881",
+      "precedentes": [
+        "AREsp 2.427.881"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 26590,
+      "fim": 27712,
+      "linha_inicio": 196,
+      "linha_fim": 196,
+      "chars": 1122,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*PROCESSUAL CIVIL. AGRAVO INTERNO NO RECURSO ESPECIAL.* *CÓDIGO DE PROCESSO CIVIL DE 2015. APLICABILIDADE. INCIDENTE* *D",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 28018,
+      "fim": 28393,
+      "linha_inicio": 201,
+      "linha_fim": 201,
+      "chars": 375,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*III - Em regra, descabe a imposição da multa, prevista no* * § 4º, do* * art. 1.021,* *Código de Processo Civil de 2015",
+      "precedente": "REsp 1.864.652",
+      "precedentes": [
+        "REsp 1.864.652"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 28521,
+      "fim": 29924,
+      "linha_inicio": 201,
+      "linha_fim": 203,
+      "chars": 1403,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*PROCESSUAL CIVIL. DESCABIMENTO DE RECURSO ESPECIAL CONTRA* *ACÓRDÃO PROFERIDO EM IRDR QUE FIXA TESES JURIDICAS DE* *CAR",
+      "precedente": "REsp 2.119.053",
+      "precedentes": [
+        "REsp 2.119.053"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 30044,
+      "fim": 31494,
+      "linha_inicio": 203,
+      "linha_fim": 205,
+      "chars": 1450,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*PROCESSUAL CIVIL. NA ORIGEM. INCIDENTE DE RESOLUÇÃO DE* *DEMANDAS * *REPETITIVAS. * *CAUSA * *PENDENTE * *NO * *TRIBUNA",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 31800,
+      "fim": 32362,
+      "linha_inicio": 210,
+      "linha_fim": 210,
+      "chars": 562,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*involuntária e compulsória de pessoas adictas a substâncias que causam* *dependência química, física ou psíquica\".* *II",
+      "precedente": "REsp 2.050.583",
+      "precedentes": [
+        "REsp 2.050.583"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 32485,
+      "fim": 32691,
+      "linha_inicio": 210,
+      "linha_fim": 210,
+      "chars": 206,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*AGRAVO REGIMENTAL EM RECURSO ESPECIAL. INTERPOSIÇÃO* *CONTRA O ACÓRDÃO QUE FIXOU TESE JURÍDICA NO JULGAMENTO* *DE IRDR.",
+      "precedente": "REsp 1.942.721",
+      "precedentes": [
+        "REsp 1.942.721"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 32817,
+      "fim": 33791,
+      "linha_inicio": 210,
+      "linha_fim": 210,
+      "chars": 974,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*DIREITO * *PROCESSUAL * *CIVIL. * *RECURSO * *ESPECIAL. * *NÃO* *CONHECIMENTO. AGRAVO INTERNO. ACÓRDÃO RECORRIDO QUE* *",
+      "precedente": "AREsp 2.108.941",
+      "precedentes": [
+        "AREsp 2.108.941"
+      ],
+      "origem": "precedente"
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 22,
+    "chars_citados": 22178,
+    "proporcao_citada": 0.637
+  },
+  "avisos": [
+    "13 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

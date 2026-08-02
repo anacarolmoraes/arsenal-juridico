@@ -10,6 +10,7 @@ resource: https://eproc2g.tjrs.jus.br/ (ApCiv 5005364-95.2023.8.21.0034; confirm
 tribunal: TJRS — 12ª Câmara Cível, Rel. Des. Gustavo Alberto Gastal Diefenthaler (decisão monocrática, Súmula 568/STJ)
 raw: /raw/cadeia-golpea-acordao-tj.pdf
 verificado_em: '2026-07-05'
+tese: 'a instituição financeira tem o dever de verificar a regularidade e idoneidade das transações realizadas pelos consumidores, desenvolvendo mecanismos capazes de detectar operações atípicas e impedir fraudes, respondendo objetivamente pelos danos causados quando não adota as medidas de segurança adequadas.'
 ---
 
 # ApCiv 5005364-95.2023.8.21.0034/RS — golpe da falsa central (Nubank)

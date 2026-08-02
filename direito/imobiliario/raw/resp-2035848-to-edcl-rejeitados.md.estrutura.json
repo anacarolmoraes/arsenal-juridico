@@ -1,0 +1,244 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-2035848-to-edcl-rejeitados.md",
+  "source_sha256": "c86654f4714afd4e8d18fc6e59ad66906aa81ee250a02723dc5734d24b1556ab",
+  "chars": 24730,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "RAUL ARAÚJO",
+    "orgao_julgador": null,
+    "classe": "RECURSO ESPECIAL",
+    "numero": "2035848"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 60,
+      "linha_inicio": 1,
+      "linha_fim": 2
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 60,
+      "fim": 895,
+      "linha_inicio": 3,
+      "linha_fim": 20
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 895,
+      "fim": 1444,
+      "linha_inicio": 21,
+      "linha_fim": 24
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 1444,
+      "fim": 6005,
+      "linha_inicio": 25,
+      "linha_fim": 80
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 6005,
+      "fim": 24730,
+      "linha_inicio": 81,
+      "linha_fim": 227
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "diante do exposto",
+      "inicio": 24350,
+      "fim": 24424,
+      "linha_inicio": 223,
+      "linha_fim": 223,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 1864,
+      "fim": 2784,
+      "linha_inicio": 32,
+      "linha_fim": 32,
+      "chars": 920,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*DIREITO PROCESSUAL CIVIL. RECURSO ESPECIAL. INCIDENTE* *DERESOLUÇÃO DE DEMANDA REPETITIVA. FIXAÇÃO DE TESE* *EMABSTRATO",
+      "precedente": "REsp 1.798.374",
+      "precedentes": [
+        "REsp 1.798.374"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 2784,
+      "fim": 3194,
+      "linha_inicio": 32,
+      "linha_fim": 32,
+      "chars": 410,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "* *3. O recurso especial é cabível apenas contra acórdão que aplica a tese* *jurídica fixada para resolver concretamente",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 4434,
+      "fim": 5622,
+      "linha_inicio": 48,
+      "linha_fim": 74,
+      "chars": 1188,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*na parte decisória,* *não analisa minimamente se poderia haver limitação à discussão de violação do* */* * art. 1.022*",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 6415,
+      "fim": 9573,
+      "linha_inicio": 83,
+      "linha_fim": 107,
+      "chars": 3158,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*In casu* No acórdão ora embargado, ficou consignado, de forma clara e fundamentada, o seguinte: *Consoante delineado",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 9879,
+      "fim": 13782,
+      "linha_inicio": 112,
+      "linha_fim": 130,
+      "chars": 3903,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*13.786, de 2018, deve ser aplicada somente aos contratos firmados a* *partir de* * por ser ilegal a irretroatividade de",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "REsp 1300418"
+      ]
+    },
+    {
+      "inicio": 14088,
+      "fim": 18118,
+      "linha_inicio": 135,
+      "linha_fim": 159,
+      "chars": 4030,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "***aplicada a*** *** aos contratos assinados em data*** *** Lei nº 13.786/2018*** ***anterior à sua vigência, desde que",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "REsp 1.798.374"
+      ]
+    },
+    {
+      "inicio": 18424,
+      "fim": 19159,
+      "linha_inicio": 164,
+      "linha_fim": 170,
+      "chars": 735,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*requisitos constitucionais do* * III, da Constituição Federal e dos* * art. 105,* *\" (julgado em* *dispositivos do Cód",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "REsp 1.798.374"
+      ]
+    },
+    {
+      "inicio": 19460,
+      "fim": 19946,
+      "linha_inicio": 174,
+      "linha_fim": 174,
+      "chars": 486,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*CIVIL E PROCESSUAL. ACÓRDÃO ESTADUAL. NULIDADE NÃO* *CONFIGURADA. ACIDENTE. CONDUÇÃO DO CONJUNTO POR* *PREPOSTO DA DONA",
+      "precedente": "REsp 494.372",
+      "precedentes": [
+        "REsp 494.372"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 20058,
+      "fim": 21073,
+      "linha_inicio": 174,
+      "linha_fim": 174,
+      "chars": 1015,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*IPVA. NÃO CONFIGURADA VIOLAÇÃO DO* * DO* * ART. 1.022* * CPC/2015.* *CERCEAMENTO DE DEFESA. INCIDÊNCIA DA SÚMULA 283 DO",
+      "precedente": "REsp 1671609",
+      "precedentes": [
+        "REsp 1671609"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 23163,
+      "fim": 24348,
+      "linha_inicio": 197,
+      "linha_fim": 221,
+      "chars": 1185,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*na parte decisória, não analisa minimamente se poderia haver limitação à discussão de* *violação do* */* * (vício form",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 10,
+    "chars_citados": 17030,
+    "proporcao_citada": 0.689
+  },
+  "avisos": [
+    "7 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

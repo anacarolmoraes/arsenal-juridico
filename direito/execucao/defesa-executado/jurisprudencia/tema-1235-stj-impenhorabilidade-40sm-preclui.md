@@ -11,6 +11,9 @@ tribunal: STJ
 data_julgamento: '2024-10-02'
 raw: /raw/proafr-resp-2061973-pr-tema-1235-stj.pdf
 verificado_em: ''
+tese: '> "A impenhorabilidade de quantia inferior a 40 salários mínimos (art. 833, X, do CPC) **não é matéria de ordem pública** e **não pode ser reconhecida de ofício** pelo juiz, devendo ser **arguida pelo executado no primeiro momento em que lhe couber falar nos autos** ou em sede de embargos à execução ou impugnação ao cumprimento de sentença, **sob pena de preclusão**."'
+relator: 'Min. Nancy Andrighi'
+orgao_julgador: 'Corte Especial'
 ---
 
 # Tema 1.235/STJ — REsp 2.061.973/PR (Corte Especial)

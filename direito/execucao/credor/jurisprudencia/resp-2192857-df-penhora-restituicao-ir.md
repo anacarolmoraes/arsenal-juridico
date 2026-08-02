@@ -11,6 +11,8 @@ tribunal: STJ
 data_julgamento: '2025-03-17'
 raw: /raw/resp-2192857-df-penhora-restituicao-ir.md
 verificado_em: '2026-08-02'
+relator: 'Min. Moura Ribeiro'
+orgao_julgador: 'Terceira Turma'
 ---
 
 # REsp 2.192.857/DF — Terceira Turma (j. 11–17/03/2025, DJEN/CNJ 20/03/2025)

@@ -1,0 +1,235 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1556834-sp.md",
+  "source_sha256": "b52589b77bc16d33d441b26f00d592ccc60d4c159e42cf9ab2f639c04afa57fd",
+  "chars": 78490,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "LUIS FELIPE SALOMÃO",
+    "orgao_julgador": "SEGUNDA SECAO",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1.556.834"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 1352,
+      "linha_inicio": 1,
+      "linha_fim": 14
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 1352,
+      "fim": 3068,
+      "linha_inicio": 15,
+      "linha_fim": 32
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 3068,
+      "fim": 22602,
+      "linha_inicio": 33,
+      "linha_fim": 95
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 22602,
+      "fim": 23399,
+      "linha_inicio": 96,
+      "linha_fim": 107
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 23399,
+      "fim": 76190,
+      "linha_inicio": 108,
+      "linha_fim": 355
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 76190,
+      "fim": 77495,
+      "linha_inicio": 356,
+      "linha_fim": 380
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 77495,
+      "fim": 78490,
+      "linha_inicio": 381,
+      "linha_fim": 387
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 2619,
+      "fim": 3067,
+      "linha_inicio": 31,
+      "linha_fim": 31,
+      "chars": 448,
+      "sinais": [
+        "aspas",
+        "caixa-alta"
+      ],
+      "amostra": "RECORRENTE: O BERGAMASCO ASSIS - ME ADVOGADO: MAGNO BERGAMASCO E OUTRO(S) RECORRIDO: NICOLAU & PAULINO DE LIMA LTDA - ME",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 22096,
+      "fim": 22976,
+      "linha_inicio": 94,
+      "linha_fim": 100,
+      "chars": 880,
+      "sinais": [
+        "aspas",
+        "caixa-alta"
+      ],
+      "amostra": "**RELATOR** **:** ** ** **MINISTRO LUIS FELIPE SALOMÃO** RECORRENTE: O BERGAMASCO ASSIS - ME ADVOGADO: MAGNO BERGAMASCO",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 24049,
+      "fim": 25463,
+      "linha_inicio": 115,
+      "linha_fim": 115,
+      "chars": 1414,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"Ação monitória fundada em dois cheques prescritos, sendo um no valor * $$ de R$ 1.690, emitido em 06.05.2008, pré data",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 27960,
+      "fim": 28686,
+      "linha_inicio": 132,
+      "linha_fim": 132,
+      "chars": 726,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "* omo é cediço, os títulos de crédito são documentos representativos de obrigações pecuniárias. \"As obrigações represent",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 42040,
+      "fim": 42291,
+      "linha_inicio": 185,
+      "linha_fim": 185,
+      "chars": 251,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"O fato de a dívida líquida e com vencimento certo haver sido cobrada por meio de ação monitória não interfere na data",
+      "precedente": null,
+      "precedentes": [
+        "EREsp 1.250.382",
+        "AgRg 1351533"
+      ],
+      "origem": "precedente-multiplo"
+    },
+    {
+      "inicio": 43198,
+      "fim": 43724,
+      "linha_inicio": 185,
+      "linha_fim": 185,
+      "chars": 526,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"embora juros contratuais em regra corram a partir da data da citação, no caso, contudo, de obrigação contratada como p",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 47805,
+      "fim": 48263,
+      "linha_inicio": 206,
+      "linha_fim": 208,
+      "chars": 458,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\"a interpela çã o tem por fim prevenir ao devedor de que a presta çã o *deve* ser feita. Fixa esse ponto, se j á n ã o f",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 56807,
+      "fim": 57075,
+      "linha_inicio": 232,
+      "linha_fim": 232,
+      "chars": 268,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"Os artigos 219 do CPC e 405 do CC/2002 devem ser interpretados ** **à luz do ordenamento jurídico, tendo aplicação resi",
+      "precedente": "REsp 1513262",
+      "precedentes": [
+        "REsp 1513262"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 76965,
+      "fim": 77415,
+      "linha_inicio": 377,
+      "linha_fim": 377,
+      "chars": 450,
+      "sinais": [
+        "aspas",
+        "caixa-alta"
+      ],
+      "amostra": "# RECORRENTE: O BERGAMASCO ASSIS - ME ADVOGADO: MAGNO BERGAMASCO E OUTRO(S) RECORRIDO: NICOLAU & PAULINO DE LIMA LTDA -",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "certidao",
+      "ementa",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 9,
+    "chars_citados": 5421,
+    "proporcao_citada": 0.069
+  },
+  "avisos": [
+    "Secao VOTO sem conectivo de dispositivo reconhecido — conferir o fecho a vista.",
+    "7 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

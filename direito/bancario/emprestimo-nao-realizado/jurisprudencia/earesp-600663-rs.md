@@ -11,6 +11,9 @@ tribunal: STJ
 data_julgamento: '2022-03-16'
 raw: /raw/earesp-600663-rs.pdf
 verificado_em: '2026-07-05'
+tese: 'A repetição em dobro, prevista no parágrafo único do art. 42 do CDC, é cabível quando a cobrança indevida consubstanciar conduta contrária à boa-fé objetiva, ou seja, independentemente da natureza do elemento volitivo'
+relator: 'Min. Herman Benjamin'
+orgao_julgador: 'Corte Especial'
 ---
 
 # EAREsp 600.663/RS — Corte Especial do STJ

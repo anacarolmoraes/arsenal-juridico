@@ -1,0 +1,78 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "cadeia-golpea-acordao-tj.md",
+  "source_sha256": "f81b851c720b3ac94eb71668a22e3fe6419f90420b5829e0ae05f3d3fc5eb9da",
+  "chars": 38731,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": null,
+    "orgao_julgador": "TERCEIRA TURMA",
+    "classe": null,
+    "numero": null
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 1158,
+      "linha_inicio": 1,
+      "linha_fim": 26
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 1158,
+      "fim": 6452,
+      "linha_inicio": 27,
+      "linha_fim": 53
+    },
+    {
+      "nome": "decisao",
+      "titulo": "DECISÃO MONOCRÁTICA",
+      "inicio": 6452,
+      "fim": 38731,
+      "linha_inicio": 54,
+      "linha_fim": 302
+    }
+  ],
+  "ementa_cnj": {
+    "caso_em_exame": 29730,
+    "razoes_de_decidir": 30675,
+    "dispositivo_e_tese": 35624,
+    "tese_de_julgamento": 35669,
+    "dispositivos_citados": 32135,
+    "jurisprudencia_citada": 6196
+  },
+  "blocos_citados": [
+    {
+      "inicio": 21600,
+      "fim": 22324,
+      "linha_inicio": 198,
+      "linha_fim": 198,
+      "chars": 724,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"f..) todo aquele que se disponha a exercer alguma atividade no mercado de consumo tem o dever de responder pelos eventu",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "decisao",
+      "ementa"
+    ],
+    "blocos_citados": 1,
+    "chars_citados": 724,
+    "proporcao_citada": 0.019
+  },
+  "avisos": [
+    "Sem secao VOTO: a ratio nao pode ser localizada; so a ementa esta disponivel.",
+    "1 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

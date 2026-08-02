@@ -11,6 +11,7 @@ tribunal: STJ
 data_julgamento: '2020-10-21'
 raw: /raw/earesp-676608-rs.md
 verificado_em: '2026-08-02'
+orgao_julgador: 'Corte Especial'
 ---
 
 # EAREsp 676.608/RS — repetição em dobro pela boa-fé objetiva

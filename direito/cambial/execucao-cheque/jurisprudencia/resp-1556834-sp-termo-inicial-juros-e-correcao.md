@@ -12,6 +12,7 @@ tribunal: STJ
 data_julgamento: '2016-06-22'
 raw: /raw/resp-1556834-sp.pdf
 verificado_em: '2026-07-28'
+orgao_julgador: 'Segunda Seção'
 ---
 
 # REsp 1.556.834/SP — Tema 942/STJ, os dois termos iniciais

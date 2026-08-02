@@ -64,12 +64,18 @@ def achar_inicio(texto: str, n: str) -> int:
     m = rx_artigo(n).search(texto)
     if not m:
         return -1
-    return m.start()
+    # Conversao de PDF costuma emitir o cabecalho em negrito ("**Art. 259.**").
+    # Cortar em "Art." deixaria o "**" de fechamento orfao no fim do recorte.
+    ini = m.start()
+    return ini - 2 if texto[max(0, ini - 2): ini] == "**" else ini
 
 
 def achar_fim(texto: str, inicio: int, ultimo: str) -> int:
     """Fim = inicio do proximo artigo depois de `ultimo` (921 -> 922, 923...)."""
-    base = int(re.match(r"\d+", ultimo).group())
+    m0 = re.match(r"\d+", ultimo.replace(".", ""))
+    if not m0:
+        return len(texto)
+    base = int(m0.group())
     for prox in range(base + 1, base + 12):  # tolera lacunas por revogacao
         m = rx_artigo(str(prox)).search(texto, inicio + 1)
         if m:
@@ -101,7 +107,11 @@ def main() -> int:
 
     texto = io.open(fonte, encoding="utf-8").read()
 
-    if "-" in args.artigo:
+    # "381-383" e faixa; "104-A" e UM artigo com sufixo de letra. Sem distinguir,
+    # o segundo era lido como faixa "381 a A" e o calculo do fim estourava. O
+    # RISTJ e cheio de artigo com sufixo (104-A, 121-A, 256-A...), entao isso
+    # deixou de ser hipotese remota.
+    if re.fullmatch(r"\d[\d.]*-\d[\d.]*", args.artigo):
         primeiro, ultimo = args.artigo.split("-", 1)
         nome = f"{args.rotulo.lower()}-arts-{primeiro}-{ultimo}.md"
         titulo = f"{args.rotulo}, arts. {primeiro} a {ultimo}"

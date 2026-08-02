@@ -1,0 +1,61 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1846649-ma.md",
+  "source_sha256": "d21247a0a873dab70516ad854f0b9e7603325e69f316fd3eaa3a177876c4bf6f",
+  "chars": 8622,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "MARCO AURÉLIO BELLIZZE",
+    "orgao_julgador": null,
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1.846.649"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 63,
+      "linha_inicio": 1,
+      "linha_fim": 2
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 63,
+      "fim": 2586,
+      "linha_inicio": 3,
+      "linha_fim": 40
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 2586,
+      "fim": 8622,
+      "linha_inicio": 41,
+      "linha_fim": 130
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "ante o exposto",
+      "inicio": 7773,
+      "fim": 8546,
+      "linha_inicio": 118,
+      "linha_fim": 128,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 0,
+    "chars_citados": 0,
+    "proporcao_citada": 0.0
+  },
+  "avisos": []
+}

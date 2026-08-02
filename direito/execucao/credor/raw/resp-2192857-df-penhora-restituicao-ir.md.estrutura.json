@@ -1,0 +1,290 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-2192857-df-penhora-restituicao-ir.md",
+  "source_sha256": "9f2052c766cd60208db5bfa2a99f4725e92038ce87dbf5739cf546794cf00760",
+  "chars": 24933,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "MOURA RIBEIRO",
+    "orgao_julgador": "TERCEIRA TURMA",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "2192857"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 946,
+      "linha_inicio": 1,
+      "linha_fim": 23
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 946,
+      "fim": 1178,
+      "linha_inicio": 24,
+      "linha_fim": 29
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 1178,
+      "fim": 2122,
+      "linha_inicio": 30,
+      "linha_fim": 61
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 2122,
+      "fim": 3389,
+      "linha_inicio": 62,
+      "linha_fim": 86
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 3389,
+      "fim": 3621,
+      "linha_inicio": 87,
+      "linha_fim": 92
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 3621,
+      "fim": 4565,
+      "linha_inicio": 93,
+      "linha_fim": 124
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 4565,
+      "fim": 10537,
+      "linha_inicio": 125,
+      "linha_fim": 172
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 10537,
+      "fim": 24933,
+      "linha_inicio": 173,
+      "linha_fim": 315
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 5102,
+      "fim": 7211,
+      "linha_inicio": 141,
+      "linha_fim": 141,
+      "chars": 2109,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*AGRAVO DE INSTRUMENTO. AGRAVO INTERNO. DIREITO * *PROCESSUAL * *CIVIL. * *JULGAMENTO * *CONJUNTO. * *AGRAVO * *INTERNO.",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 8415,
+      "fim": 10189,
+      "linha_inicio": 170,
+      "linha_fim": 171,
+      "chars": 1774,
+      "sinais": [
+        "aspas",
+        "blockquote"
+      ],
+      "amostra": "> **OCR da imagem; confiança média 89.9%:** > Não houve contrarrazões. É o relatório. VOTO CONHEÇO do recurso especial,",
+      "precedente": "REsp 2.100.931",
+      "precedentes": [
+        "REsp 2.100.931"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 10189,
+      "fim": 10536,
+      "linha_inicio": 171,
+      "linha_fim": 171,
+      "chars": 347,
+      "sinais": [
+        "blockquote"
+      ],
+      "amostra": "PROCESSUAL CIVIL. AGRAVO INTERNO NO AGRAVO EM Documento eletrônico VDA46038892 assinado eletronicamente nos termos do A",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 11138,
+      "fim": 12226,
+      "linha_inicio": 187,
+      "linha_fim": 191,
+      "chars": 1088,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*Embargos de * *declaração manifestados com notório propósito de prequestionamento não tem caráter * *protelatório.* Ne",
+      "precedente": "REsp 2.100.931",
+      "precedentes": [
+        "REsp 2.100.931"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 12807,
+      "fim": 13357,
+      "linha_inicio": 202,
+      "linha_fim": 203,
+      "chars": 550,
+      "sinais": [
+        "aspas",
+        "blockquote"
+      ],
+      "amostra": "> **OCR da imagem; confiança média 90.5%:** > RECURSO ESPECIAL. MULTA. ART. 1.026, $ 2º, DO CPC/2015. OPOSIÇÃO DE ACLARA",
+      "precedente": "AREsp 2.000.528",
+      "precedentes": [
+        "AREsp 2.000.528"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 13533,
+      "fim": 15661,
+      "linha_inicio": 203,
+      "linha_fim": 203,
+      "chars": 2128,
+      "sinais": [
+        "blockquote"
+      ],
+      "amostra": "(2) Da penhora Sobre a possibilidade da penhora de valores de restituição de Imposto de Renda, o Tribunal distrital ass",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 15662,
+      "fim": 16220,
+      "linha_inicio": 205,
+      "linha_fim": 205,
+      "chars": 558,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*RECURSO ESPECIAL. MULTA. ART. 1.026, § 2º, DO CPC/2015. * *OPOSIÇÃO * *DE * *ACLARATÓRIOS * *COM * *O * *OBJETIVO * *DE",
+      "precedente": "AgInt 2.000.528",
+      "precedentes": [
+        "AgInt 2.000.528"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 16544,
+      "fim": 17325,
+      "linha_inicio": 211,
+      "linha_fim": 211,
+      "chars": 781,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Com efeito, as argumentações desenvolvidas pelo agravante em seu * *agravo interno não são capazes de alterar o entendi",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 17920,
+      "fim": 18359,
+      "linha_inicio": 231,
+      "linha_fim": 231,
+      "chars": 439,
+      "sinais": [
+        "caixa-alta",
+        "italico"
+      ],
+      "amostra": "*RECURSO ESPECIAL. AGRAVO DE INSTRUMENTO. PENHORA DE * *PERCENTUAL * *DE * *SALÁRIO. POSSIBILIDADE. * *RESERVA * *DE * *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 18656,
+      "fim": 19110,
+      "linha_inicio": 241,
+      "linha_fim": 241,
+      "chars": 454,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*posicionamento de que é possível a penhora de parcela da * *remuneração do devedor, ainda que fora das hipóteses descri",
+      "precedente": "AgInt 2.477.842",
+      "precedentes": [
+        "AgInt 2.477.842"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 19220,
+      "fim": 20400,
+      "linha_inicio": 241,
+      "linha_fim": 241,
+      "chars": 1180,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*AGRAVO INTERNO NO RECURSO ESPECIAL. AGRAVO DE * *INSTRUMENTO. CUMPRIMENTO * *DE * *SENTENÇA. * *RENDIMENTOS. PENHORA. C",
+      "precedente": "AgInt 2.067.117",
+      "precedentes": [
+        "AgInt 2.067.117"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 20535,
+      "fim": 21795,
+      "linha_inicio": 241,
+      "linha_fim": 241,
+      "chars": 1260,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Processual civil. Recurso Especial. Ação de execução. Penhora em * *conta corrente. Valor relativo à restituição de imp",
+      "precedente": "REsp 1.150.738",
+      "precedentes": [
+        "REsp 1.150.738"
+      ],
+      "origem": "precedente"
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 12,
+    "chars_citados": 12668,
+    "proporcao_citada": 0.508
+  },
+  "avisos": [
+    "Secao VOTO sem conectivo de dispositivo reconhecido — conferir o fecho a vista.",
+    "4 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

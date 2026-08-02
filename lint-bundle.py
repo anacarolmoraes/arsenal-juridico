@@ -68,6 +68,86 @@ def campo(fm: str, chave: str) -> str | None:
     return m.group(1).strip().strip("\"'") if m else None
 
 
+# Dominio dos campos do Espelho do Acordao (schema 0.5). Modelo: o Manual de
+# Organizacao do STJ 2026, cap. 5 — a base de Espelhos mantem tese, referencia
+# legislativa e jurisprudencia citada em campos SEPARADOS, porque citacao nao e
+# tese. `natureza` vem da Secao de Triagem: so o acordao PRINCIPAL recebe leitura
+# de inteiro teor; o similar aponta para ele.
+NATUREZA_VALIDA = {"principal", "similar"}
+FONTE_TESE_VALIDA = {"ementa", "voto", "dispositivo"}
+
+
+def conferir_deposito(bundle: Path, pagina: Path, fm: str, stems_raw: set[str]) -> tuple[bool, str]:
+    """
+    O E4 exigia apenas que a substring "raw/" aparecesse em algum lugar do texto
+    — um comentario, um link quebrado ou uma frase em prosa satisfaziam o portao
+    mais importante do acervo. Agora o deposito precisa EXISTIR.
+
+    Ordem: o `raw:` declarado no frontmatter manda; na falta dele, aceita-se
+    deposito de mesmo nome em raw/, que e a convencao das paginas antigas.
+    """
+    declarado = campo(fm, "raw")
+    if declarado:
+        rel = declarado.strip().lstrip("/")
+        alvos = [bundle / rel, pagina.parent / rel]
+        achado = next((a for a in alvos if a.exists()), None)
+        if not achado:
+            # Muitas paginas apontam para o PDF oficial e a conversao .md fica ao lado.
+            achado = next((a.with_suffix(".md") for a in alvos if a.with_suffix(".md").exists()), None)
+        if not achado:
+            return False, f"`raw: {declarado}` nao resolve para arquivo existente."
+
+        # O schema 7.1 manda ler o veredito do sidecar antes do conteudo. Deposito
+        # reprovado na Etapa 0 nao serve de lastro para nada.
+        quality = achado.with_suffix(achado.suffix + ".quality.json")
+        if not quality.exists():
+            quality = achado.with_suffix(".quality.json")
+        if quality.exists():
+            try:
+                import json
+                veredito = str(json.loads(quality.read_text(encoding="utf-8")).get("veredito", "")).lower()
+            except Exception:
+                veredito = ""
+            if veredito == "reprovado":
+                return False, f"deposito `{declarado}` existe, mas o `.quality.json` o marca REPROVADO."
+        return True, ""
+
+    if pagina.stem.lower() in stems_raw:
+        return True, ""
+    return False, "sem campo `raw:` no frontmatter e sem arquivo de mesmo nome em raw/."
+
+
+def conferir_espelho(fm: str, texto: str) -> list[str]:
+    """Campos que o acordao precisa declarar para ser consultavel, nao so legivel."""
+    erros = []
+
+    nat = campo(fm, "natureza")
+    if nat and nat not in NATUREZA_VALIDA:
+        erros.append(f"`natureza: {nat}` fora do vocabulario {sorted(NATUREZA_VALIDA)}.")
+
+    ft = campo(fm, "fonte_da_tese")
+    if ft and ft not in FONTE_TESE_VALIDA:
+        erros.append(f"`fonte_da_tese: {ft}` fora do vocabulario {sorted(FONTE_TESE_VALIDA)}.")
+
+    # A tese e o campo que torna a pagina consultavel. Enquanto morar em negrito
+    # no corpo ("**Tese:**"), nao e indexavel nem lintavel.
+    if campo(fm, "status") == "vigente" and not campo(fm, "tese"):
+        erros.append("`status: vigente` sem campo `tese:` — o enunciado precisa estar no frontmatter, "
+                     "nao apenas em negrito no corpo, para ser consultavel e conferivel.")
+
+    # `jurisprudencia_citada` guarda o que o acordao CITA. Se listar o proprio
+    # processo, a separacao entre tese e citacao se perdeu — que e exatamente o
+    # defeito que o Espelho existe para evitar.
+    proprio = campo(fm, "title") or ""
+    citada = campo(fm, "jurisprudencia_citada") or ""
+    for num in re.findall(r"\d[\d.]{4,}", proprio):
+        if num in citada:
+            erros.append(f"`jurisprudencia_citada` inclui o proprio julgado ({num}): "
+                         "citacao e tese sao campos distintos.")
+            break
+    return erros
+
+
 def bundles_sob(raiz: Path) -> list[Path]:
     """Um bundle e um diretorio com index.md e ao menos uma pasta de conteudo."""
     encontrados = []
@@ -169,19 +249,24 @@ def verificar(bundle: Path) -> None:
         if campo(fm, "status") != "vigente":
             continue
 
-        tem_raw = p.stem.lower() in stems_raw or "raw/" in texto or "(raw)" in texto
+        tem_raw, motivo = conferir_deposito(bundle, p, fm, stems_raw)
 
         if tipo in ("acordao", "sumula") and not tem_raw:
             # Ementa e texto longo, especifico e facil de fabricar de forma plausivel.
             # Sem o inteiro teor depositado nao ha como o lint-citacoes conferir a
             # transcricao — e e justamente ai que mora o dano irreversivel.
             add("error", "E4-sem-inteiro-teor", str(p.relative_to(bundle)),
-                f"`type: {tipo}` marcado `vigente` sem inteiro teor em raw/. Sem deposito, nenhuma transcricao dele pode ser verificada.")
+                f"`type: {tipo}` marcado `vigente` sem inteiro teor conferivel em raw/: {motivo}")
         elif tipo == "legislacao" and not tem_raw:
             # Texto de lei e curto, estavel e conferivel em fonte publica: o risco de
             # fabricacao nao verificavel e baixo. Aviso, nao erro.
             add("warning", "W3-lei-sem-deposito", str(p.relative_to(bundle)),
-                "`type: legislacao` marcado `vigente` sem transcricao oficial depositada em raw/ (conferir contra o Planalto).")
+                f"`type: legislacao` marcado `vigente` sem transcricao oficial em raw/: {motivo}")
+
+        # E6 — campos do Espelho do Acordao (schema 0.5)
+        if tipo == "acordao":
+            for erro in conferir_espelho(fm, texto):
+                add("error", "E6-espelho-invalido", str(p.relative_to(bundle)), erro)
 
     # E5 — tese sem fundamento: sintese do escritorio precisa apontar para a fonte
     for p in conteudo:

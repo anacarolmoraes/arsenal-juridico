@@ -22,6 +22,30 @@ Este é o lugar onde o **código integral** mora **uma vez**. Bundles que citam 
 | `lei-9099-1995-juizados.{html,md}` | **Lei 9.099/1995**, transversal — citada por execução/credor e audiências. Cobertura até a Lei 14.245; **13 trechos revogados marcados**. |
 | `cdc-l8078-1990-compilado.{html,md}` | **Código de Defesa do Consumidor**, transversal — citado por bancário/empréstimo-não-realizado, bancário/golpes, consumidor/negativação-indevida e imobiliário. 119 artigos; cobertura até a Lei 14.181; sem trecho revogado. Era a lacuna mais antiga do acervo. |
 
+**Depositado em 2026-08-02 — norma de tribunal, não lei federal:**
+
+| Arquivo | Papel |
+|---|---|
+| `ristj-er53.{pdf,md}` | **Regimento Interno do STJ**, transversal a toda peça dirigida ao Tribunal. Cobertura até a **Emenda Regimental n. 53**. O `.md` é a conversão pdfmd do PDF oficial, já passada pelo `reparar-ligaduras.py` — ver o aviso abaixo. Recortes gerados para `recurso-especial`, `agravo-interno` e `embargos-declaracao`. |
+| `ristj-er53.ligaduras.diff` | as 793 junções de palavra partida, agrupadas em 177 formas distintas, para conferência. Toda linha é palavra do português que estava rachada (`confi rmando → confirmando`); nenhuma junção espúria. |
+
+### ⚠️ Conversão de PDF pode conter o texto DUAS vezes — e o recorte pega a pior
+
+Descoberto em 2026-08-02, no depósito do RISTJ. Quando a página do PDF traz o texto também como imagem, o `--ocr-images` do pdfmd emite a transcrição da imagem num blockquote **antes** do texto nativo da mesma página. O arquivo passa a ter cada artigo duas vezes:
+
+```
+> **OCR da imagem; confiança média 91.1%:**
+> ... Art.255.0 recurso especial ... S$ 1º ... óabeas corpus ...
+
+**Art. 255. ** O recurso especial ... § 1º ... habeas corpus ...
+```
+
+O `recortar-artigo.py` recorta a **primeira** ocorrência: o recorte do art. 255 saiu com `Art.255.0`, `S$ 1º` e `óabeas corpus` — e recorte é exatamente o que a peça transcreve. Eram **429 blocos** assim, 754 mil caracteres de duplicata degradada.
+
+**Regra que fica:** antes de depositar conversão de PDF, contar `OCR da imagem` no `.md`. Havendo ocorrência, remover com `python reparar-ligaduras.py <arquivo> --remover-ocr-de-imagem`. Páginas cujo texto só existe por OCR (`method=tesseract`) não são afetadas — ali o OCR é o corpo da página, não um blockquote duplicado.
+
+Mesma família das duas armadilhas já catalogadas (o `<strike>` do Planalto e o truncamento do PDF do CPC): **a conversão parece boa e o defeito só aparece artigo por artigo.**
+
 **Cobertura:** o depósito do CPC incorpora alterações até a **Lei nº 15.109, de 2025** (visível no art. 82). A **Lei nº 15.479, de 2026** aparece apenas como "Vide" na capa do PDF, **sem nota de alteração em nenhum artigo** — não mudou o texto do Código.
 
 ### ⚠️ Não converter o PDF do Planalto com o pdfmd para uso como fonte literal

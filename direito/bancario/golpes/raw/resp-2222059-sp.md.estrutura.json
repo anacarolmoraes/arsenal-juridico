@@ -1,0 +1,370 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-2222059-sp.md",
+  "source_sha256": "1a965d971d9616f91e8cd61307478ab4d35ee953851a7a3ee3b24df8a96b2fa2",
+  "chars": 49416,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "RICARDO VILLAS BÔAS CUEVA",
+    "orgao_julgador": null,
+    "classe": "RECURSO ESPECIAL",
+    "numero": "2222059"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 53,
+      "linha_inicio": 1,
+      "linha_fim": 2
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 53,
+      "fim": 555,
+      "linha_inicio": 3,
+      "linha_fim": 14
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 555,
+      "fim": 4901,
+      "linha_inicio": 15,
+      "linha_fim": 23
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 4901,
+      "fim": 7311,
+      "linha_inicio": 24,
+      "linha_fim": 58
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO A irresignação merece prosperar.",
+      "inicio": 7311,
+      "fim": 49416,
+      "linha_inicio": 59,
+      "linha_fim": 612
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "ante o exposto",
+      "inicio": 48695,
+      "fim": 49097,
+      "linha_inicio": 600,
+      "linha_fim": 608,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": {
+    "caso_em_exame": 34774,
+    "questao_em_discussao": 35176,
+    "razoes_de_decidir": 35908,
+    "dispositivo_e_tese": 36911,
+    "tese_de_julgamento": 36964
+  },
+  "blocos_citados": [
+    {
+      "inicio": 5144,
+      "fim": 5962,
+      "linha_inicio": 32,
+      "linha_fim": 32,
+      "chars": 818,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*AÇÃO * *DECLARATÓRIA * *DE * *INEXIGIBILIDADE * *DE * *DÉBITO * *C.C.* *\"* *INDENIZAÇÃO POR DANOS MORAIS - Golpe da fal",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 8583,
+      "fim": 8931,
+      "linha_inicio": 93,
+      "linha_fim": 95,
+      "chars": 348,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*, sendo que, de repente, * ***movimentou mais de quatro mil reais*** ***foram*** ***realizadas *** ***, fora o emprésti",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 9946,
+      "fim": 10350,
+      "linha_inicio": 119,
+      "linha_fim": 121,
+      "chars": 404,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*\"(...) julgo * * o pedido inicial * ***PARCIALMENTE PROCEDENTE*** *e* *extinto o feito com resolução do mérito, com fun",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 10669,
+      "fim": 11596,
+      "linha_inicio": 126,
+      "linha_fim": 130,
+      "chars": 927,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*Tribunal de São Paulo desde a data do desembolso, e acrescidos de juros* *de mora de 1% a.m. desde a citação.* *b) a p",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 13449,
+      "fim": 13790,
+      "linha_inicio": 168,
+      "linha_fim": 172,
+      "chars": 341,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*(...) * *\"* ***a culpa exclusiva de terceiros apta a elidir a*** ***responsabilidade objetiva do fornecedor é espécie d",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 14903,
+      "fim": 16428,
+      "linha_inicio": 195,
+      "linha_fim": 217,
+      "chars": 1525,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*\"Art. 7º Os arranjos de pagamento e * ***as instituições de*** *, conforme parâmetros a* ***pagamento observarão os se",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 16952,
+      "fim": 18199,
+      "linha_inicio": 227,
+      "linha_fim": 229,
+      "chars": 1247,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*\"RECURSO * *ESPECIAL. * *RESPONSABILIDADE * *CIVIL. * *INSTITUIÇÃO* *BANCÁRIA. * *SAQUES. * *COMPRAS * *A * *CRÉDITO. *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 18518,
+      "fim": 19210,
+      "linha_inicio": 234,
+      "linha_fim": 240,
+      "chars": 692,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "***foram realizadas com o cartão original e mediante uso de senha*** *.* ***pessoal do correntista*** *5. * ***O cartão",
+      "precedente": "REsp 1.633.785",
+      "precedentes": [
+        "REsp 1.633.785"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 22791,
+      "fim": 23130,
+      "linha_inicio": 317,
+      "linha_fim": 317,
+      "chars": 339,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"(...) o aumento nas tentativas de fraude é percebido em todas as* *faixas etárias, setores e unidades da federação, re",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 26245,
+      "fim": 28788,
+      "linha_inicio": 386,
+      "linha_fim": 404,
+      "chars": 2543,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*\"(...)* *A definição de * * abrange um grande número de* ***risco operacional*** *situações associadas à operação bancá",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 29107,
+      "fim": 31606,
+      "linha_inicio": 409,
+      "linha_fim": 419,
+      "chars": 2499,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*vítimas do evento danoso (art. 17) ou, ainda, pelas normas do art. 927* *caput e parágrafo único, do CC, insere-se no",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 34961,
+      "fim": 35780,
+      "linha_inicio": 477,
+      "linha_fim": 481,
+      "chars": 819,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*\"(...) * ***não há normativa legal que exija dos bancos o*** ***monitoramento de todas as transações de seus clientes,",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 35956,
+      "fim": 37104,
+      "linha_inicio": 485,
+      "linha_fim": 485,
+      "chars": 1148,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*\"DIREITO CIVIL. AGRAVO INTERNO NO AGRAVO EM RECURSO ESPECIAL.* *RESPONSABILIDADE CIVIL DE INSTITUIÇÃO FINANCEIRA. VIOLA",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 37423,
+      "fim": 39624,
+      "linha_inicio": 490,
+      "linha_fim": 492,
+      "chars": 2201,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*conta da recorrida; e (ii) saber se a decisão recorrida violou dispositivos* *legais ao não considerar as excludentes d",
+      "precedente": "AgInt 2.874.835",
+      "precedentes": [
+        "AgInt 2.874.835"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 39624,
+      "fim": 40553,
+      "linha_inicio": 492,
+      "linha_fim": 494,
+      "chars": 929,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "30/6/2025 4/7/2025 *\"CIVIL E PROCESSUAL CIVIL. AGRAVO EM RECURSO ESPECIAL. AÇÃO DE* *OBRIGAÇÃO DE FAZER. INDENIZATÓRIA.",
+      "precedente": "AREsp 2.843.388",
+      "precedentes": [
+        "AREsp 2.843.388"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 40553,
+      "fim": 41211,
+      "linha_inicio": 494,
+      "linha_fim": 496,
+      "chars": 658,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "26/5/2025 29/5/2025 *\"PROCESSUAL CIVIL. RECURSO ESPECIAL. AÇÃO DECLARATÓRIA DE* *INEXIGIBILIDADE DE DÉBITO. CONSUMIDOR.",
+      "precedente": "REsp 2.179.133",
+      "precedentes": [
+        "REsp 2.179.133"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 41653,
+      "fim": 42711,
+      "linha_inicio": 501,
+      "linha_fim": 501,
+      "chars": 1058,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*\"AGRAVO INTERNO EM RECURSO ESPECIAL. FRAUDE BANCÁRIA. ATOS* *REALIZADOS POR TERCEIROS POR MEIO DE LINK COM CÓDIGO DE* *",
+      "precedente": "REsp 1.199.782",
+      "precedentes": [
+        "REsp 1.199.782"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 42711,
+      "fim": 44441,
+      "linha_inicio": 501,
+      "linha_fim": 505,
+      "chars": 1730,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": ".* *12/9/2011* *3. A Terceira Turma do STJ assentou, no julgamento do REsp n. 1.451.312* */PR, relatora Ministra Nancy A",
+      "precedente": "AgInt 2.056.005",
+      "precedentes": [
+        "AgInt 2.056.005"
+      ],
+      "origem": "precedente"
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 18,
+    "chars_citados": 20226,
+    "proporcao_citada": 0.409
+  },
+  "avisos": [
+    "11 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

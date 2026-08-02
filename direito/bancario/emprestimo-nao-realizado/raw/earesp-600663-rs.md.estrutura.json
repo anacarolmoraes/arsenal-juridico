@@ -1,0 +1,242 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "earesp-600663-rs.md",
+  "source_sha256": "fcfd018a7259f6bb948709cd3fdf3f098491cfec7a2c0ea25183feccea3f4991",
+  "chars": 46073,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "HERMAN BENJAMIN",
+    "orgao_julgador": null,
+    "classe": "AGRAVO EM RECURSO ESPECIAL",
+    "numero": "600.663"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 680,
+      "linha_inicio": 1,
+      "linha_fim": 4
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 680,
+      "fim": 27720,
+      "linha_inicio": 5,
+      "linha_fim": 78
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 27720,
+      "fim": 30424,
+      "linha_inicio": 79,
+      "linha_fim": 96
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 30424,
+      "fim": 46073,
+      "linha_inicio": 97,
+      "linha_fim": 281
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "diante do exposto",
+      "inicio": 45594,
+      "fim": 46073,
+      "linha_inicio": 275,
+      "linha_fim": 281,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 2404,
+      "fim": 2909,
+      "linha_inicio": 18,
+      "linha_fim": 18,
+      "chars": 505,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\" (art. 42, parágrafo único, grifo acrescentado). DIVERGÊNCIA ENTRE A PRIMEIRA SEÇÃO (DIREITO PÚBLICO) E A SEGUNDA SEÇÃO",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 3489,
+      "fim": 4724,
+      "linha_inicio": 18,
+      "linha_fim": 18,
+      "chars": 1235,
+      "sinais": [
+        "aspas",
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "\" (EREsp 475.566/PR, Rel. Ministro Teori Albino Zavascki, Primeira Seção, DJ 13/9/2004). Outros precedentes: EREsp 130.6",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "AgRg 901.919",
+        "EREsp 130.605",
+        "EREsp 475.566"
+      ]
+    },
+    {
+      "inicio": 4998,
+      "fim": 5329,
+      "linha_inicio": 18,
+      "linha_fim": 18,
+      "chars": 331,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": ". Na mesma linha da interpretação favorável ao consumidor: AgRg no AREsp 708.082/DF, Rel. Ministro João Otávio de Noronh",
+      "precedente": "REsp 1.009.591",
+      "precedentes": [
+        "REsp 1.009.591"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 10242,
+      "fim": 11362,
+      "linha_inicio": 32,
+      "linha_fim": 32,
+      "chars": 1120,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": ". 12. Agrega-se ao raciocínio construído na Primeira Seção a regra geral de que a responsabilidade do Estado e das pess",
+      "precedente": "RE 591.874",
+      "precedentes": [
+        "RE 591.874"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 13928,
+      "fim": 16247,
+      "linha_inicio": 39,
+      "linha_fim": 39,
+      "chars": 2319,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\" do art. 42, parágrafo único, do CDC deve ser apreendida como *elemento de causalidade,* e não como *elemento de culpab",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "EAREsp 622.897",
+        "REsp 1.517.888"
+      ]
+    },
+    {
+      "inicio": 17979,
+      "fim": 20143,
+      "linha_inicio": 46,
+      "linha_fim": 46,
+      "chars": 2164,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\"O código consumerista introduziu novidade no ordenamento jurídico brasileiro, ao adotar *a concepção objetiva * do abus",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "EAREsp 600663"
+      ]
+    },
+    {
+      "inicio": 27097,
+      "fim": 27719,
+      "linha_inicio": 77,
+      "linha_fim": 77,
+      "chars": 622,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "**ESPECIAL Nº 600.663 - RS (2014/0270797-3)** **RELATOR** **:** ** ** **MINISTRO HERMAN BENJAMIN** EMBARGANTE: OI S.A AD",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 28473,
+      "fim": 28786,
+      "linha_inicio": 81,
+      "linha_fim": 81,
+      "chars": 313,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\"Na hipótese dos autos, o *acórdão recorrido* fixou como requisito a má-fé, para fins do parágrafo único do art. 42 do C",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 34736,
+      "fim": 35078,
+      "linha_inicio": 186,
+      "linha_fim": 186,
+      "chars": 342,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "SUSCITADO POR PARTICULAR. DISCUSSÃO SOBRE A LEGITIMIDADE DO MINISTÉRIO PÚBLICO PARA INGRESSAR COM AÇÃO DE DISSOLUÇÃO DE",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "EAREsp 600663"
+      ]
+    },
+    {
+      "inicio": 42020,
+      "fim": 42349,
+      "linha_inicio": 262,
+      "linha_fim": 262,
+      "chars": 329,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"ao princípio da não surpresa e da segurança jurídica, por força de julgamento que trouxe à tona terceira tese no âmbit",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "ementa",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 10,
+    "chars_citados": 9280,
+    "proporcao_citada": 0.201
+  },
+  "avisos": [
+    "8 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

@@ -11,6 +11,7 @@ tribunal: STJ
 data_julgamento: '2023-02-08'
 raw: ''
 verificado_em: ''
+orgao_julgador: 'Segunda Seção'
 ---
 
 # REsp 1.913.234/MT — Segunda Seção (j. 08/02/2023, DJe 07/03/2023)

@@ -1,0 +1,98 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "proafr-resp-2061973-pr-tema-1235-stj.md",
+  "source_sha256": "43440e65de7d570f694e60b3d7892df16b169e428a5b099b7f0ba6b94ac4e0ae",
+  "chars": 16634,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "NANCY ANDRIGHI",
+    "orgao_julgador": "CORTE ESPECIAL",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "2.061.973"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 371,
+      "linha_inicio": 1,
+      "linha_fim": 6
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 371,
+      "fim": 876,
+      "linha_inicio": 7,
+      "linha_fim": 10
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 876,
+      "fim": 3023,
+      "linha_inicio": 11,
+      "linha_fim": 30
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATORA",
+      "inicio": 3023,
+      "fim": 3295,
+      "linha_inicio": 31,
+      "linha_fim": 34
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 3295,
+      "fim": 3800,
+      "linha_inicio": 35,
+      "linha_fim": 38
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO Relatora: Ministra NANCY ANDRIGHI",
+      "inicio": 3800,
+      "fim": 8072,
+      "linha_inicio": 39,
+      "linha_fim": 130
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO Relatora: Ministra NANCY ANDRIGHI",
+      "inicio": 8072,
+      "fim": 15158,
+      "linha_inicio": 131,
+      "linha_fim": 296
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 15158,
+      "fim": 16634,
+      "linha_inicio": 297,
+      "linha_fim": 307
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "certidao",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 0,
+    "chars_citados": 0,
+    "proporcao_citada": 0.0
+  },
+  "avisos": [
+    "Secao VOTO sem conectivo de dispositivo reconhecido — conferir o fecho a vista."
+  ]
+}

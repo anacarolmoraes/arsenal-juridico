@@ -1,0 +1,54 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "aresp-2706690-sp.md",
+  "source_sha256": "c08ee848d1dbf207cf1b71c8f88650d3990418c33a3c98e8cadf8c51e2aa521c",
+  "chars": 20893,
+  "nao_segmentado": true,
+  "metadados": {
+    "relator": "JOÃO OTÁVIO DE NORONHA",
+    "orgao_julgador": "CORTE ESPECIAL",
+    "classe": "AGRAVO EM RECURSO ESPECIAL",
+    "numero": "2706690"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 63,
+      "linha_inicio": 1,
+      "linha_fim": 2
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR: MINISTRO JOÃO OTÁVIO DE NORONHA AGRAVANTE: CARLOS AUGUSTO SAMPAIO ALGARVE ADVOGADO: FERNANDO AUGUSTO CÂNDIDO LEPE - SP201932 AGRAVADO: ATLÂNTICO FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS NÃO PADRONIZADOS ADVOGADO: HENRIQUE JOSÉ PARADA SIMÃO - SP221386",
+      "inicio": 63,
+      "fim": 331,
+      "linha_inicio": 3,
+      "linha_fim": 4
+    },
+    {
+      "nome": "decisao",
+      "titulo": "DECISÃO",
+      "inicio": 331,
+      "fim": 20893,
+      "linha_inicio": 5,
+      "linha_fim": 258
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "decisao",
+      "relator"
+    ],
+    "blocos_citados": 0,
+    "chars_citados": 0,
+    "proporcao_citada": 0.0
+  },
+  "avisos": [
+    "Nenhum cabecalho de EMENTA, RELATORIO ou VOTO encontrado: o documento nao expoe a estrutura do acordao. Deteccao de voz suprimida — conferir a vista antes de citar."
+  ]
+}

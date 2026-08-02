@@ -1,0 +1,25 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "sumula-385-stj.md",
+  "source_sha256": "9fb9c6bab475fc657ad5c71101a32ee2cfa433ae9885c310a7f181880341be4b",
+  "chars": 1278,
+  "nao_segmentado": true,
+  "metadados": {
+    "relator": null,
+    "orgao_julgador": null,
+    "classe": null,
+    "numero": null
+  },
+  "secoes": [],
+  "ementa_cnj": null,
+  "blocos_citados": [],
+  "resumo": {
+    "secoes": [],
+    "blocos_citados": 0,
+    "chars_citados": 0,
+    "proporcao_citada": 0.0
+  },
+  "avisos": [
+    "Nenhum cabecalho de EMENTA, RELATORIO ou VOTO encontrado: o documento nao expoe a estrutura do acordao. Deteccao de voz suprimida — conferir a vista antes de citar."
+  ]
+}

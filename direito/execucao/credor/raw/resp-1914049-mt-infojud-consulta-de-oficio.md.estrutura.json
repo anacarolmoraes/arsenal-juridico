@@ -1,0 +1,25 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1914049-mt-infojud-consulta-de-oficio.md",
+  "source_sha256": "6c51182f92fe59d932784f6f42bfbfdf61198a1dd5805ab0c3edd33988c1d5e4",
+  "chars": 5177,
+  "nao_segmentado": true,
+  "metadados": {
+    "relator": null,
+    "orgao_julgador": null,
+    "classe": null,
+    "numero": null
+  },
+  "secoes": [],
+  "ementa_cnj": null,
+  "blocos_citados": [],
+  "resumo": {
+    "secoes": [],
+    "blocos_citados": 0,
+    "chars_citados": 0,
+    "proporcao_citada": 0.0
+  },
+  "avisos": [
+    "Nenhum cabecalho de EMENTA, RELATORIO ou VOTO encontrado: o documento nao expoe a estrutura do acordao. Deteccao de voz suprimida — conferir a vista antes de citar."
+  ]
+}

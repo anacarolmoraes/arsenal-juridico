@@ -11,6 +11,9 @@ tribunal: STJ
 data_julgamento: '2024-06-05'
 raw: ''
 verificado_em: ''
+tese: '> "A verba honorária sucumbencial, a despeito da sua natureza alimentar, não se enquadra na exceção prevista no § 2º do art. 833 do CPC/2015 (penhora para pagamento de prestação alimentícia)."'
+relator: 'Min. Ricardo Villas Bôas Cueva'
+orgao_julgador: 'Corte Especial'
 ---
 
 # Repetitivo dos honorários × salário — REsp 1.954.380/SP e REsp 1.954.382/SP

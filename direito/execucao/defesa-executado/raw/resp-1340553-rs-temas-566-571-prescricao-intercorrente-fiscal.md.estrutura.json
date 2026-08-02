@@ -1,0 +1,25 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.md",
+  "source_sha256": "081923971844d2807ab51ab228f2ad59404a67256e88787963857821888e7b97",
+  "chars": 11626,
+  "nao_segmentado": true,
+  "metadados": {
+    "relator": null,
+    "orgao_julgador": null,
+    "classe": null,
+    "numero": null
+  },
+  "secoes": [],
+  "ementa_cnj": null,
+  "blocos_citados": [],
+  "resumo": {
+    "secoes": [],
+    "blocos_citados": 0,
+    "chars_citados": 0,
+    "proporcao_citada": 0.0
+  },
+  "avisos": [
+    "Nenhum cabecalho de EMENTA, RELATORIO ou VOTO encontrado: o documento nao expoe a estrutura do acordao. Deteccao de voz suprimida — conferir a vista antes de citar."
+  ]
+}

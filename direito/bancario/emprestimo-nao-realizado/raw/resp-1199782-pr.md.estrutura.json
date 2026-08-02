@@ -1,0 +1,88 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1199782-pr.md",
+  "source_sha256": "8be5e8baa811b53c7a14ddb8a8c7b1e5a11ec9a42e9144e2769cf181dd112d96",
+  "chars": 36593,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": null,
+    "orgao_julgador": null,
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1.199.782"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 222,
+      "linha_inicio": 1,
+      "linha_fim": 6
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 222,
+      "fim": 7449,
+      "linha_inicio": 7,
+      "linha_fim": 63
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 7449,
+      "fim": 8210,
+      "linha_inicio": 64,
+      "linha_fim": 71
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 8210,
+      "fim": 36593,
+      "linha_inicio": 72,
+      "linha_fim": 272
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "diante do exposto",
+      "inicio": 36074,
+      "fim": 36140,
+      "linha_inicio": 266,
+      "linha_fim": 266,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 7237,
+      "fim": 7781,
+      "linha_inicio": 62,
+      "linha_fim": 68,
+      "chars": 544,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "**RELATOR** **:** ** ** **MINISTRO LUIS FELIPE SALOMÃO** RECORRENTE: ELISANGELA DA COSTA FERNANDES ADVOGADO: LEANDRO LUI",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "ementa",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 1,
+    "chars_citados": 544,
+    "proporcao_citada": 0.015
+  },
+  "avisos": [
+    "1 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}
