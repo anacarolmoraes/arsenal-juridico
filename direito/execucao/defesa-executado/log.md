@@ -13,7 +13,9 @@
 
 **Pendências novas (bloqueantes para citação):**
 
-1. **Depositar o CPC e recortar o art. 921.** Procedimento definido em 2026-08-01 e documentado no [catálogo do raw transversal](../../pecas/raw/index.md): o código integral vai **uma vez** para `direito/pecas/raw/`, e cada bundle recebe recorte via `python recortar-artigo.py 921 direito/execucao/defesa-executado`. **Tentativa frustrada na mesma data:** o PDF depositado pela titular em `consumir/cpc_01082026.pdf` estava com **0 byte** (download não concluído), e o Planalto está inacessível deste ambiente. Refazer o download e rodar o recorte — daí a página promove a `vigente`.
+1. ~~Depositar o CPC e recortar o art. 921.~~ **FEITO em 2026-08-01.** Achado do dia: o CPC compilado **já estava no acervo desde julho**, dentro de `direito/pecas/recurso-especial/raw/`. Foi movido para `direito/pecas/raw/` (fonte transversal), convertido para texto, e o recorte do art. 921 gerado em `raw/cpc-art-921.md` por `recortar-artigo.py`. A transcrição foi conferida letra por letra e a página promoveu a **`vigente`** — a primeira do bundle. *(O PDF que a titular depositou em `consumir/cpc_01082026.pdf` estava com 0 byte, mas era desnecessário.)*
+
+   **O texto real corrigiu três imprecisões da descrição anterior:** a suspensão do § 4º ocorre **uma única vez**; o § 4º-A, além de restringir a interrupção, **protege o credor diligente** (o prazo não corre pelo tempo dos atos, se ele cumpriu os prazos); e o § 5º autoriza expressamente o reconhecimento **de ofício**, com extinção **sem ônus para as partes**. O § 7º estende o regime ao cumprimento de sentença. A heurística do bundle do credor foi corrigida no mesmo movimento.
 2. Conferir o dispositivo da Lei 14.195/2021 que promoveu a alteração.
 3. Levantar jurisprudência **posterior a 2021** sobre a fixação da "ciência da primeira tentativa infrutífera" e sobre **direito intertemporal** (execuções em curso quando a lei entrou em vigor) — os dois pontos mais disputados e ambos ausentes do acervo.
 4. Não transportar a tese para **execução fiscal**, que tem regime próprio (Lei 6.830/80 e súmula específica do STJ), também ausente do acervo.

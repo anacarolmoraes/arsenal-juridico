@@ -10,7 +10,10 @@ Este é o lugar onde o **código integral** mora **uma vez**. Bundles que citam 
 
 | Arquivo | Estado |
 |---|---|
-| `cpc-lei-13105-2015-compilado.{pdf,md}` | **pendente de depósito** — ver procedimento abaixo |
+| `cpc-l13105-compilada.html` | **depositado** — texto compilado oficial do CPC, em `cp1252`. Estava desde 2026-07-06 em `recurso-especial/raw/`; movido para cá em 2026-08-01, quando passou a servir a todo o acervo. 14 páginas o citam no campo `raw:`. |
+| `cpc-l13105-compilada.md` | **depositado** — conversão em texto do HTML ao lado, gerada em 2026-08-01. É a fonte que o `recortar-artigo.py` lê. |
+
+**Cobertura do depósito:** a compilação incorpora alterações até a **Lei nº 14.976**. Alteração posterior a essa **não** está refletida — conferir antes de citar dispositivo sensível, e substituir o par de arquivos quando houver versão mais nova.
 
 ### Por que recorte, e não cópia
 
@@ -18,9 +21,9 @@ O `lint-citacoes` confere a transcrição contra um arquivo **do próprio bundle
 
 ### Procedimento de depósito e recorte
 
-1. A titular baixa o PDF oficial do código e deposita em `consumir/`.
-2. Converter com o `pdfmd` do `adv_env` (`PYTHONUTF8=1`, `--ocr auto --lang por`) e **conferir a saída**: procurar um artigo conhecido e ver se veio íntegro. Texto de Planalto costuma ter camada de texto; se sair magro, é sinal de PDF de imagem e o OCR precisa ser forçado.
-3. Depositar o par `.pdf` + `.md` aqui, com nome que declare a versão: `cpc-lei-13105-2015-compilado.{pdf,md}`. Registrar no `log.md` deste bundle a **data da consolidação** do texto baixado — é ela que diz até que alteração legislativa o depósito cobre.
+1. **Antes de baixar nada, conferir se o código já está aqui.** Foi o erro de 2026-08-01: o CPC estava no acervo desde julho, dentro de `recurso-especial/raw/`, e quase se refez o trabalho.
+2. Havendo versão mais nova, depositar a fonte oficial (HTML do Planalto ou PDF) e convertê-la. **HTML do Planalto é `cp1252`, não UTF-8** — decodificar errado corrompe todo acento silenciosamente. PDF converte-se com o `pdfmd` do `adv_env` (`PYTHONUTF8=1`, `--ocr auto --lang por`).
+3. **Conferir a saída** procurando artigos conhecidos, e registrar no `log.md` deste bundle **até que lei alteradora** a compilação cobre — é isso que diz a validade do depósito.
 4. Para cada bundle que cite artigos, gerar o recorte a partir da raiz do acervo:
 
    ```
@@ -33,11 +36,15 @@ O `lint-citacoes` confere a transcrição contra um arquivo **do próprio bundle
 
 **Nunca editar recorte à mão.** Veio errado, corrige-se o script ou o depósito e regera-se — recorte editado deixa de refletir a fonte e derrota o `lint-citacoes`.
 
-### Fila de recortes já necessária
+### Fila de recortes
 
-Páginas `em_teste` que esperam depósito para virar `vigente`:
+Feitos:
 
-- `direito/execucao/defesa-executado` — **art. 921** (prescrição intercorrente, redação da Lei 14.195/2021), arts. 833, 834, 854, 525, 917.
+- `direito/execucao/defesa-executado/raw/cpc-art-921.md` — art. 921 (prescrição intercorrente, redação da Lei 14.195/2021). Página derivada promovida a `vigente` em 2026-08-01.
+
+Páginas `em_teste` que ainda esperam recorte:
+
+- `direito/execucao/defesa-executado` — arts. 833, 834, 854, 525, 917.
 - `direito/execucao/credor` — arts. 381 a 383, 495, 523, 524, 534, 535, 784, 798, 799, 828, 835, 844, 910.
 
 ## Obras comerciais de terceiros — não circulam

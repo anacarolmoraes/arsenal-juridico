@@ -1,5 +1,12 @@
 # Log
 
+## 2026-08-01
+
+**Schema** — O CPC compilado deixou de morar dentro de `recurso-especial/raw/` e passou a ser **fonte transversal do acervo**, em `raw/` na raiz deste bundle. Motivo: 14 páginas de quatro fluxos diferentes já o citavam, e os bundles de execução passaram a precisar dele. O campo `raw:` das 14 páginas foi corrigido de `/recurso-especial/raw/...` para `/raw/...`. *(Entradas anteriores deste log citam o caminho antigo — registro histórico, não corrigido.)*
+
+Gerada a conversão em texto (`cpc-l13105-compilada.md`) a partir do HTML, que é `cp1252`. É a fonte que o `recortar-artigo.py` lê para produzir recortes por artigo nos bundles consumidores. Cobertura da compilação: alterações até a Lei nº 14.976. Catálogo e procedimento em [`raw/index.md`](raw/index.md).
+
+
 ## 2026-07-16 (dissolução dos rótulos meta-textuais + fluxo novo: Réplica, v0.5.0)
 
 - **Heurística `estrutura-ai-first` revisada (regras 1, 3 e 4 reescritas)** — decisão do titular, disparada por leitura humana de uma réplica real (caso real, fora deste bundle) que "parecia escrita por IA". Rótulos meta-textuais visíveis ("Caso em exame.", "Conclusão do capítulo:", "Fundamento impugnado (transcrição literal):", "Impugnação:", "Jurisprudência pertinente (transcrições):") deixam de ser prescrição e passam a ser o próprio sinal de escrita por IA que a heurística existia para evitar em outra camada. A estrutura (BLUF, título-tese, transcrição+fonte adjacente, seções autossuficientes) permanece — só que dissolvida em prosa, sem anúncio. Tabela de equivalência rótulo→prosa incluída na heurística. Propagado às referências em `agravo-em-resp/workflows`, `apelacao/workflows`, `embargos-declaracao/playbooks` e `workflows` (estes últimos tinham estrutura própria de rótulos fixos por vício, também dissolvida) e ao `pecas/index.md`. `recurso-especial/` e `agravo-interno/` conferidos — sem menção a rótulos fixos, nada a corrigir. Coerente com a skill do escritório `humanizer-forense`, revisada no mesmo sentido em `skills/` do workspace na mesma data.

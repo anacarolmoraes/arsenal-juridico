@@ -1,10 +1,10 @@
 ---
 type: tese
 title: A prescrição intercorrente corre da primeira tentativa infrutífera, e requerimento do credor não a interrompe
-description: Desde a Lei 14.195/2021, o prazo começa com a ciência da frustração da primeira diligência de localização de devedor ou bens, independe de decisão que suspenda o processo, e só se interrompe por citação, intimação ou constrição efetivas.
-tags: [prescricao-intercorrente, art-921, lei-14195, extincao-da-execucao, defesa]
+description: Pelo art. 921, §§ 4º e 4º-A, do CPC, o prazo conta da ciência da frustração da primeira diligência, suspende-se uma única vez por um ano e só se interrompe por citação, intimação ou constrição efetivas — mas não corre durante o tempo necessário a esses atos, se o credor cumpriu os prazos.
+tags: [prescricao-intercorrente, art-921, lei-14195, extincao-da-execucao, defesa, cumprimento-de-sentenca]
 timestamp: '2026-08-01'
-status: em_teste
+status: vigente
 autor: escritorio
 fundamentos:
   - /jurisprudencia/cpc-art-921-prescricao-intercorrente.md
@@ -18,31 +18,33 @@ placar:
 
 ## Enunciado
 
-Na redação dada ao [art. 921 do CPC pela Lei 14.195/2021](/jurisprudencia/cpc-art-921-prescricao-intercorrente.md), o prazo da prescrição intercorrente conta-se da **ciência da primeira tentativa infrutífera** de localizar o devedor ou bens penhoráveis — **sem depender** de decisão que determine a suspensão ou o arquivamento. E, pelo § 4º-A, **só a citação ou a intimação efetivas do devedor, ou a constrição efetiva de bens, interrompem** o prazo: petição protocolada, pedido pendente de apreciação e diligência meramente requerida não interrompem nada.
+Pelo [art. 921 do CPC na redação da Lei 14.195/2021](/jurisprudencia/cpc-art-921-prescricao-intercorrente.md), o prazo da prescrição intercorrente conta-se da **ciência da primeira tentativa infrutífera** de localização do devedor ou de bens penhoráveis, **sem depender** de decisão que suspenda o processo ou determine o arquivamento; suspende-se **uma única vez**, pelo prazo máximo de um ano do § 1º; e **só a citação, a intimação do devedor ou a constrição de bens efetivas interrompem** (§ 4º-A). Petição protocolada, pedido pendente de apreciação e diligência meramente requerida não interrompem.
 
-O prazo é o da prescrição da própria pretensão — a execução prescreve no mesmo prazo da ação (Súmula 150/STF, pendente de conferência neste acervo).
+O prazo é o da prescrição da própria pretensão — a execução prescreve no mesmo prazo da ação. O regime **também se aplica ao cumprimento de sentença** do art. 523 (§ 7º).
 
 ## Como se monta a alegação
 
-1. **Datar a primeira frustração.** Localizar nos autos a certidão negativa de citação, a consulta de ativos que voltou zerada ou a diligência de penhora sem resultado, e a data em que o exequente teve ciência dela. É esse o marco, e é ônus do executado apontá-lo com a folha.
-2. **Mapear o que houve depois, e qualificar cada ato.** Montar a linha do tempo separando o que **interrompe** (citação, intimação, constrição efetivas) do que **não interrompe** (petições de reiteração, pedidos de consulta a sistema, requerimentos deferidos mas sem resultado). É aqui que a alegação se ganha: execuções que parecem movimentadas costumam ter anos sem um único ato interruptivo.
-3. **Somar.** Decorrido o prazo prescricional entre a ciência da frustração e o primeiro ato efetivamente interruptivo — ou até hoje, se nenhum houve —, a prescrição está consumada.
-4. **Requerer, e não só alegar:** extinção da execução, com a observação de que o § 5º exige a **oitiva prévia das partes em 15 dias** antes do reconhecimento. Pedir desde logo a designação desse contraditório evita que o juízo indefira por vício de procedimento.
+1. **Datar a primeira frustração.** Localizar a certidão negativa de citação, a consulta de ativos que voltou zerada ou a diligência de penhora sem resultado, e a data da ciência do exequente. É o marco do § 4º, e cabe ao executado apontá-lo com a folha dos autos.
+2. **Somar a suspensão — uma só.** Um ano, uma única vez. Se o exequente alegar suspensões sucessivas a cada nova diligência frustrada, o texto do § 4º responde: "por uma única vez".
+3. **Qualificar cada ato posterior.** Montar a linha do tempo separando o que **interrompe** (citação, intimação ou constrição **efetivas**) do que **não interrompe** (petições de reiteração, pedidos de consulta a sistema, requerimentos deferidos mas sem resultado). É aqui que a alegação se ganha: execuções que parecem movimentadas costumam ter anos sem um único ato interruptivo.
+4. **Descontar o que o § 4º-A protege.** Antes de fechar a conta, verificar se o exequente cumpriu os prazos legais e judiciais nos atos de citação, intimação e constrição — nesse período o prazo **não corre**. Fazer a conta ignorando isso entrega ao adversário a resposta pronta.
+5. **Requerer a extinção**, lembrando que o § 5º exige **oitiva prévia das partes em 15 dias** e que a extinção se dá **sem ônus para as partes**. Pedir desde logo a designação desse contraditório evita indeferimento por vício de procedimento.
 
 ## Via processual
 
-É matéria que o juiz reconhece, o que a torna arguível por **simples petição** a qualquer tempo, e também em embargos à execução ou impugnação ao cumprimento de sentença (art. 525, §1º, VII, e art. 917 — causa extintiva da obrigação). Ver [escolher o meio de defesa pela fase](/heuristicas/escolher-meio-de-defesa-pela-fase-da-execucao.md).
+O § 5º autoriza expressamente o reconhecimento **de ofício**, o que a torna arguível por **simples petição** a qualquer tempo, e também em embargos à execução ou impugnação ao cumprimento de sentença como causa extintiva da obrigação (arts. 525, §1º, VII, e 917). Ver [escolher o meio de defesa pela fase](/heuristicas/escolher-meio-de-defesa-pela-fase-da-execucao.md).
 
-**Cautela pós-Tema 1.235.** Não construir a peça apostando que "é matéria de ordem pública, logo o juiz conhece de ofício e não preclui". O art. 921, §5º, prevê o reconhecimento pelo juiz, mas o raciocínio do Tema 1.235/STJ — que retirou da impenhorabilidade dos 40 SM o caráter de ordem pública — recomenda **alegar na primeira oportunidade** e não depender da atuação oficiosa. A regra da casa vale aqui também: ver [arguir na primeira manifestação](/heuristicas/arguir-impenhorabilidade-na-primeira-manifestacao.md).
+**Ainda assim, alegar cedo.** O reconhecimento de ofício é faculdade do juízo ("poderá"), não dever automático, e o raciocínio do Tema 1.235/STJ mostra o que acontece quando se confia na atuação oficiosa. A regra da casa vale aqui: ver [arguir na primeira manifestação](/heuristicas/arguir-impenhorabilidade-na-primeira-manifestacao.md).
 
 ## Contra-argumentos esperados
 
-- **"A execução esteve em movimento todo esse tempo":** confrontar movimento com interrupção. Sob o § 4º-A, movimento sem alcance do devedor ou do patrimônio é irrelevante para o prazo.
-- **"Nunca houve decisão suspendendo o processo":** a nova redação desatrelou o termo inicial de qualquer decisão — é justamente o ponto da alteração de 2021.
-- **"O exequente não foi inerte, o Judiciário demorou":** argumento a enfrentar de frente, porque tem apelo. A resposta é que a norma fixou marco objetivo e escolheu a segurança jurídica; demora do juízo não é causa legal de interrupção.
-- **"Aplica-se a redação anterior, porque a execução é de antes de 2021":** aqui a discussão é de **direito intertemporal e está aberta** — o acervo não tem posição conferida. Registrado como pendência.
-- **Execução fiscal:** regime próprio (Lei 6.830/80), com súmula específica do STJ. Não transportar automaticamente esta tese para lá.
+- **"A execução esteve em movimento todo esse tempo":** confrontar movimento com interrupção. Sob o § 4º-A, movimento que não alcança o devedor nem o patrimônio é irrelevante para o prazo.
+- **"O prazo não corria, porque eu estava diligenciando" (§ 4º-A, parte final):** é o contra-argumento mais forte que o credor tem. Enfrentar mostrando **descumprimento de prazo** pelo exequente — inércia entre a intimação e a providência, pedido apresentado fora do prazo fixado, meses sem manifestação após decisão que lhe abriu vista.
+- **"Houve suspensão do art. 921, §1º":** houve, e só pode haver uma.
+- **"Nunca houve decisão suspendendo o processo":** irrelevante — a nova redação desatrelou o termo inicial de qualquer decisão.
+- **"Nulidade do procedimento, porque não fui intimado":** o § 6º só admite a alegação com **prejuízo efetivo** demonstrado. A presunção que ele prevê remete à "intimação de que trata o § 4º", e o § 4º não trata de intimação — a remissão é defeituosa, e o acervo não tem jurisprudência sobre como os tribunais a resolvem.
+- **Execução fiscal:** regime próprio (Lei 6.830/80), com súmula específica do STJ. Não transportar esta tese para lá.
 
 ## Pendências
 
-Nenhuma transcrição oficial depositada; a página de fundamento também está `em_teste`. Não há, no acervo, jurisprudência conferida posterior a 2021 sobre a fixação do marco inicial nem sobre o direito intertemporal — as duas coisas mais disputadas na prática. Ver [log](/log.md).
+O dispositivo está conferido letra por letra (fundamento `vigente`). O que falta é sustentação jurisprudencial em dois pontos que decidem casos reais e **não estão no acervo**: como os tribunais fixam a "ciência da primeira tentativa infrutífera", e o **direito intertemporal** para execuções em curso quando a lei entrou em vigor. Enquanto isso, tratar o cálculo de caso concreto como orientado pela lei, mas não respaldado por precedente conferido. Ver [log](/log.md).

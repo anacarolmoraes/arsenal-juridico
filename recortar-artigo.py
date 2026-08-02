@@ -34,7 +34,7 @@ import sys
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
-CODIGO_PADRAO = RAIZ / "direito" / "pecas" / "raw" / "cpc-lei-13105-2015-compilado.md"
+CODIGO_PADRAO = RAIZ / "direito" / "pecas" / "raw" / "cpc-l13105-compilada.md"
 
 # "Art. 921." / "Art. 921-A." / "Art 921" — tolera OCR sem ponto e com espaco
 def rx_artigo(n: str) -> re.Pattern:
