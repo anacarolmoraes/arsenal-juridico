@@ -1,5 +1,15 @@
 # Log — execução pelo credor
 
+## 2026-08-02
+
+**Ingestão** — Depositados dez recortes do CPC, gerados por `recortar-artigo.py` a partir do depósito transversal e conferidos um a um: `cpc-arts-381-383` (produção antecipada de prova, base da tese central), `cpc-art-495` (hipoteca judiciária), `cpc-arts-523-524` (cumprimento e demonstrativo), `cpc-arts-534-535` (Fazenda Pública), `cpc-art-784` (rol dos títulos), `cpc-arts-798-799` (requisitos da inicial executiva), `cpc-art-828` (averbação premonitória), `cpc-art-835` (ordem da penhora), `cpc-art-844` (averbação da penhora) e `cpc-art-910` (extrajudicial contra a Fazenda).
+
+Conferência: fronteira de artigo, ruído zero, e completude verificada onde a conversão do PDF havia corrompido no dia anterior — as **sete alíneas do art. 798** estão presentes.
+
+**Depósito não é página.** A página `cpc-arts-381-383-producao-antecipada-de-prova.md` agora tem raw local e pode ser promovida quando a transcrição for escrita e conferida; os outros nove recortes esperam página derivada. Até lá, teses e playbooks que se apoiam neles seguem `em_teste`.
+
+**Não cobertos pela fila e citados com destaque pelos playbooks:** art. 916 (moratória legal), art. 774, V (ato atentatório) e art. 98, §§ 2º e 3º (gratuidade, na tese de honorários).
+
 ## 2026-08-01
 
 **Ingestão** — Semente v0.1.0, criada a partir de `consumir/EXECUCOES_CREDOR`. A pasta misturava três assuntos; audiências foi para o bundle transversal [direito/audiencias/](../../audiencias/index.md) e justiça gratuita ficou fora por decisão da titular (já é definição canônica em `perfil/definicoes.md`).

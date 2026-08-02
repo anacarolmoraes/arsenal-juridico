@@ -1,0 +1,47 @@
+<!--
+RECORTE AUTOMATICO — nao editar a mao.
+Gerado por recortar-artigo.py a partir de direito/pecas/raw/cpc-l13105-compilada.md,
+que e o deposito integral e imutavel do codigo. Este arquivo existe para que o
+lint-citacoes confira a transcricao dentro deste bundle sem duplicar o codigo.
+Para atualizar apos nova versao do codigo: regerar, nunca corrigir aqui.
+-->
+
+# CPC, art. 835
+
+Art. 835. A penhora observará, preferencialmente, a seguinte ordem:
+
+I - dinheiro, em espécie ou em depósito ou aplicação em instituição financeira;
+
+II - títulos da dívida pública da União, dos Estados e do Distrito Federal com cotação em mercado;
+
+III - títulos e valores mobiliários com cotação em mercado;
+
+IV - veículos de via terrestre;
+
+V - bens imóveis;
+
+VI - bens móveis em geral;
+
+VII - semoventes;
+
+VIII - navios e aeronaves;
+
+IX - ações e quotas de sociedades simples e empresárias;
+
+X - percentual do faturamento de empresa devedora;
+
+XI - pedras e metais preciosos;
+
+XII - direitos aquisitivos derivados de promessa de compra e venda e de alienação fiduciária em garantia;
+
+XIII - outros direitos.
+
+§ 1º É prioritária a penhora em dinheiro, podendo o juiz, nas demais hipóteses, alterar a ordem prevista no
+
+caput
+
+de acordo com as circunstâncias do caso concreto.
+
+§ 2º Para fins de substituição da penhora, equiparam-se a dinheiro a fiança bancária e o seguro garantia judicial, desde que em valor não inferior ao do débito constante da inicial, acrescido de trinta por cento.
+
+§ 3º Na execução de crédito com garantia real, a penhora recairá sobre a coisa dada em garantia, e, se a coisa pertencer a terceiro garantidor, este também será intimado da penhora.

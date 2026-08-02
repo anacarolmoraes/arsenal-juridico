@@ -1,5 +1,13 @@
 # Log — defesa do executado
 
+## 2026-08-02
+
+**Ingestão** — Depositados os recortes do CPC que faltavam: `cpc-arts-833-834` (impenhorabilidade), `cpc-art-854` (penhora eletrônica e o prazo de 5 dias), `cpc-art-525` (impugnação) e `cpc-art-917` (matérias dos embargos). Gerados por `recortar-artigo.py` a partir do depósito transversal e **conferidos um a um**: fronteira de artigo, ausência de ruído de conversão, completude de incisos, alíneas e parágrafos.
+
+Conferência dirigida aos dois pontos em que a conversão do PDF do Planalto havia falhado no dia anterior: o **rol I a VII do art. 525, §1º** está completo, e as **alíneas do art. 798** sobreviveram — confirmando que o depósito vindo do HTML é a fonte correta.
+
+**Isto ainda não promove página nenhuma.** Depósito não é página: falta escrever as páginas `legislacao` derivadas desses quatro recortes. Até que existam, as quatro teses de impenhorabilidade seguem `em_teste`.
+
 ## 2026-08-01 (segunda entrada)
 
 **Ingestão** — Prescrição intercorrente entrou no bundle, por decisão de arquitetura da titular: é **matéria de defesa**, e não ganha bundle próprio.

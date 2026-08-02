@@ -51,14 +51,29 @@ O `lint-citacoes` confere a transcrição contra um arquivo **do próprio bundle
 
 ### Fila de recortes
 
-Feitos:
+**Depositados em 2026-08-01, todos conferidos** (fronteira de artigo, ausência de ruído, completude de incisos, alíneas e parágrafos):
 
-- `direito/execucao/defesa-executado/raw/cpc-art-921.md` — art. 921 (prescrição intercorrente, redação da Lei 14.195/2021). Página derivada promovida a `vigente` em 2026-08-01.
+| Bundle | Recorte | Artigos |
+|---|---|---|
+| defesa-executado | `cpc-art-921.md` | 921 — prescrição intercorrente. **Página derivada `vigente`.** |
+| defesa-executado | `cpc-arts-833-834.md` | impenhorabilidade e seus limites |
+| defesa-executado | `cpc-art-854.md` | penhora de dinheiro por meio eletrônico (o prazo de 5 dias) |
+| defesa-executado | `cpc-art-525.md` | impugnação ao cumprimento de sentença |
+| defesa-executado | `cpc-art-917.md` | matérias dos embargos à execução |
+| credor | `cpc-arts-381-383.md` | produção antecipada de prova |
+| credor | `cpc-art-495.md` | hipoteca judiciária |
+| credor | `cpc-arts-523-524.md` | cumprimento de sentença e demonstrativo |
+| credor | `cpc-arts-534-535.md` | cumprimento contra a Fazenda e impugnação |
+| credor | `cpc-art-784.md` | rol dos títulos executivos extrajudiciais |
+| credor | `cpc-arts-798-799.md` | requisitos da inicial executiva |
+| credor | `cpc-art-828.md` | averbação premonitória |
+| credor | `cpc-art-835.md` | ordem de preferência da penhora |
+| credor | `cpc-art-844.md` | averbação da penhora pelo exequente |
+| credor | `cpc-art-910.md` | execução de título extrajudicial contra a Fazenda |
 
-Páginas `em_teste` que ainda esperam recorte:
+**O que os recortes ainda não fazem.** Depósito não é página. Só o art. 921 tem página derivada com transcrição conferida; os outros treze recortes estão em `raw/` esperando que se escreva a página `legislacao` correspondente, que é o que permite citá-los em peça pelo `resource` e o que o `lint-citacoes` confere. Enquanto isso, as teses e playbooks que se apoiam nesses artigos seguem `em_teste`.
 
-- `direito/execucao/defesa-executado` — arts. 833, 834, 854, 525, 917.
-- `direito/execucao/credor` — arts. 381 a 383, 495, 523, 524, 534, 535, 784, 798, 799, 828, 835, 844, 910.
+**Candidatos que a fila não previu** e que os bundles citam com destaque: art. 916 (moratória legal, no playbook do extrajudicial), art. 774, V (ato atentatório, na heurística de movimento) e art. 98, §§ 2º e 3º (gratuidade, na tese de honorários).
 
 ## Obras comerciais de terceiros — não circulam
 
