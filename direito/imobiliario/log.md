@@ -1,5 +1,32 @@
 # Log — imobiliario (rescisão contratual)
 
+## 2026-08-02
+
+**Ingestão da migração final do acervo local (v0.3.0 → v0.4.0).** Fase 4 do PRD de
+versionamento do `pma-workspace` — sobras de `rescisao_contrato_imovel/` conferidas e
+migradas:
+
+- **`playbooks/modelo-peticao-levantamento-suspensao-irdr.md`** (`vigente`, versionado) —
+  modelo genérico do escritório da petição intercorrente de levantamento de suspensão por
+  IRDR, promovido de `genericas/`. Duas adaptações na promoção: assinatura vira referência
+  ao `perfil/advogados.json` do motor, e o "Tema 557" da voz própria da peça foi corrigido
+  para **Tema 577** (o typo é do TJTO na redação das teses; as transcrições literais o
+  preservam, com nota de alerta no cabeçalho do modelo).
+- Depósitos novos em `raw/`, **fora do git** até anonimização/conversão (regra dura 10):
+  `resp-2035848-to-decisao-nao-afetacao.md` (decisão da Comissão Gestora de Precedentes,
+  Min. Assusete Magalhães, 01/06/2023 — fecha a cadeia documental da desafetação);
+  `resp-2035848-to-certidao-desafetacao.pdf` (certidão da retirada do rito qualificado —
+  **sem par `.md`**, Etapa 0 pendente); e 5 documentos `antes-lei-*` do TJTO (acórdãos de
+  agravo, sentença e compilação de ementas sobre inaplicabilidade do IRDR a contratos
+  anteriores — fontes de argumentação do modelo acima).
+- `raw/artigo-zufelato-irdr.{md,pdf}` — artigo doutrinário de terceiro (obra intelectual,
+  Lei 9.610/98): **fora do git**, mesma regra do Scavone; só conhecimento reescrito circula.
+- **Não migram** (camada C1 → Drive): `francineia/`, `joao_victor/`, `rodrigo_chaves/`,
+  `cumprimento_sentenca/patrick/`, contrarrazões e apelação avulsas da raiz, e os
+  `modelos_argumentacao/` com peça de cliente identificável (conferir antes de qualquer
+  reaproveitamento). Os modelos de cumprimento (`CUMPR_SENTENCA_MODELO.docx` + planilha de
+  upload) foram copiados para `material_padrao_escritorio/` no motor — casa canônica.
+
 ## 2026-08-01
 
 **Ingestão dos modelos Scavone (v0.2.0 → v0.3.0).** Execução das Fases A e B do plano

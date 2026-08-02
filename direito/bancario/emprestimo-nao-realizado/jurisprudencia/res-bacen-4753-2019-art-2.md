@@ -8,6 +8,7 @@ status: vigente
 autor: ingerido
 resource: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o&numero=4753
 orgao: CMN/Banco Central do Brasil
+raw: /raw/res-bacen-4753-2019.pdf
 verificado_em: '2026-07-05'
 ---
 

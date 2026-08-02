@@ -1,5 +1,21 @@
 # Log
 
+## 2026-08-02
+
+- **Ingestão** — Migração final do acervo local `direito_bancario/emprestimo_nao_realizado/`
+  (Fase 4 do PRD de versionamento do `pma-workspace`):
+  - `raw/res-bacen-4753-2019.pdf` — texto oficial da Resolução CMN 4.753/2019 (estava em
+    `golpes/legislacao_principal/` no acervo antigo). Página derivada do art. 2º ganhou o
+    campo `raw:`. **Pendência Etapa 0:** par `.md` + sidecar.
+  - Cadeia-fonte do caso A (TJRO, Apel. 7004672-78.2021.8.22.0010) depositada em
+    `raw/cadeia-tjro-7004672-*` — **fora do git** (regra dura 10, dado pessoal de terceiro),
+    pendente de anonimização. Fecha a auditabilidade do
+    `casos_decididos/caso-a-consignado-fraudulento.md`.
+  - Criado `raw/index.md` (catálogo).
+  - Não migrados: `jurisprudencia_stj/EMENTA_*` (subconjuntos redundantes dos inteiros
+    teores já depositados) e `estrategias/estrategia1.md` (já destilado em
+    `playbooks/`+`heuristicas/` na criação do bundle, schema §11); `marly/` é camada C1.
+
 ## 2026-07-07
 
 - **Lint** — **Auditoria das skills jurídicas (6 pinadas) com correções aplicadas na origem (`D:\WORK\advocacia\skills`) e no bundle:**

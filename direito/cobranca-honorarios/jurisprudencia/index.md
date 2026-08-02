@@ -6,3 +6,4 @@
 - [cpc-arts-523-527.md](cpc-arts-523-527.md) — cumprimento de sentença por quantia certa (rito para honorários fixados judicialmente)
 - [cpc-arts-771-776.md](cpc-arts-771-776.md) — execução de título extrajudicial (rito para honorários contratuais)
 - [cpc-art-82-par3.md](cpc-art-82-par3.md) — dispensa de adiantamento de custas e preparo (Lei 15.109/2025)
+- [aresp-2706690-sp-equidade-tabela-oab.md](aresp-2706690-sp-equidade-tabela-oab.md) — STJ: honorários por apreciação equitativa observam a tabela da OAB ou o piso de 10%, o que for maior (art. 85, §8º-A). em_teste

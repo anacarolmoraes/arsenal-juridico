@@ -58,6 +58,38 @@
     {
       "glob": "direito/audiencias/raw/decisao-negocio-processual-videoconferencia-tjms.pdf",
       "motivo": "PDF de decisão judicial de processo de terceiro com nome de parte (LGPD; regra dura 10) — nunca rastrear; a versão anonimizada é o .md."
+    },
+    {
+      "glob": "direito/imobiliario/raw/artigo-zufelato-irdr.*",
+      "motivo": "Artigo doutrinário de terceiro (Lei 9.610/98) — nunca rastrear; só conhecimento reescrito circula."
+    },
+    {
+      "glob": "direito/bancario/juros-abusivos/raw/apelacao-*",
+      "motivo": "Acórdãos de processo de terceiro (TJSP) com dado pessoal (regra dura 10) — fora do git até anonimização; circulam as páginas derivadas."
+    },
+    {
+      "glob": "direito/bancario/juros-abusivos/raw/peticao-inicial-*",
+      "motivo": "Petições iniciais de processo de terceiro com documentos pessoais anexados (regra dura 10) — nunca rastrear sem redação completa."
+    },
+    {
+      "glob": "direito/bancario/emprestimo-nao-realizado/raw/cadeia-tjro-*",
+      "motivo": "Cadeia de litígio de terceiro (TJRO) com dado pessoal (regra dura 10) — fora do git até anonimização."
+    },
+    {
+      "glob": "direito/digital/plataformas/raw/cadeia-*",
+      "motivo": "Cadeias de litígio de terceiros (TJSP/TJPI) com dado pessoal (regra dura 10) — fora do git até anonimização."
+    },
+    {
+      "glob": "direito/imobiliario/raw/resp-2035848-to-decisao-nao-afetacao.md",
+      "motivo": "Decisão de processo de terceiro com nome de parte (regra dura 10) — fora do git até anonimização."
+    },
+    {
+      "glob": "direito/imobiliario/raw/resp-2035848-to-certidao-desafetacao.pdf",
+      "motivo": "Certidão de processo de terceiro (regra dura 10) — fora do git; Etapa 0 pendente."
+    },
+    {
+      "glob": "direito/imobiliario/raw/antes-lei-*",
+      "motivo": "Decisões de processos de terceiros (TJTO) com dado pessoal (regra dura 10) — fora do git até anonimização."
     }
   ],
   "exclusoes": [
@@ -92,6 +124,30 @@
     {
       "glob": "direito/audiencias/raw/decisao-negocio-processual-videoconferencia-tjms.md",
       "motivo": "Decisão de processo de terceiro (§6.5): mesmo anonimizada é material de estudo interno; em pacote externo só viajam as páginas derivadas."
+    },
+    {
+      "glob": "direito/bancario/juros-abusivos/raw/index.md",
+      "motivo": "Catálogo que referencia depósitos fora do git; em pacote externo revela acervo interno."
+    },
+    {
+      "glob": "direito/digital/plataformas/raw/index.md",
+      "motivo": "Catálogo que referencia depósitos fora do git; em pacote externo revela acervo interno."
+    },
+    {
+      "glob": "direito/bancario/golpes/raw/index.md",
+      "motivo": "Catálogo que referencia PDFs fora do git e notas internas; em pacote externo revela acervo interno."
+    },
+    {
+      "glob": "direito/bancario/golpes/raw/notas-*",
+      "motivo": "Notas estratégicas e de pesquisa internas (C3): circulam na equipe, nunca em pacote externo."
+    },
+    {
+      "glob": "direito/bancario/emprestimo-nao-realizado/raw/index.md",
+      "motivo": "Catálogo que referencia depósitos fora do git; em pacote externo revela acervo interno."
+    },
+    {
+      "glob": "direito/imobiliario/raw/index.md",
+      "motivo": "Catálogo que referencia obra de terceiro e depósitos fora do git; em pacote externo revela acervo interno."
     },
     {
       "glob": "distribuicao.json",

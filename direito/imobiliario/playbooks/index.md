@@ -6,3 +6,4 @@ Como construir cada tipo de peça do tema. Todos `status: em_teste` nesta primei
 - [Contestação por notificação viciada](playbook-contestacao-notificacao-viciada.md) — defesa do comprador contra ação de resolução/reintegração de posse.
 - [Agravo de levantamento de suspensão por IRDR](playbook-agravo-levantamento-suspensao-irdr.md) — o mais imediatamente acionável: demonstrar que o ciclo recursal do IRDR-TO já se encerrou.
 - [Cumprimento de sentença com retenção percentual](playbook-cumprimento-sentenca-retencao-percentual.md) — memória de cálculo, atenção à vedação de bis in idem.
+- [Modelo — petição de levantamento da suspensão por IRDR](modelo-peticao-levantamento-suspensao-irdr.md) — texto-fonte genérico da peça intercorrente (contrato anterior à Lei 13.786/2018); quatro fundamentos autônomos. **vigente**; uso restrito à jurisdição do TJTO.

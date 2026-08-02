@@ -40,6 +40,10 @@ direito/execucao/defesa-executado/raw/metodo-mma-*
 direito/execucao/credor/raw/curso-execucao-*
 direito/audiencias/raw/curso-audiencias-*
 
+# Artigo doutrinário de terceiro sobre IRDR (obra intelectual,
+# Lei 9.610/98) — depositado na migração de 02/08/2026.
+direito/imobiliario/raw/artigo-zufelato-irdr.*
+
 
 # ------------------------------------------------------------
 # 2. PDF DE PROCESSO DE TERCEIRO — LGPD
@@ -70,6 +74,19 @@ direito/execucao/defesa-executado/raw/peticao-terceiro-bem-de-familia-tjsp.pdf
 # audiência por videoconferência, TJMS): o .md foi anonimizado em
 # 01/08/2026 e circula; o PDF fica na máquina de quem o depositou.
 direito/audiencias/raw/decisao-negocio-processual-videoconferencia-tjms.pdf
+
+# Migração da Fase 4 (02/08/2026): documentos de processo de
+# terceiro depositados na migração do acervo local. Os .md ficam
+# fora até anonimização (regra dura 10); os .pdf ficam fora em
+# definitivo (binário não se redige). O que circula são as páginas
+# derivadas em jurisprudencia/ e os catálogos.
+direito/bancario/juros-abusivos/raw/apelacao-*
+direito/bancario/juros-abusivos/raw/peticao-inicial-*
+direito/bancario/emprestimo-nao-realizado/raw/cadeia-tjro-*
+direito/digital/plataformas/raw/cadeia-*
+direito/imobiliario/raw/resp-2035848-to-decisao-nao-afetacao.md
+direito/imobiliario/raw/resp-2035848-to-certidao-desafetacao.pdf
+direito/imobiliario/raw/antes-lei-*
 
 
 # ------------------------------------------------------------

@@ -1,0 +1,24 @@
+# raw/ — fontes brutas imutáveis
+
+Depósito de fonte: nada aqui se edita. Páginas de `jurisprudencia/` derivam daqui e apontam
+para cá. **Etapa 0 formal (ingest-prep.py + sidecar de qualidade) pendente** para todos os
+depósitos.
+
+## Fora do git (`.gitignore` §2 — regra dura 10; ficam na máquina de quem depositou)
+
+Três cadeias de litígio de terceiros, com dado pessoal, pendentes de anonimização:
+
+**Cadeia 1145073-74.2023.8.26.0100 (TJSP — desmonetização de canal no YouTube):**
+- `cadeia-1145073-inicial.{md,pdf}` — petição inicial (tutela antecedente do art. 303 do CPC; contém CPF, RG, endereço e e-mail do autor).
+- `cadeia-1145073-sentenca.{md,pdf}` — sentença de procedência (reativação + lucros cessantes).
+- `cadeia-1145073-acordao-tj.{md,pdf}` — acórdão da 33ª CDPriv negando provimento à apelação da plataforma.
+
+**Cadeia 1056045-32.2022.8.26.0100 (TJSP — bloqueio de monetização de página no Facebook):**
+- `cadeia-1056045-inicial.{md,pdf}` — petição inicial.
+- `cadeia-1056045-interlocutoria.{md,pdf}` — decisão interlocutória da cadeia.
+- `cadeia-1056045-sentenca.{md,pdf}` — sentença de procedência.
+- `cadeia-1056045-acordao-tj.{md,pdf}` — acórdão da 26ª CDPriv negando provimento à apelação da plataforma.
+
+**Cadeia 0809064-72.2026.8.18.0176 (TJPI — reativação de conta de Instagram, Juizado):**
+- `cadeia-0809064-inicial.{md,pdf}` — petição inicial (Juizado Especial; contém CPF e endereço da autora).
+- `cadeia-0809064-tutela-deferida.{md,pdf}` — decisão-carta deferindo a tutela de urgência.

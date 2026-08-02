@@ -1,5 +1,20 @@
 # Log — cobranca-honorarios
 
+## 2026-08-02
+
+**Ingestão.** Migração da Fase 4 do PRD de versionamento do `pma-workspace`:
+
+- **AREsp 2.706.690/SP** (decisão monocrática, Min. Noronha, DJEN 06/05/2025) — honorários
+  por apreciação equitativa devem observar a tabela da OAB ou o piso de 10% do art. 85, §2º,
+  o que for maior (art. 85, §8º-A). Inteiro teor depositado em `raw/aresp-2706690-sp.{md,pdf}`
+  (cópia certificada, veio juntada como paradigma em autos do TJSP) e página `em_teste` em
+  `jurisprudencia/` — conferir se houve agravo interno antes de promover.
+  O documento estava no acervo local `direito_bancario/juros_abusivos/` (matéria é daqui).
+- Criado `raw/index.md` (catálogo).
+- Sobre a pendência 2 de 21/07 (`estrategias1.md` com a citação solta "RESP 1573573"): o
+  arquivo tem 34 bytes, é só o apontamento — **não migra**; a pendência de localizar o REsp
+  1.573.573 e avaliar ingestão permanece aberta.
+
 ## 2026-07-21
 
 **Ingestão.** Primeira carga de conhecimento do bundle, a pedido do titular ("consuma a fonte de direito civil e de processo civil que fala sobre honorários advocatícios, execução de honorários e execução de título executivo extrajudicial").
