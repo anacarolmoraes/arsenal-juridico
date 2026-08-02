@@ -55,13 +55,28 @@ O art. 16, § 1º, da LEF é explícito — **"não são admissíveis embargos d
 
 O HTML da LEF exibe a redação superada com riscado, e a conversão automática achataria isso — o art. 16, II apareceria em duas versões, e a antiga poderia ser citada por engano. Os **6 trechos revogados** estão rotulados `[REVOGADO — NAO CITAR]` no depósito. Conferir o rótulo antes de transcrever qualquer dispositivo da LEF.
 
+## Como o STJ preencheu o artigo (conferido em 2026-08-02)
+
+A pendência que esta página declarava — a de que o repetitivo e a súmula não estavam conferidos — **está fechada**. Ver [Temas 566 a 571/STJ — REsp 1.340.553/RS](/jurisprudencia/resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.md), com inteiro teor e EDcl conferidos e recorte verbatim depositado.
+
+Os três pontos que o texto do art. 40 deixa em aberto e o repetitivo resolveu:
+
+| Lacuna do texto | O que o STJ fixou |
+|---|---|
+| Quando começa o ano de suspensão do *caput* | **Automaticamente**, na ciência da Fazenda sobre a não localização do devedor ou de bens — não no despacho do juiz (tese 4.1) |
+| O que interrompe (o artigo silencia) | Só **constrição efetiva** e **citação efetiva**; mero peticionamento não interrompe (tese 4.3) |
+| Efeito da falta de intimação da Fazenda | Exige **demonstração de prejuízo**, salvo quanto à intimação que constitui o termo inicial (tese 4.4) |
+
+E a **Súmula 314/STJ** ("Em execução fiscal, não localizados bens penhoráveis, suspende-se o processo por um ano, findo o qual se inicia o prazo da prescrição qüinqüenal intercorrente") está reafirmada dentro do próprio acórdão, item 2 da ementa — citável a partir daqui.
+
 ## Pendências
 
-1. **Jurisprudência.** O STJ interpretou o art. 40 em recurso repetitivo, harmonizando a contagem, e há súmula sobre o tema. **Nada disso está conferido no acervo** — não citar número de tema, súmula ou REsp a partir desta página. É a pendência que impede a defesa em execução fiscal de ser construída aqui.
+1. ~~**Jurisprudência.** O STJ interpretou o art. 40 em recurso repetitivo [...] nada disso está conferido no acervo.~~ **Fechada em 2026-08-02** — Temas 566 a 571 e Súmula 314 conferidos no inteiro teor. Resta uma pendência de segundo grau: o **RE 636.562/SC** (STF, repercussão geral sobre a constitucionalidade do prazo de 1 ano), que o próprio relator do repetitivo apontou como capaz de exigir adaptação da contagem. Não conferido.
 2. **Escopo.** Não existe bundle de execução fiscal. Este depósito e esta página existem para **marcar a fronteira**, não para cobrir a matéria — a LEF tem rito próprio (competência, CDA, garantia, ordem do art. 11) que nenhum bundle do acervo cobre.
 3. **Art. 34 e alçada**, art. 26 (extinção sem ônus) e art. 8º (citação) — não derivados.
 
 ## Onde é empregada
 
+- [Temas 566 a 571/STJ — REsp 1.340.553/RS](/jurisprudencia/resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.md) — o repetitivo que interpreta este artigo.
 - [A prescrição intercorrente corre da primeira tentativa infrutífera](/teses/prescricao-intercorrente-corre-da-primeira-tentativa-infrutifera.md) — é a tese do regime comum, cuja fronteira esta página fecha.
 - [CPC, art. 921](/jurisprudencia/cpc-art-921-prescricao-intercorrente.md) — o regime comum, para o contraste.

@@ -42,6 +42,16 @@ autor: escritorio
 - **Conhecimento obrigatório:** [tese da prescrição intercorrente](teses/prescricao-intercorrente-corre-da-primeira-tentativa-infrutifera.md), [art. 921 na redação da Lei 14.195/2021](jurisprudencia/cpc-art-921-prescricao-intercorrente.md)
 - **Entrada mínima:** data da **primeira** certidão negativa de citação ou de busca de bens, e a lista datada de todos os atos posteriores — separando o que alcançou o devedor ou o patrimônio do que foi mera petição
 - **Base conferida:** o art. 921 está transcrito e `vigente` no acervo, conferido contra o texto compilado — pode ser citado. O que **não** está coberto é jurisprudência posterior a 2021 sobre o marco inicial e sobre direito intertemporal
+- **Antes de tudo, perguntar se é execução FISCAL** — se for, o regime é outro e está coberto abaixo
+
+## Execução fiscal parada — prescrição intercorrente do art. 40 da LEF
+
+- **Gatilhos:** "execução fiscal antiga", "dívida ativa parada", "a Fazenda sumiu do processo", "CDA de 2010"
+- **Conhecimento obrigatório:** [Temas 566 a 571/STJ (REsp 1.340.553/RS)](jurisprudencia/resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.md), [LEF, art. 40](jurisprudencia/lei-6830-1980-art-40-prescricao-intercorrente-fiscal.md)
+- **Entrada mínima:** a data em que a **Fazenda tomou ciência** da não localização do devedor ou de bens (não a data do despacho), a natureza do crédito (tributário ou não) e a lista datada dos atos posteriores, separando **constrição e citação efetivas** de mero peticionamento
+- **Base conferida:** inteiro teor **e** embargos de declaração conferidos em 2026-08-02; Súmula 314/STJ confirmada dentro do acórdão. Pode ser citado
+- **Duas armadilhas:** (1) a interrupção **retroage** à data do protocolo do requerimento que depois se revele frutífero — varrer os pedidos pendentes antes de fechar a conta; (2) não usar a redação original da ementa, que os EDcl alteraram para retirar "pelo oficial de justiça"
+- **Não coberto:** o rito da LEF fora da prescrição (competência, CDA, garantia do art. 16, ordem do art. 11), e o **RE 636.562/SC** no STF, que pode alterar o prazo de 1 ano
 
 ## Penhora de trator/caminhão/ferramenta ou imóvel rural
 

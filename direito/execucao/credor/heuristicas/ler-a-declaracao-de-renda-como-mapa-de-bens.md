@@ -7,7 +7,8 @@ timestamp: '2026-08-01'
 status: em_teste
 autor: escritorio
 casos_origem: []
-fundamentos: []
+fundamentos:
+  - /jurisprudencia/resp-1914049-mt-infojud-consulta-de-oficio.md
 ---
 
 # Ler a declaração de renda como mapa de bens
@@ -39,10 +40,18 @@ Da pessoa física: a declaração de imposto de renda, a do imposto territorial 
 
 Divergência entre declarações também é achado: bem que consta na declaração territorial rural e não consta na de renda, ou entradas de recursos vindas de pessoa jurídica de que o executado é sócio sem a correspondente declaração de rendimento — indício de confusão patrimonial.
 
-## Cuidado que a fonte não menciona
+## Cuidado que a fonte não menciona — e que o STJ confirmou
 
 A declaração fiscal é coberta por sigilo. A fonte deste bundle **não trata** de nenhuma cautela processual: não menciona tramitação em segredo de justiça, juntada em autos apartados nem restrição de acesso. Requerer a consulta **e** a restrição de acesso ao documento é parte do pedido, não refinamento opcional.
 
-## Pendência
+**Confirmado em fonte oficial (2026-08-02).** O [REsp 1.914.049/MT](/jurisprudencia/resp-1914049-mt-infojud-consulta-de-oficio.md) condiciona a licitude da consulta ao INFOJUD a **duas exigências cumulativas**: *finalidade processual específica* e *regime de confidencialidade*, nos termos do art. 198, § 1º, I, do CTN. A cautela que esta página deduzia por prudência é, portanto, requisito de licitude — e não apenas boa prática:
 
-Os precedentes que a fonte invoca sobre desnecessidade de esgotamento e sobre inexistência de quebra de sigilo na consulta vêm sem relator e sem data verificável, e um deles é atribuído ao tribunal errado. Conferir antes de citar.
+1. **Dizer para que serve.** Pedido genérico de "consulta ao INFOJUD" não satisfaz a finalidade específica. Declarar o que se busca e por quê, naquele processo.
+2. **Pedir a restrição de acesso junto com a consulta.** Sem ela, falta uma das condições que o próprio STJ enunciou.
+
+O mesmo acórdão registra que **constitui dever do magistrado** aferir a real condição econômico-financeira da parte, e que ele deve "perscrutar a veracidade das alegações" — útil contra o executado que se declara sem recursos.
+
+## Pendências
+
+1. **Sigilo — fechada em 2026-08-02.** ~~Precedente sobre inexistência de quebra de sigilo na consulta.~~ O REsp 1.914.049/MT está conferido no inteiro teor e depositado. **Ler a fronteira**: aquele acórdão é sobre gratuidade de justiça, não sobre execução; serve como fonte das condições de licitude e como reforço argumentativo, não como tese sobre busca patrimonial em execução.
+2. **Esgotamento — aberta.** Os precedentes que a fonte invoca sobre **desnecessidade de esgotamento prévio** para a consulta fiscal seguem sem relator e sem data verificável, e um deles é atribuído ao tribunal errado. O REsp 1.914.049 **não** os substitui. Conferir antes de citar.

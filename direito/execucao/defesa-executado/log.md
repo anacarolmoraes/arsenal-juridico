@@ -1,5 +1,25 @@
 # Log — defesa do executado
 
+## 2026-08-02 (quarta entrada) — Temas 566 a 571 conferidos: a pendência que travava a execução fiscal caiu
+
+**Ingestão** — Depositado o recorte oficial do **REsp 1.340.553/RS** (Temas 566 a 571) e dos seus **embargos de declaração**, e derivada a página `jurisprudencia/resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.md`, **`vigente`**. 1ª Seção, rel. Min. Mauro Campbell Marques, j. 12/09/2018, DJe 16/10/2018, **trânsito em julgado 14/05/2019**.
+
+**Fecha a pendência nº 1 que a página da LEF declarava** desde 2026-08-02 de manhã — a que dizia, com todas as letras, que "o STJ interpretou o art. 40 em recurso repetitivo [...] nada disso está conferido no acervo — é a pendência que impede a defesa em execução fiscal de ser construída aqui". A pendência foi escrita de manhã e fechada à tarde, com os PDFs que a titular baixou.
+
+**Origem da pista:** camada de consumo (KB do canal @JoseAndradeneto), que citava "Temas 566 e 567" a partir de legenda automática de YouTube. A pista estava certa quanto à existência e ao número; **estava incompleta quanto à extensão** — são seis temas, não dois, todos do mesmo paradigma.
+
+**Três coisas que só a leitura do inteiro teor entregou:**
+
+1. **Os EDcl alteraram a ementa.** Foram parcialmente acolhidos, sem efeitos infringentes, para **retirar do item 3 a expressão "pelo oficial de justiça"**, e esclareceram que a não localização do devedor ou de bens se constata "por quaisquer dos meios válidos admitidos pela lei processual". Muita fonte secundária ainda reproduz a redação original — quem a usa dá ao adversário o argumento de que o termo inicial dependeria de diligência de oficial de justiça. Depositar só o acórdão principal teria deixado esse defeito no acervo.
+2. **A "retroatividade" da tese 4.3** é o contra-argumento mais forte da Fazenda e não aparece em resumo nenhum: requerimento feito dentro do prazo que **depois** se revele frutífero interrompe a prescrição **retroativamente, na data do protocolo**. Fechar a conta sem varrer os requerimentos pendentes é errar a favor do adversário.
+3. **A Súmula 314/STJ** está transcrita e reafirmada no item 2 da própria ementa — o que fecha também a segunda metade da pendência ("há súmula sobre o tema"), sem precisar de fonte separada.
+
+**Um erro de método registrado para não se repetir:** a primeira consulta às fichas dos seis temas no site do STJ, feita sem cruzar com a ementa, devolveu teses trocadas entre os temas 569, 570 e 571 e grafou "efetiva **construção** patrimonial" onde o acórdão diz "efetiva **constrição** patrimonial". A tabela tema → tese da página nova foi montada cruzando a **questão submetida a julgamento** de cada ficha com o bloco de teses do acórdão. Ficha de site é índice, não fonte.
+
+**Pendência de segundo grau, nova:** **RE 636.562/SC** (STF, repercussão geral) discute a constitucionalidade do prazo de 1 ano de suspensão do art. 40. O próprio relator do repetitivo registrou que o julgado "poderá a ele ser adaptado, caso se entenda pela retirada desse prazo inicial de 1 (um) ano". Conferir o desfecho antes de usar a contagem em peça.
+
+**Escopo inalterado:** continua **não havendo bundle de execução fiscal**. O que esta entrada acrescenta é lastro jurisprudencial para a **prescrição intercorrente** fiscal e para a fronteira com o art. 921 do CPC — não o rito da LEF (competência, CDA, garantia, ordem do art. 11).
+
 ## 2026-08-02 (terceira entrada)
 
 **Ingestão** — Depositada a **Lei 8.009/1990** e derivada a página `jurisprudencia/lei-8009-1990-bem-de-familia.md`, **`vigente`**, com dez transcrições conferidas. Também depositada a **Lei 8.629/1993** (conceito de módulo fiscal, para a tese da pequena propriedade rural) e os recortes do **CC art. 1.911** (cláusula de inalienabilidade) e da **Lei 8.629, art. 4º**.

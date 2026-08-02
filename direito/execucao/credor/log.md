@@ -1,5 +1,21 @@
 # Log — execução pelo credor
 
+## 2026-08-02 (quarta entrada) — REsp 1.914.049/MT: a heurística do INFOJUD ganha seu primeiro fundamento
+
+**Depositado o recorte oficial do REsp 1.914.049/MT** (3ª Turma, rel. Min. Ricardo Villas Bôas Cueva, j. 11/02/2026, DJEN/CNJ 13/02/2026) e derivada a página `jurisprudencia/resp-1914049-mt-infojud-consulta-de-oficio.md`, **`vigente`**. Bundle v0.3.0 → v0.4.0.
+
+**Origem da pista:** camada de consumo (KB do canal @JoseAndradeneto). Foi a citação **mais precisa** que aquele canal fez em 50 vídeos — número, turma, unanimidade e os dois dispositivos (art. 99, §§ 2º e 3º do CPC; art. 198, § 1º, I do CTN) todos corretos, apesar de a legenda automática grafar "artigo 99º, nº 2 e terceirº".
+
+**O que muda no acervo:** a heurística `ler-a-declaracao-de-renda-como-mapa-de-bens` estava com `fundamentos: []` — **nenhum**. Agora tem um, conferido. E o acórdão **confirma com autoridade a cautela que a página deduzia sozinha**: a licitude da consulta ao INFOJUD depende de **duas condições cumulativas** — finalidade processual específica *e* regime de confidencialidade (art. 198, § 1º, I, do CTN). Pedir a consulta sem pedir a restrição de acesso não é descuido de forma; é deixar de atender um requisito que o próprio STJ enunciou.
+
+**A fronteira, que precisa ser lida junto:** o caso é de **revogação de gratuidade de justiça** em ação declaratória — **não é execução**. Citar como "o STJ decidiu que cabe varredura patrimonial na execução" é errado e se desmonta na primeira leitura.
+
+**O que ele dá de aproveitável para a execução** é a premissa *a fortiori* do voto (p. PDF 7): *"O mesmo fundamento que autoriza o magistrado a requisitar dados financeiros e patrimoniais para satisfação de créditos judiciais também deve legitimar a consulta para verificação da real capacidade econômica da parte."* O acórdão **toma como assentada** a requisição de dados patrimoniais para satisfazer crédito judicial e a usa como razão mais forte. É premissa de voto, não tese fixada — a página diz isso com todas as letras.
+
+**Pendência que continua aberta, e é a que mais importa:** a heurística invoca precedentes sobre **desnecessidade de esgotamento prévio** para a consulta fiscal. Eles seguem sem relator e sem data verificável, e um está atribuído ao tribunal errado. Este acórdão **não** os substitui. A pendência foi reescrita para separar as duas metades: sigilo (fechada) e esgotamento (aberta).
+
+**Nota de método:** promovido **sem caso concreto que o exigisse**. O gatilho de "caso concreto" da Fase 6 é critério de prioridade, não portão — o portão é a conferência em fonte oficial, que estava feita. Como o item fechava uma lacuna declarada do bundle (heurística sem nenhum fundamento), a promoção se pagou.
+
 ## 2026-08-02 (terceira entrada) — Res. CNJ 115/2010 e uma citação errada do playbook
 
 **Depositada a Resolução CNJ 115/2010** (`raw/resolucao-cnj-115-2010-precatorios.pdf` + `.md`, 46 artigos, compilada com as Resoluções 123/2010 e 145/2012) e derivada a página `jurisprudencia/resolucao-cnj-115-2010-honorarios-no-precatorio.md`, **`vigente`**, com as duas transcrições conferidas.
