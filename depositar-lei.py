@@ -107,10 +107,25 @@ def main() -> int:
         return 1
     dst_dir.mkdir(exist_ok=True)
 
-    bruto = src.read_bytes()
-    raw, enc = decodificar(bruto)
-    raw, n_strike = marcar_revogado(raw)
-    texto = limpar(raw)
+    if src.suffix.lower() == ".pdf":
+        # Norma publicada so em PDF (resolucao de conselho, por exemplo). O pdfmd
+        # converte; aqui so se exige o par .md ja gerado, para nao esconder a
+        # conversao dentro deste script e poder conferi-la antes.
+        par = src.with_suffix(".md")
+        if not par.exists():
+            print(f"ERRO: converta antes com o pdfmd e deixe o par ao lado: {par.name}", file=sys.stderr)
+            return 1
+        texto = limpar(io.open(par, encoding="utf-8").read())
+        # marcador de pagina do pdfmd nao e texto da norma
+        texto = re.sub(r"<a id=\"pdf-page-\d+\"></a>\s*", "", texto)
+        texto = re.sub(r"<!--\s*pdfmd:[^>]*-->\s*", "", texto)
+        enc, n_strike = "pdf/pdfmd", 0
+        raw = texto
+    else:
+        bruto = src.read_bytes()
+        raw, enc = decodificar(bruto)
+        raw, n_strike = marcar_revogado(raw)
+        texto = limpar(raw)
     cob = cobertura(texto)
     # "Art. 1.911" tem separador de milhar: sem tratar, o contador leria artigo 1
     arts = sorted({int(m.replace(".", "")) for m in re.findall(r"\bArt\.\s*(\d{1,3}(?:\.\d{3})*)", texto)})
@@ -136,10 +151,18 @@ def main() -> int:
     shutil.copy2(src, dst_dir / f"{args.slug}{src.suffix}")
     io.open(dst_dir / f"{args.slug}.md", "w", encoding="utf-8", newline="\n").write(cab + texto + "\n")
 
-    residuo = [p for p in ("@media", "data-glasp", "<p", "<div", "&nbsp") if p in texto]
+    residuo = [p for p in ("@media", "data-glasp", "<p", "<div", "&nbsp", "pdfmd:") if p in texto]
+    # Ordinal perdido: "Art. 1" em vez de "Art. 1o". Acontece em conversao de PDF,
+    # porque o indicador ordinal e sobrescrito. Nao corrompe o sentido, mas quebra
+    # a conferencia literal — quem transcrever precisa declarar a normalizacao.
+    sem_ordinal = re.findall(r"\bArt\.\s*([1-9])(?![0-9º°o.\-])", texto)
     print(f"ok {args.bundle}/raw/{args.slug}.md")
-    print(f"   encoding={enc} | {len(texto)} chars | artigos {arts[0] if arts else '?'}-{arts[-1] if arts else '?'} ({len(arts)})")
-    print(f"   cobertura=Lei {cob} | strike={n_strike} | residuo HTML={residuo or 'nenhum'}")
+    print(f"   fonte={enc} | {len(texto)} chars | artigos {arts[0] if arts else '?'}-{arts[-1] if arts else '?'} ({len(arts)})")
+    print(f"   cobertura=Lei {cob} | strike={n_strike} | residuo={residuo or 'nenhum'}")
+    if sem_ordinal:
+        print(f"   AVISO: {len(sem_ordinal)} artigo(s) de 1 a 9 sem indicador ordinal "
+              f"(ex.: 'Art. {sem_ordinal[0]}' em vez de 'Art. {sem_ordinal[0]}o'). "
+              f"Declarar a normalizacao na pagina derivada.")
     return 0
 
 

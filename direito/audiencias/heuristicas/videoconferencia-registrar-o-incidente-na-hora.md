@@ -39,6 +39,17 @@ Microfone cortado no momento de uma questão de ordem inadiável é exatamente a
 
 Manter o e-mail atualizado no cartório, se preciso peticionando para informá-lo — o link vai para o endereço cadastrado, e o art. 274, parágrafo único, presume válida a intimação dirigida ao endereço constante dos autos quando a mudança não foi comunicada. Testemunha só se salva da preclusão quem comprovou a intimação nos autos com a antecedência devida; quem se comprometeu a levar e não levou, perde.
 
-## Aviso de vigência — importante
+## Âncora normativa — reancorada em 2026-08-02
 
-A fonte deste bundle é de 2020 e ancora boa parte do raciocínio na **Res. CNJ 314/2020, art. 6º, §3º** (vedação de atribuir a advogados o ônus de providenciar comparecimento de partes e testemunhas fora de prédios do Judiciário) e na Recomendação 62 — **normas do regime emergencial, exauridas**. A tese continua defensável, mas **precisa de âncora normativa atual** antes de ir para uma peça: conferir a Res. CNJ 354/2020 e os atos do tribunal local, que é quem escolhe a plataforma e regula o procedimento. Ver a [decisão depositada em raw/](/raw/decisao-negocio-processual-videoconferencia-tjms.md) e o [log](/log.md).
+A fonte deste bundle é de 2020 e apoiava o raciocínio na Res. CNJ 314/2020 e na Recomendação 62, **normas do regime emergencial, exauridas**. Isso foi resolvido: a norma vigente é a [**Resolução CNJ 354/2020**](/jurisprudencia/resolucao-cnj-354-2020-videoconferencia.md), depositada e transcrita, em texto compilado que já incorpora a Res. 679/2026.
+
+O que a reancoragem mudou nesta heurística:
+
+- **A incomunicabilidade tem base própria e atual.** O art. 7º, II manda inquirir as testemunhas "cada uma de per si, de modo que umas não saibam nem ouçam os depoimentos umas das outras". Não é mais preciso invocar norma emergencial para sustentar a impugnação.
+- **A gravação é obrigação do juízo**, não favor: o art. 7º, IV determina que a oitiva seja gravada e o arquivo juntado aos autos ou depositado em repositório oficial. A gravação própria continua valendo como seguro, mas o pedido do arquivo oficial passou a ser o caminho principal.
+- **O vocabulário mudou.** O art. 2º separa **videoconferência** (ato praticado dentro de unidade judiciária) de **telepresencial** (a partir de ambiente externo). Pedir "videoconferência" quando se quer depor de casa é pedir outra coisa.
+- **A solução do ambiente controlado tem previsão expressa.** Pelo art. 4º, testemunha, ofendido e perito que morem fora da sede do juízo são ouvidos **por videoconferência na sede do foro do domicílio** — dentro de unidade judiciária. É exatamente o arranjo que preserva a incomunicabilidade, e é o que se requer quando a testemunha do adversário mora longe e a outra parte quer ouvi-la de casa.
+- **Armadilha nova, que a fonte não tinha:** pelo art. 5º, § 3º, é **ônus de quem requereu** comparecer na sede do juízo se o pedido for indeferido **ou simplesmente não analisado**. Não existe deferimento tácito — protocolar e presumir é receita para ausência.
+- **Violência doméstica inverte a regra:** o art. 3º-A, incluído pela Res. 679/2026, exige oitiva **presencial** da vítima como regra, admitindo a telepresencial só em caráter excepcional e com anuência expressa dela.
+
+**O que ainda falta:** o art. 13 atribui aos tribunais regulamentar a aplicação — e nenhum ato local está depositado. Conferir o do TJTO antes de peticionar. A [decisão depositada em raw/](/raw/decisao-negocio-processual-videoconferencia-tjms.md) segue útil como arquitetura de negócio processual, mas é de 2020 e não é precedente sobre o regime atual. Ver o [log](/log.md).

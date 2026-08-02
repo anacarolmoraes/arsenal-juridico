@@ -1,5 +1,15 @@
 # Log — execução pelo credor
 
+## 2026-08-02 (terceira entrada) — Res. CNJ 115/2010 e uma citação errada do playbook
+
+**Depositada a Resolução CNJ 115/2010** (`raw/resolucao-cnj-115-2010-precatorios.pdf` + `.md`, 46 artigos, compilada com as Resoluções 123/2010 e 145/2012) e derivada a página `jurisprudencia/resolucao-cnj-115-2010-honorarios-no-precatorio.md`, **`vigente`**, com as duas transcrições conferidas.
+
+**Achado que corrige o acervo:** o playbook da Fazenda situava o destaque de honorários contratuais "a partir do art. 20" da Resolução, seguindo o material do curso. **Está no art. 5º, §§ 2º e 3º**, com o complemento do inciso XI. A substância que o playbook descrevia estava certa — o prazo é preclusivo e o contrato tem de estar nos autos **antes da apresentação do precatório ao tribunal**; feito o destaque, o advogado é **beneficiário do precatório** (§ 3º) —, mas a citação estava errada e teria ido errada para a peça. O playbook foi corrigido e agora aponta para a página.
+
+**Caveat que ficou declarado na página, e é sério:** o depósito é compilação que **para em 2012** e **não traz nota de revogação**. Não confirmei se houve ato posterior do CNJ sobre gestão de precatórios, nem o efeito das **EC 113/2021 e 114/2021** sobre o procedimento. A regra do destaque é operacional e ancorada no art. 22, § 4º, do Estatuto da Advocacia, então sobrevive — mas a vigência da Resolução precisa ser conferida no portal do CNJ antes de peticionar. **Isso não fecha a lacuna nº 7** (regime de precatórios pós-2021), que continua sendo a maior deste bundle.
+
+**Nota de método:** a conversão do PDF perde o ordinal sobrescrito; o `depositar-lei.py` passou a avisar quando artigos de 1 a 9 aparecem sem o indicador, e a conferência normaliza o ordinal antes de comparar.
+
 ## 2026-08-02 (segunda entrada)
 
 **Ingestão** — Fechada a lacuna que era **bloqueante** deste bundle: juros e correção monetária. Depositados os recortes do **CC, arts. 389 e 406** e derivada a página `jurisprudencia/cc-arts-389-406-juros-e-correcao.md`, **`vigente`**, com as seis transcrições conferidas contra o depósito.

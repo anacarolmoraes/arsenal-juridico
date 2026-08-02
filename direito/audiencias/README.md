@@ -21,7 +21,7 @@ Entre pelo [atividades.md](atividades.md). O caminho útil quase sempre começa 
 
 **Este bundle sabe menos do que parece, e diz onde.** A fonte é material promocional de 2020 que entrega o diagnóstico e retém o tratamento. Cada página termina com uma seção de **lacuna declarada** apontando o que a fonte não cobre — ordem dos atos, pena de confissão, contradita e acareação, preclusão do saneamento, sistema recursal do Juizado, segredo de justiça em família. Quando a pergunta cair numa dessas lacunas, a resposta correta é dizer que o bundle não cobre e buscar fora, nunca completar de memória.
 
-**Vigência é problema real aqui.** Tudo o que trata de videoconferência nasceu do regime emergencial da Covid-19, sobre normas exauridas. A tese continua defensável, a fundamentação não — reancorar antes de peticionar.
+**Vigência era o problema real aqui, e o eixo de videoconferência foi reancorado em 2026-08-02** na [Resolução CNJ 354/2020](jurisprudencia/resolucao-cnj-354-2020-videoconferencia.md), depositada e transcrita — a única página `vigente` do bundle. O que a fonte do curso dizia sobre videoconferência só vale conferido contra ela. Falta o ato regulamentar do tribunal local (art. 13). O resto do bundle segue `em_teste` e sem citação conferida.
 
 **Matéria penal está quarentenada.** Há material de audiência de custódia em `raw/` que **não foi derivado**: este bundle é de técnica cível.
 

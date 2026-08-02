@@ -62,7 +62,7 @@ autor: escritorio
 - **Gatilhos:** "executar o município", "precatório", "RPV", "a Fazenda foi condenada"
 - **Conhecimento obrigatório:** [playbook da Fazenda](playbooks/playbook-cumprimento-contra-a-fazenda-publica.md)
 - **Portão de vigência:** a fonte é anterior às emendas constitucionais de 2021 — reconferir todo prazo e valor
-- **Não perder:** o contrato de honorários tem de estar nos autos **antes** de o requisitório ir ao tribunal
+- **Não perder:** o contrato de honorários tem de estar nos autos **antes** de o requisitório ir ao tribunal — [Res. CNJ 115/2010, art. 5º, §§ 2º e 3º](jurisprudencia/resolucao-cnj-115-2010-honorarios-no-precatorio.md), prazo preclusivo
 
 ## Ganhei honorários mas o vencido é beneficiário da gratuidade
 

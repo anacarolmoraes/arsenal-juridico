@@ -31,8 +31,11 @@ autor: escritorio
 ## A audiência é por videoconferência
 
 - **Gatilhos:** "audiência virtual", "videoconferência", "por Teams/Webex", "testemunha não tem internet"
-- **Conhecimento obrigatório:** [registrar o incidente na hora](heuristicas/videoconferencia-registrar-o-incidente-na-hora.md)
-- **Portão de vigência:** a âncora normativa da fonte está exaurida — conferir Res. CNJ 354/2020 e o ato do tribunal local antes de sustentar a tese em petição
+- **Conhecimento obrigatório:** [Resolução CNJ 354/2020](jurisprudencia/resolucao-cnj-354-2020-videoconferencia.md) **antes** de [registrar o incidente na hora](heuristicas/videoconferencia-registrar-o-incidente-na-hora.md) — a Resolução é a base normativa; a heurística é a conduta
+- **Portão de vocabulário:** decidir primeiro se o que se quer é **videoconferência** (dentro de unidade judiciária) ou **telepresencial** (de casa ou do escritório) — art. 2º. Pedir o nome errado é pedir outra coisa
+- **Portão que faz perder audiência:** requerimento **não analisado** equivale a indeferido para efeito de risco, e o ônus de comparecer presencialmente é de quem pediu (art. 5º, § 3º). Não existe deferimento tácito
+- **Portão de vigência que sobra:** o ato regulamentar do tribunal local (art. 13) não está depositado — conferir o do TJTO antes de sustentar a tese em petição
+- **Se o caso é de violência doméstica:** a oitiva da vítima é **presencial como regra** (art. 3º-A) — a telepresencial exige anuência expressa dela
 
 ## Vou atuar por conta de outro escritório, ou fui nomeado dativo
 

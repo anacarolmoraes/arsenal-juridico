@@ -66,7 +66,7 @@ Pagamento direto pelo ente, requisitado pelo juízo da execução, sem passar pe
 
 ## Honorários — o detalhe que adianta o recebimento
 
-Pela resolução do CNJ que disciplina os requisitórios:
+Pela [Resolução CNJ 115/2010, art. 5º, §§ 2º e 3º](/jurisprudencia/resolucao-cnj-115-2010-honorarios-no-precatorio.md) — **e não "art. 20 e ss.", como a fonte do curso dizia**:
 
 - **Sucumbenciais não integram** o valor devido ao credor para fins de classificação como pequeno valor: expede-se **requisição própria**. Na prática, permite que os honorários saiam por requisição autônoma ainda que o principal siga por precatório.
 - **Contratuais integram** esse valor, e o total somado não pode ultrapassar o teto da modalidade.
