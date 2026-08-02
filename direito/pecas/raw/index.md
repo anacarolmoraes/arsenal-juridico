@@ -20,6 +20,7 @@ Este é o lugar onde o **código integral** mora **uma vez**. Bundles que citam 
 |---|---|
 | `cc-l10406-2002-compilada.{html,md}` | **Código Civil**, transversal — citado por cambial, execução/credor e imobiliário. 2.046 artigos; cobertura até a Lei 15.068; 1 trecho revogado marcado. |
 | `lei-9099-1995-juizados.{html,md}` | **Lei 9.099/1995**, transversal — citada por execução/credor e audiências. Cobertura até a Lei 14.245; **13 trechos revogados marcados**. |
+| `cdc-l8078-1990-compilado.{html,md}` | **Código de Defesa do Consumidor**, transversal — citado por bancário/empréstimo-não-realizado, bancário/golpes, consumidor/negativação-indevida e imobiliário. 119 artigos; cobertura até a Lei 14.181; sem trecho revogado. Era a lacuna mais antiga do acervo. |
 
 **Cobertura:** o depósito do CPC incorpora alterações até a **Lei nº 15.109, de 2025** (visível no art. 82). A **Lei nº 15.479, de 2026** aparece apenas como "Vide" na capa do PDF, **sem nota de alteração em nenhum artigo** — não mudou o texto do Código.
 
