@@ -31,6 +31,14 @@ autor: escritorio
 - **Conhecimento obrigatório:** [pedir os sistemas um a um](heuristicas/pedir-os-sistemas-um-a-um.md), [ler a declaração de renda](heuristicas/ler-a-declaracao-de-renda-como-mapa-de-bens.md), [documentar a recusa administrativa](heuristicas/documentar-a-recusa-administrativa-antes-de-pedir-ao-juiz.md), [perseguir constrição efetiva](heuristicas/manter-a-execucao-em-movimento.md)
 - **URGÊNCIA:** a primeira tentativa infrutífera já disparou o prazo da prescrição intercorrente — e requerimento pendente **não** o interrompe. Manter os autos em movimento protege contra o arquivamento; só citação, intimação ou constrição efetivas protegem o crédito
 
+## Achei restituição de imposto de renda a receber
+
+- **Gatilhos:** "ele tem restituição de IR", "o executado tem crédito na Receita", "dá para penhorar a restituição?", "ele é credor em outro processo"
+- **Conhecimento obrigatório:** [restituição de IR é penhorável, e o ônus é do executado](teses/restituicao-de-ir-e-penhoravel-onus-do-executado.md), com fundamento no [REsp 2.192.857/DF](jurisprudencia/resp-2192857-df-penhora-restituicao-ir.md) — **fundamento conferido no inteiro teor**, citável sem ressalva
+- **Não assumir ônus que não é seu:** a natureza alimentar da restituição **não se presume**; quem alega impenhorabilidade tem de provar a origem salarial e o prejuízo à subsistência
+- **Pedir com a ressalva do percentual de dignidade** — é o que torna o deferimento defensável
+- **Onde a briga se decide:** nas instâncias ordinárias, na prova. A Súmula 7 trava o reexame no STJ
+
 ## A execução está parada há muito tempo
 
 - **Gatilhos:** "essa execução é antiga", "vale a pena continuar?", "o executado alegou prescrição intercorrente"
@@ -64,4 +72,4 @@ autor: escritorio
 
 ## Composição peça × matéria
 
-A peça sai pelo fluxo padrão do workspace: `perfil/definicoes.md` → este bundle → `direito/pecas/<tipo>` → `md2docx` com os três lints. Toda página aqui está `em_teste`: citar exige conferência oficial prévia ou `cita_em_teste: sim` declarado no frontmatter.
+A peça sai pelo fluxo padrão do workspace: `perfil/definicoes.md` → este bundle → `direito/pecas/<tipo>` → `md2docx` com os três lints. **Quase** toda página aqui está `em_teste`: citar exige conferência oficial prévia ou `cita_em_teste: sim` declarado no frontmatter. As duas exceções são a página do [REsp 2.192.857/DF](jurisprudencia/resp-2192857-df-penhora-restituicao-ir.md) e a [tese que a emprega](teses/restituicao-de-ir-e-penhoravel-onus-do-executado.md), ambas `vigente` com inteiro teor depositado — conferir sempre o `status` na página, não a regra geral.

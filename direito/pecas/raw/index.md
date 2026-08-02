@@ -14,7 +14,14 @@ Este é o lugar onde o **código integral** mora **uma vez**. Bundles que citam 
 | `cpc-l13105-compilada.md` | **é esta que o `recortar-artigo.py` lê.** Conversão do HTML ao lado, feita em 2026-08-01. Limpa e completa. |
 | `cpc-l13105-compilada-2026-08-01.pdf` | PDF oficial do Planalto (168 p.), impresso pela titular em 2026-08-01. Guardado como artefato oficial. **Sem par `.md`, de propósito** — ver o aviso abaixo. |
 
-**Cobertura:** o depósito incorpora alterações até a **Lei nº 15.109, de 2025** (visível no art. 82). A **Lei nº 15.479, de 2026** aparece apenas como "Vide" na capa do PDF, **sem nota de alteração em nenhum artigo** — não mudou o texto do Código.
+**Depositados também em 2026-08-02, pelo `depositar-lei.py`:**
+
+| Arquivo | Papel |
+|---|---|
+| `cc-l10406-2002-compilada.{html,md}` | **Código Civil**, transversal — citado por cambial, execução/credor e imobiliário. 2.046 artigos; cobertura até a Lei 15.068; 1 trecho revogado marcado. |
+| `lei-9099-1995-juizados.{html,md}` | **Lei 9.099/1995**, transversal — citada por execução/credor e audiências. Cobertura até a Lei 14.245; **13 trechos revogados marcados**. |
+
+**Cobertura:** o depósito do CPC incorpora alterações até a **Lei nº 15.109, de 2025** (visível no art. 82). A **Lei nº 15.479, de 2026** aparece apenas como "Vide" na capa do PDF, **sem nota de alteração em nenhum artigo** — não mudou o texto do Código.
 
 ### ⚠️ Não converter o PDF do Planalto com o pdfmd para uso como fonte literal
 

@@ -1,6 +1,36 @@
 # Log — execução pelo credor
 
-## 2026-08-02
+## 2026-08-02 (segunda entrada)
+
+**Ingestão** — Fechada a lacuna que era **bloqueante** deste bundle: juros e correção monetária. Depositados os recortes do **CC, arts. 389 e 406** e derivada a página `jurisprudencia/cc-arts-389-406-juros-e-correcao.md`, **`vigente`**, com as seis transcrições conferidas contra o depósito.
+
+O que muda na prática: juros legais pela **taxa legal do art. 406** — Selic deduzido o IPCA —, correção pelo **IPCA** na falta de convenção (art. 389, p.u.), e resultado negativo conta como zero. O **"1% ao mês"** que a fonte de 2020 repete deixou de ter base legal com a Lei 14.905/2024, salvo onde a própria lei o fixa (parcelamento do art. 916). Os dois playbooks foram corrigidos.
+
+Também depositados: **Lei 12.016/2009** (mandado de segurança, base da tese do MS na Turma Recursal) e os recortes de **CC arts. 167-168** (simulação) e **Lei 9.099, arts. 52-53** (a extinção imediata do § 4º).
+
+**Pendência que permanece e é a mais importante deste bloco:** o **direito intertemporal da Lei 14.905/2024** — que critério vale para o período anterior à produção de efeitos, e como se compõe o cálculo que atravessa a virada. Aparece em todo caso real e não está no acervo. Também não estão o ato do CMN e a divulgação do BCB de que fala o § 2º.
+
+## 2026-08-02 — v0.2.0: primeira página `vigente` do bundle
+
+**Promoção vinda da camada de consumo.** Primeiro item promovido da `kb-youtube/jose-andrade-neto` (canal `@JoseAndradeneto`), pelo portão da Fase 6: **REsp 2.192.857/DF** — penhorabilidade da restituição de imposto de renda.
+
+- `raw/resp-2192857-df-penhora-restituicao-ir.md` — inteiro teor conferido e depositado (STJ, 3ª Turma, rel. Min. Moura Ribeiro, sessão virtual de 11 a 17/03/2025, DJEN/CNJ 20/03/2025, processo 2025/0018524-0). Convertido do PDF oficial pelo `pdfmd`; **anonimizado** pela regra dura 10 (partes e advogados viraram rótulo; ministros, número, datas e todo o raciocínio mantidos). Varredura de vazamento limpa. O PDF fica fora do git, em `advocacia/consumir/`.
+- Páginas novas, ambas `vigente`: [jurisprudencia/resp-2192857-df-penhora-restituicao-ir.md](jurisprudencia/resp-2192857-df-penhora-restituicao-ir.md) e [teses/restituicao-de-ir-e-penhoravel-onus-do-executado.md](teses/restituicao-de-ir-e-penhoravel-onus-do-executado.md). São as **primeiras páginas do bundle com citação conferida em fonte oficial** — o resto segue `em_teste`.
+- Roteador ganhou a entrada "Achei restituição de imposto de renda a receber".
+
+**A leitura do inteiro teor desmentiu a fonte da pista, e isso ficou registrado nas páginas.** O canal de YouTube apresentava o julgado como abertura de exceção jurisprudencial. Não é: o voto aplica a **Súmula 568** sobre jurisprudência já firmada e remonta ao **REsp 1.150.738/MG** (Nancy Andrighi, 2010). Além disso, o recurso foi provido **só** quanto à multa do art. 1.026, §2º — quanto à penhora, incidiu a **Súmula 7**. Citar como leading case seria frágil, e a página diz isso em voz alta.
+
+**Ganho substantivo que a pista não trazia:** o acórdão de origem (TJDFT), transcrito e endossado pelo STJ, fixa que **a natureza alimentar da restituição não se presume** — o IR não incide só sobre salário (art. 43 do CTN) e cabe **ao executado** demonstrar a origem. É o melhor argumento do exequente na matéria e virou o segundo degrau da tese.
+
+**Supre parcialmente a lacuna 5 do log de 2026-08-01** (arts. 833 e 834 ausentes): agora há tratamento conferido do art. 833, IV, ao menos quanto à restituição de IR. As demais impenhorabilidades continuam ausentes.
+
+**Pendências abertas por esta ingestão:**
+
+1. **Sem parâmetro numérico** do percentual que satisfaz a "dignidade do devedor e de sua família" — os julgados remetem ao caso concreto. Registrar em `casos_origem` quando houver decisão do escritório.
+2. **Página espelho no bundle irmão** [defesa do executado](../defesa-executado/index.md) não existe: quem defender executado nessa matéria não tem página própria e terá de partir do "limite desta tese".
+3. **URI canônica do acórdão** no STJ não registrada (`resource` aponta só para o portal) — o depósito supre para fins de conferência.
+
+## 2026-08-02 — recortes do CPC
 
 **Ingestão** — Depositados dez recortes do CPC, gerados por `recortar-artigo.py` a partir do depósito transversal e conferidos um a um: `cpc-arts-381-383` (produção antecipada de prova, base da tese central), `cpc-art-495` (hipoteca judiciária), `cpc-arts-523-524` (cumprimento e demonstrativo), `cpc-arts-534-535` (Fazenda Pública), `cpc-art-784` (rol dos títulos), `cpc-arts-798-799` (requisitos da inicial executiva), `cpc-art-828` (averbação premonitória), `cpc-art-835` (ordem da penhora), `cpc-art-844` (averbação da penhora) e `cpc-art-910` (extrajudicial contra a Fazenda).
 

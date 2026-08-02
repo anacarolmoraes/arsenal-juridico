@@ -1,6 +1,6 @@
 ---
 okf_version: "0.1"
-bundle_version: "0.1.0"
+bundle_version: "0.2.0"
 ---
 
 # Execução pelo Credor — Bundle de Competência (Execução Civil)
@@ -11,8 +11,8 @@ Como fazer o crédito virar dinheiro: qualificar o título, montar o requeriment
 
 - [README.md](README.md) — onboarding do agente consumidor
 - [atividades.md](atividades.md) — roteador: situação → conhecimento obrigatório
-- [jurisprudencia/](jurisprudencia/index.md) — a base legal da ação probatória e duas súmulas de admissibilidade
-- [teses/](teses/index.md) — ação probatória autônoma para revelar patrimônio, honorários do beneficiário, MS no Juizado
+- [jurisprudencia/](jurisprudencia/index.md) — a base legal da ação probatória, duas súmulas de admissibilidade e o precedente da penhora de restituição de IR
+- [teses/](teses/index.md) — ação probatória autônoma para revelar patrimônio, penhora da restituição de IR, honorários do beneficiário, MS no Juizado
 - [heuristicas/](heuristicas/index.md) — seis regras de decisão sobre busca, prevenção e movimento do processo
 - [playbooks/](playbooks/index.md) — título extrajudicial, cumprimento de sentença e Fazenda Pública
 - [raw/](raw/index.md) — curso de terceiro, fora do git, com o inventário de erros já mapeados
@@ -22,7 +22,7 @@ Como fazer o crédito virar dinheiro: qualificar o título, montar o requeriment
 
 A execução se perde por inércia, não por falta de direito, e desde 2021 ela se perde mais rápido do que o credor imagina: pela Lei 14.195/2021, o prazo da prescrição intercorrente corre da **ciência da primeira tentativa infrutífera** de localizar devedor ou bens, sem depender de despacho algum, e **só citação, intimação ou constrição efetivas o interrompem** — petição protocolada não interrompe nada. No Juizado é pior ainda, porque o art. 53, §4º, manda extinguir de imediato quando não há devedor nem bens. Contra isso, três movimentos. **Prevenir**, antes de o bem sumir: certidão de admissão da execução averbada nos registros, hipoteca judiciária constituída com a simples apresentação de cópia da sentença no cartório, penhora averbada pelo próprio exequente — nenhum impede a venda, todos a tornam presumidamente fraudulenta. **Procurar** com prioridade para o que tem chance de se efetivar, pedindo os sistemas um a um e lendo a declaração de renda pelo que só ela mostra: o aluguel de imóvel que não está no nome dele, o empréstimo que ele fez a terceiro, a compra que ele escriturou e nunca registrou. E, quando o bem aparece na mão do executado mas no nome de outro, **constituir a prova fora da execução**, pela ação probatória autônoma do art. 381, §5º, que dá contraditório onde o procedimento executivo não tem instrução.
 
-**v0.1.0 (2026-08-01).** Semente extraída de um curso de terceiro de 2020. **Todas as páginas estão `em_teste`** — nenhuma citação foi conferida contra fonte oficial.
+**v0.2.0 (2026-08-02).** Semente extraída de um curso de terceiro de 2020, ainda quase toda `em_teste`. **Duas exceções**, as primeiras páginas `vigente` do bundle: o [REsp 2.192.857/DF](jurisprudencia/resp-2192857-df-penhora-restituicao-ir.md) e a [tese da penhora da restituição de IR](teses/restituicao-de-ir-e-penhoravel-onus-do-executado.md), com inteiro teor conferido e depositado em `raw/`. Fora delas, **nenhuma citação foi conferida contra fonte oficial** — checar o status na própria página antes de citar.
 
 ## Aviso de maturidade
 

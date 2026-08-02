@@ -76,4 +76,6 @@ No Juizado, a multa de 10% se aplica ainda que o total ultrapasse a alçada, mas
 
 ## Lacunas declaradas
 
-Base de cálculo dos 10%, honorários da fase de execução e recursais (art. 85, §§1º e 11), pagamento parcial (art. 523, §2º), impenhorabilidades (arts. 833 e 834), penhora eletrônica (art. 854) e **taxa legal de juros (art. 406 do CC, alterado pela Lei 14.905/2024)** — nada disso está na fonte. O último é bloqueante: sem ele o demonstrativo do art. 524 não se monta corretamente.
+Base de cálculo dos 10%, honorários da fase de execução e recursais (art. 85, §§1º e 11), pagamento parcial (art. 523, §2º), impenhorabilidades (arts. 833 e 834) e penhora eletrônica (art. 854) — nada disso está na fonte.
+
+**A lacuna de juros e correção foi fechada em 2026-08-02:** ver [CC, arts. 389 e 406](/jurisprudencia/cc-arts-389-406-juros-e-correcao.md), com texto conferido — juros pela **taxa legal** (Selic deduzido o IPCA), correção pelo **IPCA** na falta de convenção. **Não usar "1% ao mês"** no demonstrativo.

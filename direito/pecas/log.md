@@ -1,5 +1,18 @@
 # Log
 
+## 2026-08-02 (segunda entrada)
+
+**Ingestão** — Depositados dois códigos/leis transversais, via `depositar-lei.py`: o **Código Civil** (`cc-l10406-2002-compilada`, cobertura até a Lei 15.068, 2.046 artigos) e a **Lei 9.099/1995** (`lei-9099-1995-juizados`, cobertura até a Lei 14.245, 13 trechos revogados marcados). Ambos aqui porque servem a dois ou mais bundles — o CC é citado por cambial, execução/credor e imobiliário; a Lei 9.099 por execução/credor e audiências.
+
+**Ferramenta nova: `depositar-lei.py`** na raiz do acervo. Faz a Etapa 0 de texto de lei e recusa o depósito quando não consegue decidir o encoding. Encapsula as duas armadilhas que já corromperam depósito aqui: HTML do Planalto é `cp1252`, e a redação superada vem em `<strike>` e precisa sair rotulada.
+
+**Dois bugs corrigidos no `recortar-artigo.py`, ambos silenciosos:**
+
+1. **Separador de milhar.** O padrão não reconhecia `Art. 1.003.` — ou seja, **nenhum artigo acima de 999 podia ser recortado**, o que incluía todos os artigos de recurso deste bundle (1.003, 1.009, 1.022, 1.030, 1.036-1.041). O mesmo defeito fazia o contador de artigos do depositador ler "Art. 1.911" como artigo 1, e foi o que me levou a suspeitar erradamente que o CC estivesse truncado.
+2. **Ordinal e travessão.** Artigos de 1 a 9 se escrevem `Art. 9º`, e leis mais antigas usam `Art. 40 - `. O padrão exigia ponto, então falhava nos dois casos. Agora aceita ponto, ordinal e travessão, mantendo o `A` maiúsculo como discriminador contra remissões em minúsculo.
+
+Regressão exercitada nas três formas de cabeçalho e nos artigos que já funcionavam.
+
 ## 2026-08-01
 
 **Schema** — O CPC compilado deixou de morar dentro de `recurso-especial/raw/` e passou a ser **fonte transversal do acervo**, em `raw/` na raiz deste bundle. Motivo: 14 páginas de quatro fluxos diferentes já o citavam, e os bundles de execução passaram a precisar dele. O campo `raw:` das 14 páginas foi corrigido de `/recurso-especial/raw/...` para `/raw/...`. *(Entradas anteriores deste log citam o caminho antigo — registro histórico, não corrigido.)*

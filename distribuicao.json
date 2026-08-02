@@ -83,7 +83,7 @@
     },
     {
       "glob": "direito/execucao/credor/raw/index.md",
-      "motivo": "Catálogo de obra de terceiro: circula na equipe, mas em pacote externo referencia arquivos que o destinatário não tem e revela acervo interno."
+      "motivo": "Catálogo misto: circula na equipe, mas em pacote externo referencia os arquivos do curso, que o destinatário não tem, e revela acervo interno. O depósito oficial que ele cataloga (resp-2192857-df-penhora-restituicao-ir.md, acórdão público do STJ, anonimizado) NÃO é excluído — viaja sozinho, porque é o lastro que sustenta a página `vigente` que o acompanha."
     },
     {
       "glob": "direito/audiencias/raw/index.md",

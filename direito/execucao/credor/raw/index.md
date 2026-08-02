@@ -1,6 +1,14 @@
 # Catálogo do `raw/` — execução pelo credor
 
-Depositado em 2026-08-01, vindo de `consumir/EXECUCOES_CREDOR`. Tudo aqui é **obra comercial de terceiro** — curso "Semana da Execução de Sucesso" / "Expert em Execução", do Prof. José de Andrade Neto, juiz de direito do TJMS. Fora do git (`.gitignore` §1); só o conhecimento reescrito nas páginas do bundle circula. Dois dos arquivos eram **protegidos por senha** e foram decifrados na ingestão.
+Duas origens distintas, com regimes distintos de circulação.
+
+## Fonte oficial (circula no git)
+
+- `resp-2192857-df-penhora-restituicao-ir.md` — inteiro teor do **REsp 2.192.857/DF** (STJ, 3ª Turma, rel. Min. Moura Ribeiro, DJEN/CNJ 20/03/2025), convertido do PDF oficial pelo `pdfmd` em 2026-08-02. **Anonimizado** pela regra dura 10: partes e advogados viraram rótulo de papel; ministros, número do processo, datas, ementa, relatório e voto mantidos. O **PDF** fica fora do git (traz os nomes), em `advocacia/consumir/RESP-2192857-2025-03-20.pdf`. Lastro da página [REsp 2.192.857/DF](../jurisprudencia/resp-2192857-df-penhora-restituicao-ir.md).
+
+## Obra comercial de terceiro (fora do git)
+
+Depositado em 2026-08-01, vindo de `consumir/EXECUCOES_CREDOR`: curso "Semana da Execução de Sucesso" / "Expert em Execução", do Prof. José de Andrade Neto, juiz de direito do TJMS. Fora do git (`.gitignore` §1); só o conhecimento reescrito nas páginas do bundle circula. Dois dos arquivos eram **protegidos por senha** e foram decifrados na ingestão.
 
 ## Procedimento
 

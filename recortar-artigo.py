@@ -41,9 +41,23 @@ CODIGO_PADRAO = RAIZ / "direito" / "pecas" / "raw" / "cpc-l13105-compilada.md"
 # que a lei escreve em minusculo ("nos termos do art. 921", "arts. 313 e 315").
 # Nao ancorar em inicio de linha: a conversao as vezes cola o cabecalho do
 # capitulo na mesma linha do artigo ("CAPITULO I ... Art. 921. Suspende-se...").
+def variantes(n: str) -> str:
+    """Aceita 1003 e 1.003 — acima de 999 a lei usa separador de milhar."""
+    puro = n.replace(".", "")
+    formas = {puro}
+    if len(puro) > 3:
+        formas.add(f"{puro[:-3]}.{puro[-3:]}")
+    return "|".join(re.escape(f) for f in sorted(formas, key=len, reverse=True))
+
+
 def rx_artigo(n: str) -> re.Pattern:
-    num = re.escape(n)
-    return re.compile(rf"\bArt\.\s*{num}(-[A-Z])?\.")
+    # Depois do numero pode vir:
+    #   "."  -> "Art. 10." (cardinal, do art. 10 em diante)
+    #   ordinal -> "Art. 9º" / "Art. 9o" / "Art. 9°" (arts. 1 a 9, sempre ordinais)
+    #   "-"  -> "Art. 40 - O Juiz..." (estilo das leis mais antigas, como a LEF)
+    # O "A" maiusculo de "Art." continua sendo o que separa o cabecalho do
+    # artigo das remissoes internas, que a lei escreve em minusculo.
+    return re.compile(rf"\bArt\.\s*(?:{variantes(n)})(-[A-Z])?\s*[.ºo°-]")
 
 
 def achar_inicio(texto: str, n: str) -> int:

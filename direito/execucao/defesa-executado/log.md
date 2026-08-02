@@ -1,5 +1,15 @@
 # Log — defesa do executado
 
+## 2026-08-02 (terceira entrada)
+
+**Ingestão** — Depositada a **Lei 8.009/1990** e derivada a página `jurisprudencia/lei-8009-1990-bem-de-familia.md`, **`vigente`**, com dez transcrições conferidas. Também depositada a **Lei 8.629/1993** (conceito de módulo fiscal, para a tese da pequena propriedade rural) e os recortes do **CC art. 1.911** (cláusula de inalienabilidade) e da **Lei 8.629, art. 4º**.
+
+**O rótulo de revogado provou seu valor no primeiro uso.** Na Lei 8.009 ele revelou que o **inciso I do art. 3º está revogado pela LC 150/2015** — dívida com empregado doméstico deixou de excepcionar a impenhorabilidade — e que o **inciso III foi alterado pela Lei 13.144/2015**, ganhando a ressalva dos direitos do coproprietário em união estável ou conjugal. Sem a marcação, a redação velha estaria no acervo como se fosse vigente, e é justamente o rol que o exequente tenta encaixar.
+
+A conferência da página foi feita contra a fonte **com os trechos revogados removidos**, para garantir que nenhuma transcrição viesse de texto morto.
+
+**A tese do bem de família segue `em_teste`, e agora por um motivo mais preciso:** a base legal está fechada e conferida; o que falta é o inteiro teor dos precedentes e das Súmulas 364, 449 e 486, que é onde a tese realmente se apoia.
+
 ## 2026-08-02 (segunda entrada)
 
 **Ingestão** — Depositada a **Lei 6.830/1980 (LEF)**, a partir do HTML oficial do Planalto fornecido pela titular. Derivada a página `jurisprudencia/lei-6830-1980-art-40-prescricao-intercorrente-fiscal.md`, **`vigente`**, com transcrição conferida palavra a palavra contra o depósito.

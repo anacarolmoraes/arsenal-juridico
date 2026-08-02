@@ -7,6 +7,7 @@ timestamp: '2026-08-01'
 status: em_teste
 autor: escritorio
 fundamentos:
+  - /jurisprudencia/lei-8009-1990-bem-de-familia.md
   - /jurisprudencia/tema-1235-stj-impenhorabilidade-40sm-preclui.md
 placar:
   favoraveis: 0
@@ -17,7 +18,7 @@ placar:
 
 ## Enunciado
 
-A proteção da Lei 8.009/90 é norma cogente de ordem pública: não se sujeita a preclusão temporal nem a forma específica, podendo ser arguida **por simples petição, em qualquer fase, até a arrematação** (linha consolidada do STJ — REsp 1.639.337/MG, 4ª Turma, Rel. Min. Marco Buzzi, DJe 23/10/2020; série de precedentes no Informativo 501). Só a **preclusão consumativa** obsta: decisão anterior sobre o mesmo tema no processo.
+A proteção da [Lei 8.009/1990](/jurisprudencia/lei-8009-1990-bem-de-familia.md) é norma cogente de ordem pública: não se sujeita a preclusão temporal nem a forma específica, podendo ser arguida **por simples petição, em qualquer fase, até a arrematação** (linha consolidada do STJ — REsp 1.639.337/MG, 4ª Turma, Rel. Min. Marco Buzzi, DJe 23/10/2020; série de precedentes no Informativo 501). Só a **preclusão consumativa** obsta: decisão anterior sobre o mesmo tema no processo.
 
 O **[Tema 1.235/STJ](/jurisprudencia/tema-1235-stj-impenhorabilidade-40sm-preclui.md) não alcança o bem de família** — a tese repetitiva trata exclusivamente do art. 833, X (reserva de 40 SM), regra de direito disponível. O bem de família segue irrenunciável: nem o oferecimento do imóvel em garantia afasta a proteção, como regra (REsp 1.789.505/SP, 4ª Turma, j. 22/03/2022).
 
@@ -31,10 +32,12 @@ O **[Tema 1.235/STJ](/jurisprudencia/tema-1235-stj-impenhorabilidade-40sm-preclu
 
 ## Contra-argumentos esperados
 
-- **Exceções do art. 3º da Lei 8.009/90** (rol taxativo, interpretação restritiva): financiamento do próprio imóvel, condomínio/IPTU do bem, hipoteca dada **em benefício da própria entidade familiar** (EAREsp 848.498/PR — atenção à distribuição do ônus conforme quem são os sócios), fiança locatícia.
+- **Exceções do art. 3º da Lei 8.009/90** (rol taxativo, interpretação restritiva — texto conferido, e **atenção: o inciso I foi revogado pela LC 150/2015** e o III mudou em 2015): financiamento do próprio imóvel, condomínio/IPTU do bem, hipoteca dada **em benefício da própria entidade familiar** (EAREsp 848.498/PR — atenção à distribuição do ônus conforme quem são os sócios), fiança locatícia.
 - **Comportamento contraditório:** acordo judicial homologado em que o devedor ofereceu o imóvel para quitar a dívida barra a alegação posterior (AgInt no AREsp 1.886.576/SP, 3ª Turma, j. 03/12/2021).
 - **"Não provou a moradia":** a proteção não é automática — ônus probatório do executado; ver [checklist](/heuristicas/provar-a-origem-e-o-fim-do-valor-bloqueado.md) e a petição-modelo anonimizada em `raw/peticao-terceiro-bem-de-familia-tjsp.md`.
 
 ## Pendências
 
-Nenhum inteiro teor em `raw/`; conferir na fonte oficial antes de citar (regra dura 4).
+**Texto legal: fechado.** A [Lei 8.009/1990](/jurisprudencia/lei-8009-1990-bem-de-familia.md) está depositada e conferida (2026-08-02), com os trechos revogados marcados.
+
+**Jurisprudência: aberta, e é o que falta.** Nenhum dos precedentes citados acima tem inteiro teor em `raw/`, nem as Súmulas 364, 449 e 486. Por isso a tese segue `em_teste`: a base legal se sustenta, a construção sobre ela não foi conferida (regra dura 4).
