@@ -42,11 +42,18 @@ CODIGO_PADRAO = RAIZ / "direito" / "pecas" / "raw" / "cpc-l13105-compilada.md"
 # Nao ancorar em inicio de linha: a conversao as vezes cola o cabecalho do
 # capitulo na mesma linha do artigo ("CAPITULO I ... Art. 921. Suspende-se...").
 def variantes(n: str) -> str:
-    """Aceita 1003 e 1.003 — acima de 999 a lei usa separador de milhar."""
+    """Aceita 1003 e 1.003 — acima de 999 a lei usa separador de milhar.
+
+    O separador incide só na parte numérica: um artigo como "1035-A" tem
+    milhar em "1.035-A", nunca em "103.5-A" — por isso o sufixo de letra
+    (usado em artigo inserido por lei posterior, ex. 104-A, 1.035-A) é
+    destacado antes do cálculo e recolocado depois.
+    """
     puro = n.replace(".", "")
+    numero, hifen, sufixo = puro.partition("-")
     formas = {puro}
-    if len(puro) > 3:
-        formas.add(f"{puro[:-3]}.{puro[-3:]}")
+    if len(numero) > 3:
+        formas.add(f"{numero[:-3]}.{numero[-3:]}{hifen}{sufixo}")
     return "|".join(re.escape(f) for f in sorted(formas, key=len, reverse=True))
 
 

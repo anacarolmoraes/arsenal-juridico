@@ -1,0 +1,29 @@
+<!--
+RECORTE AUTOMATICO — nao editar a mao.
+Gerado por recortar-artigo.py a partir de direito/pecas/raw/cpc-l13105-compilada.md,
+que e o deposito integral e imutavel do codigo. Este arquivo existe para que o
+lint-citacoes confira a transcricao dentro deste bundle sem duplicar o codigo.
+Para atualizar apos nova versao do codigo: regerar, nunca corrigir aqui.
+-->
+
+# CPC, art. 942
+
+Art. 942. Quando o resultado da apelação for não unânime, o julgamento terá prosseguimento em sessão a ser designada com a presença de outros julgadores, que serão convocados nos termos previamente definidos no regimento interno, em número suficiente para garantir a possibilidade de inversão do resultado inicial, assegurado às partes e a eventuais terceiros o direito de sustentar oralmente suas razões perante os novos julgadores.
+
+§ 1º Sendo possível, o prosseguimento do julgamento dar-se-á na mesma sessão, colhendo-se os votos de outros julgadores que porventura componham o órgão colegiado.
+
+§ 2º Os julgadores que já tiverem votado poderão rever seus votos por ocasião do prosseguimento do julgamento.
+
+§ 3º A técnica de julgamento prevista neste artigo aplica-se, igualmente, ao julgamento não unânime proferido em:
+
+I - ação rescisória, quando o resultado for a rescisão da sentença, devendo, nesse caso, seu prosseguimento ocorrer em órgão de maior composição previsto no regimento interno;
+
+II - agravo de instrumento, quando houver reforma da decisão que julgar parcialmente o mérito.
+
+§ 4º Não se aplica o disposto neste artigo ao julgamento:
+
+I - do incidente de assunção de competência e ao de resolução de demandas repetitivas;
+
+II - da remessa necessária;
+
+III - não unânime proferido, nos tribunais, pelo plenário ou pela corte especial.

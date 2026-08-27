@@ -36,4 +36,6 @@
 
 ## Outros tribunais — persuasivos (não verificados; conferir antes de reusar)
 
+- [TJGO, Ap. 5412926-72.2023 — retenção de 10% sem prejuízo comprovado](tjgo-ap-5412926-72-2023-retencao-10.md) *(em_teste)* — o intervalo de 10% a 25% não autoriza aplicação automática do teto.
+- [TJSP, Ap. 1006338-51.2024 — retenção de 10% sem despesas comprovadas](tjsp-ap-1006338-51-2024-retencao-10.md) *(vigente)* — lote não edificado; inteiro teor e metadados conferidos no e-SAJ.
 - [TJMT, AI 1017433-56.2019.8.11.0000](tjmt-ai-1017433-56-2019-iptu-tutela.md) *(em_teste)* — tutela que suspende as parcelas alcança os encargos acessórios (IPTU/condomínio).

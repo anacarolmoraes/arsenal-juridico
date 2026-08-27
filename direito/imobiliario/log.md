@@ -1,5 +1,9 @@
 # Log — imobiliario (rescisão contratual)
 
+## 2026-08-26
+
+**Ingestão — retenção de 10% sem prejuízo comprovado (v0.4.0 → v0.5.0).** Ingeridos os acórdãos TJGO Ap. 5412926-72.2023.8.09.0051 (`em_teste`) e TJSP Ap. 1006338-51.2024.8.26.0577 (`vigente`, inteiro teor conferido no e-SAJ). As fontes textuais anonimizadas vivem uma única vez em `direito/pecas/raw/jurisprudencia/`; os PDFs e os dados das partes não entraram no acervo. Os dois julgados tratam 25% como teto condicionado às circunstâncias e à prova de despesas, criando tensão expressa com o emprego mecânico do escalonamento do regime anterior. O conflito foi registrado na tese de retenção, sem promover o TJGO antes da conferência oficial.
+
 ## 2026-08-02
 
 **Ingestão da migração final do acervo local (v0.3.0 → v0.4.0).** Fase 4 do PRD de

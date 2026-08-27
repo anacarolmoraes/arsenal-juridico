@@ -1,6 +1,6 @@
 ---
 okf_version: "0.1"
-bundle_version: "0.5.0"
+bundle_version: "0.6.0"
 ---
 
 # Peças Processuais — Bundle Transversal (D12)
@@ -15,6 +15,7 @@ Conhecimento de **peça** (como construir cada recurso/petição, independente d
 - [embargos-declaracao/](embargos-declaracao/index.md) — os dois papéis (corretivo/prequestionador), anatomia dos 4 vícios, armadilha do prazo penal (2 dias, CPP 619), tabela de vícios
 - [apelacao/](apelacao/index.md) — as três cargas, portão anti-preclusão (1.009 §1º), causa madura como decisão expressa, estrutura canônica PMA
 - [replica/](replica/index.md) — portão de cabimento (dispensável se só mérito direto), os quatro eixos de resposta (preliminares, fato novo, documentos), regra de ouro anti-inovação (art. 329, II)
+- [sucumbencia/](sucumbencia/index.md) — núcleo transversal: decaimento mínimo, bases autônomas e vedação à redução indireta dos honorários abaixo do piso do art. 85, § 2º
 
 ## Peças em estoque (fluxo próprio na fila)
 

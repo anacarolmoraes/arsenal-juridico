@@ -8,8 +8,13 @@ Dispositivos com texto literal + remissões, e súmulas obstativas com aplicaç�
 - [CPC, art. 1.022 — embargos de declaração (vícios)](cpc-art-1022.md) — Os vícios embargáveis — a porta do prequestionamento ficto exige indicar o INCISO violado
 - [CPC, art. 1.025 — prequestionamento ficto](cpc-art-1025.md) — Elementos suscitados em EDcl consideram-se incluídos no acórdão, se o tribunal superior reconhecer o vício
 - [CPC, art. 1.029 — interposição do REsp](cpc-art-1029.md) — Forma de interposição, requisitos da petição, prova do dissídio, desconsideração de vício formal e efeito suspensivo
-- [CPC, art. 1.030 — juízo de admissibilidade na origem](cpc-art-1030.md) — O que o presidente/vice do tribunal recorrido faz com o REsp e qual recurso cabe de cada decisão
+- [CPC, art. 1.030 — juízo de admissibilidade na origem](cpc-art-1030.md) — O que o presidente/vice do tribunal recorrido faz com o REsp e qual recurso cabe de cada decisão (alterado pela Lei 15.484/2026 — inciso I, c: relevância)
+- [CPC, art. 1.035-A — relevância da questão federal](cpc-art-1035a.md) — Tópico específico e fundamentado obrigatório na petição sob pena de inadmissão (acórdãos publicados a partir de 03/09/2026); presunções da CF 105 §3º; não conhecimento só por 2/3; suspensão nacional 6+6 meses
+- [Lei 15.484/2026 — alterações no CPC](lei-15484-2026-alteracoes-cpc.md) — O que mudou em 927, 932, 979, 988, 998, 1.030, 1.039 e 1.042 com o regime de relevância — inclusive o bloqueio do AREsp quando a inadmissão se funda em relevância
 - [CPC, art. 941, §3º — voto vencido integra o acórdão](cpc-art-941-p3.md) — O voto vencido é parte do acórdão para todos os fins, inclusive prequestionamento — superou a Súmula 320/STJ
+- [CPC, art. 942 — técnica de ampliação do colegiado](cpc-art-942.md) — Apelação não unânime prossegue com convocados capazes de inverter o resultado; o colegiado ampliado rejulga tudo; vício é error in procedendo que exige EDcl antes do REsp
+- [CPC, art. 1.032 — fungibilidade REsp→RE](cpc-art-1032.md) — Via estreita: só salva questão exclusivamente constitucional mal rotulada; nunca converte REsp misto (federal + constitucional)
+- [CPC, arts. 1.043-1.044 — embargos de divergência](cpc-arts-1043-1044.md) — Cabimento dos EDv (mérito × mérito no mesmo tribunal superior), prova da divergência e interrupção do prazo do RE para ambas as partes
 - [CPC, arts. 1.036–1.041 — regime dos repetitivos](cpc-arts-1036-1041-repetitivos.md) — Afetação, sobrestamento, distinção (distinguishing) e juízo de retratação — o regime que muda a rota do seu REsp
 - [Resolução STJ/GP n. 2/2017 — custas e porte no STJ](res-stj-gp-2-2017.md) — Regula preparo dos recursos ao STJ — GRU Cobrança exclusiva, campos obrigatórios, isenções, dispensa de porte em autos eletrônicos e prorrogação por indisponibilidade do sistema
 - [RISTJ, art. 255 — o REsp dentro do STJ](ristj-art-255.md) — Efeito devolutivo (salvo IRDR), prova do dissídio, repositórios oficiais (Emenda 49/2026) e os poderes do relator ao receber o REsp
@@ -29,6 +34,7 @@ Dispositivos com texto literal + remissões, e súmulas obstativas com aplicaç�
 - [Súmula 356/STF — ponto omisso sem embargos](sumula-356-stf.md) — O ponto omisso da decisão, sobre o qual não foram opostos embargos declaratórios, não pode ser objeto de recurso extraordinário, por falt
 - [Súmula 418/STJ — ratificação (cancelada)](sumula-418-stj.md) — É inadmissível o recurso especial interposto antes da publicação do acórdão dos embargos de declaração, sem posterior ratificação — **superada**
 - [Súmula 456/STF — aplicar o direito à espécie](sumula-456-stf.md) — O Supremo Tribunal Federal, conhecendo do recurso extraordinário, julgará a causa, aplicando o direito à espécie
+- [Súmula 5/STJ — interpretação de cláusula contratual](sumula-5-stj.md) — A simples interpretação de cláusula contratual não enseja recurso especial — irmã gêmea da Súmula 7 (contrato é prova documental)
 - [Súmula 518/STJ — violação de súmula](sumula-518-stj.md) — Para fins do art. 105, III, a, da Constituição Federal, não é cabível recurso especial fundado em alegada violação de enunciado de súmula
 - [Súmula 579/STJ — ratificação só se houver alteração](sumula-579-stj.md) — Não é necessário ratificar o recurso especial interposto na pendência do julgamento dos embargos de declaração, quando inalterado o resul
 - [Súmula 7/STJ — reexame de prova](sumula-7-stj.md) — A pretensão de simples reexame de prova não enseja recurso especial

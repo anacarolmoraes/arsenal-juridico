@@ -21,3 +21,5 @@ autor: ingerido
 ## Aplicação na peça
 
 O óbice mais frequente do REsp. Distinguir **reexame** (revolver fatos/provas — vedado) de **revaloração** (dar consequência jurídica diversa a fatos já fixados no acórdão — permitido). Técnica: partir SEMPRE da moldura fática descrita no próprio acórdão recorrido, nunca contestá-la.
+
+Irmã contratual: [Súmula 5/STJ](/recurso-especial/jurisprudencia/sumula-5-stj.md) (contrato é prova documental). Exceção única para valor de indenização e honorários — "irrisório ou exorbitante": roteiro completo na [heurística de quantum e honorários](/recurso-especial/heuristicas/quantum-e-honorarios-excecao-sumula-7.md). A Súmula 7 também **prejudica o dissídio da alínea c** sobre a mesma questão.

@@ -2,6 +2,14 @@
 
 Duas naturezas convivem aqui, com regimes opostos de circulação.
 
+## Jurisprudência transversal anonimizada
+
+- [TJGO, Ap. 5412926-72.2023 — retenção e sucumbência mínima](jurisprudencia/tjgo-ap-5412926-72-2023-retencao-sucumbencia.md) — fonte única para as derivações imobiliária e processual; nomes das partes removidos.
+- [TJSP, Ap. 1006338-51.2024 — retenção de 10%](jurisprudencia/tjsp-ap-1006338-51-2024-retencao.md) — lote não edificado e ausência de despesas comprovadas; nomes das partes removidos.
+- [TJSP, Ap. 1096878-68.2017 — rateio dos honorários](jurisprudencia/tjsp-ap-1096878-68-2017-honorarios-rateio.md) — redução indireta abaixo do piso do art. 85, § 2º; cópia recebida já ocultava as partes.
+
+Somente os recortes `.md` anonimizados integram o acervo. Os PDFs permanecem na camada local da titular e não são distribuídos.
+
 ## Códigos e leis — fonte transversal do acervo, circulam
 
 Texto de lei **não é obra protegida** (Lei 9.610/98, art. 8º, IV): entra no git e viaja em qualquer pacote.
@@ -28,6 +36,22 @@ Este é o lugar onde o **código integral** mora **uma vez**. Bundles que citam 
 |---|---|
 | `ristj-er53.{pdf,md}` | **Regimento Interno do STJ**, transversal a toda peça dirigida ao Tribunal. Cobertura até a **Emenda Regimental n. 53**. O `.md` é a conversão pdfmd do PDF oficial, já passada pelo `reparar-ligaduras.py` — ver o aviso abaixo. Recortes gerados para `recurso-especial`, `agravo-interno` e `embargos-declaracao`. |
 | `ristj-er53.ligaduras.diff` | as 793 junções de palavra partida, agrupadas em 177 formas distintas, para conferência. Toda linha é palavra do português que estava rachada (`confi rmando → confirmando`); nenhuma junção espúria. |
+
+**Depositado em 2026-08-26 — Emenda Regimental n. 55 (regime de relevância do REsp, lado RISTJ):**
+
+| Arquivo | Papel |
+|---|---|
+| `ristj-er55.{pdf,md}` | **Emenda Regimental n. 55, de 21 de agosto de 2026**, em vigor a partir de **3/9/2026**. NÃO é o Regimento consolidado — é o texto da própria emenda (19 pp.), com trechos alterados marcados "(NR)" e reticências no que não mudou. Insere o **Capítulo II-A** inteiro (arts. 255-A a 255-AE, texto integral e novo — regulamenta o regime de relevância da questão de direito federal infraconstitucional) e renumera o antigo Capítulo II-A para II-B e o antigo II-B para II-C. Também altera pontualmente, mas de forma **fragmentária** (só o trecho que mudou, não o artigo inteiro), os arts. 2º, 11, 12, 21-E, 34, 44, 104-A, 121-A, 162, 173, 177, 184-A, 185, 187, 253 e 255. Conversão pdfmd limpa (0 ligadura quebrada, 0 duplicata por OCR de imagem); as 3 páginas com anotação de PDF (1, 8, 15) foram conferidas visualmente — são o brasão da República e o logotipo do BDJur, sem conteúdo normativo. É o item "(d) acompanhar emenda regimental" que ficou pendente na ingestão da Lei 15.484/2026 (log de 2026-08-18). |
+
+**⚠️ `ristj-er53.md` fica PARCIALMENTE SUPERADO a partir de 3/9/2026**, nos artigos listados acima — quem for recortar um desses artigos depois dessa data recorta da fonte errada se usar o depósito antigo. A ER-55 não foi reconsolidada nele: ela só traz o trecho alterado (com reticências no resto), não o artigo inteiro pós-alteração — por isso não dá para gerar recorte limpo desses artigos fragmentários com o `recortar-artigo.py` a partir dela. Pendente: quando o STJ publicar RISTJ consolidado até a ER-55, depositar a versão nova e regerar os recortes desses artigos.
+
+**Recorte já gerado**, em `direito/pecas/recurso-especial/raw/` (texto integral e novo, sem o problema de fragmentação acima):
+
+| Recorte | Origem | Observação |
+|---|---|---|
+| `ristj-arts-255A-255AE-capitulo-iia.md` | `ristj-er55.md` | **Recorte manual**, não gerado pelo script — ele não percorre uma sequência de artigos com sufixo de letra (255-A ... 255-AE) dentro do mesmo capítulo. Removida 1 duplicata de tabela truncada (§ 1º do art. 255-AE), mantida a versão em parágrafo. Ainda não citado por nenhuma página derivada — fica pronto para quando alguém escrever a página de RISTJ sobre o procedimento da relevância. |
+
+**Sobre a Lei n. 15.484/2026 (o lado CPC do mesmo regime, art. 1.035-A):** já estava depositada — em `recurso-especial/raw/`, via `depositar-lei.py`, HTML do DOU — desde 2026-08-15/18 (ver log deste diretório-pai, entradas de 08-15 e 08-18), com duas páginas `vigente` (`recurso-especial/jurisprudencia/cpc-art-1035a.md` e `.../lei-15484-2026-alteracoes-cpc.md`). Em 2026-08-26, ao depositar a ER-55 acima, o par `{html,md}` foi **movido para cá** (`lei-15484-2026-relevancia.{html,md}`, sem o sufixo `-resp`) — a lei altera o CPC transversal (arts. 927, 932, 979, 988, 998, 1.030, 1.039, 1.042), mesmo critério que já vale para `ristj-er53` e `cpc-l13105-compilada`; as duas páginas `vigente` tiveram o campo `raw:` atualizado para o novo caminho, texto inalterado. Também depositado `lei-15484-2026-relevancia.pdf` (PDF oficial do DOU) como artefato de referência — **sem alterar o `.md` canônico**, que continua sendo a conversão do HTML (mesmo critério do `cpc-l13105-compilada-2026-08-01.pdf`). **`cpc-l13105-compilada.md` fica PARCIALMENTE SUPERADO** nos oito artigos acima a partir de 3/9/2026, pelo mesmo motivo fragmentário do RISTJ.
 
 ### ⚠️ Conversão de PDF pode conter o texto DUAS vezes — e o recorte pega a pior
 

@@ -25,9 +25,13 @@ autor: ingerido
 > § 1º Da decisão de inadmissibilidade proferida com fundamento no inciso V caberá agravo ao tribunal superior, nos termos do art. 1.042.
 > § 2º Da decisão proferida com fundamento nos incisos I e III caberá agravo interno, nos termos do art. 1.021.
 
+## Alteração pela Lei 15.484/2026 (vigência 03/09/2026)
+
+O texto acima é o do CPC compilado depositado (anterior à lei). A Lei 15.484/2026 acrescentou ao inciso I a **alínea c** (negar seguimento a REsp cuja questão o STJ já reputou irrelevante, ou contra acórdão conforme tese firmada em regime de relevância) e reescreveu o **inciso II** (retratação também por divergência de tese de relevância) e o **V, a** (sobrestamento). Texto literal novo e efeitos na [página das alterações](/recurso-especial/jurisprudencia/lei-15484-2026-alteracoes-cpc.md).
+
 ## Aplicação na peça
 
-É o artigo que define a ROTA pós-inadmissão (ver /recurso-especial/playbooks/mapa-rotas-pos-inadmissao.md): incisos I/III (repetitivo ou repercussão geral) → agravo interno na origem (§2º); inciso V (demais óbices) → AREsp ao STJ (§1º); decisão mista → os dois, sob pena de preclusão do fundamento não impugnado. A decisão de inadmissão é INCINDÍVEL (EAREsp 746.775/PR) — impugnar por inteiro. Não cabem EDcl contra ela (erro grosseiro; não interrompe prazo), salvo decisão tão genérica que impeça o agravo.
+É o artigo que define a ROTA pós-inadmissão (ver /recurso-especial/playbooks/mapa-rotas-pos-inadmissao.md): incisos I/III (repetitivo, repercussão geral ou — desde 03/09/2026 — relevância, I, c) → agravo interno na origem (§2º); inciso V (demais óbices) → AREsp ao STJ (§1º); decisão mista → os dois, sob pena de preclusão do fundamento não impugnado. A decisão de inadmissão é INCINDÍVEL (EAREsp 746.775/PR) — impugnar por inteiro. Não cabem EDcl contra ela (erro grosseiro; não interrompe prazo), salvo decisão tão genérica que impeça o agravo.
 
 ## Remissões
 

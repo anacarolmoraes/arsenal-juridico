@@ -9,6 +9,8 @@ autor: escritorio
 fundamentos:
   - /jurisprudencia/irdr-0009560-46-2017-tjto.md
   - /jurisprudencia/sumula-543-stj.md
+  - /jurisprudencia/tjgo-ap-5412926-72-2023-retencao-10.md
+  - /jurisprudencia/tjsp-ap-1006338-51-2024-retencao-10.md
 casos_origem:
   - /casos_decididos/caso-a-loteamento-retencao-18-por-cento.md
 placar:
@@ -30,3 +32,7 @@ Calcular sempre o percentual efetivamente pago (não o número de parcelas) sobr
 
 - Vendedor pede retenção de 25% "pelo valor irrisório arbitrado" independentemente da faixa de pagamento → responder: a escala é vinculante ao percentual efetivamente pago, não um teto genérico à disposição do julgador.
 - Vendedor tenta somar a retenção percentual a encargos moratórios contratuais → ver [vedação de bis in idem](/teses/vedacao-bis-in-idem-retencao-global-e-encargos-moratorios.md).
+
+## Tensão introduzida pelos precedentes estaduais de 2024–2025
+
+Os acórdãos do TJGO e do TJSP agora ingeridos enfraquecem o uso mecânico das faixas: ambos tratam 25% como teto e exigem correspondência entre o percentual e prejuízos concretamente demonstrados. Até a conferência oficial e a consolidação de uma amostra maior, a escala permanece como referência de calibragem, mas a peça deve confrontá-la com a prova efetiva de despesas, oportunidade de revenda e demais danos do vendedor.

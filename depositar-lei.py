@@ -35,7 +35,11 @@ import sys
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent
-ACENTUADAS = ("execução", "prescrição", "não", "artigo", "disposições", "penhora", "família")
+# So palavras COM acento servem de prova: uma palavra sem acento ("artigo")
+# passa mesmo em texto mojibake, e o latin-1 — que decodifica qualquer byte —
+# viraria vencedor silencioso de arquivo UTF-8 (foi o que corrompeu o primeiro
+# deposito da Lei 15.484, vinda do DOU em UTF-8, nao do Planalto em cp1252).
+ACENTUADAS = ("execução", "prescrição", "não", "disposições", "família", "publicação", "questão")
 
 
 def decodificar(bruto: bytes) -> tuple[str, str]:
