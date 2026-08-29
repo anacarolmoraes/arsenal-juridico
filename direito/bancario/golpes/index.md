@@ -9,6 +9,8 @@ Fraudes por engenharia social contra clientes bancários (falsa central de atend
 
 Bundle de **matéria** (D12); a técnica de peça vive no bundle transversal `bundle-pecas` (a criar). Schema: `KnowledgeOperatingSystem/piloto/SCHEMA_BUNDLE_PILOTO.md` v0.4.
 
+**Transversal aplicável:** [alavancas de engenharia social](../../lgpd/heuristicas/engenharia-social-as-alavancas.md) (bundle [`lgpd`](../../lgpd/index.md)) — as dez molas psicológicas que o golpista aciona. Nomear a alavanca do caso concreto reclassifica o fato de "consumidor descuidado" para "consumidor induzido", que é o terreno em que a tese do defeito do serviço vence.
+
 ## Seções
 
 - [jurisprudencia/](jurisprudencia/index.md) — acórdãos citáveis das cadeias ingeridas

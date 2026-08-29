@@ -90,6 +90,10 @@
     {
       "glob": "direito/imobiliario/raw/antes-lei-*",
       "motivo": "Decisões de processos de terceiros (TJTO) com dado pessoal (regra dura 10) — fora do git até anonimização."
+    },
+    {
+      "glob": "direito/lgpd/raw/lgpd-cartorios-infografico.*",
+      "motivo": "Coluna assinada de terceiro (Joelson Sell) publicada — nunca rastrear; so o catalogo e o conhecimento reescrito circulam."
     }
   ],
   "exclusoes": [
@@ -160,6 +164,22 @@
     {
       "glob": ".gitignore",
       "motivo": "Revela a camada 1; o pacote não precisa dele."
+    },
+    {
+      "glob": "direito/escritorio/*",
+      "motivo": "Bundle institucional da sociedade (regimento interno, politica de privacidade, razao social, endereco, encarregada de dados). Circula na equipe; NUNCA sai em pacote externo — nao e conhecimento juridico reutilizavel, e a norma da casa."
+    },
+    {
+      "glob": "direito/lgpd/raw/cartilha-seguranca-informacao-pma-2021.md",
+      "motivo": "Cartilha autoral da titular, identificada e datada (2021). Circula na equipe; em pacote externo revela autoria e material de formacao interno."
+    },
+    {
+      "glob": "direito/lgpd/raw/index.md",
+      "motivo": "Catalogo misto: referencia obra de terceiro fora do git e material interno; em pacote externo revela acervo interno."
+    },
+    {
+      "glob": "direito/escritorio/raw/index.md",
+      "motivo": "Catalogo de material institucional; em pacote externo revela acervo interno."
     }
   ]
 }
