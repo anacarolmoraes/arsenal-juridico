@@ -11,6 +11,7 @@ Cabe contra **sentença** (CPC 1.009, incl. capítulos com matéria do rol do ag
 - **Playbook:** [playbooks/playbook-apelacao.md](playbooks/playbook-apelacao.md) — portões, as três cargas, devolutividade estratégica, estrutura canônica PMA, checklist
 - **Workflow:** [workflows/apelacao.md](workflows/apelacao.md) — etapas executáveis com portões
 - **Heurística:** [heuristicas/tabela-capitulos-interlocutorias.md](heuristicas/tabela-capitulos-interlocutorias.md) — portão anti-preclusão (inventário de capítulos + varredura de interlocutórias)
+- **Heurística:** [heuristicas/extensao-e-profundidade-do-devolutivo.md](heuristicas/extensao-e-profundidade-do-devolutivo.md) — o que sobe sem se pedir (1.013, §§1º-2º) e por que ainda assim se articula todo fundamento: dialeticidade e matéria-prima dos embargos (`em_teste`)
 
 ## Páginas
 

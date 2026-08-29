@@ -43,7 +43,21 @@ Este é o lugar onde o **código integral** mora **uma vez**. Bundles que citam 
 |---|---|
 | `ristj-er55.{pdf,md}` | **Emenda Regimental n. 55, de 21 de agosto de 2026**, em vigor a partir de **3/9/2026**. NÃO é o Regimento consolidado — é o texto da própria emenda (19 pp.), com trechos alterados marcados "(NR)" e reticências no que não mudou. Insere o **Capítulo II-A** inteiro (arts. 255-A a 255-AE, texto integral e novo — regulamenta o regime de relevância da questão de direito federal infraconstitucional) e renumera o antigo Capítulo II-A para II-B e o antigo II-B para II-C. Também altera pontualmente, mas de forma **fragmentária** (só o trecho que mudou, não o artigo inteiro), os arts. 2º, 11, 12, 21-E, 34, 44, 104-A, 121-A, 162, 173, 177, 184-A, 185, 187, 253 e 255. Conversão pdfmd limpa (0 ligadura quebrada, 0 duplicata por OCR de imagem); as 3 páginas com anotação de PDF (1, 8, 15) foram conferidas visualmente — são o brasão da República e o logotipo do BDJur, sem conteúdo normativo. É o item "(d) acompanhar emenda regimental" que ficou pendente na ingestão da Lei 15.484/2026 (log de 2026-08-18). |
 
-**⚠️ `ristj-er53.md` fica PARCIALMENTE SUPERADO a partir de 3/9/2026**, nos artigos listados acima — quem for recortar um desses artigos depois dessa data recorta da fonte errada se usar o depósito antigo. A ER-55 não foi reconsolidada nele: ela só traz o trecho alterado (com reticências no resto), não o artigo inteiro pós-alteração — por isso não dá para gerar recorte limpo desses artigos fragmentários com o `recortar-artigo.py` a partir dela. Pendente: quando o STJ publicar RISTJ consolidado até a ER-55, depositar a versão nova e regerar os recortes desses artigos.
+**Depositado em 2026-08-29 — RISTJ consolidado até a ER-55 (fecha a pendência aberta em 08-26):**
+
+| Arquivo | Papel |
+|---|---|
+| `ristj-consolidado-er55.{pdf,md}` | **Regimento Interno consolidado**, "edição revista, ampliada e atualizada até a Emenda Regimental n. 55, de 21 de agosto de 2026" (DJe 26/08/2026), organizada pelo Gabinete do Diretor da Revista — 515 páginas. É a **fonte canônica do RISTJ a partir de agora**: traz cada artigo em sua redação pós-ER-55, com as marcas "(Incluído/Redação dada pela Emenda Regimental n. 55, de 2026)", e não em forma fragmentária como a emenda avulsa. Conversão pdfmd: 515/515 páginas, **0 aviso**, 0 página com `review_required`, 10 páginas por OCR. Veio no material da Imersão "Relevância na Prática". |
+| `ristj-consolidado-er55.ligaduras.diff` | as junções de palavra partida agrupadas em **192 formas** distintas (`fi nal → final`, `confl itos → conflitos`), para conferência. Todas conferidas: nenhuma junção espúria. **`ex officio` é latim e está correto.** Uma correção manual à parte: o extrator devolveu `Aperfi çoamento` no art. 331-A, e a junção automática produziria `Aperfiçoamento` — grafia errada de qualquer modo; corrigido à mão para **`Aperfeiçoamento`** (2 ocorrências), que é como o próprio documento grafa nas outras 52 vezes. |
+
+**⚠️ Duas armadilhas deste consolidado, para quem for recortar dele:**
+
+1. **Duplicata por OCR de imagem** — o mesmo problema já catalogado abaixo: em cada página cujo texto também é imagem, a transcrição do OCR aparece antes do texto nativo. O recorte automático começa pela versão do OCR, que é a pior (`Art.255.0O recurso especial...`).
+2. **Apêndice das emendas históricas** — o volume reproduz, ao fim, todas as emendas regimentais anteriores. Por isso `Art. 255...` reaparece dezenas de vezes com reticências, em contextos que não são o corpo do Regimento. Recorte gerado sem cuidado pega a ocorrência errada.
+
+Por causa disso, os recortes regerados em 2026-08-29 (arts. 34, 104-A, 121-A e 255, no `recurso-especial`) passaram por **limpeza manual declarada no cabeçalho de cada um**: removidos os blocos de OCR, os marcadores de página, as imagens e os cabeçalhos correntes; para o art. 255, extração manual da ocorrência do corpo, porque o corte automático varreu os 33 artigos do Capítulo II-A para dentro do recorte (o script não percorre sequência com sufixo de letra — mesma limitação já registrada em 08-26).
+
+**`ristj-er53.md` e `ristj-er55.md` permanecem depositados como registro histórico** — o primeiro é a consolidação anterior, o segundo é o texto da emenda tal como publicada. Para **citar em peça**, usar o `ristj-consolidado-er55.md`.
 
 **Recorte já gerado**, em `direito/pecas/recurso-especial/raw/` (texto integral e novo, sem o problema de fragmentação acima):
 
@@ -147,5 +161,6 @@ Manuais e livros de direito processual civil usados como fonte de estudo. Ficam 
 - `manual-dpc-montans-2024.{pdf,md}`
 - `manual-dpc-scarpinella-2024.{pdf,md}`
 - `pratica-processo-civil-gediel-2016.{pdf,md}`
+- `tese-buril-objeto-dos-recursos-2019.{pdf,md}` — **tese de doutorado**, não manual: Lucas Buril de Macêdo Barros, *Objeto dos recursos cíveis: crítica ao efeito devolutivo como categoria central da Teoria Geral dos Recursos* (USP, orientação de Cruz e Tucci, 420 f.). Consumida em 2026-08-29. Predominantemente **teórica e propositiva** — boa parte é história do instituto (direito romano ao CPC/73) e direito comparado (Itália, Portugal, Espanha, Inglaterra, EUA, Argentina, Peru). O que rendeu página é o Capítulo III: a distinção extensão × profundidade e a **função residual da causa de pedir recursal** (só dialeticidade e dever de resposta) → [`apelacao/heuristicas/extensao-e-profundidade-do-devolutivo.md`](../apelacao/heuristicas/extensao-e-profundidade-do-devolutivo.md), que nasce `em_teste` por vir de fonte única. Conversão: 420/420 p., 0 aviso. **Cuidado ao recortar:** 333 das 420 páginas trazem bloco de OCR de imagem duplicando o texto nativo — mesmo problema catalogado abaixo. Ver `tese-buril-objeto-dos-recursos-2019.ligaduras.md`.
 
 Cada um tem seu `*.quality.json` — o sidecar da Etapa 0. **Ler o veredito antes do `.md`**: `reprovado` não se lê.

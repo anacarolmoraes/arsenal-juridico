@@ -1,14 +1,26 @@
 <!--
-RECORTE AUTOMATICO — nao editar a mao.
-Gerado por recortar-artigo.py a partir de direito/pecas/raw/ristj-er53.md,
-que e o deposito integral e imutavel do codigo. Este arquivo existe para que o
-lint-citacoes confira a transcricao dentro deste bundle sem duplicar o codigo.
-Para atualizar apos nova versao do codigo: regerar, nunca corrigir aqui.
+RECORTE MANUAL — nao regenerável por recortar-artigo.py.
+Extraido de direito/pecas/raw/ristj-consolidado-er55.md (RISTJ consolidado ate a
+Emenda Regimental n. 55) em 2026-08-29.
+
+Por que manual: o script corta no "proximo artigo numerico", e o art. 255 e
+seguido pelo Capitulo II-A inteiro (255-A a 255-AE, sufixo de letra), que ele
+nao sabe percorrer — o recorte automatico varreu 33 artigos para dentro. Alem
+disso, o consolidado traz (a) a duplicata por OCR de imagem em cada pagina e
+(b) um apendice que reproduz TODAS as emendas regimentais historicas, no qual
+"Art. 255..." reaparece dezenas de vezes com reticencias. Esta extracao usa a
+ocorrencia do CORPO do Regimento e descarta os blocos de OCR duplicados, os
+marcadores de pagina e as imagens.
+
+O Capitulo II-A tem recorte proprio: ristj-arts-255A-255AE-capitulo-iia.md
+Para atualizar apos nova emenda: repetir esta extracao manual.
 -->
 
-# RISTJ, art. 255
+# RISTJ, art. 255 — do recurso especial
 
-**Art. 255. ** O recurso especial será interposto na forma e no prazo estabelecido na legislação processual vigente e recebido no efeito devolutivo, salvo quando interposto do julgamento de mérito do incidente de resolução de demandas repetitivas, hipótese em que terá efeito suspensivo.
+**Art. 255.** O recurso especial será interposto na forma e no prazo estabelecido na legislação processual vigente e recebido no efeito devolutivo, salvo quando
+
+interposto do julgamento de mérito do incidente de resolução de demandas repetitivas, hipótese em que terá efeito suspensivo.
 
 *(Redação dada pela Emenda Regimental n. 22, de 2016)*
 
@@ -26,37 +38,10 @@ Para atualizar apos nova versao do codigo: regerar, nunca corrigir aqui.
 
 *(Redação dada pela Emenda Regimental n. 24, de 2016)*
 
-I - não conhecer do recurso especial inadmissível, prejudicado ou que não tiver impugnado especificamente os fundamentos da decisão recorrida;
+I - não conhecer do recurso especial inadmissível ou prejudicado; que não tiver impugnado especificamente todos os fundamentos da decisão recorrida; que não contenha, inclusive nas hipóteses de presunção constitucional ou legal, tópico específico e fundamentado destinado a demonstrar a relevância da questão de direito federal infraconstitucional; ou cujo tema tenha sido declarado destituído de relevância pela Corte Especial ou pela Seção, na forma do art. 255-C, I;
 
-*(Redação dada pela Emenda Regimental n. 24, de 2016)*
+*(Redação dada pela Emenda Regimental n. 55, de 2026)*
 
-II - negar provimento ao recurso especial que for contrário a tese fixada em julgamento de recurso repetitivo ou de repercussão geral, a entendimento firmado em incidente de assunção de competência, ou, ainda, a súmula ou jurisprudência consolidada do Supremo Tribunal Federal ou do Superior Tribunal de Justiça;
+II - negar provimento ao recurso especial que for contrário a tese fixada em julgamento de recurso repetitivo, de repercussão geral ou de recurso especial com relevância da questão de direito federal infraconstitucional reconhecida pela técnica de formação de precedente qualificado, a entendimento firmado em incidente de assunção de competência, a súmula do Supremo Tribunal Federal ou do Superior Tribunal de Justiça ou, ainda, a jurisprudência dominante acerca do tema;
 
-*(Redação dada pela Emenda Regimental n. 24, de 2016)*
-
-<a id="pdf-page-131"></a>
-<!-- pdfmd:page=131; method=native -->![Imagem incorporada na página PDF 131](Regimento_interno_atualizado_STJ_assets/img_131_01.png)
-*Imagem incorporada — página PDF 131.*
-
-
-# R EGIMENTO I NTERNO
-
-III - dar provimento ao recurso especial após vista ao recorrido, se o acórdão recorrido for contrário a tese fixada em julgamento de recurso repetitivo ou de repercussão geral, a entendimento firmado em incidente de assunção de competência ou, ainda, a súmula ou jurisprudência consolidada do Supremo Tribunal Federal ou do Superior Tribunal de Justiça.
-
-*(Redação dada pela Emenda Regimental n. 24, de 2016)*
-
-§ 5º No julgamento do recurso especial, verificar-se-á, preliminarmente, se o recurso é cabível. Decidida a preliminar pela negativa, a Turma não conhecerá do recurso; se pela afirmativa, julgará a causa, aplicando o direito à espécie, com observância da regra prevista no art. 10 do Código de Processo Civil.
-
-*(Incluído pela Emenda Regimental n. 24, de 2016)*
-
-§ 6º Julgado o recurso especial criminal, a decisão favorável ao réu preso será imediatamente comunicada às autoridades a quem couber cumpri-la, sem prejuízo da remessa de cópia do acórdão.
-
-*(Incluído pela Emenda Regimental n. 24, de 2016)*
-
-**CAPÍTULO II-A** **Do Recurso Especial Repetitivo**
-
-*(Incluído pela Emenda Regimental n. 24, de 2016)*
-
-**SEÇÃO I** **Do Recurso Especial Representativo da Controvérsia**
-
-**
+*(Redação dada pela Emenda Regimental n. 55, de 2026)*

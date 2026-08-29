@@ -41,6 +41,33 @@ direito/execucao/defesa-executado/raw/metodo-mma-*
 direito/execucao/credor/raw/curso-execucao-*
 direito/audiencias/raw/curso-audiencias-*
 
+# Imersão "Relevância na Prática" (curso pago, 08/2026): doutrina de
+# terceiro (artigos de revista, e-book, capítulo de livro) e os modelos
+# de peça distribuídos pelo curso. Obra intelectual/comercial — Lei
+# 9.610/98. Só o conhecimento reescrito nas páginas do bundle circula;
+# o material original fica na máquina de quem o depositou.
+direito/pecas/recurso-especial/raw/doutrina-relevancia-*
+direito/pecas/recurso-especial/raw/curso-relevancia-*
+
+
+# Tese de doutorado de terceiro (Lucas Buril de Macedo Barros, USP, 2019,
+# "Objeto dos recursos civeis"), consumida em 2026-08-29. Obra intelectual
+# protegida (Lei 9.610/98) ainda que de acesso publico na biblioteca digital
+# da USP: o repositorio compartilhado distribui, e distribuir nao e citar.
+# Circula o catalogo e o conhecimento reescrito nas paginas do bundle.
+direito/pecas/raw/tese-buril-objeto-dos-recursos-*
+# A nota de ligaduras CIRCULA: e licao de ferramenta (falso positivo do
+# reparar-ligaduras.py e o cego do script quanto ao caractere U+FB01),
+# nao conteudo da obra.
+!direito/pecas/raw/tese-buril-objeto-dos-recursos-*.ligaduras.md
+
+
+# Coluna assinada de terceiro sobre LGPD em cartorios (Joelson Sell),
+# depositada em 2026-08-29. Obra intelectual publicada (Lei 9.610/98).
+# So o catalogo e o conhecimento reescrito circulam.
+direito/lgpd/raw/lgpd-cartorios-infografico.*
+
+
 # Artigo doutrinário de terceiro sobre IRDR (obra intelectual,
 # Lei 9.610/98) — depositado na migração de 02/08/2026.
 direito/imobiliario/raw/artigo-zufelato-irdr.*
@@ -88,6 +115,26 @@ direito/digital/plataformas/raw/cadeia-*
 direito/imobiliario/raw/resp-2035848-to-decisao-nao-afetacao.md
 direito/imobiliario/raw/resp-2035848-to-certidao-desafetacao.pdf
 direito/imobiliario/raw/antes-lei-*
+
+
+# ------------------------------------------------------------
+# 4. SUBPRODUTOS DO pdfmd — regeneráveis, pesados
+#
+# Regra tornada explícita em 2026-08-29, ao converter o RISTJ
+# consolidado (515 p.): sozinha, a pasta de imagens dele tem
+# 127 MB. Nenhum `_assets/`, `.pdfmd.json` ou `.index.md` jamais
+# foi versionado neste repositório — isto apenas registra o que
+# já era prática, para que uma conversão grande não entre por
+# descuido.
+#
+# O que CIRCULA é o par canônico `.pdf` + `.md` e o sidecar
+# `.quality.json` (esse sim versionado, 15 arquivos hoje).
+# Quem precisar das imagens ou do manifesto reconverte com o
+# pdfmd a partir do PDF, que está aqui.
+# ------------------------------------------------------------
+*_assets/
+*.pdfmd.json
+*.index.md
 
 
 # ------------------------------------------------------------

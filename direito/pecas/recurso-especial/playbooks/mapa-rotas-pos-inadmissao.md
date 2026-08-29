@@ -25,7 +25,9 @@ Fonte da bifurcação: [CPC, art. 1.030, §§1º–2º](/recurso-especial/jurisp
 
 - **Não cabem EDcl** da decisão de inadmissão (erro grosseiro; **não interrompe** o prazo do AREsp). Exceção raríssima: decisão tão genérica que impeça o agravo.
 - **REsp sobrestado aguardando afetado em regime de relevância:** negada a relevância no recurso afetado, os sobrestados são **automaticamente inadmitidos** (novo 1.039, p.ú.) — sem novo ato recorrível na origem. Monitorar o tema, não a intimação.
-- **Não conhecimento por irrelevância no próprio STJ** (1.035-A, caput): decisão **irrecorrível** — não há rota.
+- **Não conhecimento por irrelevância no próprio STJ** (1.035-A, caput, e art. 255-B do RISTJ): decisão **irrecorrível** — não há rota.
+- **Tema NEGATIVO de relevância** (a Corte Especial ou a Seção rejeitou a relevância por 2/3 e fixou tese, ou declarou a incompetência do STJ por maioria absoluta): os presidentes e vice-presidentes de origem passam a **negar seguimento** a todo REsp sobre questão idêntica. Contra essa decisão cabe **agravo interno** do art. 1.021 — o art. 255-M, § 4º, do RISTJ declara **incabível o AREsp** (mesma conclusão a que se chega pelo 1.030, I, c, com o bloqueio do 1.042). A via de ataque ao próprio tema é a **distinção ou superação**: recurso admitido na origem por distinção/superação é processado como representativo da controvérsia (arts. 255-AA e 255-AB), e o tema pode ainda ser revisto se o STF decidir a mesma questão (art. 255-AD).
+- **Rejeição de relevância pela Turma** (art. 255-AE, I — efeito só para o caso concreto): exige 2/3 da Turma e decisão colegiada; relator não declara irrelevância monocraticamente. Vencido o relator na proposta, o recurso é redistribuído entre os divergentes, sem que isso reconheça a relevância (§ 1º).
 - **AgInt do 1.030, §2º desprovido:** não cabe Reclamação ao STJ (Rcl 36.476/SP, Corte Especial) nem novo REsp sobre a aplicação da tese; alternativa excepcional é o mandado de segurança.
 - **Interposição conjunta REsp+RE, ambos inadmitidos:** um agravo para CADA recurso (art. 1.042, §6º).
 - **Admissão parcial não existe tecnicamente:** a decisão é una; impugnar por inteiro o que foi negado.

@@ -1,12 +1,18 @@
 <!--
 RECORTE AUTOMATICO — nao editar a mao.
-Gerado por recortar-artigo.py a partir de direito/pecas/raw/ristj-er53.md,
+Gerado por recortar-artigo.py a partir de direito/pecas/raw/ristj-consolidado-er55.md,
 que e o deposito integral e imutavel do codigo. Este arquivo existe para que o
 lint-citacoes confira a transcricao dentro deste bundle sem duplicar o codigo.
 Para atualizar apos nova versao do codigo: regerar, nunca corrigir aqui.
 -->
-
-# RISTJ, art. 34
+<!--
+LIMPEZA MANUAL, 2026-08-29. O consolidado ate a ER-55 traz, em cada pagina com
+texto tambem em imagem, um bloco "> OCR da imagem" que DUPLICA o texto nativo
+(problema ja catalogado em direito/pecas/raw/index.md). Removidos aqui os
+blocos de OCR, os marcadores de pagina, as imagens e os cabecalhos correntes
+("REGIMENTO INTERNO"). O texto nativo foi mantido integralmente.
+-->
+# ristj, art. 34
 
 **Art. 34. ** São atribuições do relator: I - ordenar e dirigir o processo;
 
@@ -32,11 +38,6 @@ IX - apreciar e homologar pedidos de desistência, de autocomposição das parte
 
 *(Redação dada pela Emenda Regimental n. 24, de 2016)*
 
-<a id="pdf-page-54"></a>
-<!-- pdfmd:page=54; method=native -->![Imagem incorporada na página PDF 54](Regimento_interno_atualizado_STJ_assets/img_054_01.png)
-*Imagem incorporada — página PDF 54.*
-
-
 X - pedir dia para julgamento dos feitos que lhe couberem por distribuição, ou passá-los ao revisor, com o relatório, se for o caso;
 
 XI - julgar prejudicado pedido ou recurso que haja perdido objeto;
@@ -55,59 +56,45 @@ XVII - determinar o arquivamento de inquérito, ou peças informativas, quando o
 
 *(Redação dada pela Emenda Regimental n. 22, de 2016)*
 
-- não conhecer do recurso ou pedido inadmissível, prejudicado ou daquele  que não tiver impugnado especificamente todos os fundamentos da decisão recorrida;
+- não conhecer do recurso ou pedido inadmissível ou prejudicado; que não  tiver impugnado especificamente todos os fundamentos da decisão recorrida; que não contenha, inclusive nas hipóteses de presunção constitucional ou legal, tópico específico e fundamentado destinado a demonstrar a relevância da questão de direito federal infraconstitucional; ou cujo tema tenha sido declarado destituído de relevância pela Corte Especial ou pela Seção, na forma do art. 255-C, I;
 
-*(Incluído pela Emenda Regimental n. 22, de 2016)*
+*(Redação dada pela Emenda Regimental n. 55, de 2026)*
 
-- negar provimento ao recurso ou pedido que for contrário a tese fixada  em julgamento de recurso repetitivo ou de repercussão geral, a entendimento firmado em incidente de assunção de competência, a súmula do Supremo Tribunal Federal ou do Superior Tribunal de Justiça ou, ainda, a jurisprudência dominante acerca do tema;
+- negar provimento ao recurso ou pedido que for contrário a tese fixada  em julgamento de recurso repetitivo, de repercussão geral ou de recurso especial com relevância da questão de direito federal infraconstitucional reconhecida pela técnica de formação de precedente qualificado, a entendimento firmado em incidente de assunção de competência, a súmula do Supremo Tribunal Federal ou do Superior Tribunal de Justiça ou, ainda, a jurisprudência dominante acerca do tema;
 
-*(Incluído pela Emenda Regimental n. 22, de 2016)*
+*(Redação dada pela Emenda Regimental n. 55, de 2026)*
 
-- dar provimento ao recurso se o acórdão recorrido for contrário a tese fixada  em julgamento de recurso repetitivo ou de repercussão geral, a entendimento firmado em incidente de assunção de competência, a súmula do Supremo Tribunal Federal ou do Superior Tribunal de Justiça ou, ainda, a jurisprudência dominante acerca do tema;
+- dar provimento ao recurso se o acórdão recorrido for contrário a tese fixada  em julgamento de recurso repetitivo, de repercussão geral ou de recurso especial com relevância da questão de direito federal infraconstitucional reconhecida pela técnica de formação de precedente qualificado, a entendimento firmado em incidente de assunção de competência, a súmula do Supremo Tribunal Federal ou do Superior Tribunal de Justiça ou, ainda, a jurisprudência dominante acerca do tema;
 
-*(Incluído pela Emenda Regimental n. 22, de 2016)*
+*(Redação dada pela Emenda Regimental n. 55, de 2026)*
 
-XIX - decidir o mandado de segurança quando for inadmissível, prejudicado ou quando se conformar com tese fixada em julgamento de recurso repetitivo ou de repercussão geral, a entendimento firmado em incidente de assunção de
+XIX - decidir o mandado de segurança quando for inadmissível, prejudicado ou quando se conformar com tese fixada em julgamento de recurso repetitivo, de repercussão geral ou de recurso especial com relevância da questão de direito federal infraconstitucional reconhecida pela técnica de formação de precedente qualificado, a entendimento firmado em incidente de assunção de competência, a súmula do Superior Tribunal de Justiça ou do Supremo Tribunal Federal, a jurisprudência dominante acerca do tema ou as confrontar;
 
-<a id="pdf-page-55"></a>
-<!-- pdfmd:page=55; method=native -->![Imagem incorporada na página PDF 55](Regimento_interno_atualizado_STJ_assets/img_055_01.png)
-*Imagem incorporada — página PDF 55.*
+*(Redação dada pela Emenda Regimental n. 55, de 2026)*
 
+XX - decidir o *habeas corpus* quando for inadmissível, prejudicado ou quando a decisão impugnada se conformar com tese fixada em julgamento de recurso repetitivo, de repercussão geral ou de recurso especial com relevância da questão de direito federal infraconstitucional reconhecida pela técnica de formação de precedente qualificado, a entendimento firmado em incidente de assunção de competência, a súmula do Superior Tribunal de Justiça ou do Supremo Tribunal Federal, a jurisprudência dominante acerca do tema ou as confrontar;
 
-# R EGIMENTO I NTERNO
-
-competência, a súmula do Superior Tribunal de Justiça ou do Supremo Tribunal Federal, a jurisprudência dominante acerca do tema ou as confrontar;
-
-*(Redação dada pela Emenda Regimental n. 24, de 2016)*
-
-XX - decidir o *habeas corpus* quando for inadmissível, prejudicado ou quando a decisão impugnada se conformar com tese fixada em julgamento de recurso repetitivo ou de repercussão geral, a entendimento firmado em incidente de assunção de competência, a súmula do Superior Tribunal de Justiça ou do Supremo Tribunal Federal, a jurisprudência dominante acerca do tema ou as confrontar;
-
-*(Redação dada pela Emenda Regimental n. 24, de 2016)*
+*(Redação dada pela Emenda Regimental n. 55, de 2026)*
 
 XXI - decidir o agravo de instrumento interposto com base no art. 1.027, §1º, do CPC;
 
 *(Incluído pela Emenda Regimental n. 22, de 2016)*
 
-XXII - decidir o conflito de competência quando for inadmissível, prejudicado ou quando se conformar com tese fixada em julgamento de recurso repetitivo ou de repercussão geral, a entendimento firmado em incidente de assunção de competência, a súmula do Superior Tribunal de Justiça ou do Supremo Tribunal Federal, a jurisprudência dominante acerca do tema ou as confrontar;
+XXII - decidir o conflito de competência quando for inadmissível, prejudicado ou quando se conformar com tese fixada em julgamento de recurso repetitivo, de repercussão geral ou de recurso especial com relevância da questão de direito federal infraconstitucional reconhecida pela técnica de formação de precedente qualificado, a entendimento firmado em incidente de assunção de competência, a súmula do Superior Tribunal de Justiça ou do Supremo Tribunal Federal, a jurisprudência dominante acerca do tema ou as confrontar;
 
-*(Incluído pela Emenda Regimental n. 24, de 2016)*
+*(Redação dada pela Emenda Regimental n. 55, de 2026)*
 
 XXIII - remeter o processo ao Supremo Tribunal Federal após juízo positivo de admissibilidade quando entender versar o recurso especial sobre matéria constitucional, dando vista ao recorrente pelo prazo de quinze dias para que demonstre a existência de repercussão geral e manifeste-se sobre a questão constitucional, bem como vista à parte adversa para, por igual prazo, apresentar contrarrazões;
 
 *(Incluído pela Emenda Regimental n. 24, de 2016)*
 
-XXIV - determinar a devolução ao Tribunal de origem dos recursos especiais fundados em controvérsia idêntica àquela já submetida ao rito de julgamento de casos repetitivos para adoção das medidas cabíveis;
+XXIV - determinar, por meio de despacho irrecorrível, a devolução ao Tribunal de origem, para as providências cabíveis, dos recursos fundados em controvérsia idêntica àquela já submetida às sistemáticas de casos repetitivos, da repercussão geral e da relevância da questão de direito federal infraconstitucional pela técnica de formação de precedente qualificado;
 
-*(Incluído pela Emenda Regimental n. 24, de 2016)*
+*(Redação dada pela Emenda Regimental n. 55, de 2026)*
 
 XXV - julgar recurso fundado em nulidade da decisão recorrida por vício de procedimento;
 
 *(Incluído pela Emenda Regimental n. 24, de 2016)*
-
-<a id="pdf-page-56"></a>
-<!-- pdfmd:page=56; method=native -->![Imagem incorporada na página PDF 56](Regimento_interno_atualizado_STJ_assets/img_056_01.png)
-*Imagem incorporada — página PDF 56.*
-
 
 XXVI - executar e fazer cumprir os despachos, as decisões monocráticas, as ordens e os acórdãos transitados em julgado nas ações penais, inquéritos e demais procedimentos penais originários de sua relatoria, bem como determinar às autoridades judiciárias e administrativas providências relativas ao andamento e à instrução de processos, facultada a delegação de atribuições para a prática de atos processuais previstos no art. 21-A deste Regimento a outros Tribunais e a juízos de primeiro grau de jurisdição, ficando as decisões proferidas sujeitas a posterior controle do relator, de ofício ou mediante provocação do interessado, no prazo de cinco dias da ciência do ato.
 
@@ -115,6 +102,8 @@ XXVI - executar e fazer cumprir os despachos, as decisões monocráticas, as ord
 
 XXVII - decidir o conflito federativo quando for inadmissível, prejudicado, conformar-se com tese fixada em julgamento de recurso repetitivo ou de repercussão geral, com entendimento firmado em incidente de assunção de competência, com súmula do Superior Tribunal de Justiça ou do Supremo Tribunal Federal, com jurisprudência dominante acerca do tema ou quando as confrontar, ou remeter os autos ao juízo competente, se a causa não revelar risco ao pacto federativo.
 
-*(Incluído pela Emenda Regimental n. 48, de 2026)* **SEÇÃO III** **Do Revisor**
+*(Incluído pela Emenda Regimental n. 48, de 2026)*
 
-**
+XXVIII - conceder prazo de quinze dias para que o recorrente demonstre a existência de relevância da questão de direito federal infraconstitucional em recurso extraordinário remetido a esta Corte por decisão do Supremo Tribunal Federal que considere como reflexa a ofensa à Constituição, por pressupor a revisão da interpretação de lei federal ou de tratado;
+
+*(Incluído pela Emenda Regimental n. 55, de 2026)*

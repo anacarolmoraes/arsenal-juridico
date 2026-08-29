@@ -1,5 +1,137 @@
 # Log
 
+## 2026-08-29
+
+**Ingestão — tese de doutorado sobre objeto dos recursos (Buril, USP 2019).** Depositada em
+`raw/tese-buril-objeto-dos-recursos-2019.{pdf,md}` e posta **fora do git** antes de qualquer commit
+(obra intelectual de terceiro; acesso público na biblioteca digital da USP não é licença para
+redistribuir num repositório compartilhado). Conversão pdfmd: **420/420 páginas, 0 aviso, 0
+`review_required`**, 1 página por OCR.
+
+**Triagem honesta do que a obra rende.** É tese teórica e propositiva: dos cinco capítulos, dois são
+história do efeito devolutivo (direito romano, visigótico, canônico, lusitano, Regulamento 737 aos
+CPCs de 39 e 73) e um é direito comparado (Itália, Portugal, Espanha, Inglaterra, EUA, Argentina,
+Peru). Isso não gera conduta. O que gera está no Capítulo III, e virou **uma** heurística:
+[`apelacao/heuristicas/extensao-e-profundidade-do-devolutivo.md`](apelacao/heuristicas/extensao-e-profundidade-do-devolutivo.md).
+
+O achado aproveitável é a **função residual da causa de pedir recursal**. Sendo a profundidade do
+efeito devolutivo automática (art. 1.013, §§ 1º e 2º), o tribunal pode julgar por fundamento que a
+apelação não articulou — mas a fundamentação recursal segue fazendo duas coisas: sustenta a
+**dialeticidade** (admissibilidade, art. 932, III) e **obriga o tribunal a responder**. Como é a
+resposta devida e não dada que abre os embargos, e são os embargos que constroem o prequestionamento,
+a regra prática que fica é: *na apelação se articula tudo não pela devolução, mas para construir o
+registro do REsp*. A página amarra isso à assimetria com a Súmula 283/STF, já coberta pela
+`recurso-especial/heuristicas/tabela-de-fundamentos` — a omissão inofensiva na apelação é fatal no
+especial.
+
+Nasce **`em_teste`**, e a página diz por quê: a descrição do art. 1.013 é pacífica, mas o encadeamento
+acrescentado vem de fonte única e sem conferência contra jurisprudência do TJTO e do STJ. As
+proposições do autor que **não são direito posto** estão isoladas em seção própria (crítica ao
+"gigantismo"; profundidade como regra exclusiva da apelação; realocação da dialeticidade;
+irrelevância da causa de pedir recursal), para que ninguém as cite como lei.
+
+**Falso positivo do `reparar-ligaduras.py`, e um cego do script.** O reparo automático propôs 3 formas
+(4 substituições) e uma delas era **espúria**: `plaintiff presented → plaintiffpresented`, em citação
+de doutrina estadunidense — adotar em bloco teria corrompido o texto. Descartado o `.reparado.md`;
+aplicadas à mão só as duas válidas. Na conferência apareceu um ponto que o script **não** enxerga: ele
+só reconhece a forma ASCII (`fi eld`), e o PDF trazia também o **caractere** de ligadura tipográfica
+U+FB01 — 6 ocorrências, todas em citação em inglês, duas partidas por espaço e quatro íntegras
+(`specific`, `find`, `field`, `find`), que passariam incólumes e quebrariam qualquer busca por
+"field"/"find". Normalizadas à mão; conferido que não restou U+FB00/FB02/FB03/FB04. Tudo registrado em
+`raw/tese-buril-objeto-dos-recursos-2019.ligaduras.md`. **Lição que fica: volume baixo de propostas
+não significa reparo seguro — significa que o que sobra tem alta chance de ser falso positivo.**
+
+**Armadilha para quem for recortar desta fonte:** 333 das 420 páginas trazem bloco `> OCR da imagem`
+duplicando o texto nativo (mesma classe já catalogada no `raw/index.md`), e a versão do OCR é a pior
+(`TIMG`, `perícial`, `sámula`). Registrado no catálogo.
+
+**Ingestão — Imersão "Relevância na Prática": 16 arquivos triados, 13 depositados.** Material de curso
+pago trazido pela titular (`consumir/material_pratica_relevancia_STJ`). Triagem por hash antes de
+qualquer conversão: `Emr_55_2026_STJ.pdf` é **byte-idêntico** ao `raw/ristj-er55.pdf` já depositado em
+08-26; a ER-53 e a Lei 15.484 do curso são outras impressões de normas já ingeridas — as três
+descartadas sem conversão. Os 13 restantes foram convertidos pelo pdfmd (sem `--strict`; nenhum aviso
+pendente) e os 3 `.docx` por extração direta do `word/document.xml`.
+
+**Pendências fechadas nesta rodada** (todas abertas em 08-18 ou 08-26):
+
+- **(a) Literal da CF, art. 105, §§ 2º-3º.** A `cf-art-105-iii` carregava paráfrase deliberada, porque o Planalto é inacessível do sandbox e a regra pós-caso-AREsp proíbe transcrever de memória. A **EC 125/2022** veio no material, foi depositada (`ec-125-2022-relevancia.{pdf,md}`) e a paráfrase deu lugar ao texto conferido. Página nova [`ec-125-2022`](recurso-especial/jurisprudencia/ec-125-2022.md) registra o que a emenda decidiu e por que o art. 2º dela **não** é o marco de transição (é o art. 4º da Lei 15.484) — sobrevive dele a faculdade de **atualizar o valor da causa**, leitura que Koehler e Bonizzi (RePro 333/2022) confirmam.
+- **(b) Ato regulamentar do art. 343-A.** A página do 343-A pedia "acompanhar o ato regulamentar da Presidência" desde 07/2026. Ele existe: **IN STJ/GP 42/2026**, DJe de 20/08/2026. Depositada e derivada em [`instrucao-normativa-stj-gp-42-2026`](recurso-especial/jurisprudencia/instrucao-normativa-stj-gp-42-2026.md). **Muda a prática:** o resumo deixa de ser seção do preâmbulo e vira **campo estruturado do sistema**, preenchido **no ato da interposição no juízo a quo** (art. 3º, §§ 4º-5º); cinco campos, o quinto exclusivo do REsp e destinado à relevância; 3.000 caracteres recomendados por campo; inexatidão deliberada pode ser tratada como ato atentatório à dignidade da justiça, com comunicação à OAB (art. 4º, p.ú.); vício é sanável em 10 dias por certidão automatizada (art. 5º). **Ainda não é exigível** — o art. 12 condiciona a portaria da Presidência, com gatilhos separados para o sistema do STJ e para cada tribunal de origem. Não se aplica à Terceira Seção. *Monitorar as portarias, e a habilitação do TJTO.*
+- **(c) Página do procedimento do Capítulo II-A.** O recorte existia desde 08-26 sem análise. Escrita [`ristj-cap-ii-a-relevancia`](recurso-especial/jurisprudencia/ristj-cap-ii-a-relevancia.md), conferida artigo a artigo contra o recorte oficial, não contra a doutrina: duas técnicas (255-C), quóruns (2/3 para rejeitar; maioria absoluta para competência), plenário virtual, suspensão nacional de 6+6 meses (255-N), temas **negativos** com agravo interno e AREsp incabível (255-M, § 4º), *fast track* de reafirmação (255-S) e a presunção do art. 255-AE, § 3º (mérito julgado sem deliberação sobre relevância presume-se caso concreto — logo, sem eficácia expansiva).
+- **(d) Reconsolidação do RISTJ.** O log de 08-26 registrava que `ristj-er53.md` ficaria parcialmente superado "sem reconsolidação disponível ainda". O material trouxe o **RISTJ consolidado até a ER-55** (edição do Gabinete do Diretor da Revista, ER-55 de 21/08/2026, DJe 26/08/2026, 515 p.), depositado como `raw/ristj-consolidado-er55` (transversal, ao lado do `ristj-er53`, que fica como registro histórico).
+
+**RISTJ consolidado até a ER-55 — depósito, reparo e regeração dos recortes.** O volume (515 p.,
+edição do Gabinete do Diretor da Revista, DJe 26/08/2026) foi convertido com o pdfmd: **515/515
+páginas, 0 aviso, 0 `review_required`**, 10 páginas por OCR. Passou pelo `reparar-ligaduras.py` —
+**192 formas** de palavra partida, todas conferidas contra falso positivo (`ex officio` é latim e ficou
+como está); uma correção manual fora do alcance do script: o extrator devolveu `Aperfi çoamento` no
+art. 331-A e a junção daria `Aperfiçoamento`, errado de todo modo — corrigido para **`Aperfeiçoamento`**,
+grafia que o próprio documento usa nas outras 52 ocorrências. O `.diff` fica depositado para conferência.
+
+Com a fonte nova, os quatro recortes do RISTJ no `recurso-especial` que a ER-55 tornou obsoletos
+(arts. **34, 104-A, 121-A e 255** — todos na lista de artigos alterados) foram regerados. Duas
+armadilhas do consolidado apareceram e estão documentadas no cabeçalho de cada recorte e no
+`raw/index.md` transversal: (1) a **duplicata por OCR de imagem** faz o recorte automático começar pela
+versão pior do texto (`Art.255.0O recurso especial...`); (2) o volume traz um **apêndice com todas as
+emendas históricas**, em que `Art. 255...` reaparece dezenas de vezes com reticências, fora do corpo do
+Regimento. Além disso, o corte pelo fim varreu os 33 artigos do Capítulo II-A para dentro do recorte do
+art. 255 — a mesma limitação do script já registrada em 08-26 (não percorre sequência com sufixo de
+letra). Resultado: os quatro recortes foram limpos à mão, cada um com a limpeza declarada no cabeçalho,
+e conferidos — um artigo por arquivo, com o texto pós-ER-55 e as marcas "(Redação dada/Incluído pela
+Emenda Regimental n. 55, de 2026)". `ristj-er53` e `ristj-er55` ficam como registro histórico; **para
+citar em peça, a fonte agora é `ristj-consolidado-er55.md`**.
+
+
+**Descoberta que não estava em nenhuma fonte do acervo: a presunção não dispensa o tópico.** O
+art. 255-J, parágrafo único, do RISTJ exige a demonstração da relevância "**inclusive nas hipóteses de
+presunção**", sob pena de inadmissão na origem ou não conhecimento. O playbook antes recomendava
+"invocá-la E fundamentar subsidiariamente" — conduta que por acaso satisfaz a regra, mas por prudência,
+não por conhecê-la. Agora é portão explícito. Junto vem o risco do art. 255-K, § 2º: no inciso III
+(500 salários mínimos), o STJ pode rever **de ofício** o valor da causa e negar a relevância se ele não
+corresponder aos arts. 291-293 do CPC — invocar o piso sem conferir a fixação do valor é tiro pela
+culatra. Ambos viraram a heurística
+[`relevancia-presumida-como-enquadrar`](recurso-especial/heuristicas/relevancia-presumida-como-enquadrar.md),
+que cobre as seis hipóteses uma a uma. Conferido que o documento de método solto na raiz
+("Modelo Mental, Método e Estrutura para LLM", 817 linhas) **não menciona presunção** em nenhuma linha —
+a heurística preenche lacuna, não duplica.
+
+**Heurística nova a partir de conferência que contrariou a fonte.** O artigo do JOTA (29/07/2026,
+anterior à ER-55) projetava que o tema de relevância carregaria os mesmos efeitos do repetitivo, e lista
+arts. 311, 332, 496, § 4º, e 521 ao lado do 927 e do 932. Conferido contra a
+`lei-15484-2026-alteracoes-cpc`: a lei alterou **927 (III-A)** e **932 (IV/V, b)**, mas **não** tocou nos
+arts. 311, 332, 496 e 521, que seguem falando apenas em recursos repetitivos. A heurística
+[`efeitos-do-tema-de-relevancia-fora-do-resp`](recurso-especial/heuristicas/efeitos-do-tema-de-relevancia-fora-do-resp.md)
+separa os dois grupos e marca o segundo como **construção pela via do 927, III-A** — tese fundamentável,
+nunca premissa. Interessa fora do REsp: tema negativo muda a estratégia já na inicial.
+
+**Fluxos atualizados.** Playbook (portão 9, item 2 do resumo reescrito para o regime da IN 42, item 3
+com remissão à heurística, 3 erros novos a evitar); mapa de rotas (tema negativo → agravo interno com
+âncora regimental; rejeição pela Turma exige colegiado); `atuacao-no-stj-pos-protocolo` ganhou seção do
+**Plenário Virtual da Relevância** — 7 dias corridos, acompanhamento em tempo real, e o comunicado do STJ
+de 25/08/2026 que moveu início e encerramento das sessões virtuais para as **11h30** (não retroage a
+pautas já publicadas). A sustentação oral por vídeo no virtual está marcada como **interpretação
+doutrinária, não texto regimental**: o art. 255-S não a prevê, e a tese é de Salomão, Bellizze, Gajardoni
+e Marchiori — que redigiram a emenda, o que dá peso, mas não converte em norma.
+
+**Distribuição.** As 6 obras doutrinárias e os 3 modelos do curso são obra de terceiro e entraram no
+`.gitignore` (`doutrina-relevancia-*`, `curso-relevancia-*`) **antes** de qualquer commit — o excerto do
+livro coordenado por Campbell Marques traz vedação expressa de reprodução. Circula o catálogo novo
+[`recurso-especial/raw/index.md`](recurso-especial/raw/index.md), que registra o que cada fonte rendeu.
+Os modelos do curso contêm nome de parte e número de autos de processo de terceiro: anotado no catálogo
+que não se reaproveita o texto sem limpar. Nenhuma linha dos modelos foi transcrita nas páginas — o que
+foi para o acervo é conhecimento reescrito.
+
+Na mesma passagem, uma regra que já era prática virou texto no `.gitignore`: **subprodutos do pdfmd
+(`*_assets/`, `*.pdfmd.json`, `*.index.md`) não são versionados.** Zero deles existia no repositório, mas
+nada impedia que entrassem por descuido — e a pasta de imagens do RISTJ consolidado sozinha tem
+**127 MB**. Circula o par canônico `.pdf` + `.md` (e o `.quality.json`, que segue versionado); quem
+precisar das imagens reconverte a partir do PDF, que está depositado.
+
+**Ressalvas de fonte.** (1) O dia do mês na epígrafe da IN 42 está rasurado no PDF oficial e o OCR
+devolve lixo; o que se conferiu é a publicação no DJe de 20/08/2026 — declarado na página. (2) Vargas
+(e-book RPGMJ) e o capítulo de Fuga (2023) ficaram **sem página derivada**: o primeiro é teórico-
+institucional sem consequência operacional, o segundo defende alteração legislativa que a Lei 15.484 em
+boa parte realizou. Depositados e catalogados para consulta.
+
 ## 2026-08-26
 
 **Ingestão — núcleo transversal de sucumbência (v0.5.0 → v0.6.0).** Criado `sucumbencia/` com duas teses `em_teste`: decaimento mínimo quando o pedido principal é acolhido e a divergência se limita à quantificação; e impossibilidade de o rateio de verba única reduzir indiretamente os honorários abaixo do piso do art. 85, § 2º. Fundamentos: TJGO Ap. 5412926-72.2023.8.09.0051 (`em_teste`) e TJSP Ap. 1096878-68.2017.8.26.0100 (`vigente`). As três fontes desta rodada foram depositadas como recortes `.md` anonimizados em `raw/jurisprudencia/`, sem PDFs e sem dados das partes. O precedente do TJSP teve inteiro teor e metadados conferidos no e-SAJ em 26/08/2026; os precedentes do STJ que ele cita permanecem pendentes de ingestão individual.
