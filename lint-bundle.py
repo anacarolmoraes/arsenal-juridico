@@ -8,14 +8,25 @@ KnowledgeOperatingSystem, fora do que fiscalizava).
 
 Checagens:
   E1  toda pagina de conteudo tem frontmatter com `type` e `status`
-  E2  todo link relativo resolve
+  E2  toda referencia a arquivo resolve (link do corpo E campo de frontmatter)
   E3  toda pagina aparece em algum index.md
   E4  toda pagina `status: vigente` de jurisprudencia/teses tem fonte oficial em raw/
+  E5  toda tese aponta para acordao, sumula ou legislacao do bundle
+  E6  acordao cumpre o schema do Espelho do Acordao (0.5)
   W1  paginas orfas (nenhuma outra pagina de conteudo as referencia)
-  W2  `status` fora do vocabulario (vigente | em_teste | superada)
+  W2  `status` fora do vocabulario (vigente | em_teste | superada | rascunho)
+  W3  `type: legislacao` vigente sem transcricao oficial em raw/
 
 E4 e o que importa: `status` sem fonte depositada e etiqueta, nao garantia.
 Sem essa checagem, uma pagina "vigente" pode nunca ter sido conferida.
+
+O GRAFO tem tres formas de aresta, e o lint le as tres (2026-08-29):
+  1. link markdown no corpo          [texto](/jurisprudencia/x.md)
+  2. campo de frontmatter            fundamentos: / raw: / playbook: / casos_origem:
+  3. caminho absoluto nu no corpo    - **Workflow:** /workflows/x.md
+Ler so a forma 1, como era ate aqui, produzia painel majoritariamente falso: 17 de 17
+E5 e 307 de 336 W1 eram falso positivo. Portao que grita errado nao e obedecido — e
+desligado. Ver `refs_frontmatter`, `RX_CAMINHO_NU` e a nota do W1 sobre raw/.
 
 Uso (stdlib apenas, sem dependencias):
     python lint-bundle.py                      # todos os bundles sob a raiz
@@ -44,6 +55,26 @@ RX_LINK = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 RX_FENCE = re.compile(r"```.*?```", re.DOTALL)
 RX_INLINE = re.compile(r"`[^`]*`")
 
+# O grafo do acervo NAO mora so no corpo. Campos de frontmatter como `fundamentos:`,
+# `casos_origem:`, `raw:` e `playbook:` sao arestas de verdade — e eram invisiveis para
+# o lint, que so lia RX_LINK. Consequencia medida em 2026-08-29: 17 de 17 E5 e 268 de
+# 317 W1 eram FALSO POSITIVO. Painel majoritariamente falso nao vira portao: e abandonado.
+#
+# A deteccao e por RESOLUCAO, nao por lista de campos: um valor so vira aresta se apontar
+# para arquivo existente. Assim campo novo entra no grafo sozinho, sem manutencao aqui, e
+# `title:` ou `description:` que por acaso contenham ".md" nao criam aresta falsa.
+RX_FM_ESCALAR = re.compile(r"^([a-z_]+):[ \t]*(\S.*)$", re.M)
+RX_FM_LISTA = re.compile(r"^([a-z_]+):[ \t]*\n((?:[ \t]*-[ \t]*.+\n?)+)", re.M)
+RX_FM_ITEM = re.compile(r"-[ \t]*(.+)")
+
+# Terceira forma de aresta, mesma familia: caminho ABSOLUTO nu no corpo, fora de link
+# markdown. E a convencao do `atividades.md` ("- **Workflow:** /workflows/x.md") e de
+# varios index.md — 317 arestas reais que o lint nao via.
+#
+# Caminho nu SO ACRESCENTA aresta quando resolve; nunca vira E2. A assimetria e
+# deliberada: prosa que menciona pagina ainda nao escrita e plano, nao link quebrado.
+RX_CAMINHO_NU = re.compile(r"(?<!\()(?<!\[)(/[A-Za-z0-9._\-/]+\.md)\b")
+
 achados: list[tuple[str, str, str, str]] = []  # (sev, check, arquivo, detalhe)
 
 
@@ -66,6 +97,50 @@ def frontmatter(t: str) -> str | None:
 def campo(fm: str, chave: str) -> str | None:
     m = re.search(rf"^{chave}:\s*(.+)$", fm, re.M)
     return m.group(1).strip().strip("\"'") if m else None
+
+
+def refs_frontmatter(fm: str) -> list[tuple[str, str]]:
+    """Pares (campo, valor) do frontmatter que parecem apontar para arquivo do bundle.
+
+    Cobre as duas formas em uso no acervo:
+        raw: /raw/resp-2106548-sp.md          (escalar)
+        fundamentos:                          (lista)
+          - /jurisprudencia/sumula-543-stj.md
+    """
+    out: list[tuple[str, str]] = []
+    for m in RX_FM_ESCALAR.finditer(fm):
+        out.append((m.group(1), m.group(2)))
+    for m in RX_FM_LISTA.finditer(fm):
+        for item in RX_FM_ITEM.findall(m.group(2)):
+            out.append((m.group(1), item))
+
+    limpos = []
+    for chave, bruto in out:
+        v = bruto.strip().strip("\"'")
+        if not v or v.startswith(("http://", "https://", "mailto:")):
+            continue
+        # Um caminho aqui e sempre absoluto-ao-bundle ou traz extensao de arquivo.
+        if v.startswith("/") or v.endswith((".md", ".pdf", ".html", ".json")):
+            limpos.append((chave, v))
+    return limpos
+
+
+def resolver_ref(bundle: Path, pagina: Path, valor: str) -> Path | None:
+    """Resolve referencia a arquivo, na mesma convencao dos links do corpo.
+
+    `/` significa raiz do bundle; qualquer outra coisa e relativa a pagina. Uma
+    referencia a `.pdf` tambem aceita o `.md` irmao: o par PDF+transcricao e a
+    convencao de deposito de `raw/`, e quem cita costuma apontar para o PDF.
+    """
+    rel = valor.split("#", 1)[0].strip()
+    if not rel:
+        return None
+    base = bundle if rel.startswith("/") else pagina.parent
+    alvo = (base / rel.lstrip("/")).resolve()
+    if alvo.exists():
+        return alvo
+    irmao = alvo.with_suffix(".md")
+    return irmao if irmao.exists() else None
 
 
 # Dominio dos campos do Espelho do Acordao (schema 0.5). Modelo: o Manual de
@@ -175,9 +250,24 @@ def verificar(bundle: Path) -> None:
     todas = paginas(bundle)
     conteudo = [p for p in todas if p.name not in RESERVADOS]
 
-    # indice invertido de links
+    # indice invertido de links (quem aponta para quem) e o direto (quem cada pagina cita)
     entrada: dict[Path, set[Path]] = {}
+    saida: dict[Path, set[Path]] = {}
     alvos_de_indices: set[Path] = set()
+
+    def registrar_aresta(origem: Path, destino: Path) -> None:
+        """Uma aresta so conta como 'alguem me cita' se nao vier de index.md.
+
+        O W1 existe para achar pagina que so o indice alcanca — contar o indice
+        como citacao apagaria justamente o que ele mede.
+        """
+        if destino.suffix != ".md":
+            return
+        saida.setdefault(origem.resolve(), set()).add(destino)
+        if origem.name == "index.md":
+            alvos_de_indices.add(destino)
+        else:
+            entrada.setdefault(destino, set()).add(origem)
 
     for p in todas:
         try:
@@ -217,11 +307,25 @@ def verificar(bundle: Path) -> None:
             if not destino.exists():
                 add("error", "E2-link-quebrado", str(p.relative_to(bundle)), f"Link `{link}` nao resolve.")
                 continue
-            if destino.suffix == ".md":
-                if p.name == "index.md":
-                    alvos_de_indices.add(destino)
-                else:
-                    entrada.setdefault(destino, set()).add(p)
+            registrar_aresta(p, destino)
+
+        # Caminho absoluto nu no corpo (convencao do atividades.md e dos index.md).
+        for nu in ([] if em_raw else RX_CAMINHO_NU.findall(limpar_codigo(texto))):
+            destino = (bundle / nu.lstrip("/")).resolve()
+            if destino.exists():
+                registrar_aresta(p, destino)
+
+        # Arestas do FRONTMATTER — `fundamentos:`, `casos_origem:`, `raw:`, `playbook:`
+        # e o que mais vier. Sem isto o grafo do acervo fica pela metade e o W1/E5
+        # acusam pagina bem fundamentada de orfa (ver nota em RX_FM_ESCALAR).
+        fm_grafo = None if em_raw else frontmatter(texto)
+        for chave, valor in (refs_frontmatter(fm_grafo) if fm_grafo else []):
+            destino = resolver_ref(bundle, p, valor)
+            if destino is None:
+                add("error", "E2-link-quebrado", str(p.relative_to(bundle)),
+                    f"Frontmatter `{chave}: {valor}` nao resolve para arquivo existente.")
+                continue
+            registrar_aresta(p, destino)
 
     # E3 — cobertura de indice
     for p in conteudo:
@@ -279,24 +383,29 @@ def verificar(bundle: Path) -> None:
             continue
         if (campo(frontmatter(texto) or "", "type") or "") != "tese":
             continue
+        # Consulta o grafo ja montado — corpo E frontmatter. Antes daqui so se liam os
+        # links do corpo, e a tese que declarava `fundamentos:` no frontmatter (a
+        # convencao do acervo) era acusada de nao ter fundamento nenhum.
         aponta = False
-        for bruto in RX_LINK.findall(limpar_codigo(texto)):
-            link = bruto.split()[0].split("#", 1)[0]
-            if link.startswith(("http", "mailto")):
-                continue
-            base = bundle if link.startswith("/") else p.parent
-            alvo = (base / link.lstrip("/")).resolve()
-            if alvo.exists() and alvo.suffix == ".md":
+        for alvo in saida.get(p.resolve(), ()):
+            try:
                 fm_alvo = frontmatter(alvo.read_text(encoding="utf-8")) or ""
-                if (campo(fm_alvo, "type") or "") in ("acordao", "sumula", "legislacao"):
-                    aponta = True
-                    break
+            except Exception:
+                continue
+            if (campo(fm_alvo, "type") or "") in ("acordao", "sumula", "legislacao"):
+                aponta = True
+                break
         if not aponta:
             add("error", "E5-tese-sem-fundamento", str(p.relative_to(bundle)),
                 "Tese nao aponta para nenhum acordao, sumula ou legislacao do bundle — sintese sem fundamento rastreavel.")
 
-    # W1 — orfas
+    # W1 — orfas. raw/ fica FORA, pela mesma razao que ja o exclui do E1, E2 e E3:
+    # e camada de deposito, nao de conhecimento. Um PDF transcrito e citado por uma
+    # pagina curada, ou por nenhuma enquanto nao for derivado — chamar isso de "orfa"
+    # e erro de categoria, e era o que produzia 260 dos 289 avisos.
     for p in conteudo:
+        if "raw" in p.relative_to(bundle).parts:
+            continue
         if not entrada.get(p.resolve()):
             add("warning", "W1-orfa", str(p.relative_to(bundle)), "Nenhuma pagina de conteudo aponta para ela (so o indice, no maximo).")
 
