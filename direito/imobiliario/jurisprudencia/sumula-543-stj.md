@@ -9,6 +9,7 @@ autor: escritorio
 tribunal: STJ - 2ª Seção
 resource: STJ, Súmula 543 (2ª Seção, j. 26/08/2015, DJe 31/08/2015)
 data_julgamento: '2015-08-26'
+raw: /raw/sumula-543-stj.md
 verificado_em: '2026-07-22'
 ---
 

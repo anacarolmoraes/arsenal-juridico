@@ -8,6 +8,7 @@ status: vigente
 autor: ingerido
 resource: https://scon.stj.jus.br/SCON/sumstj/ (Súmula 479; confirmar URI canônica)
 tribunal: STJ
+raw: /raw/sumula-479-stj.md
 verificado_em: '2026-07-05'
 ---
 
