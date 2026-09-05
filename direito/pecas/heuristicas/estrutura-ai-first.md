@@ -39,6 +39,16 @@ Premissa: quem lê a peça primeiro nos tribunais é, cada vez mais, uma IA de t
 - **Citar norma de memória ou de resumo**: alínea trocada em citação de regimento passa despercebida até o gabinete. Toda norma citada: conferir letra por letra contra a página do bundle ou fonte oficial.
 - **Datas de julgado**: "DJe" e "data de julgamento" não se confundem — conferir qual é qual antes de transcrever a identificação.
 
+## Limite ético: estruturar não é manipular
+
+Esta heurística organiza **onde** o argumento mora no texto. Ela não autoriza, e o escritório proíbe sem exceção (regra da titular, 05/09/2026; regra dura 7 do `AGENTS.md` do motor), qualquer técnica dirigida ao leitor-máquina fora do argumento visível:
+
+- *prompt injection*: frase, nota ou trecho que instrua a IA de triagem do gabinete a decidir, resumir ou classificar de certo modo;
+- texto oculto: fonte branca, tamanho zero, run oculto do Word, comentário, propriedade do documento ou metadado carregando comando;
+- marcador invisível ou codificação destinada a ser lida só pela máquina.
+
+Vale para qualquer documento gerado com apoio de modelo de linguagem: peça, parecer, relatório, contrato, conteúdo. A justificativa de que "o tribunal usa IA" não altera nada: o que se explora ali é a leitura automática de um documento que o juiz assina como lido, e isso é infração ética (art. 34 do EOAB) com potencial criminal. BLUF, títulos-tese e fonte adjacente funcionam **porque** a informação relevante está no lugar certo do texto visível; é a única forma admitida de "falar com a máquina".
+
 ## Relação com as outras camadas
 
 Esta heurística trata da **estrutura lógica**. As demais camadas são independentes e complementares:
