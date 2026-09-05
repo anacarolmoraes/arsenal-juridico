@@ -29,22 +29,26 @@ Confirme com o cliente/dossiê: (a) como descobriu o desconto; (b) tentativa adm
 
 ## Estrutura da peça
 
-1. **Preliminares de tramitação:** justiça gratuita (com declaração anexa); prioridade de tramitação se ≥ 60 anos.
-2. **Narrativa fática — cirúrgica e detalhada:** cliente não tinha intenção de contratar e desconhece a contratação, dito desde o primeiro parágrafo; tentativa administrativa relatada com detalhes; destino do valor (não utilizado / depositado em juízo / jamais recebido); **impugnação expressa da assinatura** (ver [heurística](/heuristicas/impugnar-assinatura-na-inicial.md)) — essa alegação será reafirmada na impugnação à contestação para forçar a perícia.
-3. **Fundamentação jurídica (bloco obrigatório):**
-   - Inversão do ônus da prova — CDC art. 6º, VIII;
-   - Responsabilidade objetiva e fortuito interno — CDC art. 14 + Súmula 479 + Tema 466 ([tese](/teses/responsabilidade-objetiva-fortuito-interno.md));
-   - Ônus da prova da assinatura — CPC art. 429, II + Tema 1061 ([tese central](/teses/onus-prova-assinatura-impugnada.md));
-   - Violação do dever de verificação — Res. 4.753/2019, art. 2º, com os indícios concretos do caso ([tese](/teses/dever-verificacao-identidade-res-4753.md));
-   - Boa-fé objetiva, informação e transparência — CDC arts. 6º, III, e 51, IV.
-4. **Pedidos (todos, nesta lógica):**
-   - Tutela de urgência: suspensão imediata dos descontos no benefício, com sugestão de multa diária ([heurística](/heuristicas/sugerir-multa-diaria-na-tutela.md));
-   - Opção sobre audiência de conciliação ([heurística em teste](/heuristicas/pedir-audiencia-conciliacao.md) — atenção ao art. 334, § 4º, I: desinteresse só do autor não cancela a audiência);
-   - Declaração de inexistência da relação jurídica contratual;
-   - Danos morais (desconto indevido em verba alimentar de aposentado configura dano moral — precedente no [caso de referência](/casos_decididos/caso-a-consignado-fraudulento.md));
-   - Danos materiais: restituição **em dobro** dos descontos (condicional — [tese](/teses/devolucao-em-dobro-boa-fe-objetiva.md), atenção à modulação);
-   - Exibição de documentos: contrato, histórico da operação, ficha cadastral e comprovação das cautelas de verificação;
-   - Se houver valor intocado: consignação/depósito judicial do montante.
+O esqueleto é o **único do escritório**, em `direito/pecas/peticao-inicial/playbooks/playbook-peticao-inicial.md` (bundle transversal de peças): síntese da lide em BLUF, fatos com `Doc. N`, preliminares de tramitação, tutela, direito por tese, danos, provas com meio nomeado, autocomposição, pedidos, valor da causa. Aqui fica só o que é da matéria:
+
+**Variáveis do esqueleto neste tema:** preliminares = gratuidade (enxuta, pessoa natural) e prioridade se ≥ 60 anos; **tutela logo após os fatos** (o desconto em curso é o destaque e o juízo decide no despacho inicial); capítulo de danos = sim; competência = só se houver cláusula de eleição no contrato impugnado (o autor nega o contrato, então em regra não há); autocomposição = decisão por caso ([heurística em teste](/heuristicas/pedir-audiencia-conciliacao.md) — atenção ao art. 334, § 4º, I: desinteresse só do autor não cancela a audiência).
+
+**O que a narrativa fática deste tema exige:** cliente não tinha intenção de contratar e desconhece a contratação, dito desde o primeiro parágrafo; tentativa administrativa relatada com detalhes; destino do valor (não utilizado / depositado em juízo / jamais recebido); **impugnação expressa da assinatura** (ver [heurística](/heuristicas/impugnar-assinatura-na-inicial.md)) — essa alegação será reafirmada na impugnação à contestação para forçar a perícia. Assinatura impugnada é fato **a produzir** por perícia no mapa probatório, o que afasta o Juizado.
+
+**Fundamentação (um capítulo por tese, na ordem):**
+- Inversão do ônus da prova — CDC art. 6º, VIII;
+- Responsabilidade objetiva e fortuito interno — CDC art. 14 + Súmula 479 + Tema 466 ([tese](/teses/responsabilidade-objetiva-fortuito-interno.md));
+- Ônus da prova da assinatura — CPC art. 429, II + Tema 1061 ([tese central](/teses/onus-prova-assinatura-impugnada.md));
+- Violação do dever de verificação — Res. 4.753/2019, art. 2º, com os indícios concretos do caso ([tese](/teses/dever-verificacao-identidade-res-4753.md));
+- Boa-fé objetiva, informação e transparência — CDC arts. 6º, III, e 51, IV.
+
+**Provas e pedidos próprios do tema:**
+- Tutela de urgência: suspensão imediata dos descontos no benefício, com sugestão de multa diária ([heurística](/heuristicas/sugerir-multa-diaria-na-tutela.md));
+- Declaração de inexistência da relação jurídica contratual;
+- Danos morais (desconto indevido em verba alimentar de aposentado configura dano moral — precedente no [caso de referência](/casos_decididos/caso-a-consignado-fraudulento.md));
+- Danos materiais: restituição **em dobro** dos descontos (condicional — [tese](/teses/devolucao-em-dobro-boa-fe-objetiva.md), atenção à modulação);
+- Exibição de documentos com os três incisos do art. 397 preenchidos por categoria: contrato, histórico da operação, ficha cadastral e comprovação das cautelas de verificação; a recusa gera a presunção do art. 400 (acórdão do TJSP sobre exibição depositado no bundle `bancario/juros-abusivos`, `jurisprudencia/apelacao-1027749-tjsp-exibicao-art-400.md`);
+- Se houver valor intocado: consignação/depósito judicial do montante.
 
 ## Erros a evitar
 

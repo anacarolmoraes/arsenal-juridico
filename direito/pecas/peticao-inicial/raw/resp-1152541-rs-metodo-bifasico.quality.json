@@ -1,0 +1,25 @@
+{
+  "score": 100,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 1856,
+    "proporcao_letras": 0.92,
+    "tokens_com_vogal": 0.993,
+    "artefatos": 0,
+    "celulas_vazias_tabelas": 0.0,
+    "ancoras_encontradas": [
+      "EMENTA",
+      "ACÓRDÃO",
+      "RELATOR",
+      "Art.",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [],
+  "modo_ocr": "auto",
+  "arquivo": "resp-1152541-rs-metodo-bifasico.pdf",
+  "paginas": 29,
+  "gerado_em": "2026-09-05",
+  "ferramenta": "pdfmd"
+}

@@ -37,6 +37,13 @@ autor: escritorio
 2. Leitura obrigatória: [/embargos-declaracao/playbooks/playbook-embargos-declaracao.md](embargos-declaracao/playbooks/playbook-embargos-declaracao.md)
 3. Execute: [/embargos-declaracao/workflows/embargos-declaracao.md](embargos-declaracao/workflows/embargos-declaracao.md) — começando pela [tabela de vícios](embargos-declaracao/heuristicas/tabela-vicios-prequestionamento.md) (portão: omissão × inovação).
 
+## Pedir ou defender a gratuidade da justiça (qualquer peça)
+
+1. **Portão da data:** ação ajuizada antes ou depois da ata da ADC 80 (09/2026)? Depois: a faixa de salário (R$ 5.000,00) escolhe a forma do pedido.
+2. Leitura obrigatória: [/gratuidade/heuristicas/pedido-de-gratuidade-pos-adc-80.md](gratuidade/heuristicas/pedido-de-gratuidade-pos-adc-80.md); forma canônica em `perfil/definicoes.md` §2 do workspace.
+3. Impugnação do banco (réplica) ou impugnação nossa (contestação): [/gratuidade/heuristicas/repertorio-do-banco-contra-a-gratuidade.md](gratuidade/heuristicas/repertorio-do-banco-contra-a-gratuidade.md).
+4. Indeferimento: agravo do art. 101, sem preparo; Tema 1.178 em [/peticao-inicial/jurisprudencia/resp-1988687-rj-tema-1178-gratuidade.md](peticao-inicial/jurisprudencia/resp-1988687-rj-tema-1178-gratuidade.md); acórdão que cita a Lei 1.060/50 → [/gratuidade/jurisprudencia/cpc-art-1072.md](gratuidade/jurisprudencia/cpc-art-1072.md).
+
 ## Redigir Apelação
 
 1. **Inventário primeiro:** [tabela de capítulos e interlocutórias](apelacao/heuristicas/tabela-capitulos-interlocutorias.md) — interlocutória não agravável fora do apelo é preclusão definitiva (1.009, §1º).
@@ -55,6 +62,12 @@ autor: escritorio
 2. Leitura obrigatória: [/contestacao/playbooks/playbook-contestacao.md](contestacao/playbooks/playbook-contestacao.md) — defesa direta mantém o ônus no autor; fato novo traz o ônus para o réu (art. 373, II).
 3. Execute: [/contestacao/workflows/contestacao.md](contestacao/workflows/contestacao.md)
 
+## Redigir Petição Inicial
+
+1. **Decisões de abertura primeiro:** rito ([juizado ou vara comum](peticao-inicial/heuristicas/juizado-ou-vara-comum.md)), foro ([competência e foro](peticao-inicial/heuristicas/competencia-e-foro-na-inicial.md)), tutela ([tutela provisória](peticao-inicial/heuristicas/tutela-provisoria-na-inicial.md)), autocomposição — registradas na `ANALISE.md` do caso.
+2. Leitura obrigatória: [/peticao-inicial/playbooks/playbook-peticao-inicial.md](peticao-inicial/playbooks/playbook-peticao-inicial.md) — esqueleto único; a matéria vem do playbook de inicial do bundle temático.
+3. Execute: [/peticao-inicial/workflows/peticao-inicial.md](peticao-inicial/workflows/peticao-inicial.md) — espelha o `legal-orchestrator`; estrutura aprovada pela titular antes da prosa.
+
 ## Demais peças (estoque — fluxo na fila)
 
-Agravo de Instrumento · Petição Inicial: cada uma tem "o essencial em 5 linhas" e fontes mapeadas no seu `index.md`. Para redigir uma delas hoje, use o essencial + o bundle temático + as skills do escritório, e registre no log o que faltou — isso prioriza a fila.
+Agravo de Instrumento: tem "o essencial em 5 linhas" e fontes mapeadas no seu `index.md`. Para redigi-lo hoje, use o essencial + o bundle temático + as skills do escritório, e registre no log o que faltou — isso prioriza a fila.

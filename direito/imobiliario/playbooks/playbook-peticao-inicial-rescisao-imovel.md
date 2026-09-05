@@ -28,24 +28,25 @@ Confirme com o cliente/dossiê: (a) **data exata de assinatura do contrato origi
 - **Contrato anterior a 28/12/2018** → [irretroatividade da Lei do Distrato](/teses/irretroatividade-lei-distrato-contratos-anteriores-2018.md): art. 32-A afastado por completo; regime STJ anterior (retenção 10-25%, Súmula 543/Tema 577, fruição condicionada a prova).
 - **Contrato posterior a 28/12/2018** → [prevalência do CDC](/teses/cdc-prevalece-lei-distrato-contratos-pos-2018.md) (REsp 2.106.548/SP): art. 32-A **incide como teto**; na relação de consumo a retenção total fica em ≤ 25% **dos valores pagos**, a fruição é indevida em lote não edificado e a restituição é imediata. O resultado prático converge com o regime pré-2018, mas **a fundamentação é outra** — não trocar uma pela outra conforme a data.
 
-## Estrutura da peça (esqueleto padrão do escritório — validado em caso real de jul/2026)
+## Estrutura da peça (validada em caso real de jul/2026)
 
-Ordem de capítulos e rótulos que a titular fixou ao revisar a inicial:
+O esqueleto é o **único do escritório**, em `direito/pecas/peticao-inicial/playbooks/playbook-peticao-inicial.md` (bundle transversal de peças); endereçamento, qualificação, capítulo I e assinatura estão em `perfil/definicoes.md` do workspace. Aqui fica só o que é da matéria, e o template `material_padrao_escritorio/TEMPLATE_INICIAL_RESCISAO_LOTE.md` já o materializa:
 
-1. **Endereçamento:** "AO JUÍZO DA __ª VARA CÍVEL DA COMARCA DE [X], ESTADO DE [Y]" (não "Excelentíssimo Senhor Doutor Juiz"); número da vara em branco quando ainda não distribuído.
-2. **Qualificação + propositura** — sem telefone do autor; assinatura por quem efetivamente subscreve (ver seção de estilo).
-3. **I — Da síntese da lide** (BLUF): o que houve, quanto foi pago (valor e %), o que se pede e o resultado numérico da restituição; antecipa em um parágrafo as objeções previsíveis (fruição, corretagem, parcelamento) e afirma que contrariam o CDC.
-4. **II — Dos fatos:** contrato, datas, valor, % pago, reajuste, motivo do desinteresse; afirmar expressamente o **não uso do lote** (nunca construiu/residiu/cercou/alugou/explorou) quando for o caso.
-5. **III — Da gratuidade da justiça** (enxuta — ver estilo abaixo).
-6. **IV — Da competência e nulidade da eleição de foro:** art. 101, I, CDC (domicílio do consumidor) contra a cláusula de eleição.
-7. **V — Incidência do CDC e direito de rescindir:** relação de consumo + art. 32-A como teto (não afasta o art. 51 CDC) + direito potestativo de rescindir mesmo em mora.
-8. **VI — Retenção sobre os valores pagos, não sobre o valor do contrato:** fazer a conta na peça; transcrever a ementa do [REsp 2.106.548/SP](/jurisprudencia/resp-2106548-sp.md) (pós-2018) ou os precedentes do regime anterior (pré-2018). Pedido subsidiário: teto de 25% do pago (art. 413 CC).
-9. **VII — Inexigibilidade da fruição** em lote não utilizado ([tese](/teses/fruicao-exige-prova-de-proveito-economico-efetivo.md)).
-10. **VIII — Corretagem:** se o contrato exclui a corretagem do preço (cláusula comum), ela não preenche o requisito do art. 32-A, V, e não pode ser retida.
-11. **IX — Vedação de bis in idem** entre retenção percentual e encargos moratórios já pagos ([tese](/teses/vedacao-bis-in-idem-retencao-global-e-encargos-moratorios.md)).
-12. **X — Restituição imediata e em parcela única:** Tema 577 + Súmula 543 transcritos.
-13. **XI — Tutela de urgência:** suspensão das parcelas **e do IPTU/encargos acessórios** + vedação de negativação/protesto + rescisão de plano ([TJMT AI 1017433-56.2019](/jurisprudencia/tjmt-ai-1017433-56-2019-iptu-tutela.md), persuasivo).
-14. **XII — Pedidos** (na lógica dos capítulos) + inversão do ônus da prova (art. 6º, VIII, CDC) + honorários.
+**Variáveis do esqueleto neste tema:** preliminares = gratuidade (enxuta) **e competência** (o contrato de loteadora quase sempre traz cláusula de eleição de foro; art. 101, I, CDC contra ela, ver [competência e foro](../../pecas/peticao-inicial/heuristicas/competencia-e-foro-na-inicial.md) para o art. 63, § 1º, pós-Lei 14.879/2024); **tutela depois do direito** (a probabilidade depende do regime pré ou pós-2018 e do teto de retenção); capítulo de danos = não (a restituição é o mérito, não indenização); autocomposição = decisão por caso (loteadora às vezes transaciona).
+
+**Capítulos de direito próprios do tema, na ordem:**
+1. **Incidência do CDC e direito de rescindir:** relação de consumo + art. 32-A como teto (não afasta o art. 51 CDC) + direito potestativo de rescindir mesmo em mora.
+2. **Retenção sobre os valores pagos, não sobre o valor do contrato:** fazer a conta na peça; transcrever a ementa do [REsp 2.106.548/SP](/jurisprudencia/resp-2106548-sp.md) (pós-2018) ou os precedentes do regime anterior (pré-2018). Pedido subsidiário: teto de 25% do pago (art. 413 CC).
+3. **Inexigibilidade da fruição** em lote não utilizado ([tese](/teses/fruicao-exige-prova-de-proveito-economico-efetivo.md)).
+4. **Corretagem:** se o contrato exclui a corretagem do preço (cláusula comum), ela não preenche o requisito do art. 32-A, V, e não pode ser retida.
+5. **Vedação de bis in idem** entre retenção percentual e encargos moratórios já pagos ([tese](/teses/vedacao-bis-in-idem-retencao-global-e-encargos-moratorios.md)).
+6. **Restituição imediata e em parcela única:** Tema 577 + Súmula 543 transcritos.
+
+**O que a síntese e os fatos deste tema exigem:** quanto foi pago (valor e %), o resultado numérico da restituição, antecipação em um parágrafo das objeções previsíveis (fruição, corretagem, parcelamento); nos fatos, contrato, datas, valor, % pago, reajuste, motivo do desinteresse, e a afirmação expressa do **não uso do lote** (nunca construiu/residiu/cercou/alugou/explorou) quando for o caso.
+
+**Tutela própria do tema:** suspensão das parcelas **e do IPTU/encargos acessórios** + vedação de negativação/protesto + rescisão de plano ([TJMT AI 1017433-56.2019](/jurisprudencia/tjmt-ai-1017433-56-2019-iptu-tutela.md), persuasivo).
+
+**Pedidos próprios do tema:** na lógica dos capítulos + inversão do ônus da prova (art. 6º, VIII, CDC) + honorários.
 
 Onde couber: benfeitorias de boa-fé anteriores à mora ([tese](/teses/benfeitorias-boa-fe-anteriores-a-mora-sao-indenizaveis.md)) e desconto de IPTU do período de posse ([tese](/teses/iptu-responsabilidade-promitente-comprador-ate-rescisao.md)).
 

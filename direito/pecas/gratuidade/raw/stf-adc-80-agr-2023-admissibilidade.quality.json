@@ -1,0 +1,27 @@
+{
+  "score": 75,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 2143,
+    "proporcao_letras": 0.888,
+    "tokens_com_vogal": 0.966,
+    "artefatos": 33,
+    "ancoras_encontradas": [
+      "EMENTA",
+      "ACÓRDÃO",
+      "RELATOR",
+      "Art.",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [
+    "muitos_artefatos"
+  ],
+  "modo_ocr": "auto",
+  "arquivo": "stf-adc-80-agr-2023-admissibilidade.pdf",
+  "paginas": 33,
+  "gerado_em": "2026-09-05",
+  "ferramenta": "pdfmd",
+  "nota": "PDF do STF com camada de texto duplicada (272 blocos suprimidos, kind duplicate_layer no manifesto) e prosa justificada lida como tabela: convertido com --no-tables. Sidecar por score_markdown."
+}

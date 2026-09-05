@@ -168,3 +168,12 @@ __pycache__/
 
 # O'Keefe (1999), capítulo do Communication Yearbook 22 — artigo acadêmico de terceiro (uso interno; a heurística derivada circula)
 direito/pecas/raw/artigo_how_to_handle_opposing_arguments.*
+
+# Acórdãos do STJ com partes privadas depositados no bundle peticao-inicial em
+# 05/09/2026 (REsp 1.152.541/RS, método bifásico; REsp 1.988.687/RJ, Tema 1.178).
+# A página de jurisprudencia/ é recorte anonimizado e circula; o PDF oficial e o
+# .md cru (com os nomes) ficam na máquina de quem os depositou. O .quality.json circula.
+direito/pecas/peticao-inicial/raw/resp-1152541-rs-metodo-bifasico.md
+direito/pecas/peticao-inicial/raw/resp-1152541-rs-metodo-bifasico.pdf
+direito/pecas/peticao-inicial/raw/resp-1988687-tema-1178-gratuidade.md
+direito/pecas/peticao-inicial/raw/resp-1988687-tema-1178-gratuidade.pdf

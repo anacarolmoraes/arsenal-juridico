@@ -1,0 +1,28 @@
+{
+  "score": 90,
+  "verdict": "aprovado",
+  "metrics": {
+    "chars_por_pagina": 2634,
+    "proporcao_letras": 0.899,
+    "tokens_com_vogal": 0.99,
+    "artefatos": 12,
+    "celulas_vazias_tabelas": 0.235,
+    "ancoras_encontradas": [
+      "EMENTA",
+      "ACÓRDÃO",
+      "RELATOR",
+      "SENTENÇA",
+      "Art.",
+      "artigo",
+      "Súmula"
+    ]
+  },
+  "penalidades": [
+    "alguns_artefatos"
+  ],
+  "modo_ocr": "auto",
+  "arquivo": "resp-1988687-tema-1178-gratuidade.pdf",
+  "paginas": 120,
+  "gerado_em": "2026-09-05",
+  "ferramenta": "pdfmd"
+}

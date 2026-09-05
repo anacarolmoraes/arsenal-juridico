@@ -16,6 +16,7 @@ Uso (com o Python do ambiente do pdfmd):
 """
 
 import argparse
+import os
 import json
 import re
 import subprocess
@@ -112,7 +113,10 @@ def convert(pdf: Path, out_md: Path, mode: str) -> bool:
     cmd = [PDFMD, str(pdf), "-o", str(out_md), "--ocr", mode, "--lang", OCR_LANG,
            "--page-breaks", "-q", "--no-progress", "--no-color"]
     try:
-        r = subprocess.run(cmd, capture_output=True, timeout=1800)
+        # 1 thread no BLAS: sem isso o numpy do OCR morre por alocação de memória
+        # ("Memory allocation still failed after 10 retries"), achado de 05/09/2026.
+        env = {**os.environ, "PYTHONUTF8": "1", "OPENBLAS_NUM_THREADS": "1", "OMP_NUM_THREADS": "1"}
+        r = subprocess.run(cmd, capture_output=True, timeout=1800, env=env)
         return r.returncode == 0 and out_md.exists()
     except (subprocess.TimeoutExpired, OSError):
         return False

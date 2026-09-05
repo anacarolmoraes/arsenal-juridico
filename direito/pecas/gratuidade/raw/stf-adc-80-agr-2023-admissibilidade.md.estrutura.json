@@ -1,0 +1,328 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "stf-adc-80-agr-2023-admissibilidade.md",
+  "source_sha256": "41d445be3bb43e1abdec13e0a6234eba3399c6c32dbdd1fac3aa5d65fc3938c1",
+  "chars": 70705,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": null,
+    "orgao_julgador": null,
+    "classe": null,
+    "numero": null
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 950,
+      "linha_inicio": 1,
+      "linha_fim": 19
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 950,
+      "fim": 4314,
+      "linha_inicio": 20,
+      "linha_fim": 44
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 4314,
+      "fim": 8815,
+      "linha_inicio": 45,
+      "linha_fim": 110
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 8815,
+      "fim": 10927,
+      "linha_inicio": 111,
+      "linha_fim": 139
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 10927,
+      "fim": 13335,
+      "linha_inicio": 140,
+      "linha_fim": 164
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 13335,
+      "fim": 15704,
+      "linha_inicio": 165,
+      "linha_fim": 191
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 15704,
+      "fim": 18032,
+      "linha_inicio": 192,
+      "linha_fim": 212
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 18032,
+      "fim": 20331,
+      "linha_inicio": 213,
+      "linha_fim": 233
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 20331,
+      "fim": 22611,
+      "linha_inicio": 234,
+      "linha_fim": 256
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 22611,
+      "fim": 24622,
+      "linha_inicio": 257,
+      "linha_fim": 285
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 24622,
+      "fim": 26990,
+      "linha_inicio": 286,
+      "linha_fim": 308
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 26990,
+      "fim": 29216,
+      "linha_inicio": 309,
+      "linha_fim": 331
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 29216,
+      "fim": 31557,
+      "linha_inicio": 332,
+      "linha_fim": 354
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 31557,
+      "fim": 33703,
+      "linha_inicio": 355,
+      "linha_fim": 375
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 33703,
+      "fim": 36284,
+      "linha_inicio": 376,
+      "linha_fim": 388
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 36284,
+      "fim": 38985,
+      "linha_inicio": 389,
+      "linha_fim": 401
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 38985,
+      "fim": 41510,
+      "linha_inicio": 402,
+      "linha_fim": 420
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto - MIN. EDSON FACHIN",
+      "inicio": 41510,
+      "fim": 44222,
+      "linha_inicio": 421,
+      "linha_fim": 459
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 44222,
+      "fim": 70705,
+      "linha_inicio": 460,
+      "linha_fim": 706
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "posto isso",
+      "inicio": 56381,
+      "fim": 56554,
+      "linha_inicio": 565,
+      "linha_fim": 565,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 6045,
+      "fim": 6536,
+      "linha_inicio": 79,
+      "linha_fim": 79,
+      "chars": 491,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "**:** C ONFEDERACAO N ACIONAL DO S ISTEMA F INANCEIRO - CONSIF **A** **DV** **.(** **A** **/** **S** **)** **:** G RACE",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 18263,
+      "fim": 19518,
+      "linha_inicio": 221,
+      "linha_fim": 221,
+      "chars": 1255,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"Direito Processual do Trabalho. §§ 3º e 4º do artigo 790 da CLT, na redação dada pela Lei nº 13.467/2017 (Refo",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 31676,
+      "fim": 32357,
+      "linha_inicio": 361,
+      "linha_fim": 361,
+      "chars": 681,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"EMENTA: Direito processual constitucional. Ação declaratória de constitucionalidade. Legitimidade ativa. Pertin",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 32833,
+      "fim": 33389,
+      "linha_inicio": 369,
+      "linha_fim": 369,
+      "chars": 556,
+      "sinais": [
+        "caixa-alta",
+        "frase-de-abertura"
+      ],
+      "amostra": "TRABALHO. AÇÕES DIRETAS DE INCONSTITUCIONALIDADE E AÇÕES DECLARATÓRIAS DE CONSTITUCIONALIDADE. ÍNDICES DE CORREÇÃ",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 43730,
+      "fim": 44221,
+      "linha_inicio": 458,
+      "linha_fim": 458,
+      "chars": 491,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "**:** C ONFEDERACAO N ACIONAL DO S ISTEMA F INANCEIRO - CONSIF **A** **DV** **.(** **A** **/** **S** **)** **:** G RACE",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 57236,
+      "fim": 57727,
+      "linha_inicio": 586,
+      "linha_fim": 586,
+      "chars": 491,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "**:** C ONFEDERACAO N ACIONAL DO S ISTEMA F INANCEIRO - CONSIF **A** **DV** **.(** **A** **/** **S** **)** **:** G RACE",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 59415,
+      "fim": 60401,
+      "linha_inicio": 609,
+      "linha_fim": 609,
+      "chars": 986,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Art. 790. Nas Varas do Trabalho, nos Juízos de Direito, nos * *Tribunais e no Tribunal Superior do Trabalho, a",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 64150,
+      "fim": 64819,
+      "linha_inicio": 649,
+      "linha_fim": 649,
+      "chars": 669,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"EMENTA: Direito processual constitucional. Ação declaratória de constitucionalidade. Legitimidade ativa. Pertinênci",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 69354,
+      "fim": 69748,
+      "linha_inicio": 700,
+      "linha_fim": 700,
+      "chars": 394,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "PROCED.: DISTRITO FEDERAL **RELATOR: MIN. EDSON FACHIN** REDATOR DO ACÓRDÃO: MIN. DIAS TOFFOLI AGTE.(S): CONFEDERACAO NA",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "ementa",
+      "voto"
+    ],
+    "blocos_citados": 9,
+    "chars_citados": 6014,
+    "proporcao_citada": 0.085
+  },
+  "avisos": [
+    "8 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

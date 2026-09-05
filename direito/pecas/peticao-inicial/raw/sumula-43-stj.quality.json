@@ -1,0 +1,23 @@
+{
+  "score": 45,
+  "verdict": "reprovado",
+  "metrics": {
+    "chars_por_pagina": 944,
+    "proporcao_letras": 0.522,
+    "tokens_com_vogal": 0.83,
+    "artefatos": 0,
+    "celulas_vazias_tabelas": 0.088,
+    "ancoras_encontradas": [
+      "Súmula"
+    ]
+  },
+  "penalidades": [
+    "proporcao_letras_baixa",
+    "tokens_impronunciaveis"
+  ],
+  "modo_ocr": "auto",
+  "arquivo": "sumula-43-stj.pdf",
+  "paginas": 2,
+  "gerado_em": "2026-09-05",
+  "ferramenta": "pdfmd"
+}
