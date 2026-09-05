@@ -38,7 +38,7 @@ A apelação ataca a **sentença** ([CPC 1.009](/apelacao/jurisprudencia/cpc-art
 
 ## Estrutura da peça (padrão do escritório + AI-first)
 
-Estrutura canônica PMA (a mesma da skill `apelacao-cirurgica`): **I. Síntese → II. Cabimento → III. Preliminares → IV. Mérito → V. Pedidos**, com as regras da [heurística AI-first](/heuristicas/estrutura-ai-first.md):
+Estrutura canônica PMA (síntese → cabimento → preliminares → mérito → pedidos, sem numeração romana visível: cada título é uma tese), com as regras da [heurística AI-first](/heuristicas/estrutura-ai-first.md):
 
 1. **I. Síntese estratégica** — padrão ementa (caso / questões / razões / pedidos / dispositivos), cada questão com remissão ao capítulo que a desenvolve.
 2. **II. Cabimento** — tempestividade, preparo comprovado, interesse e legitimidade; pedido de efeito suspensivo *ope judicis* quando couber (com probabilidade + risco, não só o artigo).

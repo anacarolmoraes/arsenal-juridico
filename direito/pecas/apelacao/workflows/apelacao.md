@@ -1,12 +1,12 @@
 ---
 type: workflow
 title: Workflow — Apelação
-description: Sequência executável com portões para redigir uma apelação, compondo técnica (este bundle) com matéria (bundle temático) e a skill local apelacao-cirurgica.
+description: Sequência executável com portões para redigir uma apelação, compondo técnica (este bundle) com matéria (bundle temático) e o legal-orchestrator.
 tags: [apelacao, workflow]
 timestamp: '2026-07-09'
 status: vigente
 autor: escritorio
-skills: [legal-orchestrator, legal-writer, legal-consistency-validator, humanizer-forense, peca-pma-builder, apelacao-cirurgica]
+skills: [legal-orchestrator, legal-writer, legal-consistency-validator, humanizer-forense, peca-pma-builder]
 playbook: /apelacao/playbooks/playbook-apelacao.md
 ---
 
@@ -26,7 +26,7 @@ Do bundle temático do caso: teses de mérito, jurisprudência com vigência con
 
 ## Etapa 3 — Redação
 
-Estrutura canônica do playbook (I. Síntese → II. Cabimento → III. Preliminares → IV. Mérito → V. Pedidos), regras [AI-first](/heuristicas/estrutura-ai-first.md) (títulos-conclusão, BLUF, jurisprudência transcrita com fonte adjacente — em prosa, sem rótulos meta-textuais visíveis), impugnação específica dos fundamentos da sentença com transcrição literal. Geração do .docx pela skill local `apelacao-cirurgica`/`peca-pma-builder`. Pedidos por capítulo + posição sobre causa madura + prequestionamento dos dispositivos do futuro REsp/RE.
+Estrutura canônica do playbook (síntese → cabimento → preliminares → mérito → pedidos), regras [AI-first](/heuristicas/estrutura-ai-first.md) (títulos-conclusão, BLUF, jurisprudência transcrita com fonte adjacente — em prosa, sem rótulos meta-textuais visíveis), impugnação específica dos fundamentos da sentença com transcrição literal. Geração do .docx pelo `md2docx` (`peca-pma-builder`). Pedidos por capítulo + posição sobre causa madura + prequestionamento dos dispositivos do futuro REsp/RE.
 
 ## Etapa 4 — Validação (portões bloqueantes)
 

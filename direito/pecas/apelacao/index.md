@@ -1,6 +1,6 @@
 # Apelação — fluxo completo
 
-**Fluxo de criação próprio construído em 2026-07-09** (fontes: Scarpinella 2024 §4 e IURIS vol. 4, raws aprovados — ver log do bundle). A skill local `apelacao-cirurgica` executa a geração; este fluxo é a técnica generalizada que a orienta.
+**Fluxo de criação próprio construído em 2026-07-09** (fontes: Scarpinella 2024 §4 e IURIS vol. 4, raws aprovados — ver log do bundle). O `legal-orchestrator` executa a geração (Estágio 0.5 aponta para o workflow deste bundle); este fluxo é a técnica generalizada que o orienta.
 
 ## O essencial em 5 linhas
 
