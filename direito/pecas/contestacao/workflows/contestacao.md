@@ -14,11 +14,12 @@ playbook: /contestacao/playbooks/playbook-contestacao.md
 
 **Escopo:** procedimento comum. Juizado Especial (Lei 9.099, arts. 30 e 31) não é coberto por este workflow; parar e sinalizar.
 
-## Etapa 0 — Dois relógios (no dia da citação)
+## Etapa 0 — Três relógios (no dia da citação)
 
 1. **Contestação:** identificar o inciso do [art. 335](/contestacao/jurisprudencia/cpc-arts-335-346.md) que rege o termo inicial (audiência frustrada; protocolo do pedido de cancelamento; art. 231 conforme o modo de citação) e anotar a data fatal em `cronologia.md` do caso (C1). Litisconsórcio passivo: §§ 1º e 2º.
 2. **Agravo contra a liminar, se houver tutela deferida:** quinze dias da intimação da decisão (art. 1.003, § 5º; art. 1.015, I), que em geral vence antes da contestação. Anotar a data e levar à titular a decisão de agravar na mesma reunião. Pedido de reconsideração não suspende esse prazo.
-3. Se houver incompetência relativa ou convenção de arbitragem a alegar **e** audiência de conciliação designada, decidir agora a petição avulsa (armadilha do art. 340, § 3º, no playbook).
+3. **Desinteresse na audiência de conciliação, se designada:** petição avulsa até dez dias antes da audiência (art. 334, § 5º). Perguntar à titular se quer conciliar, com a exposição da Etapa 2 em mãos se já houver; registrar a decisão na `ANALISE.md`. Se a pasta não diz se a audiência foi designada, perguntar antes de contar.
+4. Se houver incompetência relativa ou convenção de arbitragem a alegar **e** audiência de conciliação designada, decidir agora a petição avulsa (armadilha do art. 340, § 3º, no playbook).
 
 ## Etapa 1 — Inventário (Estágio 0 do orchestrator)
 

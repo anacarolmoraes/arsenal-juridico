@@ -51,6 +51,7 @@ Varrer a inicial **inteira**, parágrafo a parágrafo, extraindo toda alegação
 - **Nenhum fato sem linha.** O portão é este. Fato da inicial ausente da tabela é fato que a contestação vai deixar passar por incontroverso.
 - **Fato ≠ argumento.** "O réu descumpriu o contrato" é conclusão; "o réu não entregou o bem em 30/05" é fato. A tabela recebe o segundo.
 - **Coluna de prova aponta folha ou parágrafo, nunca "vide autos".**
+- **Fato literal na coluna 1 é o que a peça vai transcrever.** Quando for para a peça em bloco `>`, a atribuição leva o número CNJ dos autos (`(Petição inicial, autos <CNJ>, p. X)`), para o `lint-citacoes` conferir a literalidade contra o `.md` da inicial na pasta do caso (playbook, capítulo V).
 - **Contradição interna do autor é linha própria:** quando dois fatos da inicial se excluem, ou o fato contradiz o documento que o autor mesmo juntou, registrar como fato e como postura "nega", com a prova sendo o próprio documento do autor. É a impugnação mais barata e mais forte que existe.
 - **Fato que o réu não sabe** (nem a pasta nem o cliente respondem) vai para "falta saber" do `<PECA>.estrutura.md`. Não se nega o que não se sabe, nem se admite por silêncio.
 
@@ -115,7 +116,7 @@ Cada uma é decisão da titular, registrada com "sim", "não" ou "não cabe e po
 | **Depoimento pessoal do autor** | art. 385 | | a prova mais barata e mais esquecida da defesa: qual fato o autor não sustenta pessoalmente sob pena de confissão (art. 385, § 1º)? |
 | Gratuidade de justiça para o próprio réu | art. 99 | | |
 | Reconhecimento parcial do pedido | art. 487, III, "a" | | reduz honorários (art. 90, § 4º) quando o fato é indefensável |
-| Desinteresse na autocomposição | art. 334, § 5º | | decisão de caso, não padrão |
+| Desinteresse na autocomposição | art. 334, § 5º | | decisão de caso, não padrão; se a audiência está designada, é **petição avulsa até dez dias antes** (terceiro relógio do playbook), não capítulo da contestação |
 | Especificação de provas | art. 336 | | documental vai junto (art. 434); o resto, nomeado |
 
 ## Depois de preencher
