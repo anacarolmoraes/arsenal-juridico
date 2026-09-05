@@ -8,3 +8,4 @@ Regras de decisão estratégica com efeito e origem rastreáveis. Todas `status:
 - [Checar cessão de direitos antes de definir legitimidade](checar-cessao-de-direitos-antes-de-definir-legitimidade.md) — risco de procuração em causa própria não regularizada.
 - [Não pedir fruição sem prova de uso efetivo](nao-pedir-fruicao-sem-prova-de-uso-efetivo.md) — lado do vendedor/loteadora.
 - [18% como âncora de retenção no juízo local](18-por-cento-como-ancora-de-retencao-no-juizo-local.md) — observação de 1 caso; gestão de expectativa, não tese.
+- [Repertório de defesas da loteadora](repertorio-de-defesas-da-loteadora.md) — as treze teses da contestação-padrão em rescisão de lote, o eixo em que a réplica responde cada uma, a tese ou página do acervo que sustenta e as lacunas (taxa de associação, anuência tácita na cessão, acórdão originário do IRDR). Criado em 2026-09-05, `em_teste`.

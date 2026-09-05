@@ -16,6 +16,7 @@ Bundle de **matéria** (D12); a técnica de peça vive no bundle transversal `bu
 - [jurisprudencia/](jurisprudencia/index.md) — acórdãos citáveis das cadeias ingeridas
 - [casos_decididos/](casos_decididos/index.md) — trajetórias completas (cadeias), com matriz de completude
 - [contra-ataques/](contra-ataques/index.md) — como fundamentos desfavoráveis foram derrotados (por transição de instância)
+- [heuristicas/](heuristicas/index.md) — repertório de defesas do banco (contestação-padrão → resposta → página do acervo → lacuna), para a réplica
 - [perfis/](perfis/index.md) — padrões observados de órgãos julgadores e litigantes
 - [log.md](log.md) — histórico
 

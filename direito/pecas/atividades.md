@@ -52,8 +52,8 @@ autor: escritorio
 
 ## Redigir Réplica
 
-1. **Portão de cabimento primeiro:** [tabela de alegações e resposta](replica/heuristicas/tabela-alegacoes-resposta.md) — se toda alegação da contestação for mero mérito direto (sem preliminar, fato novo ou documento), a réplica é dispensável.
-2. Leitura obrigatória: [/replica/playbooks/playbook-replica.md](replica/playbooks/playbook-replica.md) — atenção à regra de ouro contra inovar a causa de pedir (CPC, art. 329, II).
+1. **Mapa da contestação primeiro:** [tabela de alegações e resposta](replica/heuristicas/tabela-alegacoes-resposta.md), Partes 0 a 4 — cinco eixos (preliminar, fato novo, documento, tese jurídica, negativa pura) com o estado da prova do réu, fatos da inicial que a defesa silenciou (art. 341) e pedidos que não combateu (art. 356, I), confissões, documentos do réu contra ele e documentos invocados sem juntar (arts. 389 a 395, 408 e 396 a 400), posturas com prazo próprio (reconvenção, art. 343, § 1º). Só negativa pura e nada colhido: a réplica é dispensável. Antes de responder tese ou fato novo, o [repertório de defesas típicas](replica/heuristicas/repertorio-de-defesas-tipicas.md) do bundle temático.
+2. Leitura obrigatória: [/replica/playbooks/playbook-replica.md](replica/playbooks/playbook-replica.md) — regra de ouro contra inovar fato ou pedido (CPC, art. 329, II); argumento de direito novo contra a tese da defesa é permitido.
 3. Execute: [/replica/workflows/replica.md](replica/workflows/replica.md)
 
 ## Redigir Contestação

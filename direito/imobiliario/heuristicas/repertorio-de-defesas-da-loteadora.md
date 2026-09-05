@@ -1,0 +1,41 @@
+---
+type: heuristica
+title: Repertório de defesas da loteadora em rescisão de lote — tese defensiva típica, resposta e página do acervo
+description: A contestação-padrão da loteadora em ação de rescisão de compromisso de compra e venda de lote repete as mesmas doze teses (Lei do Distrato, fruição, retenções cumuladas, restituição parcelada, IPTU, IRDR-TO). Esta página as lista na formulação em que aparecem, diz o eixo em que a réplica as responde, aponta a tese ou página do acervo que sustenta a resposta e marca o que ainda falta. Esqueleto de 2026-09-05; coluna de resposta e estado a conferir pela titular.
+tags: [replica, repertorio, defesas-tipicas, loteadora, rescisao, lei-do-distrato, irdr, fruicao]
+timestamp: '2026-09-05'
+status: em_teste
+autor: escritorio
+fundamentos:
+  - /teses/irretroatividade-lei-distrato-contratos-anteriores-2018.md
+  - /teses/cdc-prevalece-lei-distrato-contratos-pos-2018.md
+  - /teses/fruicao-exige-prova-de-proveito-economico-efetivo.md
+  - /teses/restituicao-imediata-parcela-unica-nao-parcelada.md
+  - /teses/vedacao-bis-in-idem-retencao-global-e-encargos-moratorios.md
+---
+
+# Repertório de defesas da loteadora em rescisão de lote
+
+Formato e regras: [heurística transversal do repertório](../../pecas/replica/heuristicas/repertorio-de-defesas-tipicas.md) (bundle `pecas`). A tabela de réplica consome esta página no eixo 4 (tese jurídica) e no eixo 2 (fato novo). Antes de qualquer linha, a data do contrato decide a metade da tabela: **anterior ou posterior a 28/12/2018**.
+
+| # | O réu alega | Eixo | O que se responde | Página do acervo | Estado |
+|---|---|---|---|---|---|
+| 1 | "Aplica-se o art. 32-A da Lei 6.766/79 (Lei 13.786/2018): retenção de até 10% do valor do contrato e demais encargos" a contrato **anterior** a 28/12/2018 | tese jurídica | Irretroatividade (CF, art. 5º, XXXVI): contrato anterior segue o regime do STJ, retenção escalonada de 10% a 25% **do pago**, restituição imediata. | [irretroatividade da Lei do Distrato](../teses/irretroatividade-lei-distrato-contratos-anteriores-2018.md) · [Lei 13.786/2018](../jurisprudencia/lei-13786-2018-lei-do-distrato.md) | coberto |
+| 2 | Contrato **posterior** a 28/12/2018: "aplicam-se integralmente as retenções do art. 32-A, inclusive fruição e comissão" | tese jurídica | O art. 32-A é teto, não piso; o CDC prevalece; retenção limitada a 25% do pago e fruição indevida em lote não edificado. | [CDC prevalece pós-2018 (REsp 2.106.548/SP)](../teses/cdc-prevalece-lei-distrato-contratos-pos-2018.md) · [REsp 2.106.548/SP](../jurisprudencia/resp-2106548-sp.md) | coberto |
+| 3 | "Indenização por fruição ou taxa de ocupação pelo período de posse do lote" | fato novo | Fruição exige prova de proveito econômico efetivo (edificação, locação, uso); lote vazio não gera fruição. O ônus da prova do uso é da loteadora (art. 373, II); a afirmação costuma vir sem documento. | [fruição exige prova de proveito efetivo](../teses/fruicao-exige-prova-de-proveito-economico-efetivo.md) · [Tese 8 do IRDR-TO](../jurisprudencia/irdr-0009560-46-2017-tjto.md) | coberto |
+| 4 | "Retenção de comissão de corretagem, despesas de publicidade, administração e encargos moratórios, cumulados com o percentual de retenção" | tese jurídica | A retenção percentual já remunera todas as despesas; cumular com encargos moratórios já suportados é bis in idem. | [vedação de bis in idem](../teses/vedacao-bis-in-idem-retencao-global-e-encargos-moratorios.md) | coberto |
+| 5 | "Restituição parcelada, ou ao final do loteamento, ou após a revenda do lote, conforme cláusula contratual" | tese jurídica | Restituição imediata, em parcela única, é entendimento sumulado; cláusula em contrário é abusiva. | [restituição imediata em parcela única](../teses/restituicao-imediata-parcela-unica-nao-parcelada.md) · [Súmula 543/STJ](../jurisprudencia/sumula-543-stj.md) · [Tema 577 (REsp 1.300.418)](../jurisprudencia/resp-1300418-tema-577.md) | coberto |
+| 6 | "IPTU e taxas de associação de moradores são de responsabilidade do comprador, inclusive após a rescisão" | tese jurídica | O comprador responde pelo IPTU até a rescisão; depois dela a posse e o tributo voltam à loteadora. Débito anterior se compensa, não se presume; exige prova do desembolso. | [IPTU até a rescisão](../teses/iptu-responsabilidade-promitente-comprador-ate-rescisao.md) · [TJTO AI 0011158-73.2023 (IPTU)](../jurisprudencia/tjto-ai-0011158-73-2023-iptu.md) | parcial (taxa de associação sem página) |
+| 7 | "O autor está em mora; quem descumpre não pode pedir a rescisão" | tese jurídica | A rescisão por desistência do comprador é direito potestativo, mesmo em mora; a mora só influi no percentual de retenção. | [direito potestativo de rescisão mesmo em mora](../teses/direito-potestativo-rescisao-mesmo-em-mora.md) | coberto |
+| 8 | "Suspensão do processo pelo IRDR nº 0009560-46.2017.827.0000 do TJTO" | preliminar / processual | O ciclo recursal do IRDR se encerrou no STJ (REsp 2.035.848/TO não conhecido, EDcl rejeitados); a premissa fática da suspensão exauriu. Fora do TJTO o IRDR nem vincula (art. 985, I). | [atacar a premissa fática exaurida](atacar-premissa-fatica-exaurida-da-suspensao.md) · [REsp 2.035.848 não conhecido](../jurisprudencia/resp-2035848-to-acordao-nao-conhecimento.md) · [EDcl rejeitados](../jurisprudencia/resp-2035848-to-edcl-rejeitados.md) | coberto |
+| 9 | Transcrição das Teses 4, 7 e 8 do IRDR-TO **na redação originária** de 2019 | tese jurídica | A redação vigente é a revisada nos EDcl de 19/11/2020; a originária foi superada e não se aplica a contratos pré-2018 nos termos em que a loteadora a cita. Só as Teses 4, 7 e 8 têm fonte direta depositada; as demais não se transcrevem. | [IRDR-TO (EDcl 19/11/2020)](../jurisprudencia/irdr-0009560-46-2017-tjto.md) · [distinguishing do IRDR](../teses/distinguishing-irdr-fora-do-objeto.md) | parcial (acórdão originário de 28/02/2019 não depositado) |
+| 10 | "Benfeitorias não são indenizáveis: sem autorização ou irregulares" | fato novo | Benfeitorias de boa-fé anteriores à mora se indenizam quando regulares ou regularizáveis perante o Município; a irregularidade é o réu provar. | [benfeitorias de boa-fé](../teses/benfeitorias-boa-fe-anteriores-a-mora-sao-indenizaveis.md) · [TJTO Ap 0009733-61.2021](../jurisprudencia/tjto-ap-0009733-61-2021-benfeitorias.md) | coberto |
+| 11 | Em ação movida pela loteadora, ou reconvenção: "a notificação extrajudicial constituiu o comprador em mora" | fato novo / documento | Conferir o vício formal da notificação (art. 32 da Lei 6.766/79: cartório, prazo, recebimento); notificação inválida obsta a rescisão pela loteadora. | [notificação prévia inválida](../teses/notificacao-previa-invalida-obsta-rescisao-por-loteadora.md) · [checklist do vício formal](verificar-vicio-formal-de-notificacao-extrajudicial.md) · [Lei 6.766, art. 32](../jurisprudencia/lei-6766-79-art-32.md) | coberto |
+| 12 | "Ilegitimidade ativa: o autor é cessionário e a cessão não foi anuída pela loteadora" | preliminar | Conferir a cessão antes de responder; anuência tácita pelo recebimento das parcelas do cessionário. A heurística existe; a jurisprudência da anuência tácita, não. | [checar cessão antes de definir legitimidade](checar-cessao-de-direitos-antes-de-definir-legitimidade.md) | parcial |
+| 13 | "Impugna-se a gratuidade: quem compra lote pode pagar custas" | preliminar | Compra parcelada e inadimplida é indício contrário ao alegado; resposta no repertório transversal. | [repertório do banco contra a gratuidade](../../pecas/gratuidade/heuristicas/repertorio-do-banco-contra-a-gratuidade.md) (mesmos argumentos, outro réu) | coberto |
+
+## Notas de frequência e prioridade
+
+- A contestação de loteadora tocantinense traz as linhas 1 ou 2 (conforme a data), 3, 4, 5 e 8 em quase toda peça; a 9 aparece quando a loteadora copia contestação antiga. A ordem de ataque na réplica costuma ser 8 (destrava o processo), depois a data do contrato (1 ou 2), depois 3 a 5.
+- Lacunas a fechar: taxa de associação de moradores (linha 6), anuência tácita na cessão (linha 12) e o acórdão originário do IRDR de 28/02/2019 (linha 9), que o bundle já aponta como pendência.
+- Esta página não registra caso, número de processo nem nome. O que ela sabe veio da titular e das páginas do acervo apontadas.

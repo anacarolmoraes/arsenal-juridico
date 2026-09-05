@@ -14,12 +14,13 @@ lucros cessantes e, conforme o caso, dano moral.
 ## Seções
 
 - [jurisprudencia/](jurisprudencia/index.md) — precedentes com comentário e status de vigência
+- [heuristicas/](heuristicas/index.md) — repertório de defesas da plataforma (contestação-padrão → resposta → página do acervo → lacuna), para a réplica
 - [raw/](raw/index.md) — cadeias de litígio depositadas (fora do git — ver catálogo)
 - [log.md](log.md) — histórico de ingestões
 
 **Ainda não criadas** (a fazer quando houver primeiro caso/peça real alimentando o bundle,
 conforme SCHEMA_BUNDLE_PILOTO §11): `README.md`, `atividades.md`, `teses/`, `playbooks/`,
-`workflows/`, `heuristicas/`, `casos_decididos/`, `perfis/`, `skills/`. A skill operacional
+`workflows/`, `casos_decididos/`, `perfis/`, `skills/`. A skill operacional
 `desmonetizacao-plataforma` (playbook de peça) mora no motor `pma-workspace`.
 
 ## O tema num parágrafo
