@@ -13,9 +13,9 @@
 > **Recorte, não depósito integral.** O acórdão tem **175 páginas** (≈131 mil tokens) e os
 > EDcl, 17. Depositar o inteiro teor aqui inflaria o bundle sem ganho: o que se cita deste
 > julgado é a ementa e o bloco de teses vinculantes, reproduzidos abaixo **na íntegra e
-> verbatim**. O `.md` completo dos dois acórdãos, o índice e o manifesto do `pdfmd` ficam
-> em `advocacia/consumir/RESP_1340553.*` e `advocacia/consumir/EDRESP_1340553.*`, fora do
-> git, na máquina de quem depositou.
+> verbatim**. O `.md` completo dos dois acórdãos, os PDFs, o índice e o manifesto do `pdfmd` ficam
+> ao lado deste arquivo, fora do git: `resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.{pdf,integral.md}`
+> e `edcl-resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.{pdf,integral.md}`.
 >
 > **Anonimização (regra dura 10).** A recorrente é a **Fazenda Nacional** (PGFN) — ente
 > público, mantido. A recorrida era microempresa privada e virou rótulo. **Mantidos**:

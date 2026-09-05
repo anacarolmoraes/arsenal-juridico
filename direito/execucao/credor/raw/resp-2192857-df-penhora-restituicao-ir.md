@@ -9,9 +9,9 @@
 > de citação e de estudo: número do processo, números de origem, ministros, datas, ementa e
 > a íntegra do relatório e do voto. Nada do raciocínio foi tocado.
 >
-> O **PDF original** não entra no git (contém os nomes); fica em
-> `advocacia/consumir/RESP-2192857-2025-03-20.pdf` na máquina de quem o depositou, com
-> `.md`, índice e manifesto do pdfmd ao lado.
+> O **PDF original** não entra no git (contém os nomes); fica ao lado deste arquivo, em
+> `raw/resp-2192857-df-penhora-restituicao-ir.pdf`, com o `.integral.md` (conversão sem
+> anonimização), índice e manifesto do pdfmd — todos ignorados pelo `.gitignore`.
 >
 > Citar por página física: `REsp 2.192.857/DF, p. PDF 6`.
 

@@ -45,3 +45,8 @@ Esta heurística trata da **estrutura lógica**. As demais camadas são independ
 
 - **Superfície da prosa:** a estrutura AI-first não exige travessões, paralelismos negativos, perguntas retóricas nem frases-clone — esses são cacoetes de modelo de linguagem, removíveis sem tocar no esqueleto. Ferramenta: skill do escritório `humanizer-forense` (tabela de substituições + lint quantitativo `lint-ia.js`), etapa obrigatória de validação nos workflows de peça.
 - **Tipografia** (fonte, margens, timbrado): padrão visual do escritório.
+
+## Ver também
+
+- [Citar e transcrever como o STJ](citar-e-transcrever-como-o-stj.md) — a forma oficial da referência de julgado, da transcrição com fonte adjacente e dos números, transcrita do Manual de Padronização de Textos do STJ (2024).
+- [Como o STJ escreve a ementa](ementa-do-stj-anatomia.md) — a ordem *instituto, ramo, fato, entendimento* que o gabinete lê o dia inteiro e o vocabulário controlado com que a triagem indexa.

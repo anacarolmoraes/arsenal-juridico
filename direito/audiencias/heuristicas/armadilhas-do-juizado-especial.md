@@ -7,7 +7,9 @@ timestamp: '2026-08-01'
 status: em_teste
 autor: escritorio
 casos_origem: []
-fundamentos: []
+fundamentos:
+  - /jurisprudencia/enunciado-35-fonaje-civel-debates-orais.md
+  - /jurisprudencia/enunciado-141-fonaje-civel-representacao-me-epp.md
 ---
 
 # Armadilhas da audiência no Juizado Especial

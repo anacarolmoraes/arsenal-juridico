@@ -72,7 +72,7 @@ Impugnação independe de penhora, em 15 dias contados automaticamente do fim do
 
 O parcelamento do art. 916 **não se aplica** ao cumprimento de sentença (§7º). Um dos arquivos da fonte comete esse erro; os outros dois, não.
 
-No Juizado, a multa de 10% se aplica ainda que o total ultrapasse a alçada, mas o Enunciado 97 do FONAJE afasta os honorários — enunciado controvertido e revisado, conferir a redação vigente antes de contar com ele.
+No Juizado, a multa de 10% se aplica ainda que o total ultrapasse a alçada, mas o [Enunciado 97 do FONAJE](../jurisprudencia/enunciado-97-fonaje-civel-multa-523-honorarios.md) afasta os honorários — conferido em 2026-09-04 contra o compilado oficial, redação vigente (nova redação do XXXVIII Encontro).
 
 ## Lacunas declaradas
 

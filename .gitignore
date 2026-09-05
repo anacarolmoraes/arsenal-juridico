@@ -103,6 +103,19 @@ direito/execucao/defesa-executado/raw/peticao-terceiro-bem-de-familia-tjsp.pdf
 # 01/08/2026 e circula; o PDF fica na máquina de quem o depositou.
 direito/audiencias/raw/decisao-negocio-processual-videoconferencia-tjms.pdf
 
+# Acórdãos do STJ com partes privadas (REsp 2.192.857/DF, REsp 1.914.049/MT,
+# REsp 1.340.553/RS e seus EDcl, REsp 2.188.970/PR). O .md do bundle é recorte
+# ou inteiro teor ANONIMIZADO e circula. O PDF oficial e o `.integral.md`
+# (conversão crua do pdfmd, com os nomes) ficam ao lado, fora do git —
+# trazidos de `advocacia/consumir/` em 04/09/2026 para que o acervo não
+# dependa de outro repositório.
+direito/execucao/credor/raw/resp-2192857-df-penhora-restituicao-ir.pdf
+direito/execucao/credor/raw/resp-1914049-mt-infojud-consulta-de-oficio.pdf
+direito/execucao/defesa-executado/raw/resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.pdf
+direito/execucao/defesa-executado/raw/edcl-resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.pdf
+direito/execucao/defesa-executado/raw/resp-2188970-pr-prescricao-intercorrente-execucao-civel.pdf
+*.integral.md
+
 # Migração da Fase 4 (02/08/2026): documentos de processo de
 # terceiro depositados na migração do acervo local. Os .md ficam
 # fora até anonimização (regra dura 10); os .pdf ficam fora em

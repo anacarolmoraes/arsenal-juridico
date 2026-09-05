@@ -9,8 +9,9 @@
 > Convertido do PDF oficial pelo `pdfmd` em 2026-08-02.
 >
 > **Recorte, não depósito integral.** O acórdão tem 10 páginas; reproduzidos aqui a ementa
-> na íntegra e as duas passagens do voto que dão o valor de citação. O `.md` completo,
-> índice e manifesto do `pdfmd` ficam em `advocacia/consumir/REsp_1914049.*`, fora do git.
+> na íntegra e as duas passagens do voto que dão o valor de citação. O `.md` completo
+> (`resp-1914049-mt-infojud-consulta-de-oficio.integral.md`), o PDF, o índice e o manifesto
+> do `pdfmd` ficam ao lado deste arquivo, fora do git.
 >
 > **Anonimização (regra dura 10).** Recorrente, recorrida e advogados viraram rótulo — são
 > partes privadas. **Mantidos**: número do processo, ministros, datas, ementa e o raciocínio

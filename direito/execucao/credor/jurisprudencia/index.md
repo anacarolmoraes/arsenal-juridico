@@ -7,3 +7,4 @@
 - [CPC, arts. 381 a 383 — produção antecipada de prova](cpc-arts-381-383-producao-antecipada-de-prova.md) — base das duas teses de ação probatória autônoma; atenção ao erro de numeração herdado da fonte.
 - [Súmula 317/STJ — execução de título extrajudicial é sempre definitiva](sumula-317-stj-execucao-extrajudicial-e-definitiva.md) — mesmo pendente apelação contra a sentença dos embargos.
 - [Súmula 376/STJ — Turma Recursal julga MS contra ato de juizado](sumula-376-stj-ms-contra-ato-de-juizado.md) — a via que supre a falta de agravo no rito da Lei 9.099/95.
+- [Enunciado 97 do FONAJE (Cível) — multa do art. 523 no Juizado, sem os honorários de 10%](enunciado-97-fonaje-civel-multa-523-honorarios.md) — **`vigente`**, conferido em 2026-09-04. Fecha a incerteza que o [playbook de cumprimento de sentença](../playbooks/playbook-pedido-de-cumprimento-de-sentenca.md) registrava.

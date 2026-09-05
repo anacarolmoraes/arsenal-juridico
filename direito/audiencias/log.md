@@ -1,5 +1,11 @@
 # Log — audiências
 
+## 2026-09-04 — enunciados do FONAJE depositados, bundle v0.3.0
+
+**Resolvida a pendência de vigência nº 3, aberta em 2026-08-01.** Depositado `raw/enunciados-fonaje-juizados-especiais.md`, a compilação oficial do Fórum Nacional de Juizados Especiais, vinda de `consumir/`. **Achado de estrutura:** o compilado tem **três séries de numeração independente** (Cível, Fazenda Pública, Criminal), cada uma reiniciando em 1 — o Enunciado 35 da série Cível ("debates orais não são obrigatórios") e o Enunciado 35 da série Criminal (substituído pelo 113) são enunciados diferentes. Citar sempre com a série.
+
+Conferidos letra por letra e promovidos a páginas `jurisprudencia/`, `vigente`: [Enunciado 35/Cível](jurisprudencia/enunciado-35-fonaje-civel-debates-orais.md) e [Enunciado 141/Cível](jurisprudencia/enunciado-141-fonaje-civel-representacao-me-epp.md) — os dois que a [heurística de armadilhas do Juizado](heuristicas/armadilhas-do-juizado-especial.md) já citava sem fonte oficial, e que agora entram em `fundamentos:`. Um terceiro, o Enunciado 97/Cível (multa do art. 523 sem os honorários de 10%), foi conferido e depositado no bundle `execucao/credor`, que já o citava. Os 324 enunciados restantes não têm página derivada — consulta sob demanda.
+
 ## 2026-08-02 — reancoragem normativa da videoconferência
 
 **Resolvida a pendência de vigência nº 1, que era a que mais bloqueava o bundle.** Depositada a **Resolução CNJ 354/2020** (`raw/resolucao-cnj-354-2020-videoconferencia.pdf` + `.md`, texto compilado até a Res. 679/2026) e derivada a página `jurisprudencia/resolucao-cnj-354-2020-videoconferencia.md`, **`vigente`**, com 14 transcrições conferidas contra o depósito. É a primeira pasta `jurisprudencia/` e a primeira página `vigente` deste bundle.

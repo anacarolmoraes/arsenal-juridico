@@ -1,5 +1,80 @@
 # Log
 
+## 2026-09-04 (continuação)
+
+**Ingestão — três fontes menores + um julgado que fecha pendência de direito intertemporal, bundle v0.8.0.** Quatro depósitos
+na mesma leva de saneamento de `consumir/`:
+
+1. **Cartilha de linguagem simples da Ouvidoria do STJ** → `raw/paralembrar-linguagem-simples-stj.{pdf,md}` +
+   heurística [`heuristicas/linguagem-simples-como-o-stj-escreve.md`](heuristicas/linguagem-simples-como-o-stj-escreve.md).
+   Confirma, na voz do próprio Tribunal, exigências que o `humanizer-forense` já perseguia por conta própria (voz
+   ativa, frase curta, sem "vai/irá").
+2. **Resolução CNJ 615/2025** (governança de IA no Judiciário) → `raw/resolucao-cnj-615-2025-ia-judiciario.{pdf,md}`,
+   página [`jurisprudencia/resolucao-cnj-615-2025-ia-judiciario.md`](jurisprudencia/resolucao-cnj-615-2025-ia-judiciario.md)
+   e heurística [`heuristicas/decisao-com-apoio-de-ia-o-que-arguir.md`](heuristicas/decisao-com-apoio-de-ia-o-que-arguir.md).
+   **Achado central:** o art. 10, III, veda de forma absoluta — não como questão de grau de risco — que sistema de
+   IA "classifique ou ranqueie pessoas [...] para a avaliação da plausibilidade de seus [...] testemunhos"; e o
+   art. 33, § 3º, torna a revelação do uso de IA **no texto da decisão** uma faculdade do signatário, não um
+   dever — argumento que a titular não deve tentar ("a decisão não revelou uso de IA" não é nulidade).
+3. **Manual de Práticas Cartorárias do TJSP (2016)** → `raw/manual-praticas-cartorarias-tjsp-2016.{pdf,md}`, 340
+   páginas, CPC artigo por artigo com sugestão de minuta e observação. Convertido por OCR (PDF com texto nativo
+   corrompido — mesmo padrão de `resp_2188970` e do manual de padronização). **Quatro páginas de fluxograma
+   (332, 337-339) ficam sinalizadas `reading_order_ambiguous`**: são diagramas de caixa-e-seta (tutela
+   provisória, penhora, avaliação, expropriação), não texto linear — a transcrição dessas páginas não presta para
+   prosa, mas o procedimento que ilustram já está descrito nos artigos vizinhos. Depósito de referência; sem
+   página derivada ainda (340 páginas de uma fonte de 2016 não justificam derivação exaustiva sem um caso
+   concreto puxando um artigo específico — e o texto pode estar superado por emenda posterior, como o próprio
+   art. 921).
+
+Registro à parte, em `execucao/defesa-executado`: o **REsp 2.188.970/PR** (Quarta Turma, j. 18/03/2025) fecha a
+pendência de direito intertemporal da tese de prescrição intercorrente — como aplicar o art. 921, § 4º
+(Lei 14.195/2021) a execução que atravessa CPC/1973, CPC/2015 original e o regime atual. **Achado de método,
+não só de conteúdo:** o voto transcreve o acórdão do TJPR dizendo que os Temas 566-571 (fiscais) são
+"igualmente aplicáveis às execuções cíveis" — é a voz do TJPR, não do STJ, e o próprio STJ rejeita esse
+fundamento duas linhas depois. Ver a página, que documenta a armadilha de atribuição em detalhe.
+
+## 2026-09-04
+
+**Ingestão — Manual de Padronização de Textos do STJ, 3ª ed. (2024) → bundle v0.7.0.** Estava convertido
+desde 02/08 na caixa de entrada da titular e só tinha sido lido para o PRD de leitura semântica; não havia
+cópia no acervo. Depositado em `raw/manual-padronizacao-textos-stj-3ed-2024.{pdf,md}` como fonte
+transversal (é obra institucional do Tribunal, com autorização expressa de reprodução — circula, como o
+RISTJ). Higiene antes do depósito: **675 blocos de OCR de imagem duplicado** removidos pelo
+`reparar-ligaduras.py --remover-ocr-de-imagem`; ligaduras partidas, zero; páginas com `review_required`, zero.
+Índice, manifesto e imagens do pdfmd ficam ao lado, fora do git pela regra §4.
+
+**Triagem do que o manual rende.** Das três partes, a segunda (atos administrativos: ofício, portaria,
+edital) não gera conduta para peça. Da primeira e da terceira saíram **três heurísticas transversais**,
+todas `vigente` porque transcrevem regra do próprio Tribunal, com a página PDF de cada uma:
+
+- [`heuristicas/citar-e-transcrever-como-o-stj.md`](heuristicas/citar-e-transcrever-como-o-stj.md) — a
+  fórmula oficial de referência de julgado (classe encadeada com *no/nos/na*, `n.` e não `nº`, ponto de
+  milhar, UF após barra, relator ou relatora flexionado, órgão por extenso, datas sem zero), súmula em
+  quatro usos, artigo (ordinal até nove), transcrição com fonte entre parênteses antes do ponto
+  (procedimento da Presidência), folhas, cargos, quantia com extenso, latim em itálico, e a lista de
+  palavras que o manual manda evitar (*inobstante, vez que, no que pertine, o mesmo*).
+- [`heuristicas/siglas-classes-processuais-stj.md`](heuristicas/siglas-classes-processuais-stj.md) — os
+  78 pares sigla → classe do item 2.13, íntegros e na ordem do original, mais as regras de plural,
+  maiúscula e encadeamento.
+- [`heuristicas/ementa-do-stj-anatomia.md`](heuristicas/ementa-do-stj-anatomia.md) — as três partes e as
+  dez orientações do verbete *ementa*. O achado que muda a leitura de acórdão: **a ementa do STJ não
+  transcreve julgado nem súmula e não referencia precedente** (orientações 3 e 5). Texto de outro tribunal
+  atribuído "à ementa" está, por construção, no relatório ou no voto — é a razão institucional do portão de
+  voz do `lint-citacoes` (PRD de 02/08). A ordem dos itens da ementa é a ordem dos fundamentos no voto
+  (orientação 4), o que dá um mapa para localizar o trecho que sustenta cada tese.
+
+**Pendências que ficam:**
+
+1. O `lint-citacoes` (`skills/peca-pma-builder/scripts/lint-citacoes.js`, `CLASSES_SUPERIOR`) reconhece
+   11 siglas; a lista oficial tem 78. Ampliar o detector a partir da página de siglas é tarefa do motor,
+   não do acervo. Ao menos RMS, RHC, CC, Rcl, MS, SLS, EDcl, PUIL e SIRDR aparecem em peça do escritório.
+2. O Vocabulário Jurídico do STJ (orientação 10 da ementa) não está depositado; o manual só dá dois
+   exemplos. O PRD de leitura semântica já prevê uma versão mínima.
+3. O padrão de ementa estruturada por campos que a `estrutura-ai-first` chama de "padrão CNJ/STJ" não
+   consta desta edição do manual e segue sem fonte oficial em `raw/`.
+4. Da mesma pasta de origem, o Manual de Organização 2026 e o manual revogado ficam de fora por decisão
+   do PRD de 02/08 (só o cap. 5 interessava, e já foi lido).
+
 ## 2026-08-29
 
 **Ingestão — tese de doutorado sobre objeto dos recursos (Buril, USP 2019).** Depositada em

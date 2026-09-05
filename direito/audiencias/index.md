@@ -1,6 +1,6 @@
 ---
 okf_version: "0.1"
-bundle_version: "0.2.0"
+bundle_version: "0.3.0"
 ---
 
 # Audiências — Bundle Transversal (técnica de audiência)
@@ -14,7 +14,7 @@ Como se prepara e se conduz uma audiência, independentemente da matéria: o que
 - [jurisprudencia/](jurisprudencia/index.md) — a Resolução CNJ 354/2020, **conferida**: a âncora normativa vigente da videoconferência
 - [heuristicas/](heuristicas/index.md) — cinco regras de decisão, da tabela de pontos controvertidos à conduta do correspondente
 - [playbooks/](playbooks/index.md) — preparação de audiência
-- [raw/](raw/index.md) — curso de terceiro (fora do git) e uma decisão judicial anonimizada
+- [raw/](raw/index.md) — curso de terceiro (fora do git), uma decisão judicial anonimizada e a compilação oficial dos enunciados do FONAJE
 - [log.md](log.md) — histórico e pendências
 
 ## O tema num parágrafo

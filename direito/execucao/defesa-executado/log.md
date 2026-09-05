@@ -1,5 +1,13 @@
 # Log — defesa do executado
 
+## 2026-09-04 — REsp 2.188.970/PR: direito intertemporal da Lei 14.195/2021 em execução civil, bundle v0.3.0
+
+**Depositado o inteiro teor do REsp 2.188.970/PR** (Quarta Turma, rel. Min. João Otávio de Noronha, j. 18/03/2025) em `raw/resp-2188970-pr-prescricao-intercorrente-execucao-civel.md` (anonimizado — procurador do Estado e advogado do recorrido viraram rótulo; PDF oficial e `.integral.md` com os nomes ficam fora do git, mesmo padrão do REsp 1.340.553/RS) e derivada a página `jurisprudencia/resp-2188970-pr-prescricao-intercorrente-execucao-civel.md`, **`vigente`**. Conversão pelo `pdfmd` com OCR (o texto nativo do PDF vinha corrompido, mesmo padrão já visto no PDF da resolução CNJ e no manual do STJ); conferido, 0 ligadura partida.
+
+**Fecha uma das duas pendências da [tese de prescrição intercorrente](teses/prescricao-intercorrente-corre-da-primeira-tentativa-infrutifera.md):** agora há precedente conferido sobre o **direito intertemporal** da Lei 14.195/2021. O caso é execução civil (título extrajudicial) ajuizada em 1996, atravessando CPC/1973, CPC/2015 original e o CPC/2015 pós-2021 — o STJ segmenta a linha do tempo em três períodos e reforma o TJPR por aplicar retroativamente a regra automática de 2021 a uma suspensão de 2011-2012.
+
+**Achado de método, não só de conteúdo — e um exemplo real da armadilha de voz que o portão de citações existe para bloquear.** O voto transcreve o acórdão do TJPR (fl. 641) dizendo que os Temas 566-571 (fiscais, REsp 1.340.553/RS) são "igualmente aplicáveis às execuções cíveis". **É a voz do TJPR, dentro de uma transcrição — não uma tese do STJ.** O próprio STJ rejeita esse fundamento duas linhas depois, decidindo por um caminho mais estreito (direito intertemporal do art. 921, §4º, dentro do próprio CPC). A página documenta a armadilha em detalhe, com aviso explícito para não citar o acórdão como "o STJ estende os Temas fiscais às execuções cíveis".
+
 ## 2026-08-02 (quarta entrada) — Temas 566 a 571 conferidos: a pendência que travava a execução fiscal caiu
 
 **Ingestão** — Depositado o recorte oficial do **REsp 1.340.553/RS** (Temas 566 a 571) e dos seus **embargos de declaração**, e derivada a página `jurisprudencia/resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.md`, **`vigente`**. 1ª Seção, rel. Min. Mauro Campbell Marques, j. 12/09/2018, DJe 16/10/2018, **trânsito em julgado 14/05/2019**.

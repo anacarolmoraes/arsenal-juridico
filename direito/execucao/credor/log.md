@@ -1,5 +1,9 @@
 # Log — execução pelo credor
 
+## 2026-09-04 — Enunciado 97 do FONAJE conferido, bundle v0.5.0
+
+**Fechada a incerteza que o [playbook de cumprimento de sentença](playbooks/playbook-pedido-de-cumprimento-de-sentenca.md) registrava desde 2026-08-01** ("enunciado controvertido e revisado, conferir a redação vigente"). O compilado oficial do FONAJE, depositado no bundle `audiencias` (`raw/enunciados-fonaje-juizados-especiais.md`), confirma a redação: a multa de 10% do art. 523, §1º, incide no Juizado mesmo com o total acima da alçada, mas os honorários de 10% da segunda parte do dispositivo **não são devidos** — é a "nova redação" do XXXVIII Encontro (Belo Horizonte-MG), já revista pelo próprio FONAJE. Página nova `jurisprudencia/enunciado-97-fonaje-civel-multa-523-honorarios.md`, `vigente`.
+
 ## 2026-08-02 (quarta entrada) — REsp 1.914.049/MT: a heurística do INFOJUD ganha seu primeiro fundamento
 
 **Depositado o recorte oficial do REsp 1.914.049/MT** (3ª Turma, rel. Min. Ricardo Villas Bôas Cueva, j. 11/02/2026, DJEN/CNJ 13/02/2026) e derivada a página `jurisprudencia/resp-1914049-mt-infojud-consulta-de-oficio.md`, **`vigente`**. Bundle v0.3.0 → v0.4.0.
@@ -40,7 +44,7 @@ Também depositados: **Lei 12.016/2009** (mandado de segurança, base da tese do
 
 **Promoção vinda da camada de consumo.** Primeiro item promovido da `kb-youtube/jose-andrade-neto` (canal `@JoseAndradeneto`), pelo portão da Fase 6: **REsp 2.192.857/DF** — penhorabilidade da restituição de imposto de renda.
 
-- `raw/resp-2192857-df-penhora-restituicao-ir.md` — inteiro teor conferido e depositado (STJ, 3ª Turma, rel. Min. Moura Ribeiro, sessão virtual de 11 a 17/03/2025, DJEN/CNJ 20/03/2025, processo 2025/0018524-0). Convertido do PDF oficial pelo `pdfmd`; **anonimizado** pela regra dura 10 (partes e advogados viraram rótulo; ministros, número, datas e todo o raciocínio mantidos). Varredura de vazamento limpa. O PDF fica fora do git, em `advocacia/consumir/`.
+- `raw/resp-2192857-df-penhora-restituicao-ir.md` — inteiro teor conferido e depositado (STJ, 3ª Turma, rel. Min. Moura Ribeiro, sessão virtual de 11 a 17/03/2025, DJEN/CNJ 20/03/2025, processo 2025/0018524-0). Convertido do PDF oficial pelo `pdfmd`; **anonimizado** pela regra dura 10 (partes e advogados viraram rótulo; ministros, número, datas e todo o raciocínio mantidos). Varredura de vazamento limpa. O PDF fica fora do git, ao lado do `.md` em `raw/` (regra do `.gitignore` §2).
 - Páginas novas, ambas `vigente`: [jurisprudencia/resp-2192857-df-penhora-restituicao-ir.md](jurisprudencia/resp-2192857-df-penhora-restituicao-ir.md) e [teses/restituicao-de-ir-e-penhoravel-onus-do-executado.md](teses/restituicao-de-ir-e-penhoravel-onus-do-executado.md). São as **primeiras páginas do bundle com citação conferida em fonte oficial** — o resto segue `em_teste`.
 - Roteador ganhou a entrada "Achei restituição de imposto de renda a receber".
 
