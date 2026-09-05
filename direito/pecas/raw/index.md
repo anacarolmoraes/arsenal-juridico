@@ -10,6 +10,14 @@ Duas naturezas convivem aqui, com regimes opostos de circulação.
 
 Somente os recortes `.md` anonimizados integram o acervo. Os PDFs permanecem na camada local da titular e não são distribuídos.
 
+## Obras de terceiros — uso interno, não circulam
+
+| Arquivo | Papel |
+|---|---|
+| `artigo_how_to_handle_opposing_arguments.{pdf,md,pdfmd.json,index.md,quality.json}` | **O'Keefe (1999)**, *How to handle opposing arguments in persuasive messages*, Communication Yearbook 22, 209-249. Meta-análise de mensagens de um e de dois lados. Depositado em 2026-09-05; no `.gitignore`. **OCR em duas colunas com ordem de leitura ambígua em todas as páginas**: serve de proveniência para [heuristicas/refutar-ou-omitir.md](../heuristicas/refutar-ou-omitir.md), não de fonte de transcrição. Resumo, resultados e tabelas legíveis; discussão fragmentada. |
+
+(Os manuais de processo civil e o manual do REsp têm entradas próprias mais abaixo e nos `raw/` de cada peça.)
+
 ## Códigos e leis — fonte transversal do acervo, circulam
 
 Texto de lei **não é obra protegida** (Lei 9.610/98, art. 8º, IV): entra no git e viaja em qualquer pacote.

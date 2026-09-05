@@ -1,6 +1,6 @@
 ---
 okf_version: "0.1"
-bundle_version: "0.8.0"
+bundle_version: "0.9.0"
 ---
 
 # Peças Processuais — Bundle Transversal (D12)
@@ -15,17 +15,19 @@ Conhecimento de **peça** (como construir cada recurso/petição, independente d
 - [embargos-declaracao/](embargos-declaracao/index.md) — os dois papéis (corretivo/prequestionador), anatomia dos 4 vícios, armadilha do prazo penal (2 dias, CPP 619), tabela de vícios
 - [apelacao/](apelacao/index.md) — as três cargas, portão anti-preclusão (1.009 §1º), causa madura como decisão expressa, estrutura canônica PMA
 - [replica/](replica/index.md) — portão de cabimento (dispensável se só mérito direto), os quatro eixos de resposta (preliminares, fato novo, documentos), regra de ouro anti-inovação (art. 329, II)
+- [contestacao/](contestacao/index.md) — tabela de impugnação especificada (art. 341: fato sem linha é fato incontroverso), checklist das treze preliminares com decisão registrada (relativa e arbitragem precluem), defesa direta × indireta e o ônus da prova, reconvenção na mesma peça
 - [sucumbencia/](sucumbencia/index.md) — núcleo transversal: decaimento mínimo, bases autônomas e vedação à redução indireta dos honorários abaixo do piso do art. 85, § 2º
 
 ## Peças em estoque (fluxo próprio na fila)
 
-- [agravo-de-instrumento/](agravo-de-instrumento/index.md) · [peticao-inicial/](peticao-inicial/index.md) · [contestacao/](contestacao/index.md)
+- [agravo-de-instrumento/](agravo-de-instrumento/index.md) · [peticao-inicial/](peticao-inicial/index.md)
 
 ## Seções
 
 - [atividades.md](atividades.md) — roteador: atividade → peça → recursos
 - [heuristicas/estrutura-ai-first.md](heuristicas/estrutura-ai-first.md) — **transversal**: estrutura de peça para leitura primária por IA de triagem (BLUF, títulos-conclusão, jurisprudência transcrita, RISTJ 343-A) — TUDO em prosa natural, sem rótulos meta-textuais visíveis (rev. 2026-07-16)
 - [jurisprudencia/](jurisprudencia/index.md) — legislação e normas transversais a toda peça (hoje: Resolução CNJ 615/2025, governança de IA no Judiciário)
+- [heuristicas/refutar-ou-omitir.md](heuristicas/refutar-ou-omitir.md) — **transversal**: argumento do adversário ou é refutado ou não aparece; reconhecer sem refutar ("embora se possa argumentar...") é a postura menos persuasiva das três, abaixo de ignorar; refutar é atacar plausibilidade, raciocínio ou prova, não "pesar mais"; a ordem não tem efeito medido. Base: meta-análise de O'Keefe (1999), em `raw/`
 - [heuristicas/citar-e-transcrever-como-o-stj.md](heuristicas/citar-e-transcrever-como-o-stj.md) — **transversal**: a gramática oficial do STJ para referência de julgado (`AgInt no AREsp n. 1.414.332/SP, relatora Ministra..., Segunda Turma, julgado em 4/3/2024, DJe de 7/3/2024`), `n.` e não `nº`, súmula, artigo, transcrição com fonte entre parênteses, cargo flexionado, quantia por extenso. Fonte: Manual de Padronização de Textos do STJ, 3ª ed., 2024, em `raw/`
 - [heuristicas/siglas-classes-processuais-stj.md](heuristicas/siglas-classes-processuais-stj.md) — lista oficial das siglas de classe (item 2.13 do manual) e regras de maiúscula, plural e encadeamento; referência para ampliar o detector do `lint-citacoes`
 - [heuristicas/ementa-do-stj-anatomia.md](heuristicas/ementa-do-stj-anatomia.md) — como o STJ constrói a ementa e as dez orientações do manual; consequência: ementa não transcreve julgado nem cita precedente, e a ordem dos itens é o mapa do voto

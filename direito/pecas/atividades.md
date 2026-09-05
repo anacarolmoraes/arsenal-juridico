@@ -49,6 +49,12 @@ autor: escritorio
 2. Leitura obrigatória: [/replica/playbooks/playbook-replica.md](replica/playbooks/playbook-replica.md) — atenção à regra de ouro contra inovar a causa de pedir (CPC, art. 329, II).
 3. Execute: [/replica/workflows/replica.md](replica/workflows/replica.md)
 
+## Redigir Contestação
+
+1. **Versão do réu com prova, antes de analisar a inicial;** depois a [tabela de impugnação especificada](contestacao/heuristicas/tabela-impugnacao-especificada.md) — nenhum fato da inicial sem linha (art. 341), nenhum inciso do art. 337 sem decisão (relativa e arbitragem precluem).
+2. Leitura obrigatória: [/contestacao/playbooks/playbook-contestacao.md](contestacao/playbooks/playbook-contestacao.md) — defesa direta mantém o ônus no autor; fato novo traz o ônus para o réu (art. 373, II).
+3. Execute: [/contestacao/workflows/contestacao.md](contestacao/workflows/contestacao.md)
+
 ## Demais peças (estoque — fluxo na fila)
 
-Agravo de Instrumento · Petição Inicial · Contestação: cada uma tem "o essencial em 5 linhas" e fontes mapeadas no seu `index.md`. Para redigir uma delas hoje, use o essencial + o bundle temático + as skills do escritório, e registre no log o que faltou — isso prioriza a fila.
+Agravo de Instrumento · Petição Inicial: cada uma tem "o essencial em 5 linhas" e fontes mapeadas no seu `index.md`. Para redigir uma delas hoje, use o essencial + o bundle temático + as skills do escritório, e registre no log o que faltou — isso prioriza a fila.
