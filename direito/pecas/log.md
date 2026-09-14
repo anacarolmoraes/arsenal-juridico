@@ -1,5 +1,10 @@
 # Log
 
+## 2026-09-13 (consumo de `consumir/`: Caderno Scalabrin e EDcl no REsp 1.573.573)
+
+- **`raw/caderno-scalabrin-atualizacao-dpc-2025-2026.{pdf,md}`** — 54 p., pdfmd sem `--strict` (nenhuma página exigiu conferência). Circula no git porque o autor licencia a redistribuição com citação da fonte (rodapé de cada página). Catalogado em `raw/index.md` com mapa por parte e lista do que serve a cada bundle. Sem página derivada: é síntese didática, não fonte oficial.
+- **`sucumbencia/raw/edcl-agint-resp-1573573-rj-honorarios-recursais.{md,pdf,integral.md,estrutura.json}`** — EDcl no AgInt no REsp 1.573.573/RJ (3ª T., Bellizze, j. 04/04/2017, DJe 08/05/2017), 68 p., `--no-tables`. `.md` anonimizado (pessoas físicas e advogados; ficam ministros, a pessoa jurídica e o número); PDF e `.integral.md` fora do git (`.gitignore` §2). Página nova `sucumbencia/jurisprudencia/edcl-agint-resp-1573573-rj-honorarios-recursais.md`, `vigente`, com `tese:` (ementa, item I: seis requisitos cumulativos dos honorários recursais do art. 85, § 11), item II (critérios de cálculo) e voto-vogal da Min. Nancy Andrighi. **Portão de voz:** o `segmentar-acordao.py` não marcou as dezenas de ementas transcritas no voto (p. 6-62) porque a conversão não preservou aspas/itálico; a página avisa que só a ementa é transcrição segura sem conferência de autoria. Vinha anotado como pendência do `cobranca-honorarios` desde 21/07; é sucumbência, não cobrança, e mora aqui.
+
 ## 2026-09-13 (LINDB depositada no transversal)
 
 `raw/lindb-dl4657-1942-compilada.{htm,md}` via `depositar-lei.py` (cp1252, 30 artigos, cobertura até a Lei 13.655, sem `<strike>`), a pedido da titular, para servir ao art. 6º (irretroatividade) do bundle imobiliário e a qualquer tese intertemporal. Sem página derivada por ora; recorte por artigo pelo `recortar-artigo.py --codigo`. Na mesma sessão, o bundle imobiliário recebeu o Tema 1.002/STJ (ver o log de lá).

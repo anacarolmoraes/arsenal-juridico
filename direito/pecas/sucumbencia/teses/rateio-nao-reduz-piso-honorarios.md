@@ -7,7 +7,7 @@ timestamp: '2026-08-26'
 status: em_teste
 autor: escritorio
 fundamentos:
-  - /jurisprudencia/tjsp-ap-1096878-68-2017-rateio-honorarios.md
+  - /sucumbencia/jurisprudencia/tjsp-ap-1096878-68-2017-rateio-honorarios.md
 casos_origem: []
 placar:
   favoraveis: 1
@@ -36,6 +36,6 @@ em que a parte adversa sucumbiu.
   proporcionalidade define a base ou o proveito econômico imputável, sem alterar o
 intervalo percentual do art. 85, § 2º.
 
-Fundamento observado: [TJSP, Ap. 1096878-68.2017 — rateio dos honorários](/jurisprudencia/tjsp-ap-1096878-68-2017-rateio-honorarios.md).
+Fundamento observado: [TJSP, Ap. 1096878-68.2017 — rateio dos honorários](/sucumbencia/jurisprudencia/tjsp-ap-1096878-68-2017-rateio-honorarios.md).
 - Não pedir simples elevação do rateio, pois isso pode agravar a verba contra o próprio
   recorrente. Individualizar bases e observar a vedação à reformatio in pejus.

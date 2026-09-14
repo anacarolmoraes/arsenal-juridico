@@ -9,13 +9,15 @@ autor: ingerido
 resource: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15109.htm"
 orgao: Congresso Nacional
 data_publicacao: '2025-03-13'
-raw: pendente-deposito-titular
-verificado_em: '2026-07-16'
+raw: /raw/lei-15109-2025-custas-cobranca-honorarios.md
+verificado_em: '2026-09-13'
 ---
 
 # CPC, art. 82, §3º — Dispensa de adiantamento de custas na cobrança de honorários
 
 ## Texto
+
+Transcrição conferida em 2026-09-13 contra o [depósito integral da Lei 15.109/2025](/raw/lei-15109-2025-custas-cobranca-honorarios.md), convertido do HTML oficial do Planalto (`depositar-lei.py`). A lei tem três artigos: o 1º declara o objeto, o 2º insere o § 3º no art. 82 do CPC, o 3º dá vigência na publicação (DOU de 14/03/2025).
 
 > "Nas ações de cobrança por qualquer procedimento, comum ou especial, bem como nas execuções ou cumprimentos de sentença de honorários advocatícios, o advogado ficará dispensado de adiantar o pagamento de custas processuais, e caberá ao réu ou executado suprir, ao final do processo, o seu pagamento, se tiver dado causa ao processo."
 
@@ -39,4 +41,4 @@ Caso Flávia × Manoel, apelação (`clientes/flavia/caso_manoel/APELACAO_FLAVIA
 
 ## Status de vigência
 
-`vigente`: diferente das demais páginas deste bundle, o texto foi conferido em uso real anterior do escritório (não por fetch oficial nesta sessão, mas por validação direta da titular em 2026-07-16).
+`vigente`: conferido em uso real pela titular em 2026-07-16 e, desde 2026-09-13, contra o depósito oficial em `raw/`. Fecha a pendência 4 do log de 21/07 (texto integral da Lei 15.109/2025).

@@ -1,0 +1,161 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1504969-sp-prescricao-rateio-honorarios.md",
+  "source_sha256": "fd68d307d5e4365b1fc590cc54a60e76ab709dfb963b5ef07d84c181d500723f",
+  "chars": 16138,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": null,
+    "orgao_julgador": null,
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1.504.969"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 647,
+      "linha_inicio": 1,
+      "linha_fim": 12
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 647,
+      "fim": 7263,
+      "linha_inicio": 13,
+      "linha_fim": 161
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 7263,
+      "fim": 16138,
+      "linha_inicio": 162,
+      "linha_fim": 257
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "ante o exposto",
+      "inicio": 16002,
+      "fim": 16063,
+      "linha_inicio": 255,
+      "linha_fim": 255,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 4084,
+      "fim": 4508,
+      "linha_inicio": 94,
+      "linha_fim": 94,
+      "chars": 424,
+      "sinais": [
+        "caixa-alta",
+        "italico"
+      ],
+      "amostra": "*PRESTAÇÃO DE SERVIÇOS EM PARCERIA COM OUTRO ADVOGADO, * *VISANDO À DECLARAÇÃO DO PERCENTUAL QUE LHE CABE NO MONTANTE *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 8084,
+      "fim": 8836,
+      "linha_inicio": 180,
+      "linha_fim": 182,
+      "chars": 752,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"Art. 25. Prescreve em cinco anos a ação de cobrança de * *honorários de advogado, contado o prazo:* *I - do vencimento",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 9793,
+      "fim": 11190,
+      "linha_inicio": 209,
+      "linha_fim": 211,
+      "chars": 1397,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"(...)* *Depreende-se, * *da * *leitura * *dessas * *normas, * *que * *toda * *a * *regulamentação diz respeito ao dire",
+      "precedente": "REsp 448.116",
+      "precedentes": [
+        "REsp 448.116"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 11731,
+      "fim": 12510,
+      "linha_inicio": 224,
+      "linha_fim": 224,
+      "chars": 779,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\" *Processual civil e civil. Embargos de declaração no recurso especial. Ação de * *cobrança. Contrato de prestação de s",
+      "precedente": "EDcl 448.116",
+      "precedentes": [
+        "EDcl 448.116"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 12972,
+      "fim": 14447,
+      "linha_inicio": 234,
+      "linha_fim": 234,
+      "chars": 1475,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*RECURSO * *ESPECIAL. * *1. * *AÇÃO * *DE * *OBRIGAÇÃO * *DE * *FAZER * *C.C. * *INDENIZAÇÃO POR DANOS MORAIS DECORRENTE",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 14585,
+      "fim": 15392,
+      "linha_inicio": 241,
+      "linha_fim": 241,
+      "chars": 807,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "***3.*** * * ***O surgimento da pretensão ressarcitória não se dá necessariamente no *** ***momento em que ocorre a lesã",
+      "precedente": "REsp 1.347.715",
+      "precedentes": [
+        "REsp 1.347.715"
+      ],
+      "origem": "precedente"
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 6,
+    "chars_citados": 5634,
+    "proporcao_citada": 0.349
+  },
+  "avisos": [
+    "2 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

@@ -116,6 +116,14 @@ direito/execucao/defesa-executado/raw/edcl-resp-1340553-rs-temas-566-571-prescri
 direito/execucao/defesa-executado/raw/resp-2188970-pr-prescricao-intercorrente-execucao-civel.pdf
 *.integral.md
 
+# Depósitos de 13/09/2026 vindos de consumir/: acórdãos e documentos de processo de
+# terceiro com pessoas físicas. O .md anonimizado circula; PDF e .integral.md ficam
+# na máquina de quem depositou (regra dura 6 do AGENTS.md; *.integral.md já está acima).
+direito/pecas/sucumbencia/raw/edcl-agint-resp-1573573-rj-honorarios-recursais.pdf
+direito/cobranca-honorarios/raw/resp-1504969-sp-prescricao-rateio-honorarios.pdf
+direito/imobiliario/raw/tjto-sentenca-0019510-40-2017-capitalizacao-lote.pdf
+direito/imobiliario/raw/modelo-terceiro-inicial-revisional-capitalizacao-lote.pdf
+
 # Migração da Fase 4 (02/08/2026): documentos de processo de
 # terceiro depositados na migração do acervo local. Os .md ficam
 # fora até anonimização (regra dura 10); os .pdf ficam fora em

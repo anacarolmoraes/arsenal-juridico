@@ -1,0 +1,143 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "edcl-agint-resp-1573573-rj-honorarios-recursais.md",
+  "source_sha256": "a385b1f5d68b9f85a3c8a55377275f3a882548f0e2ee63794df399a3d9c7ec92",
+  "chars": 170517,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "MARCO AURÉLIO BELLIZZE",
+    "orgao_julgador": "TERCEIRA TURMA",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1.573.573"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 5449,
+      "linha_inicio": 1,
+      "linha_fim": 35
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 5449,
+      "fim": 6491,
+      "linha_inicio": 36,
+      "linha_fim": 61
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 6491,
+      "fim": 6870,
+      "linha_inicio": 62,
+      "linha_fim": 72
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 6870,
+      "fim": 7915,
+      "linha_inicio": 73,
+      "linha_fim": 98
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 7915,
+      "fim": 8410,
+      "linha_inicio": 99,
+      "linha_fim": 109
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 8410,
+      "fim": 9455,
+      "linha_inicio": 110,
+      "linha_fim": 135
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 9455,
+      "fim": 9887,
+      "linha_inicio": 136,
+      "linha_fim": 148
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 9887,
+      "fim": 12352,
+      "linha_inicio": 149,
+      "linha_fim": 202
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 12352,
+      "fim": 162420,
+      "linha_inicio": 203,
+      "linha_fim": 1921
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VOGAL **Relatora: Ministra NANCY ANDRIGHI**",
+      "inicio": 162420,
+      "fim": 168689,
+      "linha_inicio": 1922,
+      "linha_fim": 2069
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 168689,
+      "fim": 169731,
+      "linha_inicio": 2070,
+      "linha_fim": 2095
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 169731,
+      "fim": 170407,
+      "linha_inicio": 2096,
+      "linha_fim": 2106
+    },
+    {
+      "nome": "relator",
+      "titulo": "Relator.",
+      "inicio": 170407,
+      "fim": 170517,
+      "linha_inicio": 2107,
+      "linha_fim": 2109
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "diante do exposto",
+      "inicio": 161762,
+      "fim": 161941,
+      "linha_inicio": 1909,
+      "linha_fim": 1911,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "certidao",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 0,
+    "chars_citados": 0,
+    "proporcao_citada": 0.0
+  },
+  "avisos": []
+}

@@ -1,5 +1,18 @@
 # Log — cobranca-honorarios
 
+## 2026-09-13
+
+**Etapa 0 cumprida e páginas promovidas (v0.1.0 → v0.2.0).** Consumo de `consumir/` do workspace a pedido da titular.
+
+- **Lei 15.109/2025** depositada integral em `raw/` (`depositar-lei.py`, cp1252, 3 artigos). Página `cpc-art-82-par3` ganha `raw:` e `verificado_em`. Fecha a pendência 4 de 21/07.
+- **Estatuto da OAB**: o depósito já existia desde 02/08 (cobertura Lei 15.472), mas a página `oab-lei8906-arts-22-a-26` seguia `em_teste` com `raw: pendente-deposito-titular`. Reescrita com transcrição literal dos arts. 22 (caput, §§ 2º, 3º, 4º, 9º), 23, 24 (caput, §§ 1º, 4º a 7º), 25, 25-A e 26, e promovida a `vigente`. **Duas correções de conteúdo:** (a) o "art. 26 como regra residual de contagem da prescrição" **não existe** na lei; o art. 26 trata do substabelecido com reserva de poderes. Era conhecimento não conferido. (b) Entram o § 9º do art. 22 (Lei 15.472/2026: natureza alimentar e privilégio trabalhista para **todas** as espécies de honorários, inclusive convencionados) e os §§ 5º a 7º do art. 24 (Lei 14.365/2022: distrato não é renúncia; honorários proporcionais). A tese `natureza-alimentar-privilegio` ainda não aponta para o § 9º: fazer na próxima revisão da tese. A cópia nova de `L8906.html` em `consumir/` tem a mesma cobertura do depósito e não foi redepositada.
+- **CPC**: recortes gerados do compilado transversal para os arts. 85, 784, 523-527, 771-776 e **827-829** (este último porque o prazo de 3 dias e a redução dos honorários pela metade, que a página dos arts. 771-776 atribuía às disposições gerais, estão nos arts. 829 e 827, § 1º). As quatro páginas ganham bloco "Texto" com transcrição gerada do recorte, `raw:` e `status: vigente`. Correção na página do art. 784: a Lei 14.620/2023 incluiu o § 4º (assinatura eletrônica dispensa testemunhas), não alterou o inciso IV. Fecha a pendência 1 de 21/07.
+- **REsp 1.504.969/SP** (3ª Turma, Rel. Villas Bôas Cueva) depositado em `raw/` como relatório e voto anonimizados (PDF e `.integral.md` fora do git), segmentado (`segmentar-acordao.py`: 6 blocos citados, 2 sem atribuição), página `vigente` com `tese:` extraída do voto. O depósito não traz ementa nem data de julgamento; conferir no STJ antes de citar com data. **Fecha em parte a pendência 3 de 21/07** (termo inicial da prescrição do art. 25): o STJ diz que o art. 25 e o art. 206, § 5º, II, do CC valem só para a relação advogado-cliente, e que fora dela o prazo é o decenal do art. 205 contado pela *actio nata* do recebimento. Segue em aberto um julgado do STJ sobre os incisos do art. 25 na cobrança contra o cliente.
+- **REsp 1.573.573/RJ** (pendência 2 de 21/07): localizado e depositado. É o EDcl no AgInt que fixa os requisitos dos **honorários recursais** do art. 85, § 11, matéria de sucumbência e não de cobrança de honorários; foi para `direito/pecas/sucumbencia/` (raw + página). Pendência fechada por redistribuição.
+- `index.md` do bundle passa a listar `raw/` e registra que a réplica de honorários de 10/09/2026 é a primeira peça real do tema.
+
+**Pendências que ficam:** (3) julgado do STJ sobre o termo inicial do art. 25 na relação com o cliente; (5) `README.md` e `atividades.md`; AREsp 2.706.690 continua `em_teste`; tese `natureza-alimentar-privilegio` sem o art. 22, § 9º.
+
 ## 2026-08-02
 
 **Ingestão.** Migração da Fase 4 do PRD de versionamento do `pma-workspace`:

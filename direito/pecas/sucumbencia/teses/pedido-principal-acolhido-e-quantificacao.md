@@ -7,7 +7,7 @@ timestamp: '2026-08-26'
 status: em_teste
 autor: escritorio
 fundamentos:
-  - /jurisprudencia/tjgo-ap-5412926-72-2023-sucumbencia-minima.md
+  - /sucumbencia/jurisprudencia/tjgo-ap-5412926-72-2023-sucumbencia-minima.md
 casos_origem: []
 placar:
   favoraveis: 1
@@ -23,7 +23,7 @@ critério de quantificação, o decaimento pode ser considerado mínimo, com atr
 integral dos ônus sucumbenciais à parte adversa, nos termos do art. 86, parágrafo único,
 do CPC.
 
-Fundamento observado: [TJGO, Ap. 5412926-72.2023 — sucumbência mínima](/jurisprudencia/tjgo-ap-5412926-72-2023-sucumbencia-minima.md).
+Fundamento observado: [TJGO, Ap. 5412926-72.2023 — sucumbência mínima](/sucumbencia/jurisprudencia/tjgo-ap-5412926-72-2023-sucumbencia-minima.md).
 
 ## Como empregar
 
