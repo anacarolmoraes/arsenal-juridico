@@ -16,7 +16,10 @@ Requisitos do CPC 319 (juízo, qualificação completa, fatos e fundamentos, ped
 - **Heurística:** [heuristicas/exibicao-de-documentos-a-partir-do-mapa-probatorio.md](heuristicas/exibicao-de-documentos-a-partir-do-mapa-probatorio.md) — fato "a produzir" com prova em poder do réu vira pedido do art. 397 na inicial
 - **Heurística:** [heuristicas/emenda-da-inicial.md](heuristicas/emenda-da-inicial.md) — responder ao art. 321, atacar o indeferimento, e devolver a causa da emenda ao checklist
 - **Heurística:** [heuristicas/juros-e-correcao-na-inicial.md](heuristicas/juros-e-correcao-na-inicial.md) — IPCA e taxa legal (Lei 14.905/2024), termo inicial pela natureza da responsabilidade (Súmulas 54, 43 e 362), regra do escritório de direito intertemporal
-- **Heurística:** [heuristicas/quantificar-dano-moral-metodo-bifasico.md](heuristicas/quantificar-dano-moral-metodo-bifasico.md) — grupo de casos do tribunal competente + circunstâncias com prova; o valor pedido sai da conta e vai para o 292, V
+- **Heurística:** [heuristicas/quantificar-dano-moral-metodo-bifasico.md](heuristicas/quantificar-dano-moral-metodo-bifasico.md) — grupo de casos do tribunal competente + circunstâncias com prova; o valor pedido sai da conta e vai para o 292, V (coleta: `radar-jurisprudencia/scripts/grupo-de-casos.js` do workspace)
+- **Heurística:** [heuristicas/matriz-documentos-da-inicial.md](heuristicas/matriz-documentos-da-inicial.md) — intake: o que toda inicial junta (320), a pergunta por fato frágil ou a produzir, a coleta da gratuidade pela faixa da ADC 80; nasce da contagem real de emendas (gratuidade 9, documento faltante 8)
+- **Perfis:** [perfis/](perfis/index.md) — juízos de 1º grau que recebem as iniciais: gratuidade, tutela no despacho inicial, emenda, prazo (template; sem perfil escrito ainda)
+- **Ferramentas do workspace:** `ficha-golpe-bancario` (números de golpe e negativação, com `--conferir` da peça) e `ficha-rescisao-lote`; templates `material_padrao_escritorio/TEMPLATE_INICIAL_GOLPE_BANCARIO.md` e `TEMPLATE_INICIAL_RESCISAO_LOTE.md`; `legal-orchestrator/scripts/qualificacao.js` (preâmbulo do 319, II, a partir de `caso.json`)
 
 ## Páginas
 
@@ -31,13 +34,14 @@ Requisitos do CPC 319 (juízo, qualificação completa, fatos e fundamentos, ped
 - [jurisprudencia/cpc-arts-300-304-311.md](jurisprudencia/cpc-arts-300-304-311.md) — tutela de urgência, antecedente com estabilização, evidência (literal)
 - [jurisprudencia/cpc-arts-396-400.md](jurisprudencia/cpc-arts-396-400.md) — exibição de documento em poder da parte, presunção de veracidade (literal)
 - [jurisprudencia/lei-9099-arts-3-9-54-55.md](jurisprudencia/lei-9099-arts-3-9-54-55.md) — competência do Juizado, assistência, custas e honorários (literal)
-- Composição com a matéria: [bancário, fraude em consignado](../../bancario/emprestimo-nao-realizado/playbooks/playbook-peticao-inicial-fraude-consignado.md) · [imobiliário, rescisão de lote](../../imobiliario/playbooks/playbook-peticao-inicial-rescisao-imovel.md)
+- Composição com a matéria: [bancário, fraude em consignado](../../bancario/emprestimo-nao-realizado/playbooks/playbook-peticao-inicial-fraude-consignado.md) · [bancário, golpe (matriz de documentos)](../../bancario/golpes/heuristicas/matriz-documentos-golpe-bancario.md) · [imobiliário, rescisão de lote](../../imobiliario/playbooks/playbook-peticao-inicial-rescisao-imovel.md)
 - Cadeia: contestação → [réplica](../replica/index.md) → sentença → [apelação](../apelacao/index.md)
 
 ## Pendências (PRD `planos/2026-09-04_prd-fluxo-peticao-inicial.md` do workspace)
 
 - **F3 concluída em 05/09/2026:** a titular depositou as três súmulas, o REsp 1.152.541/RS e o acórdão do Tema 1.178; páginas acima. Os PDFs individuais das súmulas reprovam no sidecar por serem tabelas de precedentes; as páginas apontam `raw:` para a compilação oficial já aprovada em `/recurso-especial/raw/`.
-- **F4, dado próprio:** mineração dos despachos de emenda da fila do DJEN → contagem por causa no checklist abaixo; perfis de juízo das varas mais frequentes.
+- **F4.1 executada em 09/09/2026 (primeira passada):** `skills/pesquisa-djen/scripts/minerar-emendas.js` do workspace buscou o texto das comunicações dos 80 processos da fila (desde 2025) e achou **12 despachos de emenda**: gratuidade 9, documento faltante 8 (comprovante de endereço em nome próprio; extratos de todas as contas e rendimentos de três meses), competência ou rito 6, valor da causa 2, qualificação 2 (classificação por palavra-chave, um despacho pode ter mais de uma causa; conferir o texto antes de contar). A contagem está no checklist abaixo e na [matriz de intake](heuristicas/matriz-documentos-da-inicial.md). Refazer quando a fila tiver `caso` preenchido.
+- **F4.2 iniciada:** [perfis/](perfis/index.md) de 1º grau com template e contagem de órgãos da fila; nenhum perfil escrito ainda (exige observação, não se inventa).
 
 ## Checklist de saída (Estágio 6 do `legal-orchestrator` aponta para cá)
 
@@ -55,8 +59,8 @@ Conferir na peça pronta, antes do `.docx`. Definição canônica (valor da caus
 
 **Art. 320 — documentos indispensáveis**
 
-- [ ] Procuração, comprovante de residência, documento de identidade, contrato/instrumento da relação, comprovantes de pagamento, e o documento que prova cada fato do mapa probatório. Falta sanável gera emenda (321); é tempo perdido.
-- [ ] Gratuidade: declaração e prova conforme `definicoes.md` §2 — e, para ação ajuizada depois da ata da ADC 80 (09/2026), a forma A ou B pela faixa de salário de R$ 5.000,00 ([heurística](../gratuidade/heuristicas/pedido-de-gratuidade-pos-adc-80.md)).
+- [ ] Procuração, comprovante de residência **em nome do autor**, documento de identidade, contrato/instrumento da relação, comprovantes de pagamento, e o documento que prova cada fato do mapa probatório. Falta sanável gera emenda (321); é tempo perdido. **Contagem real (DJEN, 09/09/2026, 80 processos desde 2025): 8 dos 12 despachos de emenda pediam documento**, quase sempre comprovante de endereço em nome próprio ou prova de renda. Coleta pela [matriz de intake](heuristicas/matriz-documentos-da-inicial.md), rol em `documentos:` conferido por `checar-docs.js`.
+- [ ] Gratuidade: declaração e prova conforme `definicoes.md` §2 — e, para ação ajuizada depois da ata da ADC 80 (09/2026), a forma A ou B pela faixa de salário de R$ 5.000,00 ([heurística](../gratuidade/heuristicas/pedido-de-gratuidade-pos-adc-80.md)). **Contagem real (DJEN, 09/09/2026): 9 dos 12 despachos de emenda eram de gratuidade**, pedindo extratos de todas as contas e rendimentos dos últimos três meses. É a causa número um; a prova vai junto, não depois.
 
 **Encargos**
 

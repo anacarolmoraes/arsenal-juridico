@@ -1,0 +1,807 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1740911-df-tema-1002.md",
+  "source_sha256": "66796b9bbf3ab7a39ab1c63444821d54e2adb679bc5c4a38da5598c00b357eb2",
+  "chars": 136360,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "MOURA RIBEIRO",
+    "orgao_julgador": "SEGUNDA SECAO",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1.740.911"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 117,
+      "linha_inicio": 1,
+      "linha_fim": 5
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 117,
+      "fim": 830,
+      "linha_inicio": 6,
+      "linha_fim": 17
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 830,
+      "fim": 1798,
+      "linha_inicio": 18,
+      "linha_fim": 25
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 1798,
+      "fim": 4292,
+      "linha_inicio": 26,
+      "linha_fim": 61
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 4292,
+      "fim": 25915,
+      "linha_inicio": 62,
+      "linha_fim": 152
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VENCIDO",
+      "inicio": 25915,
+      "fim": 107555,
+      "linha_inicio": 153,
+      "linha_fim": 1125
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 107555,
+      "fim": 109115,
+      "linha_inicio": 1126,
+      "linha_fim": 1167
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 109115,
+      "fim": 110105,
+      "linha_inicio": 1168,
+      "linha_fim": 1191
+    },
+    {
+      "nome": "voto_vista",
+      "titulo": "VOTO-VISTA",
+      "inicio": 110105,
+      "fim": 133209,
+      "linha_inicio": 1192,
+      "linha_fim": 1755
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 133209,
+      "fim": 134841,
+      "linha_inicio": 1756,
+      "linha_fim": 1797
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 134841,
+      "fim": 136360,
+      "linha_inicio": 1798,
+      "linha_fim": 1817
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 903,
+      "fim": 1247,
+      "linha_inicio": 22,
+      "linha_fim": 22,
+      "chars": 344,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "JULGAMENTO DE IRDR. PROMESSA DE COMPRA E VENDA DE UNIDADE IMOBILIÁRIA. RESOLUÇÃO IMOTIVADA PELO PROMITENTE COMPRADOR. DE",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 1256,
+      "fim": 1767,
+      "linha_inicio": 24,
+      "linha_fim": 24,
+      "chars": 511,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Nos* * * *compromissos* * * *de* * * *compra* * * *e* * * *venda* * * *de* * * *unidades* * * *imobiliárias* * * *anter",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 6107,
+      "fim": 8044,
+      "linha_inicio": 93,
+      "linha_fim": 95,
+      "chars": 1937,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*INCIDENTE* *DE* *RESOLUÇÃO* *DE* *DEMANDAS* *REPETITIVAS.* *RESOLUÇÃO* *IMOTIVADA* *DE* *CONTRATO* *DE* *PROMESSA* *COM",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 9185,
+      "fim": 10323,
+      "linha_inicio": 114,
+      "linha_fim": 114,
+      "chars": 1138,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*PROPOSTA* * * *DE* * * *AFETAÇÃO.* * * *RECURSO* * * *ESPECIAL* * * *INTERPOSTO* *CONTRA* * * *ACÓRDÃO* * * *PROFERIDO*",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 10797,
+      "fim": 13099,
+      "linha_inicio": 122,
+      "linha_fim": 122,
+      "chars": 2302,
+      "sinais": [
+        "aspas",
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*(...)* *** *** ***a*** *** *** ***configuração*** *** *** ***da*** *** *** ***mora*** *** *** ***depende*** *** *** ***",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 13269,
+      "fim": 18711,
+      "linha_inicio": 129,
+      "linha_fim": 129,
+      "chars": 5442,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*parágrafo* * * *único* * * *do* * * *art.* * * *397* * * *do* * * *Código* * * *Civil* * * *e* * * *do* * * *art.* * *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "AgRg 927.433"
+      ]
+    },
+    {
+      "inicio": 18872,
+      "fim": 20069,
+      "linha_inicio": 136,
+      "linha_fim": 136,
+      "chars": 1197,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*deste* * * *teve ciência o* * * *devedor\". (g.n)* *Por* * * *essas* * * *razões* * * *é* * * *que* *** *** ***o*** ***",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 20229,
+      "fim": 23441,
+      "linha_inicio": 140,
+      "linha_fim": 140,
+      "chars": 3212,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*Conhecido* * * *o* * * *recurso* * * *especial,* * * *com fundamento* * * *na* * * *alínea* * * *\"c\",* * * *inciso* *II",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 23602,
+      "fim": 25169,
+      "linha_inicio": 147,
+      "linha_fim": 149,
+      "chars": 1567,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "***parcelas*** *** *** ***ao*** *** *** ***consumidor*** *** *** ***deve*** *** *** ***ser*** *** *** ***feita*** *** **",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 25266,
+      "fim": 25880,
+      "linha_inicio": 151,
+      "linha_fim": 151,
+      "chars": 614,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "***Os*** *** *** ***juros*** *** *** ***de*** *** *** ***mora*** *** *** ***incidentes*** *** *** ***sobre*** *** *** **",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 28999,
+      "fim": 29550,
+      "linha_inicio": 228,
+      "linha_fim": 228,
+      "chars": 551,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*(...)* * * *com o* * * *apoio* * * *da* * * *jurisprudência, separou-se* * * *dogmaticamente, de* *um* * * *lado,* * *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "CC 1838994"
+      ]
+    },
+    {
+      "inicio": 29716,
+      "fim": 30849,
+      "linha_inicio": 233,
+      "linha_fim": 233,
+      "chars": 1133,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*suprimento* * * *judicial* * * *da* * * *vontade* * * *do* * * *devedor* * * *inadimplente,* * * *nos* * * *termos* *do",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 31524,
+      "fim": 32045,
+      "linha_inicio": 245,
+      "linha_fim": 253,
+      "chars": 521,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*nos* * * *contratos* * * *de* * * *compra* * * *e* * * *venda* * * *de* *móveis* * * *ou* * * *imóveis* * * *mediante*",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 32138,
+      "fim": 32762,
+      "linha_inicio": 257,
+      "linha_fim": 257,
+      "chars": 624,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Nas* * * *hipóteses* * * *de* * * *resolução* * * *de* * * *contrato* * * *de* * * *promessa* * * *de* * * *compra* * *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 34889,
+      "fim": 36137,
+      "linha_inicio": 308,
+      "linha_fim": 308,
+      "chars": 1248,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*caso* * * *de* * * *resilição* * * *de* * * *contrato* * * *de* * * *compra* * * *e* * * *venda* * * *de* * * *imóvel p",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "REsp 1.008.610"
+      ]
+    },
+    {
+      "inicio": 36783,
+      "fim": 37780,
+      "linha_inicio": 327,
+      "linha_fim": 327,
+      "chars": 997,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*CIVIL* * * *E PROCESSUAL.* * * *CONTRATO* * * *DE* * * *PROMESSA* * * *DE COMPRA* *E* *VENDA.* *RESOLUÇÃO* *UNILATERAL*",
+      "precedente": "REsp 1.008.610",
+      "precedentes": [
+        "REsp 1.008.610"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 37974,
+      "fim": 40287,
+      "linha_inicio": 331,
+      "linha_fim": 331,
+      "chars": 2313,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*Incorre* * * *em* * * *mora,* * * *como* * * *reza* * * *o* * * *Código* * * *Civil,* * * *\"o* * * *devedor* * * *que*",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 42713,
+      "fim": 44029,
+      "linha_inicio": 380,
+      "linha_fim": 380,
+      "chars": 1316,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*AGRAVO* * * *INTERNO* * * *NO* * * *AGRAVO* * * *EM* * * *RECURSO* * * *ESPECIAL.* *AÇÃO* *DE* *RESCISÃO* *CONTRATUAL*",
+      "precedente": "AgInt 1.296.227",
+      "precedentes": [
+        "AgInt 1.296.227"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 44329,
+      "fim": 45489,
+      "linha_inicio": 387,
+      "linha_fim": 387,
+      "chars": 1160,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*PROCESSO* *CIVIL.* *AGRAVO* *INTERNO.* *RAZÕES* *QUE* *NÃO* *ENFRENTAM* *O* *FUNDAMENTO* *DA* *DECISÃO* *AGRAVADA.* *CO",
+      "precedente": "REsp 1211323",
+      "precedentes": [
+        "REsp 1211323"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 45630,
+      "fim": 46920,
+      "linha_inicio": 389,
+      "linha_fim": 389,
+      "chars": 1290,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*DIREITO* * * *CIVIL.* * * *RECURSO* * * *ESPECIAL.* * * *PROMESSA* * * *DE* * * *COMPRA* *E* *VENDA* *DE* *IMÓVEL.* *RE",
+      "precedente": "REsp 1.211.323",
+      "precedentes": [
+        "REsp 1.211.323"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 47041,
+      "fim": 47843,
+      "linha_inicio": 391,
+      "linha_fim": 391,
+      "chars": 802,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*AGRAVO* * * *REGIMENTAL* * * *NOS* * * *EMBARGO* * * *DE* * * *DECLARAÇÃO* * * *NO* *RECURSO* * * *ESPECIAL.* * * *AÇÃO",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 48007,
+      "fim": 48401,
+      "linha_inicio": 398,
+      "linha_fim": 398,
+      "chars": 394,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*parcelas* *pagas* ***de*** ***forma*** ***diversa*** ***da*** ***cláusula*** ***penal*** ***convencionada*** *,* * * *o",
+      "precedente": "REsp 1.008.610",
+      "precedentes": [
+        "REsp 1.008.610"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 48545,
+      "fim": 49862,
+      "linha_inicio": 400,
+      "linha_fim": 400,
+      "chars": 1317,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*AGRAVO* * * *REGIMENTAL* * * *EM* * * *AGRAVO* * * *(ART.* * * *544* * * *DO* * * *CPC)* * * *-* *PROMESSA* * * *DE* *",
+      "precedente": "REsp 1008610",
+      "precedentes": [
+        "REsp 1008610"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 50023,
+      "fim": 51425,
+      "linha_inicio": 402,
+      "linha_fim": 402,
+      "chars": 1402,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*AGRAVO* *REGIMENTAL.* *RECURSO* *ESPECIAL.* *CIVIL* *E* *PROCESSO* * * *CIVIL.* * * *LIQUIDAÇÃO* * * *DE* * * *SENTENÇA",
+      "precedente": "REsp 1.008.610",
+      "precedentes": [
+        "REsp 1.008.610"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 51897,
+      "fim": 54546,
+      "linha_inicio": 411,
+      "linha_fim": 411,
+      "chars": 2649,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*RECURSO* * * *ESPECIAL* * * *-* * * *EMBARGOS* * * *DO* * * *DEVEDOR* * * *-* * * *PROMESSA* *DE* * * *VENDA* * * *E* *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "REsp 737.856"
+      ]
+    },
+    {
+      "inicio": 59189,
+      "fim": 60032,
+      "linha_inicio": 515,
+      "linha_fim": 515,
+      "chars": 843,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*Resta* * * *saber* * * *se* * * *a* * * *norma* * * *se* * * *refere* * * *exclusivamente* * * *ao* * * *ilícito* *extr",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 61725,
+      "fim": 63030,
+      "linha_inicio": 554,
+      "linha_fim": 564,
+      "chars": 1305,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*Art.* * * *390.* * * *Nas* * * *obrigações* * * *negativas* * * *o* * * *devedor* * * *é* * * *havido* * * *por* *inadi",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 63139,
+      "fim": 65316,
+      "linha_inicio": 568,
+      "linha_fim": 568,
+      "chars": 2177,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Conforme* * * *seja* * * *proveniente* * * *da* * * *própria* * * *obrigação,* * * *ou* * * *ao* * * *revés* * * *de* *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 65480,
+      "fim": 66404,
+      "linha_inicio": 575,
+      "linha_fim": 575,
+      "chars": 924,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*casos* * * *de* * * *delito* * * *contra* * * *a* * * *propriedade,* * * *em* * * *que* * * *o* * * *agente* * * *é* *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 66590,
+      "fim": 67658,
+      "linha_inicio": 579,
+      "linha_fim": 579,
+      "chars": 1068,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*obrigação* * * *é* * * *positiva* * * *e* * * *líquida,* * * *dies* * * *interpellat* * * *pro* * * *homine:* * * *\"O*",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 73028,
+      "fim": 74554,
+      "linha_inicio": 711,
+      "linha_fim": 711,
+      "chars": 1526,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*tutela* * * *jurisdicional* * * *de* * * *conhecimento* * * *é* * * *apta* * * *a* * * *resolver* * * *três* *diferente",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 75017,
+      "fim": 76610,
+      "linha_inicio": 722,
+      "linha_fim": 724,
+      "chars": 1593,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Avizinha-se,* * * *por* * * *um* * * *lado,* \\[a sentença constitutiva\\] * * *da* * * *sentença* * * *de* *condenação,",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 77031,
+      "fim": 78963,
+      "linha_inicio": 730,
+      "linha_fim": 730,
+      "chars": 1932,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Considerada* * * *a* * * *função* * * *e* * * *o* * * *conteúdo* * * *substancial* * * *de* * * *cada* * * *espécie* *d",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 79127,
+      "fim": 79901,
+      "linha_inicio": 737,
+      "linha_fim": 737,
+      "chars": 774,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*completo* * * *o* * * *conflito* * * *substancial* * * *existente* * * *entre* * * *as* * * *partes* * * *em* * * *seu*",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 80204,
+      "fim": 81572,
+      "linha_inicio": 743,
+      "linha_fim": 743,
+      "chars": 1368,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*(...)* * * *a* * * *ação* * * *constitutiva* * * *relaciona-se* * * *aos* * * *direitos* * * *potestativos.* * * *A* *a",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 81763,
+      "fim": 82134,
+      "linha_inicio": 747,
+      "linha_fim": 747,
+      "chars": 371,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Nos* * * *casos* * * *em* * * *que* * * *o* * * *exercício* * * *do* * * *direito* * * *formativo* * * *ou* * * *potest",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 84861,
+      "fim": 85354,
+      "linha_inicio": 812,
+      "linha_fim": 820,
+      "chars": 493,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "* na hipótese de resolução de contrato de* *promessa de compra e venda de imóvel submetido ao Código de Defesa do Consu",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "REsp 1.300.418"
+      ]
+    },
+    {
+      "inicio": 87347,
+      "fim": 87814,
+      "linha_inicio": 871,
+      "linha_fim": 877,
+      "chars": 467,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*consequências* * * *do* * * *desfazimento* * * *do contrato,* * * *seja* *por* * * *meio* * * *de* * * *distrato,* * *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 91725,
+      "fim": 95067,
+      "linha_inicio": 965,
+      "linha_fim": 965,
+      "chars": 3342,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*A citação é* * * *o* * * *termo para* * * *a contagem dos juros moratórios em razão* *de* * * *expressa disposição do*",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 95858,
+      "fim": 96236,
+      "linha_inicio": 982,
+      "linha_fim": 988,
+      "chars": 378,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*** Os juros de*** ***mora incidem a partir da citação do devedor na fase de conhecimento da Ação Civil*** ***Pública,",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "EDcl 1.025.298"
+      ]
+    },
+    {
+      "inicio": 96927,
+      "fim": 98984,
+      "linha_inicio": 1008,
+      "linha_fim": 1008,
+      "chars": 2057,
+      "sinais": [
+        "aspas",
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*EMBARGOS* *DE* *DECLARAÇÃO.* *SUBSCRIÇÃO* *DE* *AÇÕES.* *BRASIL* * * *TELECOM.* * * *CONVERSÃO* * * *DE OBRIGAÇÃO* * *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 99148,
+      "fim": 101988,
+      "linha_inicio": 1015,
+      "linha_fim": 1015,
+      "chars": 2840,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "***pecuniária*** *** *** ***-*** *** *** ***não*** *** *** ***é*** *** *** ***relevante*** *** *** ***para*** *** *** **",
+      "precedente": "EDcl 1025298",
+      "precedentes": [
+        "EDcl 1025298"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 105335,
+      "fim": 106058,
+      "linha_inicio": 1088,
+      "linha_fim": 1088,
+      "chars": 723,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "***Os*** *** *** ***juros*** *** *** ***de*** *** *** ***mora*** *** *** ***incidentes*** *** *** ***sobre*** *** *** **",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "certidao",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto",
+      "voto_vista"
+    ],
+    "blocos_citados": 43,
+    "chars_citados": 60162,
+    "proporcao_citada": 0.441
+  },
+  "avisos": [
+    "Secao VOTO sem conectivo de dispositivo reconhecido — conferir o fecho a vista.",
+    "33 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

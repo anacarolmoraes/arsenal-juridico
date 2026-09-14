@@ -84,3 +84,4 @@ O destaque da peça (o que abre a síntese) é a tese escolhida na `ANALISE.md`;
 | 11 | O procedimento é o comum? Se for Juizado Especial, este fluxo não se aplica (Lei 9.099, arts. 30 e 31). |
 | 12 | `lado:` está declarado na `ANALISE.md` e o capítulo de ônus da prova segue o lado (réu consumidor pede a inversão; réu fornecedor a enfrenta)? |
 | 13 | O capítulo de impugnação foi lido em voz alta: "o autor alega" e "não procede" aparecem no máximo uma vez cada, e nenhum parágrafo é uma linha da tabela reescrita? |
+| 14 | O espelho reverso foi preenchido (tabela da réplica, Partes 2 a 4, contra a nossa própria peça) e não sobrou fato silenciado, pedido sem resposta, confissão sem consequência dada, contradição com documento nosso ou documento invocado sem juntar? |

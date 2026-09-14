@@ -22,11 +22,14 @@
 - [REsp 1.300.418/SC — Tema 577](resp-1300418-tema-577.md) — restituição imediata em parcela única.
 - [REsp 2.106.548/SP](resp-2106548-sp.md) *(vigente, verif. 2026-07-24)* — **contratos pós-2018**: prevalência do CDC, retenção ≤ 25% do pago, fruição indevida em lote não edificado, restituição imediata. Rel. Nancy Andrighi, 3ª T., 02/09/2025.
 - [REsp 1.745.407/SP](resp-1745407-sp.md) — meios válidos de notificação extrajudicial em loteamento.
+- [REsp 1.740.911/DF — Tema 1.002](resp-1740911-df-tema-1002.md) *(vigente, raw/, depositado 2026-09-13)* — juros de mora só do trânsito em julgado, **apenas em contratos anteriores à Lei 13.786/2018**; o voto vencedor (p. 43) manda contar da citação (arts. 397 e 405 do CC) nos contratos regidos pela lei nova, e registra correção desde cada desembolso (p. 42). Rel. p/ acórdão Maria Isabel Gallotti, 2ª Seção, 14/08/2019.
 
 ## Legislação
 
 - [Lei 13.786/2018 — Lei do Distrato](lei-13786-2018-lei-do-distrato.md) — art. 32-A da Lei 6.766/79; marco 28/12/2018.
 - [Lei 6.766/79, art. 32](lei-6766-79-art-32.md) — constituição em mora do adquirente de lote.
+- [Lei 4.591/64, art. 67-A](lei-4591-64-art-67-a.md) *(vigente, raw/, 2026-09-13)* — desfazimento do contrato de **incorporação**: pena de até 25% do pago (inciso II), 50% só com patrimônio de afetação provado (§ 5º), fruição de 0,5% *pro rata die* pelo período de disponibilização (§ 2º, III), parcela única em 180 dias (§ 6º), arrependimento de 7 dias em estande (§ 10). Regime que a multipropriedade herda.
+- [CC, art. 1.358-B](cc-art-1358-b-multipropriedade.md) *(vigente, raw/, 2026-09-13)* — multipropriedade: Lei 4.591/64 e CDC aplicam-se de forma supletiva e subsidiária; é a porta do art. 67-A para a fração de tempo.
 
 ## TJTO — precedentes de terceiros citáveis (curadoria; não são casos de clientes deste escritório)
 

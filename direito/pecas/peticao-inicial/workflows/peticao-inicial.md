@@ -6,7 +6,7 @@ tags: [peticao-inicial, workflow]
 timestamp: '2026-09-04'
 status: vigente
 autor: escritorio
-skills: [legal-orchestrator, legal-writer, tipografia-pma, legal-consistency-validator, humanizer-forense, peca-pma-builder, inicial-rescisao-lote, ficha-rescisao-lote]
+skills: [legal-orchestrator, legal-writer, tipografia-pma, legal-consistency-validator, humanizer-forense, peca-pma-builder, inicial-rescisao-lote, ficha-rescisao-lote, ficha-golpe-bancario, radar-jurisprudencia, pesquisa-djen]
 playbook: /peticao-inicial/playbooks/playbook-peticao-inicial.md
 ---
 
@@ -17,8 +17,9 @@ As etapas espelham os estágios do `legal-orchestrator` do workspace; o que é d
 ## Etapa 0 — Inventário e análise (Estágio 0)
 
 1. Pasta local do caso, Drive do escritório, acervo: `<bundles>/index.md` → bundle da matéria → `index.md`, `jurisprudencia/`, `teses/`, `heuristicas/`, `casos_decididos/`, `playbooks/playbook-peticao-inicial-<tema>.md` → este bundle (`/peticao-inicial/`). PDF sem `.md` irmão passa pelo `pdfmd` antes.
-2. Matéria com skill de apuração numérica (`ficha-rescisao-lote`) roda aqui; a ficha é a fonte dos números.
-3. Escrever ou atualizar `clientes/<caso>/ANALISE.md`: cronologia com prescrição, teses candidatas do bundle com regime, responsabilidade, ônus, tutela e autocomposição decididos, mapa probatório em três estados, ataques previstos.
+2. Matéria com skill de apuração numérica roda aqui; a ficha é a fonte dos números: `ficha-rescisao-lote` (lote) ou `ficha-golpe-bancario` (golpe, consignado, negativação; `--conferir` depois da prosa).
+3. **Intake:** [matriz de documentos e roteiro](/peticao-inicial/heuristicas/matriz-documentos-da-inicial.md) (Parte A do art. 320, Parte B derivada do mapa probatório, Parte C da gratuidade) mais a matriz do tema; resultado em `clientes/<caso>/DOCUMENTOS.md` com estado por item. Qualificação das partes em `clientes/<caso>/caso.json` (`qualificacao.js` do `legal-orchestrator` gera o preâmbulo e lista o que falta). Perfil da vara de destino em [perfis/](/peticao-inicial/perfis/index.md), quando existir.
+4. Escrever ou atualizar `clientes/<caso>/ANALISE.md`: cronologia com prescrição, teses candidatas do bundle com regime, responsabilidade, ônus, tutela e autocomposição decididos, mapa probatório em três estados, ataques previstos.
 
 **Portão:** documento que sustenta um número ausente → parar e pedir. Tese sem página no bundle → não é candidata.
 

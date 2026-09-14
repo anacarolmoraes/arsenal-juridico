@@ -10,6 +10,7 @@ fundamentos:
   - /jurisprudencia/resp-2106548-sp.md
   - /jurisprudencia/sumula-543-stj.md
   - /jurisprudencia/resp-1300418-tema-577.md
+  - /jurisprudencia/resp-1740911-df-tema-1002.md
 casos_origem: []
 placar:
   favoraveis: 0
@@ -38,6 +39,8 @@ Em ambos os caminhos o resultado prático converge (retenção contida, fruiçã
 3. Atacar a **base de cálculo**: 10%/25% incidem sobre o **valor pago**, não sobre o valor atualizado do contrato — do contrário, quanto menos o consumidor pagou, maior a retenção efetiva (inverte o art. 413 do CC). Fazer a conta na peça.
 4. Afastar a **fruição** em lote não edificado com o item 8 da ementa (jamais construiu/residiu/cercou/alugou/explorou; ônus da loteadora — art. 373, II, CPC + art. 6º, VIII, CDC).
 5. Pedir **restituição imediata em parcela única** (item 10 da ementa + Súmula 543 + Tema 577), com correção pelo índice contratual e juros desde a citação.
+6. **Juros desde a citação, e não do trânsito em julgado.** A loteadora responde com o Tema 1.002/STJ; a tese dele é limitada, pelo próprio texto, aos contratos **anteriores** à Lei 13.786/2018. Para o contrato pós-2018, o voto vencedor do [REsp 1.740.911/DF](/jurisprudencia/resp-1740911-df-tema-1002.md) (p. 43) diz que a sentença é declaratória de nulidade e condenatória, e os juros correm da citação (arts. 397 e 405 do CC); a correção incide desde cada desembolso (p. 42). Transcrever os dois trechos com a fonte adjacente.
+7. **Multipropriedade.** O regime das incorporações (art. 67-A da Lei 4.591/64) é aplicado à multipropriedade pelo art. 1.358-B do CC, e os 50% do § 5º do art. 67-A exigem patrimônio de afetação alegado e provado. O item 3 da ementa do REsp 2.106.548/SP declara que a Lei 13.786 "regulamenta todos os contratos, em geral, de compra e venda no âmbito de incorporação imobiliária ou parcelamento de solo urbano", de modo que o teto de 25% do pago alcança a incorporação e, por extensão, a fração de tempo. Texto e leitura dos dois dispositivos: [Lei 4.591/64, art. 67-A](/jurisprudencia/lei-4591-64-art-67-a.md) e [CC, art. 1.358-B](/jurisprudencia/cc-art-1358-b-multipropriedade.md), ambas `vigente` com depósito em `raw/` (13/09/2026). A remissão do art. 1.358-B é supletiva e subsidiária: nomeia o CDC ao lado da Lei 4.591/64, e o Capítulo VII-A do CC não regula a resolução da compra da fração por inadimplemento do preço, o que é justamente a lacuna que leva ao art. 67-A.
 
 ## Contra-argumentos esperados
 

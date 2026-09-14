@@ -43,7 +43,7 @@ Para **cada** fundamento invocado pela presidência/vice, a peça abre um capít
 ## Estrutura da peça
 
 1. **Endereçamento** — petição dirigida ao presidente/vice do tribunal de origem (CPC 1.042, §2º), com as razões voltadas ao STJ.
-2. **Resumo obrigatório ([RISTJ 343-A](/recurso-especial/jurisprudencia/ristj-art-343a.md), Emenda 53/2026)** — as razões do AREsp são petição de recurso dirigida ao STJ: abrir com síntese contendo fundamentos de fato e de direito, pedidos, teor das decisões impugnadas e **dispositivos legais invocados** (o item mais esquecido). Formato recomendado: o padrão de ementa CNJ/STJ (caso em exame / questão em discussão / razões / pedido / dispositivos) — ver [heurística estrutura AI-first](/heuristicas/estrutura-ai-first.md).
+2. **Resumo obrigatório ([RISTJ 343-A](/recurso-especial/jurisprudencia/ristj-art-343a.md), Emenda 53/2026)** — as razões do AREsp são petição de recurso dirigida ao STJ: abrir com síntese contendo fundamentos de fato e de direito, pedidos, teor das decisões impugnadas e **dispositivos legais invocados** (o item mais esquecido). Formato recomendado: o padrão de ementa CNJ/STJ (caso em exame / questão em discussão / razões / pedido / dispositivos) — ver [heurística estrutura AI-first](/heuristicas/estrutura-ai-first.md). **Fechar a síntese com o enquadramento** (critério de 05/09/2026): qual fundamento da inadmissão se ataca e por que ele não se sustenta (a Súmula 7 aplicada a questão de qualificação jurídica, a 283 a fundamento que foi impugnado, a 211 a matéria prequestionada), mais a alínea e o dispositivo federal do REsp destrancado. O assessor da Presidência decide o conhecimento por essas linhas; se elas não cabem em três, o agravo tem problema de fundo.
 3. **Tempestividade** — data da publicação da inadmissão + contagem; sem preparo (§2º).
 4. **Síntese da decisão agravada** — os fundamentos da inadmissão enumerados um a um (é o sumário da própria peça), cada um com remissão ao capítulo que o impugna.
 5. **Um capítulo por fundamento** — transcrição literal do fundamento → resposta técnica (tabela acima) → conclusão parcial. Nenhum capítulo pode ser cópia do REsp.
@@ -63,7 +63,7 @@ Agravado responde em 15 dias (§3º); **retratação** é possível (§4º); sem
 | 4 | Prazo correto para a matéria (útil × corrido)? |
 | 5 | RE também inadmitido → o segundo agravo foi interposto? |
 | 6 | O REsp destrancado sobrevive à dupla dialeticidade do RISTJ 253, I (Súmula 182 no agravo E 283 no REsp)? |
-| 7 | O resumo do RISTJ 343-A está presente, incluindo a lista de dispositivos legais invocados? |
+| 7 | O resumo do RISTJ 343-A está presente, incluindo a lista de dispositivos legais invocados, e fecha com o enquadramento (fundamento da inadmissão atacado, súmula afastada, alínea e dispositivo do REsp) em até três linhas? |
 | 8 | As remissões internas (síntese → capítulos; "ver capítulo X") batem com a numeração real? (renumerar capítulos exige reconferir TODAS as remissões) |
 | 9 | Toda norma citada foi conferida letra por letra (artigo, parágrafo, inciso, ALÍNEA) contra a página do bundle ou a fonte oficial? |
 | 10 | Há pedido subsidiário de provimento parcial por capítulo? (o relator prefere o gesto barato — dê a ele o caminho; lição da 1ª banca, jul/2026) |
