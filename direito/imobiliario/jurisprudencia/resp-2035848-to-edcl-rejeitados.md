@@ -5,6 +5,7 @@ description: 4ª Turma do STJ rejeita embargos de declaração da loteadora cont
 tags: [irdr, embargos-de-declaracao, causa-decidida, rescisao-loteamento]
 timestamp: '2026-07-21'
 status: vigente
+tese: 'Rejeitados os embargos de declaração da loteadora contra o não conhecimento do REsp 2.035.848/TO, encerrando o ciclo recursal do IRDR-TO no STJ.'
 autor: ingerido
 resource: https://processo.stj.jus.br/processo/pesquisa/?termo=REsp+2035848
 tribunal: STJ - 4ª Turma

@@ -6,6 +6,7 @@ tags: [cheque, juros-de-mora, correcao-monetaria, termo-inicial, repetitivo, tem
 tema: 942
 timestamp: '2026-07-28'
 status: vigente
+tese: 'Tema 942/STJ: em qualquer ação de cobrança de cheque, a correção monetária corre da data de emissão estampada na cártula e os juros de mora da primeira apresentação ao sacado.'
 autor: ingerido
 resource: https://processo.stj.jus.br/processo/pesquisa/?termo=REsp%201556834
 tribunal: STJ

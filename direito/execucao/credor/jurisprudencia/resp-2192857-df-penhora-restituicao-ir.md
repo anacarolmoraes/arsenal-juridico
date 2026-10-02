@@ -5,6 +5,7 @@ description: Terceira Turma do STJ manteve a penhora no rosto dos autos de resti
 tags: [penhora, restituicao-de-imposto-de-renda, art-833-iv, minimo-existencial, onus-da-prova, penhora-no-rosto-dos-autos]
 timestamp: '2026-08-02'
 status: vigente
+tese: 'A restituição de imposto de renda é penhorável: a impenhorabilidade do art. 833, IV, do CPC comporta exceção desde que preservado percentual para a dignidade do devedor e da família, e a natureza alimentar da restituição não se presume, cabendo ao executado prová-la.'
 autor: ingerido
 resource: https://processo.stj.jus.br/
 tribunal: STJ

@@ -5,6 +5,7 @@ description: A 1ª Seção fixou em repetitivo que o prazo de 1 ano do art. 40 d
 tags: [prescricao-intercorrente, execucao-fiscal, lef, art-40, tema-566, tema-571, repetitivo, sumula-314]
 timestamp: '2026-08-02'
 status: vigente
+tese: 'Temas 566 a 571/STJ: o prazo de 1 ano do art. 40 da LEF começa automaticamente na ciência da Fazenda sobre a não localização do devedor ou de bens, independe de despacho, e só a constrição ou a citação efetivas o interrompem; mero peticionamento não interrompe.'
 autor: ingerido
 resource: https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=566&cod_tema_final=571
 tribunal: STJ

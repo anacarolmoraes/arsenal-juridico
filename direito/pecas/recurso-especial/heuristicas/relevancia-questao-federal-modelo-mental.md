@@ -1,3 +1,16 @@
+---
+title: Relevância da questão federal no REsp — modelo mental, método e estrutura
+description: Método para demonstrar a relevância da questão federal (art. 105, §2º, CF; art. 1.035-A do CPC) — a pergunta certa é por que a solução interessa ao sistema para além do processo; estrutura do tópico, erros comuns e checklist. Texto de método, não conferido contra fonte oficial.
+tags: [relevancia, questao-federal, recurso-especial, art-1035-a, metodo]
+timestamp: '2026-10-02'
+type: heuristica
+status: em_teste
+autor: ingerido
+fundamentos:
+  - /recurso-especial/heuristicas/relevancia-presumida-como-enquadrar.md
+  - /recurso-especial/heuristicas/efeitos-do-tema-de-relevancia-fora-do-resp.md
+---
+
 # Relevância da Questão Federal no Recurso Especial
 
 ## 1. Ideia central

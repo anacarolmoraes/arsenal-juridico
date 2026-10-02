@@ -5,6 +5,7 @@ description: STJ, 3ª Turma — instituições de pagamento respondem como as ba
 tags: [golpe-engenharia-social, falsa-central, perfil-de-consumo, sumula-479-stj, instituicao-de-pagamento, cdc-art-14]
 timestamp: '2026-08-02'
 status: vigente
+tese: 'Instituições de pagamento respondem como as bancárias (Súmula 479/STJ); o sistema antifraude deve detectar operação destoante do perfil do cliente (valor, horário, sequência, meio, empréstimo atípico prévio), e validar operação suspeita é defeito do serviço (art. 14 do CDC).'
 autor: ingerido
 resource: https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=202502401186
 tribunal: STJ

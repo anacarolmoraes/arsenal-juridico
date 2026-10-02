@@ -5,6 +5,7 @@ description: 4ª Turma do STJ não conhece dos recursos especiais da loteadora e
 tags: [irdr, recurso-especial, causa-decidida, rescisao-loteamento]
 timestamp: '2026-07-21'
 status: vigente
+tese: 'Não se conhece de recurso especial da loteadora e da associação de classe contra o acórdão do IRDR-TO sobre rescisão de compromisso de compra e venda de lote, por ausência de causa decidida; as teses do TJTO permanecem incólumes.'
 autor: ingerido
 resource: https://processo.stj.jus.br/processo/pesquisa/?termo=REsp+2035848
 tribunal: STJ - 4ª Turma

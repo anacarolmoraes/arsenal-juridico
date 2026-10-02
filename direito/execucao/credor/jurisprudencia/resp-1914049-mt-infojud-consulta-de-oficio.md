@@ -5,6 +5,7 @@ description: A 3ª Turma fixou que a presunção de hipossuficiência é relativ
 tags: [infojud, sigilo-fiscal, gratuidade-de-justica, busca-de-bens, confidencialidade, ctn-198]
 timestamp: '2026-08-02'
 status: vigente
+tese: 'A presunção de hipossuficiência é relativa, aferir a real condição econômica é dever do magistrado e a consulta ao INFOJUD com finalidade processual específica, sob confidencialidade, não extrapola a finalidade legal.'
 autor: ingerido
 resource: https://processo.stj.jus.br/processo/pesquisa/?termo=REsp%201914049
 tribunal: STJ

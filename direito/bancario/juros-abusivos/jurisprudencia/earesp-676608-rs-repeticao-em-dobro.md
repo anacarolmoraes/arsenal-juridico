@@ -5,6 +5,7 @@ description: Corte Especial do STJ — a devolução em dobro do art. 42, parág
 tags: [repeticao-de-indebito, devolucao-em-dobro, cdc-art-42, boa-fe-objetiva, prescricao-decenal, corte-especial]
 timestamp: '2026-08-02'
 status: vigente
+tese: 'A devolução em dobro do art. 42, parágrafo único, do CDC cabe sempre que a cobrança indevida contrariar a boa-fé objetiva, sem exigência de má-fé do fornecedor; prescrição decenal (art. 205 do CC); efeitos modulados para cobranças posteriores a 30/03/2021.'
 autor: ingerido
 resource: https://processo.stj.jus.br/processo/pesquisa/?aplicacao=processos.ea&tipoPesquisa=tipoPesquisaNumeroRegistro&termo=201500497769
 tribunal: STJ
