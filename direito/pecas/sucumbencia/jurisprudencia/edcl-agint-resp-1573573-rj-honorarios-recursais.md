@@ -1,7 +1,7 @@
 ---
 type: acordao
-title: EDcl no AgInt no REsp 1.573.573/RJ — requisitos cumulativos dos honorários recursais do art. 85, § 11, do CPC
-description: Terceira Turma, Rel. Min. Marco Aurélio Bellizze, j. 04/04/2017, DJe 08/05/2017, unânime. Fixa seis requisitos cumulativos para a majoração recursal: decisão recorrida publicada a partir de 18/03/2016 (Enunciado Administrativo 7/STJ); não conhecimento integral ou improvimento do recurso; honorários devidos desde a origem; sem majoração em agravo interno e embargos de declaração da parte já derrotada; tetos dos §§ 2º e 3º não atingidos; trabalho adicional do advogado é critério de quantificação, não condição. Item II lista critérios de cálculo.
+title: 'EDcl no AgInt no REsp 1.573.573/RJ — requisitos cumulativos dos honorários recursais do art. 85, § 11, do CPC'
+description: 'Terceira Turma, Rel. Min. Marco Aurélio Bellizze, j. 04/04/2017, DJe 08/05/2017, unânime. Fixa seis requisitos cumulativos para a majoração recursal: decisão recorrida publicada a partir de 18/03/2016 (Enunciado Administrativo 7/STJ); não conhecimento integral ou improvimento do recurso; honorários devidos desde a origem; sem majoração em agravo interno e embargos de declaração da parte já derrotada; tetos dos §§ 2º e 3º não atingidos; trabalho adicional do advogado é critério de quantificação, não condição. Item II lista critérios de cálculo.'
 tags: [honorarios-recursais, art-85-par-11, majoracao, agravo-interno, embargos-de-declaracao, enunciado-administrativo-7, sucumbencia]
 timestamp: '2026-09-13'
 status: vigente
