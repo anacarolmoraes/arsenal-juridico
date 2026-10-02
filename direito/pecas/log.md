@@ -1,5 +1,28 @@
 # Log
 
+## 2026-09-29 (Constituição Federal depositada no transversal)
+
+`raw/cf-1988-compilada.{html,md}` via `depositar-lei.py` (HTML do Planalto salvo pelo navegador, cp1252, 685 mil caracteres), com o ADCT. Cobertura até a EC 139; o cabeçalho gerado diz "Lei 14.817" porque o script mede lei alteradora, não emenda, e isso está declarado no índice. Um trecho riscado preservado com rótulo (art. 100, § 11). Recorte testado nos arts. 5º, 37, 100, 105, 133, 170, 196 e 225. Para o ADCT, que reinicia a numeração, saiu o extrato `raw/cf-1988-adct.md` (arts. 1º a 138). Sem página derivada nem recorte por bundle: nenhum bundle pediu artigo ainda. A pasta `Constituicao-Compilado_files/` (CSS, JS do STF, brasão) não foi depositada.
+
+## 2026-09-18 (sucumbência: 11 julgados e a Súmula 326, vindos de pesquisa feita para uma apelação)
+
+**Origem:** jurisprudência baixada pela titular para uma apelação parcial sobre sucumbência, guardada em pasta de caso em `clientes/`. Entraram só os julgados de terceiros e a publicação do STJ; nenhum documento do caso (inicial, contestação, sentença, extratos, análises, peça) foi depositado nem serviu de fonte (AGENTS.md, regra dura 5).
+
+- **`sucumbencia/raw/`**: 6 acórdãos do STJ (AREsp 3.068.822/SP, AgInt no AREsp 1.500.280/PR, AgInt nos EDcl no AREsp 1.975.774/RJ, AREsp 2.648.145/PR, REsp 2.175.580/SP, EDcl nos EDcl no REsp 2.206.684/MS) e 5 do TJTO (Ap. 0025227-92.2023, 0042971-94.2024, 0054926-25.2024, 0000367-17.2021, 0004295-15.2025). O `.md` circula anonimizado: saem partes privadas, advogados, OAB, e-mail, imagens e os blocos de OCR de imagem que só duplicavam o texto nativo; ficam magistrados, número do processo e entes públicos. `.pdf` e `.integral.md` ficam fora do git (`.gitignore`). As impressões do TJTO vêm do portal de jurisprudência e traziam URL assinada, removida.
+- **Súmula 326**: recorte da p. PDF 3 do capítulo na Revista de Súmulas (2012, v. 27). O capítulo inteiro (60 p., precedentes com nomes) fica como `.integral.md` e `.pdf` fora do git.
+- **12 páginas em `sucumbencia/jurisprudencia/`**, todas `vigente`, com transcrição conferida contra o depósito e seção de portão de voz onde o voto transcreve ementa alheia. Um **precedente contrário** (Ap. 0004295-15.2025) entra de propósito, com roteiro de distinção.
+- **Tese nova** `bases-autonomas-na-sucumbencia-reciproca` (`em_teste`); a tese `pedido-principal-acolhido-e-quantificacao` passa de 1 para 7 fundamentos favoráveis e ganha 1 contrário. Sub-bundle v0.2.0.
+- **Sem data de DJe** no depósito do AgInt no AREsp 1.500.280/PR e do AgInt nos EDcl no AREsp 1.975.774/RJ: as páginas trazem só a data de julgamento.
+- **Conserto de passagem:** `title` e `description` do EDcl no AgInt no REsp 1.573.573/RJ estavam sem aspas e com dois-pontos, o que quebrava o YAML.
+- **Ficaram de fora, com motivo:** quatro impressões do TJTO baixadas pelo termo de busca mas alheias ao tema (Ap. 0005959-67.2024, locação, redistribuição por provimento integral; Ap. 0009887-49.2022, titularidade de honorários de advogado contratado por município, que além disso traz U+200B acusado pelo pdfmd; Ap. 0001795-95.2019, honorários contratuais e sucumbenciais em RPV; AI 0008746-09.2022, preferência de honorários sobre crédito tributário, decisão liminar) e o AgInt no AREsp 1.980.535/RJ (plano de saúde, rol da ANS; o nome do arquivo sugeria Súmula 326, o conteúdo não trata de sucumbência). As três sobre honorários podem interessar ao `cobranca-honorarios`; decisão da titular.
+- **Pendência:** a sobrevivência da Súmula 326 diante do art. 292, V, do CPC/2015 está anotada na página sem precedente depositado.
+
+## 2026-09-13 (CPC redepositado com a Lei 15.484; LGPD depositada)
+
+- **CPC**: novo HTML do Planalto (cobertura até a Lei 15.484/2026) substitui o depósito de 08-01 (cobertura Lei 15.109) sob o mesmo nome `cpc-l13105-compilada.{html,md}`; o anterior fica como `cpc-l13105-compilada-2026-08-01.{html,md}`. Todos os 26 recortes `cpc-art*` do acervo regenerados e comparados palavra a palavra com os antigos: zero diferenças. Consequência para o `recurso-especial`: o **art. 1.035-A e os artigos alterados pela Lei 15.484** agora podem ser recortados do transversal (pendência aberta em 08-26 e 08-29).
+- **LGPD** depositada no transversal (`lgpd-l13709-2018-compilada`), `depositar-lei.py`, cobertura Lei 15.352. Fecha a Etapa 0 do bundle `lgpd`.
+- **CDC**: a cópia nova em `consumir/` (`L8078compilado.html`) tem a mesma cobertura (Lei 14.181) do depósito de 08-02 e foi descartada; dela saíram só os cinco recortes para `bancario/emprestimo-nao-realizado`, gerados contra o depósito existente.
+
 ## 2026-09-13 (consumo de `consumir/`: Caderno Scalabrin e EDcl no REsp 1.573.573)
 
 - **`raw/caderno-scalabrin-atualizacao-dpc-2025-2026.{pdf,md}`** — 54 p., pdfmd sem `--strict` (nenhuma página exigiu conferência). Circula no git porque o autor licencia a redistribuição com citação da fonte (rodapé de cada página). Catalogado em `raw/index.md` com mapa por parte e lista do que serve a cada bundle. Sem página derivada: é síntese didática, não fonte oficial.

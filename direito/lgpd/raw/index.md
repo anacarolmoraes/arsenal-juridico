@@ -14,9 +14,10 @@ Duas fontes, com regimes de circulação opostos.
 |---|---|
 | `lgpd-cartorios-infografico.{pdf,md}` | Coluna "Ponto de Vista" de **Joelson Sell**, uma página, sobre adequação de cartórios à LGPD. Publicação de terceiro (Lei 9.610/98) — fica na máquina de quem depositou. Conversão por OCR (`tesseract`), texto em duas colunas que o extrator entrelaçou: **legível, mas fora de ordem em vários pontos** — não citar sem conferir no PDF. Aponta o art. 23, § 4º, da LGPD (notários e registradores: política transparente e encarregado nomeado) e os Provimentos CNJ **74/2018** e **50/2015** como referência de padrões mínimos de TI. **Nada disso foi conferido em fonte oficial.** Sem página derivada: a matéria é de serventia extrajudicial, tangencial à prática do escritório. |
 
-## Etapa 0 — o que falta
+## Etapa 0 — cumprida em 2026-09-13
 
-**A Lei 13.709/2018 não está depositada em lugar nenhum do acervo.** É a pendência que trava o bundle:
-sem o literal, nenhuma página pode transcrever artigo e nenhuma sobe a `vigente`. Quando for depositada,
-o lugar é o transversal [`direito/pecas/raw/`](../../pecas/raw/index.md), ao lado dos demais códigos,
-com recorte por artigo para cá.
+**A Lei 13.709/2018 está depositada** no transversal [`direito/pecas/raw/`](../../pecas/raw/index.md), como
+`lgpd-l13709-2018-compilada.{html,md}` (texto do Planalto via `depositar-lei.py`, cp1252, 64 artigos, cobertura até a
+Lei 15.352, sem trecho revogado). Recorte por artigo para cá com `recortar-artigo.py <art> direito/lgpd --codigo
+direito/pecas/raw/lgpd-l13709-2018-compilada.md --rotulo LGPD`. Aviso do depósito: um artigo de 1 a 9 vem sem indicador
+ordinal no HTML oficial; a página que o transcrever declara a normalização.

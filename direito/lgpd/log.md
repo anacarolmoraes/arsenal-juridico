@@ -1,5 +1,9 @@
 # Log
 
+## 2026-09-13
+
+**Lei 13.709/2018 depositada** (transversal `direito/pecas/raw/lgpd-l13709-2018-compilada.{html,md}`, `depositar-lei.py`, cobertura até a Lei 15.352, 64 artigos, sem riscado; 1 artigo de 1 a 9 sem indicador ordinal no HTML). Vinda de `consumir/` do workspace. Fecha a pendência que travava o bundle; nenhuma página derivada ainda, porque nenhum caso puxou artigo. `index.md` e `raw/index.md` atualizados com o comando de recorte.
+
 ## 2026-08-29
 
 **Criação do bundle (v0.1.0).** Semente a partir de `consumir/LGPD/`, parado desde 01/08/2026. O

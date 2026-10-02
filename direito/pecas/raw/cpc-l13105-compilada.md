@@ -1,13 +1,11 @@
 <!--
-CPC — Lei 13.105/2015, TEXTO COMPILADO. Deposito integral e imutavel do acervo.
-Convertido do HTML oficial ao lado (cpc-l13105-compilada.html, cp1252) em 2026-08-01.
+CPC — Lei 13.105/2015, texto compilado (transversal) — texto do Planalto. Deposito integral e IMUTAVEL.
+Convertido de L13105compilada.html (encoding cp1252) por depositar-lei.py.
 TEXTO DE LEI CIRCULA: nao e obra protegida (Lei 9.610/98, art. 8, IV).
-COBERTURA: incorpora alteracoes ate a Lei 15.109, de 2025 (visivel no art. 82). A Lei
-15.479, de 2026 consta apenas como 'Vide' na capa, sem alterar artigo algum. Conferido
-contra o PDF oficial de 2026-08-01, artigo por artigo: 994 artigos, sem divergencia
-de direito.
-NAO editar: e a fonte contra a qual o lint-citacoes confere transcricao.
-Recortes por artigo: python recortar-artigo.py <artigo> <bundle>
+COBERTURA: cita alteracoes ate a Lei 15.484. Nada posterior esta refletido.
+Verificado: o HTML nao usa <strike>; nao ha redacao superada embutida no texto.
+NAO editar. E a fonte contra a qual o lint-citacoes confere transcricao.
+Recortes por artigo: python recortar-artigo.py <artigo> <bundle> --codigo <este .md>
 -->
 
 L13105compilada
@@ -22,6 +20,15 @@ LEI Nº 13.105, DE 16 DE MARÇO DE 2015.
 
 Mensagem de veto
 
+Vigência
+
+Vide Lei nº 15.479,
+de 2026
+
+Vigência
+
+(Vide Lei nº
+15.484, de 2026)
 Vigência
 
 Código de Processo Civil.
@@ -8670,6 +8677,14 @@ II - os enunciados de súmula vinculante;
 
 III - os acórdãos em incidente de assunção de competência ou de resolução de demandas repetitivas e em julgamento de recursos extraordinário e especial repetitivos;
 
+III-A – os acórdãos proferidos em julgamento de
+recurso especial submetido ao regime da relevância da questão de
+direito federal infraconstitucional;
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
 IV - os enunciados das súmulas do Supremo Tribunal Federal em matéria constitucional e do Superior Tribunal de Justiça em matéria infraconstitucional;
 
 V - a orientação do plenário ou do órgão especial aos quais estiverem vinculados.
@@ -8724,7 +8739,14 @@ IV - negar provimento a recurso que for contrário a:
 
 a) súmula do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do próprio tribunal;
 
-b) acórdão proferido pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça em julgamento de recursos repetitivos;
+b) acórdão proferido pelo Supremo Tribunal Federal ou
+pelo Superior Tribunal de Justiça em julgamento de recursos
+repetitivos ou de recursos especiais com a relevância da questão de
+direito federal infraconstitucional reconhecida;
+
+(Redação dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 c) entendimento firmado em incidente de resolução de demandas repetitivas ou de assunção de competência;
 
@@ -8732,7 +8754,14 @@ V - depois de facultada a apresentação de contrarrazões, dar provimento ao re
 
 a) súmula do Supremo Tribunal Federal, do Superior Tribunal de Justiça ou do próprio tribunal;
 
-b) acórdão proferido pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça em julgamento de recursos repetitivos;
+b) acórdão proferido pelo Supremo Tribunal Federal ou
+pelo Superior Tribunal de Justiça em julgamento de recursos
+repetitivos ou de recursos especiais com a relevância da questão de
+direito federal infraconstitucional reconhecida;
+
+(Redação dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 c) entendimento firmado em incidente de resolução de demandas repetitivas ou de assunção de competência;
 
@@ -9232,7 +9261,16 @@ Art. 979. A instauração e o julgamento do incidente serão sucedidos da mais a
 
 § 2º Para possibilitar a identificação dos processos abrangidos pela decisão do incidente, o registro eletrônico das teses jurídicas constantes do cadastro conterá, no mínimo, os fundamentos determinantes da decisão e os dispositivos normativos a ela relacionados.
 
-§ 3º Aplica-se o disposto neste artigo ao julgamento de recursos repetitivos e da repercussão geral em recurso extraordinário.
+§ 3º Aplica-se o disposto neste artigo ao julgamento
+de recurso extraordinário com repercussão geral, de recurso especial
+com relevância da questão de direito federal infraconstitucional
+reconhecida, de incidente de assunção de competência e de casos
+repetitivos.
+
+(Redação
+dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 Art. 980. O incidente será julgado no prazo de 1 (um) ano e terá preferência sobre os demais feitos, ressalvados os que envolvam réu preso e os pedidos de
 
@@ -9340,19 +9378,34 @@ IV – garantir a observância de acórdão proferido em julgamento de incidente
 
 (Vigência)
 
+V – em casos excepcionais, garantir a observância de
+acórdão proferido em julgamento de recurso especial sob o regime de
+relevância.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
 § 1º A reclamação pode ser proposta perante qualquer tribunal, e seu julgamento compete ao órgão jurisdicional cuja competência se busca preservar ou cuja autoridade se pretenda garantir.
 
 § 2º A reclamação deverá ser instruída com prova documental e dirigida ao presidente do tribunal.
 
 § 3º Assim que recebida, a reclamação será autuada e distribuída ao relator do processo principal, sempre que possível.
 
-§ 4º As hipóteses dos incisos III e IV compreendem a aplicação indevida da tese jurídica e sua não aplicação aos casos que a ela correspondam.
+§ 4º As hipóteses dos incisos III, IV e V compreendem
+a aplicação indevida da tese jurídica e sua não aplicação aos casos
+que a ela correspondam.
 
-§ 5º É inadmissível a reclamação:
+(Redação
+dada pela Lei nº
+15.484, de 2026)
+Vigência
 
-(Redação dada pela Lei nº 13.256, de 2016)
+§ 5º Será liminarmente indeferida a reclamação:
 
-(Vigência)
+(Redação dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 I – proposta após o trânsito em julgado da decisão reclamada;
 
@@ -9360,11 +9413,17 @@ I – proposta após o trânsito em julgado da decisão reclamada;
 
 (Vigência)
 
-II – proposta para garantir a observância de acórdão de recurso extraordinário com repercussão geral reconhecida ou de acórdão proferido em julgamento de recursos extraordinário ou especial repetitivos, quando não esgotadas as instâncias ordinárias.
+II – proposta para garantir a observância de acórdão
+de recurso extraordinário com repercussão geral reconhecida, de
+acórdão de recurso especial com relevância da questão de direito
+federal infraconstitucional reconhecida ou de acórdãos proferidos em
+julgamento de recursos extraordinários ou especiais repetitivos,
+quando não esgotadas as instâncias ordinárias ou o ato atacado não
+se mostrar manifestamente em desacordo com o precedente qualificado.
 
-(Incluído pela Lei nº 13.256, de 2016)
-
-(Vigência)
+(Redação dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 § 6º A inadmissibilidade ou o julgamento do recurso interposto contra a decisão proferida pelo órgão reclamado não prejudica a reclamação.
 
@@ -9434,7 +9493,16 @@ III - não será conhecido, se houver desistência do recurso principal ou se fo
 
 Art. 998. O recorrente poderá, a qualquer tempo, sem a anuência do recorrido ou dos litisconsortes, desistir do recurso.
 
-Parágrafo único. A desistência do recurso não impede a análise de questão cuja repercussão geral já tenha sido reconhecida e daquela objeto de julgamento de recursos extraordinários ou especiais repetitivos.
+Parágrafo único. A desistência do recurso não impede
+a análise de questão cuja repercussão geral ou cuja relevância da
+questão de direito federal infraconstitucional já tenha sido
+reconhecida e daquela objeto de julgamento de recursos
+extraordinários ou especiais repetitivos.
+
+(Redação
+dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 Art. 999. A renúncia ao direito de recorrer independe da aceitação da outra parte.
 
@@ -9900,11 +9968,29 @@ b) a recurso extraordinário ou a recurso especial interposto contra acórdão q
 
 (Vigência)
 
-II – encaminhar o processo ao órgão julgador para realização do juízo de retratação, se o acórdão recorrido divergir do entendimento do Supremo Tribunal Federal ou do Superior Tribunal de Justiça exarado, conforme o caso, nos regimes de repercussão geral ou de recursos repetitivos;
+c) a recurso especial que discuta questão de direito
+federal infraconstitucional à qual o Superior Tribunal de Justiça
+não tenha reconhecido a existência de relevância da questão de
+direito federal infraconstitucional ou a recurso especial interposto
+contra acórdão que esteja em conformidade com entendimento do
+Superior Tribunal de Justiça exarado no regime de relevância;
 
-(Incluído pela Lei nº 13.256, de 2016)
+(Incluído
+pela Lei nº
+15.484, de 2026)
+Vigência
 
-(Vigência)
+II – encaminhar o processo ao órgão julgador para
+realização do juízo de retratação, se o acórdão recorrido divergir
+do entendimento do Supremo Tribunal Federal ou do Superior Tribunal
+de Justiça, conforme o caso, nos regimes de repercussão geral, de
+relevância da questão de direito federal infraconstitucional ou de
+recursos repetitivos;
+
+(Redação
+dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 III – sobrestar o recurso que versar sobre controvérsia de caráter repetitivo ainda não decidida pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça, conforme se trate de matéria constitucional ou infraconstitucional;
 
@@ -9922,11 +10008,14 @@ V – realizar o juízo de admissibilidade e, se positivo, remeter o feito ao Su
 
 (Incluído pela Lei nº 13.256, de 2016)
 
-a) o recurso ainda não tenha sido submetido ao regime de repercussão geral ou de julgamento de recursos repetitivos;
+a) o recurso ainda não tenha sido submetido aos
+regimes de repercussão geral, de relevância da questão de direito
+federal infraconstitucional ou de julgamento de recursos
+repetitivos;
 
-(Incluída pela Lei nº 13.256, de 2016)
-
-(Vigência)
+(Redação dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 b) o recurso tenha sido selecionado como representativo da controvérsia; ou
 
@@ -10027,6 +10116,90 @@ Revogado
 (Redação dada pela Lei nº 13.256, de 2016)
 
 § 11. A súmula da decisão sobre a repercussão geral constará de ata, que será publicada no diário oficial e valerá como acórdão.
+
+Art. 1.035-A. O Superior Tribunal de Justiça, em
+decisão irrecorrível, não conhecerá do recurso especial quando a
+questão de direito federal infraconstitucional nele versada não for
+relevante, nos termos deste artigo.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
+§ 1º A deliberação a que se refere o
+caput
+deste artigo considerará a existência ou não de questões relevantes
+do ponto de vista econômico, político, social ou jurídico que
+ultrapassem os interesses subjetivos do processo.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
+§ 2º O recorrente deverá demonstrar a existência da
+relevância da questão de direito federal infraconstitucional para
+apreciação exclusiva pelo Superior Tribunal de Justiça, em tópico
+específico e fundamentado.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
+§ 3º Desatendida a forma prevista no § 2º, o recurso
+será inadmitido.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
+§ 4º Presume-se a relevância da questão de direito
+federal infraconstitucional nas hipóteses do
+art. 105,
+§ 3º, da Constituição Federal.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
+§ 5º O relator poderá admitir, na análise da
+relevância da questão de direito federal infraconstitucional, a
+manifestação de terceiros subscrita por procurador habilitado.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
+§ 6º Somente não se conhecerá do recurso especial,
+nos termos do caput, pela manifestação de inexistência de
+relevância por parte de 2/3 (dois terços) dos membros do órgão
+competente para o julgamento.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
+§ 7º Reconhecida a relevância da questão de direito
+federal infraconstitucional, o relator no Superior Tribunal de
+Justiça poderá, mediante justificativa, determinar a suspensão,
+total ou parcial, do processamento de todos os processos pendentes,
+individuais ou coletivos, que versem sobre a questão e tramitem no
+território nacional, pelo prazo de 6 (seis) meses, prorrogável, uma
+única vez, por mais 6 (seis) meses quando houver a necessidade de
+audiência pública ou a participação de terceiros.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
+
+§ 8º O julgamento de recurso especial sob o regime da
+relevância da questão de direito federal infraconstitucional será
+realizado em sessão presencial, salvo se o voto do relator for no
+sentido de não reconhecer a relevância ou de reafirmar a
+jurisprudência dominante do Tribunal.
+
+(Incluído pela Lei nº
+15.484, de 2026)
+Vigência
 
 Subseção II
 
@@ -10152,7 +10325,16 @@ habeas corpus
 
 Art. 1.039. Decididos os recursos afetados, os órgãos colegiados declararão prejudicados os demais recursos versando sobre idêntica controvérsia ou os decidirão aplicando a tese firmada.
 
-Parágrafo único. Negada a existência de repercussão geral no recurso extraordinário afetado, serão considerados automaticamente inadmitidos os recursos extraordinários cujo processamento tenha sido sobrestado.
+Parágrafo único. Negada a existência de repercussão
+geral ou de relevância da questão de direito federal
+infraconstitucional, respectivamente, no recurso extraordinário ou
+especial afetado, serão considerados automaticamente inadmitidos os
+recursos extraordinários ou os recursos especiais cujo processamento
+tenha sido sobrestado.
+
+(Redação dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 Art. 1.040. Publicado o acórdão paradigma:
 
@@ -10176,21 +10358,33 @@ art. 1.036, § 1º.
 
 § 1º Realizado o juízo de retratação, com alteração do acórdão divergente, o tribunal de origem, se for o caso, decidirá as demais questões ainda não decididas cujo enfrentamento se tornou necessário em decorrência da alteração.
 
-§ 2º Quando ocorrer a hipótese do
+§ 2º A petição de agravo será dirigida ao presidente
+ou ao vice-presidente do tribunal de origem e independe do pagamento
+de custas e despesas postais, aplicando-se a ela o regime de
+repercussão geral, de relevância da questão de direito federal
+infraconstitucional e de recursos repetitivos, inclusive quanto à
+possibilidade de sobrestamento e do juízo de retratação.
 
-inciso II do caput do art. 1.040
-
-e o recurso versar sobre outras questões, caberá ao presidente ou ao vice-presidente do tribunal recorrido, depois do reexame pelo órgão de origem e independentemente de ratificação do recurso, sendo positivo o juízo de admissibilidade, determinar a remessa do recurso ao tribunal superior para julgamento das demais questões.
-
-(Redação dada pela Lei nº 13.256, de 2016)
+(Redação
+dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 Seção III
 
 Do Agravo em Recurso Especial e em Recurso Extraordinário
 
-Art. 1.042. Cabe agravo contra decisão do presidente ou do vice-presidente do tribunal recorrido que inadmitir recurso extraordinário ou recurso especial, salvo quando fundada na aplicação de entendimento firmado em regime de repercussão geral ou em julgamento de recursos repetitivos.
+Art. 1.042. Cabe agravo contra decisão do presidente
+ou do vice-presidente do tribunal recorrido que inadmitir recurso
+extraordinário ou recurso especial, salvo quando fundada na
+aplicação de entendimento firmado em regimes de repercussão geral,
+de relevância da questão de direito federal infraconstitucional ou
+de julgamento de recursos repetitivos.
 
-(Redação dada pela Lei nº 13.256, de 2016)
+(Redação
+dada pela Lei nº
+15.484, de 2026)
+Vigência
 
 I – (
 
