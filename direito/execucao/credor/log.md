@@ -1,5 +1,11 @@
 # Log — execução pelo credor
 
+## 2026-09-29 — AgInt no AREsp 1.881.823/MS: termo inicial da prescrição da pretensão executória
+
+Depositado o inteiro teor anonimizado (`raw/agint-aresp-1881823-ms-prescricao-executoria.md`; PDF e `.integral.md` fora do git, linha nova no `.gitignore`) e derivada a página `jurisprudencia/agint-aresp-1881823-ms-prescricao-executoria.md`, **`vigente`**, com `tese:` da ementa e três transcrições conferidas por busca normalizada contra o depósito. Veio de `consumir/` do motor, sem caso de cliente associado. Primeiro fundamento do bundle sobre prescrição **antes** do cumprimento (o que havia era só intercorrente, art. 921). A heurística [manter a execução em movimento](heuristicas/manter-a-execucao-em-movimento.md) ganhou remissão.
+
+**Pendência:** o EREsp 1.352.730/AM (Corte Especial, 2015), leading case que o voto transcreve, não está depositado. Súmula 401/STJ sem página própria.
+
 ## 2026-09-04 — Enunciado 97 do FONAJE conferido, bundle v0.5.0
 
 **Fechada a incerteza que o [playbook de cumprimento de sentença](playbooks/playbook-pedido-de-cumprimento-de-sentenca.md) registrava desde 2026-08-01** ("enunciado controvertido e revisado, conferir a redação vigente"). O compilado oficial do FONAJE, depositado no bundle `audiencias` (`raw/enunciados-fonaje-juizados-especiais.md`), confirma a redação: a multa de 10% do art. 523, §1º, incide no Juizado mesmo com o total acima da alçada, mas os honorários de 10% da segunda parte do dispositivo **não são devidos** — é a "nova redação" do XXXVIII Encontro (Belo Horizonte-MG), já revista pelo próprio FONAJE. Página nova `jurisprudencia/enunciado-97-fonaje-civel-multa-523-honorarios.md`, `vigente`.

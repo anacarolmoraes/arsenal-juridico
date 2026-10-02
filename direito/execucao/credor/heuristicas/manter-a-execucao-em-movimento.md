@@ -55,3 +55,7 @@ Isso transforma disciplina de prazo em patrimônio processual. Cada vez que voc�
 O material que originou este bundle **não menciona uma única vez** o art. 921, a contagem do prazo ou qualquer jurisprudência sobre prescrição intercorrente — omissão grave em curso dirigido ao credor, agravada por ele ser de 2020 e ensinar como boa uma tática que a lei de 2021 esvaziou.
 
 O artigo passou a existir no acervo em 2026-08-01, **com transcrição conferida** contra o texto compilado do CPC: [art. 921](../../defesa-executado/jurisprudencia/cpc-art-921-prescricao-intercorrente.md), no bundle irmão. O que **ainda falta** é jurisprudência posterior a 2021 sobre dois pontos que decidem casos: como se fixa a "ciência da primeira tentativa infrutífera" e o direito intertemporal para execuções que já corriam. Cálculo de caso concreto tem base legal conferida, mas não tem precedente no acervo. Pendências no [log](/log.md).
+
+## Antes da execução: o prazo para começar
+
+Outra prescrição, que não se confunde com a intercorrente: a da pretensão de **iniciar** o cumprimento de sentença. O termo inicial é o trânsito em julgado da última decisão do processo de conhecimento, ainda que ela só declare intempestivo o recurso, e o devedor que interpôs recurso fora do prazo não pode contar a prescrição do esgotamento desse prazo ([AgInt no AREsp 1.881.823/MS](/jurisprudencia/agint-aresp-1881823-ms-prescricao-executoria.md), `vigente`).
