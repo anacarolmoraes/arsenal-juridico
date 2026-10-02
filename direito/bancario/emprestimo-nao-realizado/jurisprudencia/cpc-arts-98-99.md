@@ -8,7 +8,8 @@ status: vigente
 autor: ingerido
 resource: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm
 orgao: União (Lei 13.105/2015)
-verificado_em: '2026-07-05'
+raw: /raw/cpc-arts-98-99.md
+verificado_em: '2026-09-13'
 ---
 
 # CPC, arts. 98 e 99

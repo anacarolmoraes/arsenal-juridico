@@ -1,5 +1,9 @@
 # Log
 
+## 2026-09-13
+
+**Recortes do CDC (v0.4.0 → v0.4.1).** As cinco páginas de legislação do CDC (arts. 6º, VIII; 7º, parágrafo único; 14; 34; 42, parágrafo único) estavam `vigente` sem depósito em `raw/` (aviso W3 do lint). Gerados os recortes a partir do CDC transversal depositado em 02/08/2026, transcrições conferidas contra eles (todas literais), campo `raw:` preenchido. Mesmo tratamento para as quatro páginas do CPC (arts. 300; 319, VII; 429, II; 98-99), com recortes do CPC transversal redepositado hoje. Resta um W3: a Resolução CNJ 345/2020, sem depósito.
+
 ## 2026-08-02
 
 - **Ingestão** — Migração final do acervo local `direito_bancario/emprestimo_nao_realizado/`

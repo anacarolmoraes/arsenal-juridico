@@ -8,7 +8,8 @@ status: vigente
 autor: ingerido
 resource: https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm
 orgao: União (Lei 8.078/1990)
-verificado_em: '2026-07-05'
+raw: /raw/cdc-art-42.md
+verificado_em: '2026-09-13'
 ---
 
 # CDC, art. 42, parágrafo único
