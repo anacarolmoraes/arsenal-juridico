@@ -1,0 +1,387 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1635428-sc.md",
+  "source_sha256": "f8c588ac3a2c3fb2937fed957e44c15599af0b5d1ad471af7814e2daed336497",
+  "chars": 169239,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "LUIS FELIPE SALOMÃO",
+    "orgao_julgador": "SEGUNDA SECAO",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1.635.428"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 2540,
+      "linha_inicio": 1,
+      "linha_fim": 19
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 2540,
+      "fim": 4199,
+      "linha_inicio": 20,
+      "linha_fim": 49
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 4199,
+      "fim": 5660,
+      "linha_inicio": 50,
+      "linha_fim": 69
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 5660,
+      "fim": 6276,
+      "linha_inicio": 70,
+      "linha_fim": 85
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 6276,
+      "fim": 7726,
+      "linha_inicio": 86,
+      "linha_fim": 105
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 7726,
+      "fim": 8500,
+      "linha_inicio": 106,
+      "linha_fim": 123
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 8500,
+      "fim": 50082,
+      "linha_inicio": 124,
+      "linha_fim": 333
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VOGAL",
+      "inicio": 50082,
+      "fim": 50796,
+      "linha_inicio": 334,
+      "linha_fim": 356
+    },
+    {
+      "nome": "voto",
+      "titulo": "Voto do e. Relator: fixa tese no sentido do descabimento da",
+      "inicio": 50796,
+      "fim": 58466,
+      "linha_inicio": 357,
+      "linha_fim": 455
+    },
+    {
+      "nome": "relator",
+      "titulo": "Relator, além de, como visto, não encontrar respaldo na jurisprudência desta Casa,",
+      "inicio": 58466,
+      "fim": 65416,
+      "linha_inicio": 456,
+      "linha_fim": 579
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 65416,
+      "fim": 66316,
+      "linha_inicio": 580,
+      "linha_fim": 583
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 66316,
+      "fim": 82170,
+      "linha_inicio": 584,
+      "linha_fim": 673
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 82170,
+      "fim": 84024,
+      "linha_inicio": 674,
+      "linha_fim": 686
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 84024,
+      "fim": 138506,
+      "linha_inicio": 687,
+      "linha_fim": 933
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VOGAL",
+      "inicio": 138506,
+      "fim": 141589,
+      "linha_inicio": 934,
+      "linha_fim": 1005
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 141589,
+      "fim": 162915,
+      "linha_inicio": 1006,
+      "linha_fim": 1663
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 162915,
+      "fim": 165174,
+      "linha_inicio": 1664,
+      "linha_fim": 1696
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 165174,
+      "fim": 166272,
+      "linha_inicio": 1697,
+      "linha_fim": 1707
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 166272,
+      "fim": 167733,
+      "linha_inicio": 1708,
+      "linha_fim": 1727
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 167733,
+      "fim": 169239,
+      "linha_inicio": 1728,
+      "linha_fim": 1739
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "em face do exposto",
+      "inicio": 162233,
+      "fim": 162405,
+      "linha_inicio": 1644,
+      "linha_fim": 1646,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 89796,
+      "fim": 90191,
+      "linha_inicio": 721,
+      "linha_fim": 721,
+      "chars": 395,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"6.2) Se a PROMITENTE VENDEDORA não concluir a obra no prazo estabelecido, já admitido a tolerância, pagará ao(s) PROMIT",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 90304,
+      "fim": 90801,
+      "linha_inicio": 721,
+      "linha_fim": 721,
+      "chars": 497,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"Art. 408. Incorre de pleno direito o devedor na cláusula penal, desde que, culposamente, deixe de cumprir a obrigação o",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 91985,
+      "fim": 92347,
+      "linha_inicio": 728,
+      "linha_fim": 728,
+      "chars": 362,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"Art. 416. Para exigir a pena convencional, não é necessário que o credor 5 alegue prejuízo. o Parágrafo único. Ainda qu",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 93816,
+      "fim": 94127,
+      "linha_inicio": 732,
+      "linha_fim": 732,
+      "chars": 311,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"quando um indivíduo procura um proprietário do terreno bem situado \\[que pode ser pessoa física ou jurídica, inclusive",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 95899,
+      "fim": 96351,
+      "linha_inicio": 745,
+      "linha_fim": 745,
+      "chars": 452,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\"Na sua qualidade de incorporador age *in nomine suo* e por direito próprio. Deve, pois, suportar, como o fundador da S.",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 97030,
+      "fim": 97571,
+      "linha_inicio": 749,
+      "linha_fim": 749,
+      "chars": 541,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"visão de empresário, medindo e conjeturando a realidade local, de modo a não se lançar em uma aventura e não obter suce",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 110942,
+      "fim": 113098,
+      "linha_inicio": 824,
+      "linha_fim": 824,
+      "chars": 2156,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*stipulatio poenae* destina-se, portanto, a assegurar o exato cumprimento da obrigação; *b* ) **ela fixa, ainda, ** **an",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 114265,
+      "fim": 115465,
+      "linha_inicio": 831,
+      "linha_fim": 831,
+      "chars": 1200,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\"salvo as exceções expressamente previstas em lei, as perdas e danos devidas ao credor abrangem, além do que ele efetiva",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 115513,
+      "fim": 115876,
+      "linha_inicio": 831,
+      "linha_fim": 831,
+      "chars": 363,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"? ** **Em algumas hipóteses taxativamente abordadas no Código Civil e ** **localizadas na responsabilidade contratual,",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 163445,
+      "fim": 164290,
+      "linha_inicio": 1680,
+      "linha_fim": 1680,
+      "chars": 845,
+      "sinais": [
+        "aspas",
+        "caixa-alta"
+      ],
+      "amostra": "# RECORRENTE: [RECORRENTE] ADVOGADOS: [ADVOGADO 1] [ADVOGADO 2] [ADVOGADO 3] E OUTRO(S) RECORRIDO: CONCRETO CONSTRUTORA",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 166809,
+      "fim": 167654,
+      "linha_inicio": 1724,
+      "linha_fim": 1724,
+      "chars": 845,
+      "sinais": [
+        "aspas",
+        "caixa-alta"
+      ],
+      "amostra": "# RECORRENTE: [RECORRENTE] ADVOGADOS: [ADVOGADO 1] [ADVOGADO 2] [ADVOGADO 3] E OUTRO(S) RECORRIDO: CONCRETO CONSTRUTORA",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 168155,
+      "fim": 168479,
+      "linha_inicio": 1737,
+      "linha_fim": 1737,
+      "chars": 324,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"Após o voto do Sr. Ministro Relator negando provimento ao recurso especial, abriu divergência a Sra. Ministra Nancy And",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "certidao",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 12,
+    "chars_citados": 8291,
+    "proporcao_citada": 0.049
+  },
+  "avisos": [
+    "12 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

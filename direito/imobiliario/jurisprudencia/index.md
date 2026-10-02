@@ -9,7 +9,9 @@
 ## STJ — ciclo recursal do IRDR-TO (encerrado)
 
 - [REsp 2.035.848/TO — acórdão de não conhecimento](resp-2035848-to-acordao-nao-conhecimento.md) *(raw/)* — 06/11/2025, ciclo recursal encerrado.
-- [EDcl no REsp 2.035.848/TO — rejeitados](resp-2035848-to-edcl-rejeitados.md) *(raw/)* — 02/03/2026, ponto final.
+- [EDcl no REsp 2.035.848/TO — rejeitados](resp-2035848-to-edcl-rejeitados.md) *(raw/)* — 02/03/2026.
+- [RE nos EDcl no REsp 2.035.848/TO — seguimento negado](resp-2035848-to-re-negativa-seguimento.md) *(vigente, raw/, 2026-10-01)* — Vice-Presidência, 30/07/2026: RE barrado pelos Temas 339 e 181/STF; **efeito suspensivo prejudicado**. Trânsito em julgado não certificado.
+- [IRDR-TO, ev. 433 — voto do relator](irdr-0009560-46-2017-tjto-voto-relator-ev433.md) *(vigente, raw/, 2026-10-01)* — 05/09/2019: questão de ordem denegada, suspensão cessada pelo art. 980, parágrafo único. **Voto, não acórdão**: relator vencido no mérito em 19/11/2020.
 - [REsp 1.798.374/DF — Corte Especial](resp-1798374-df.md) — não cabe REsp contra tese abstrata de IRDR.
 - [REsp 1.879.554/SC](resp-1879554-sc.md) — aplicação da tese de IRDR independe de trânsito em julgado.
 - [REsp 1.846.109/SP](resp-1846109-sp.md) — cabimento de agravo de instrumento sobre suspensão por IRDR (taxatividade mitigada).
@@ -21,6 +23,8 @@
 - [Súmula 543/STJ](sumula-543-stj.md) — restituição imediata, retenção limitada aos prejuízos comprovados.
 - [REsp 1.300.418/SC — Tema 577](resp-1300418-tema-577.md) — restituição imediata em parcela única.
 - [REsp 2.106.548/SP](resp-2106548-sp.md) *(vigente, verif. 2026-07-24)* — **contratos pós-2018**: prevalência do CDC, retenção ≤ 25% do pago, fruição indevida em lote não edificado, restituição imediata. Rel. Nancy Andrighi, 3ª T., 02/09/2025.
+- [REsp 2.104.086/SP](resp-2104086-sp.md) *(vigente, raw/, 2026-10-01)* — **CONTRÁRIO**: 4ª T., Gallotti, 07/10/2025, maioria: admite deduzir fruição e cláusula penal de 10% do valor do contrato em lote não edificado pós-2018. Diverge do REsp 2.106.548/SP sem confrontá-lo; a página traz as quatro portas de distinção (só dedução, comprador apto a construir, loteamento de lazer, valor sopesado).
+- [Tema 1.464/STJ — ProAfR no REsp 2.255.370/MA](proafr-resp-2255370-ma-tema-1464.md) *(vigente, raw/, 2026-10-01)* — afetação (2ª Seção, 30/06/2026, DJEN 04/08/2026): percentual e base de cálculo da retenção em lote pós-2018. **Sem tese**; suspende só REsp e AREsp, primeiro grau e apelação seguem.
 - [REsp 1.745.407/SP](resp-1745407-sp.md) — meios válidos de notificação extrajudicial em loteamento.
 - [REsp 1.740.911/DF — Tema 1.002](resp-1740911-df-tema-1002.md) *(vigente, raw/, depositado 2026-09-13)* — juros de mora só do trânsito em julgado, **apenas em contratos anteriores à Lei 13.786/2018**; o voto vencedor (p. 43) manda contar da citação (arts. 397 e 405 do CC) nos contratos regidos pela lei nova, e registra correção desde cada desembolso (p. 42). Rel. p/ acórdão Maria Isabel Gallotti, 2ª Seção, 14/08/2019.
 
@@ -39,6 +43,7 @@
 
 ## Outros tribunais — persuasivos (não verificados; conferir antes de reusar)
 
+- [TJGO, AgInt na AC 5277023-94.2025 — pós-2018, 10% do pago, fruição exige vantagem econômica, 4ª Turma não vincula](tjgo-agint-ac-5277023-94-2025-retencao-10-pago.md) *(em_teste, raw/, 2026-10-01)* — 7ª Câmara Cível, Proto de Oliveira, 21/09/2026, unânime, contrato de 22/12/2019. Melhor precedente goiano para lote pós-lei; promover a `vigente` depois de conferir no portal do TJGO.
 - [TJGO, Ap. 5412926-72.2023 — retenção de 10% sem prejuízo comprovado](tjgo-ap-5412926-72-2023-retencao-10.md) *(em_teste)* — o intervalo de 10% a 25% não autoriza aplicação automática do teto.
 - [TJSP, Ap. 1006338-51.2024 — retenção de 10% sem despesas comprovadas](tjsp-ap-1006338-51-2024-retencao-10.md) *(vigente)* — lote não edificado; inteiro teor e metadados conferidos no e-SAJ.
 - [TJMT, AI 1017433-56.2019.8.11.0000](tjmt-ai-1017433-56-2019-iptu-tutela.md) *(em_teste)* — tutela que suspende as parcelas alcança os encargos acessórios (IPTU/condomínio).
