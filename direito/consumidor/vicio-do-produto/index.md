@@ -13,8 +13,8 @@ O fornecedor tenta três saídas, e cada uma tem resposta própria. Primeira, fa
 
 ## Seções
 
-- [jurisprudencia/](jurisprudencia/index.md): onze decisões do STJ (três contrárias), inteiro teor depositado e anonimizado
-- [teses/](teses/index.md): três teses de trabalho (`em_teste`)
+- [jurisprudencia/](jurisprudencia/index.md): doze decisões do STJ (três contrárias, uma parcialmente contrária sobre financiamento coligado), inteiro teor depositado e anonimizado
+- [teses/](teses/index.md): quatro teses de trabalho (`em_teste`)
 - [raw/](raw/index.md): depósitos
 - [log.md](log.md): histórico
 
@@ -22,6 +22,7 @@ O fornecedor tenta três saídas, e cada uma tem resposta própria. Primeira, fa
 
 - **Fato do produto** (acidente, dano à segurança, arts. 12 a 17) não mora aqui; quando chegar o primeiro caso, semear página própria.
 - **Serviço** da concessionária (demora no reparo, recusa de carro reserva) é art. 14 e 20; cabe nas peças deste bundle como fundamento acumulado, mas sem página própria ainda.
+- **Financiamento coligado** (art. 54-F do CDC): mora aqui enquanto o gatilho for compra com vício ou sem entrega; o banco de varejo entra pela [tese de coligação](teses/financiamento-coligado-cai-com-a-compra.md), não pela solidariedade do art. 18.
 - **Negativação** decorrente do caso: [consumidor/negativacao-indevida](../negativacao-indevida/index.md).
 - Técnica de peça: [direito/pecas/](../../pecas/index.md); honorários e sucumbência: `direito/pecas/sucumbencia/`.
 
@@ -30,3 +31,4 @@ O fornecedor tenta três saídas, e cada uma tem resposta própria. Primeira, fa
 1. **Etapa 0 da lei**: o art. 18 do CDC não tem recorte neste bundle. O CDC compilado está em `direito/pecas/raw/`; gerar recorte (`recortar-artigo.py 18`) antes de transcrever o artigo em peça.
 2. **Julgado citado e não depositado**: o acórdão colegiado AgInt nos EDcl no REsp 1.697.426/MG (Cueva, 3ª T., 13/12/2021). Só a monocrática de 2020 que ele manteve está no acervo.
 3. Sem `heuristicas/`, `playbooks/` e `casos_decididos/`: o caso de origem está em fase de recurso.
+4. **Coligação com um só julgado, monocrático.** Depositar REsp 1.127.403/SP e REsp 1.406.245/SP (4ª T.) e procurar acórdão colegiado que aplique o art. 54-F; recortar o art. 54-F do CDC compilado.

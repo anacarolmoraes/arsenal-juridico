@@ -1,5 +1,13 @@
 # Log do bundle — vicio-do-produto
 
+## 2026-10-02 — REsp 1.744.595/MG (contratos coligados)
+
+Depositado a partir de `consumir/` (`stj_dje_20210901_0_29990720.pdf`), convertido com `pdfmd --no-tables --page-breaks` e anonimizado (consumidora, quatro advogados e o número do contrato de financiamento). Decisão monocrática de Sanseverino (3ª T., 26/08/2021), página `vigente`, principal e **parcialmente contrária**: reconhece a coligação entre compra de móveis planejados e financiamento assinado na loja com preposto do Santander, resolve o financiamento e condena o banco a devolver o que recebeu; mas mantém a ilegitimidade do banco quanto ao dano moral, por falta de solidariedade entre coligados sem falha própria. Reúne cinco precedentes das duas Turmas (REsp 1.127.403/SP, REsp 1.406.245/SP, AgInt no REsp 1.519.556/SP, AgInt no AREsp 829.380/RJ, REsp 1.379.839/SP), nenhum depositado.
+
+Preenche a lacuna declarada por um caso em contrarrazões (concessionária de usados + banco de varejo): o acervo não tinha jurisprudência sobre o art. 54-F. Tese nova `financiamento-coligado-cai-com-a-compra` (`em_teste`, um fundamento). A decisão é posterior à Lei 14.181/2021 e não cita o art. 54-F; a tese usa a lei como fundamento principal e o julgado como confirmação. Conferido o texto do art. 54-F no CDC compilado de `pecas/raw/` (inciso II: crédito oferecido no local da venda; § 2º: rescisão do contrato não cumprido contra o fornecedor do crédito).
+
+**Flanco registrado:** condenação solidária do banco de varejo por dano moral não resiste nesta linha da 3ª Turma sem conduta própria do banco (cobrança após ciência, negativação, recusa de suspender).
+
 ## 2026-10-01 (noite, 2) — quatro julgados do prazo e do reparo tardio
 
 Depositados a partir de `consumir/` e anonimizados: REsp 2.101.225/BA (`vigente`), REsp 2.103.427/GO (`vigente`, **contrário**, 3×2), AgInt no AREsp 2.197.121/RO (`vigente`, contrário no resultado por Súmula 7) e a **decisão monocrática** no REsp 1.697.426/MG (`vigente`).

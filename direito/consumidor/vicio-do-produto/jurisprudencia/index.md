@@ -16,6 +16,10 @@ Todas com inteiro teor em `raw/`, anonimizado (PDF fora do git), conferidas em 0
 - [AgInt no REsp 1.828.296/PA](agint-resp-1828296-pa-conversao-perdas-danos.md) *(vigente)*: 4ª T., Raul Araújo, 2024. Venda no curso da ação: perdas e danos, abatido o valor da venda.
 - [AREsp 3.214.920/PB](aresp-3214920-pb-conversao-de-oficio.md) *(vigente, monocrática, peso limitado)*: Antonio Carlos Ferreira, 2026. Conversão de ofício pelo art. 499 do CPC mantida por Súmula 7. Não é caso de vício.
 
+## Financiamento coligado
+
+- [REsp 1.744.595/MG — decisão monocrática](resp-1744595-mg-contratos-coligados-moveis-planejados.md) *(vigente, parcialmente contrário)*: Sanseverino, 2021. Financiamento assinado na loja com preposto do banco é **coligado**: cai com a compra, banco legítimo e devolve o que recebeu. **Sem solidariedade pelo dano moral** sem falha própria do banco de varejo. Reúne os precedentes das duas Turmas sobre coligação e "banco da montadora".
+
 ## Contrários
 
 - [REsp 2.103.427/GO](resp-2103427-go.md) *(vigente)*: 3ª T., 2024, **3×2** (p/ acórdão Moura Ribeiro; desempate Cueva; vencidos Nancy Andrighi e Humberto Martins). Restituição negada a quem pediu cerca de quatro anos depois do conserto. Exceção declarada por "especialíssimas circunstâncias".
