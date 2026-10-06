@@ -1,5 +1,9 @@
 # Log
 
+## 2026-10-06 (Lei 9.492/1997 depositada no transversal)
+
+`raw/lei-9492-1997-protesto.{html,md}` via `depositar-lei.py` (HTML do Planalto salvo pelo navegador, cp1252, 35,8 mil caracteres). Arts. 1º a 43 mais o 41-A, sequência sem lacuna; cobertura até a Lei 14.711/2023, que reescreveu a intimação (art. 14, §§ 3º a 6º) e o edital (art. 15, § 1º, redação anterior preservada com rótulo). 13 trechos riscados marcados `[REVOGADO — NAO CITAR]`. Sem bundle de protesto: mora no transversal até um caso pedir página derivada ou recorte. A pasta `L9492_files/` (brasão) não foi depositada.
+
 ## 2026-09-29 (Constituição Federal depositada no transversal)
 
 `raw/cf-1988-compilada.{html,md}` via `depositar-lei.py` (HTML do Planalto salvo pelo navegador, cp1252, 685 mil caracteres), com o ADCT. Cobertura até a EC 139; o cabeçalho gerado diz "Lei 14.817" porque o script mede lei alteradora, não emenda, e isso está declarado no índice. Um trecho riscado preservado com rótulo (art. 100, § 11). Recorte testado nos arts. 5º, 37, 100, 105, 133, 170, 196 e 225. Para o ADCT, que reinicia a numeração, saiu o extrato `raw/cf-1988-adct.md` (arts. 1º a 138). Sem página derivada nem recorte por bundle: nenhum bundle pediu artigo ainda. A pasta `Constituicao-Compilado_files/` (CSS, JS do STF, brasão) não foi depositada.
