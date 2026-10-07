@@ -78,5 +78,7 @@ E a **Súmula 314/STJ** ("Em execução fiscal, não localizados bens penhoráve
 ## Onde é empregada
 
 - [Temas 566 a 571/STJ — REsp 1.340.553/RS](/jurisprudencia/resp-1340553-rs-temas-566-571-prescricao-intercorrente-fiscal.md) — o repetitivo que interpreta este artigo.
+- [EREsp 97.328/PR](/jurisprudencia/eresp-97328-pr-execucao-fiscal-paralisada-prescricao.md) — 1ª Seção, 1998: o art. 40 cede ao art. 174 do CTN; leading case da Súmula 314, anterior ao § 4º.
+- [REsp 1.102.554/MG](/jurisprudencia/resp-1102554-mg-arquivamento-baixo-valor-prescricao-intercorrente.md) — repetitivo de 2009: o § 4º alcança também o arquivamento por baixo valor (art. 20 da Lei 10.522/2002).
 - [A prescrição intercorrente corre da primeira tentativa infrutífera](/teses/prescricao-intercorrente-corre-da-primeira-tentativa-infrutifera.md) — é a tese do regime comum, cuja fronteira esta página fecha.
 - [CPC, art. 921](/jurisprudencia/cpc-art-921-prescricao-intercorrente.md) — o regime comum, para o contraste.

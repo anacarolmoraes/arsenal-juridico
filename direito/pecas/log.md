@@ -1,5 +1,13 @@
 # Log
 
+## 2026-10-07 (sucumbência: EREsp 1.652.847/DF)
+
+`sucumbencia/raw/eresp-1652847-df-honorarios-irrisorios-abaixo-de-1-por-cento.md` (inteiro teor anonimizado; PDF fora do git) e página `vigente` em `sucumbencia/jurisprudencia/`. Corte Especial, rel. Min. Sebastião Reis Júnior, DJEN 30/04/2025, 6 x 5 na preliminar: no art. 20, § 4º, do CPC/1973, honorários abaixo de 1% do valor da causa presumem-se irrisórios, salvo justificativa concreta. Serve a verba fixada sob o CPC/1973 ainda em discussão; no CPC/2015, só por analogia declarada e para o dever de fundamentar a equidade. **Lacunas:** o Tema 1.076/STJ não está depositado como acórdão (aparece só em transcrições de terceiros), nem o EREsp 1.527.430/SC, que o voto-vista vencido opõe à regra dos 1%. Página órfã: nenhuma tese do sub-bundle trata de equidade.
+
+## 2026-10-07 (Lei 9.784/1999 depositada no transversal)
+
+`raw/lei-9784-1999-processo-administrativo-federal.{html,md}` via `depositar-lei.py` (HTML do Planalto salvo pelo navegador, cp1252, 33 mil caracteres). Arts. 1º a 70 mais os 49-A a 49-G inseridos pela Lei 14.210/2021 (decisão coordenada), cobertura até ela; sem `<strike>`. Sem bundle de direito administrativo: mora no transversal até um caso pedir página derivada ou recorte. A pasta `L9784_files/` (brasão) não foi depositada.
+
 ## 2026-10-06 (Lei 9.492/1997 depositada no transversal)
 
 `raw/lei-9492-1997-protesto.{html,md}` via `depositar-lei.py` (HTML do Planalto salvo pelo navegador, cp1252, 35,8 mil caracteres). Arts. 1º a 43 mais o 41-A, sequência sem lacuna; cobertura até a Lei 14.711/2023, que reescreveu a intimação (art. 14, §§ 3º a 6º) e o edital (art. 15, § 1º, redação anterior preservada com rótulo). 13 trechos riscados marcados `[REVOGADO — NAO CITAR]`. Sem bundle de protesto: mora no transversal até um caso pedir página derivada ou recorte. A pasta `L9492_files/` (brasão) não foi depositada.

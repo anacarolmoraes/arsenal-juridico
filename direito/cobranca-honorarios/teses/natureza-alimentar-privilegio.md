@@ -31,6 +31,8 @@ A verba de honorários — contratual ou de sucumbência — equipara-se, para f
 
 Argumento de reforço em execução contra devedor insolvente ou em concurso de credores — não é a via principal de cobrança (que é o próprio título executivo), mas afeta a ordem de recebimento. Também serve para afastar eventual alegação do próprio devedor de que a verba destinada ao advogado seria impenhorável contra ele: a impenhorabilidade protege o credor da verba alimentar (o advogado), não pode ser invocada pelo devedor a seu próprio favor.
 
+**Limite: natureza alimentar não é prestação alimentícia.** Para penhorar salário, aposentadoria ou saldo até 40 SM do devedor, o credor de honorários sucumbenciais não pode invocar a exceção do art. 833, § 2º, do CPC: tese repetitiva da Corte Especial no [REsp 1.954.382/SP](../../execucao/defesa-executado/jurisprudencia/resp-1954380-honorarios-nao-sao-prestacao-alimenticia.md) (j. 05/06/2024, 7 x 5, conferido). Resta a mitigação excepcional do EREsp 1.874.222/DF: os outros meios executórios precisam estar esgotados e o impacto na subsistência do devedor tem de ser examinado no caso concreto.
+
 ## Fontes doutrinárias consultadas
 
 `iuris-dpc-vol4-2025.md` (bundle `direito/pecas/raw/`) — trechos sobre natureza alimentar dos honorários e impenhorabilidade de verbas de natureza alimentar, reescritos em linguagem própria.

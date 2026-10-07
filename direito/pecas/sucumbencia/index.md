@@ -12,5 +12,5 @@ decaimento mínimo, bases autônomas e piso percentual dos honorários advocatí
 
 - [jurisprudencia/](jurisprudencia/index.md) — precedentes sobre sucumbência mínima e honorários.
 - [teses/](teses/index.md) — teses processuais reutilizáveis.
-- [raw/](raw/) — inteiro teor anonimizado de 7 acórdãos do STJ e 5 do TJTO e recorte da Súmula 326 (PDF e conversão crua fora do git).
+- [raw/](raw/) — inteiro teor anonimizado de 8 acórdãos do STJ e 5 do TJTO e recorte da Súmula 326 (PDF e conversão crua fora do git).
 

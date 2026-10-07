@@ -1,5 +1,32 @@
 # Log — defesa do executado
 
+## 2026-10-07 — seis decisões do STJ (prescrição intercorrente, salário, garantia na LEF), bundle v0.4.0
+
+**Origem:** `consumir/` do motor. Depositados em `raw/` (inteiro teor anonimizado; PDF e conversão crua fora do git) e derivadas seis páginas `vigente` em `jurisprudencia/`, com as transcrições conferidas literalmente contra o depósito:
+
+- **EREsp 97.328/PR** (1ª Seção, 1998): execução fiscal paralisada mais de cinco anos prescreve. PDF digitalizado; cinco correções de OCR declaradas no depósito. **Achado:** o REsp 1.340.553 trata este EREsp como *leading case* da Súmula 314 e da contagem automática, mas havia penhora e a suspensão do art. 40 não foi discutida (Herman Benjamin contesta a leitura). Para contar prazo, citar a tese 4.1 do repetitivo, não o EREsp.
+- **REsp 1.102.554/MG** (repetitivo, 1ª Seção, 2009): arquivamento por baixo valor (art. 20 da Lei 10.522/2002) não impede a prescrição intercorrente; prazo da decisão de arquivamento. **Achado:** a ementa do REsp 1.230.558/PE (transcrita no REsp 1.340.553) diz que este repetitivo exigiu oitiva prévia da Fazenda; o acórdão diz que isso não foi objeto do recurso.
+- **AgInt no REsp 2.231.082/TO** (1ª Turma, 2026): execução fiscal do Estado do Tocantins; prescrição mantida por Súmula 283/STF. A regra de que bloqueio irrisório não interrompe é do TJTO, não do STJ; a tese 4.3 dos Temas 566-571 ("ainda que parcial") pesa contra ela.
+- **REsp 1.986.517/PR** (monocrática, 2022): diligências infrutíferas não suspendem nem interrompem. Reforça a [tese de prescrição intercorrente](teses/prescricao-intercorrente-corre-da-primeira-tentativa-infrutifera.md).
+- **EREsp 1.874.222/DF** (Corte Especial, 2023, mérito 8 x 5): fecha a pendência nº 4 de 2026-08-01. **O texto corrigiu a [tese do salário](teses/salario-impenhoravel-mitigacao-so-excepcional.md):** a ementa não fixa percentual (o "20–30%" era prática de tribunal); a mitigação independe da natureza da dívida, então afastar o § 2º não fecha a penhora. Tese segue `em_teste`.
+- **AREsp 2.711.567/SP** (monocrática, 2024): só negou omissão; a garantia ínfima para o art. 16, § 1º, da LEF é voz do TRF3. Ligado ao playbook de embargos.
+
+Também atualizadas, com edição mínima: a página da LEF art. 40, a do REsp 1.954.380/SP e o playbook de embargos.
+
+**Segunda leva do mesmo dia:**
+
+- **Lei 10.522/2002** depositada em `raw/` (cobertura até a Lei 14.973/2024) — fecha a pendência 2 abaixo. O art. 20, na redação da Lei 13.874/2019, não fixa mais valor (remete a ato do PGFN); a página do REsp 1.102.554 dizia R$ 10.000 e foi corrigida.
+- **REsp 1.954.382/SP** (repetitivo, Corte Especial, 05/06/2024, 7 x 5): inteiro teor depositado; a página `resp-1954380-...` passou de `em_teste` a **`vigente`**. **O texto corrigiu a página:** a tese fala só da verba *sucumbencial* (não "sucumbenciais ou contratuais"); a definição de prestação alimentícia é do REsp 1.815.055/SP, não do repetitivo; o relator ressalva que a mitigação excepcional segue possível para qualquer credor e, no aditamento, alcança os 40 SM do inciso X. Atualizadas a tese do salário, a página do EREsp 1.874.222 e, no bundle `cobranca-honorarios`, a tese `natureza-alimentar-privilegio`. Pendentes: DJe e trânsito, acórdão do REsp 1.954.380/SP, número do Tema (1.153 aparece só no voto-vogal da Min. Nancy Andrighi), autor do voto-vogal das p. 102-105.
+
+**Pendências novas:**
+
+1. Número do Tema do REsp 1.102.554/MG — não está no documento nem no acervo.
+2. Lei 10.522/2002 (art. 20, valor de alçada) não depositada.
+3. Acórdão do TJTO da origem do AgInt 2.231.082 (5000360-60.2009.8.27.2731), que contém a tese da penhora irrisória: depositar antes de citar.
+4. EREsp 1.874.222/DF: voto do relator e notas taquigráficas; identificar o autor do voto-vogal e renomear o depósito.
+5. EREsp 97.328/PR: trechos não conferidos na imagem (p. 4, voto vencido p. 9–10, ementas p. 6–7).
+6. "RESP 106574" (Min. Eliana Calmon) citado pelo TRF3 no AREsp 2.711.567: número possivelmente truncado; não citar sem depósito.
+
 ## 2026-09-04 — REsp 2.188.970/PR: direito intertemporal da Lei 14.195/2021 em execução civil, bundle v0.3.0
 
 **Depositado o inteiro teor do REsp 2.188.970/PR** (Quarta Turma, rel. Min. João Otávio de Noronha, j. 18/03/2025) em `raw/resp-2188970-pr-prescricao-intercorrente-execucao-civel.md` (anonimizado — procurador do Estado e advogado do recorrido viraram rótulo; PDF oficial e `.integral.md` com os nomes ficam fora do git, mesmo padrão do REsp 1.340.553/RS) e derivada a página `jurisprudencia/resp-2188970-pr-prescricao-intercorrente-execucao-civel.md`, **`vigente`**. Conversão pelo `pdfmd` com OCR (o texto nativo do PDF vinha corrompido, mesmo padrão já visto no PDF da resolução CNJ e no manual do STJ); conferido, 0 ligadura partida.

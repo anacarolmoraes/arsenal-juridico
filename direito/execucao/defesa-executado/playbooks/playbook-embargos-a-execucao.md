@@ -17,6 +17,8 @@ skills: [pre-peticionamento, peca-pma-builder, humanizer-forense]
 
 Ação autônoma de conhecimento (não incidente), distribuída por dependência ao juízo da execução (art. 914, §1º; competência funcional absoluta — art. 61). Independe de penhora, depósito ou caução (art. 914). Cabe **qualquer matéria de defesa** (art. 917): a via de cognição ampla do executado.
 
+**Fronteira — execução fiscal.** A dispensa de garantia é regra do CPC. Na LEF, "Não são admissíveis embargos do executado antes de garantida a execução" (art. 16, § 1º, [depósito](/raw/lei-6830-1980-execucao-fiscal.md)), e penhora ínfima pode ser tratada como ausência de garantia, não como garantia parcial: foi o que o TRF3 decidiu no caso do [AREsp 2.711.567/SP](/jurisprudencia/aresp-2711567-sp-garantia-infima-embargos-execucao-fiscal.md), que o STJ manteve só por negar omissão, sem exame de mérito. Intimado o reforço da penhora, responder no prazo.
+
 ## Prazo — onde se perde o caso
 
 - **15 dias úteis** da juntada do comprovante de citação (art. 915), suspensos de 20/12 a 20/01 (art. 220).

@@ -23,3 +23,7 @@
 
 - [EDcl nos EDcl no REsp 2.206.684/MS](edcl-edcl-resp-2206684-ms-redistribuicao-apos-provimento-parcial.md) *(vigente, raw/, 2026-09-18)* — STJ, 3ª Turma, DJEN 03/09/2026: alterado o resultado, redistribuir os ônus é dever do julgador e matéria de ordem pública; via dos embargos de declaração; não se confunde com o art. 85, § 11.
 - [EDcl no AgInt no REsp 1.573.573/RJ — requisitos dos honorários recursais](edcl-agint-resp-1573573-rj-honorarios-recursais.md) *(vigente, raw/, 2026-09-13)* — STJ, 3ª Turma: seis requisitos cumulativos do art. 85, § 11 (marco de 18/03/2016; improvimento integral; verba fixada na origem; sem majoração em agravo interno e embargos; tetos; trabalho adicional só quantifica) e critérios de cálculo.
+
+## Honorários por equidade (CPC/1973, art. 20, § 4º)
+
+- [EREsp 1.652.847/DF — honorários abaixo de 1% do valor da causa](eresp-1652847-df-honorarios-irrisorios-abaixo-de-1-por-cento.md) *(vigente, raw/, 2026-10-07)* — STJ, Corte Especial, DJEN 30/04/2025, 6 x 5 na preliminar: verba equitativa abaixo de 1% do valor da causa presume-se irrisória, salvo justificativa concreta. Só regime do CPC/1973; no CPC/2015, analogia declarada e apenas para o dever de fundamentar.
