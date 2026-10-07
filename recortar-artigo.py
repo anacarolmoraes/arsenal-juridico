@@ -77,17 +77,26 @@ def achar_inicio(texto: str, n: str) -> int:
     return ini - 2 if texto[max(0, ini - 2): ini] == "**" else ini
 
 
+RX_QUALQUER_ARTIGO = re.compile(r"\bArt\.\s*(\d[\d.]*(?:-[A-Z])?)\s*[.ºo°-]")
+
+
 def achar_fim(texto: str, inicio: int, ultimo: str) -> int:
-    """Fim = inicio do proximo artigo depois de `ultimo` (921 -> 922, 923...)."""
-    m0 = re.match(r"\d+", ultimo.replace(".", ""))
-    if not m0:
-        return len(texto)
-    base = int(m0.group())
-    for prox in range(base + 1, base + 12):  # tolera lacunas por revogacao
-        m = rx_artigo(str(prox)).search(texto, inicio + 1)
-        if m:
+    """Fim = cabecalho do primeiro artigo DIFERENTE depois de `ultimo`.
+
+    Procurar "o proximo numero" (921 -> 922) falhava em artigo com sufixo de
+    letra: o recorte do 54-F corria ate o 55 e engolia o 54-G inteiro. O proximo
+    cabecalho em maiusculo, seja qual for o numero, e o fim certo; a lacuna por
+    revogacao continua coberta porque nao se depende do numero seguinte existir.
+    """
+    atual = ultimo.replace(".", "").upper()
+    pos = inicio + 1
+    while True:
+        m = RX_QUALQUER_ARTIGO.search(texto, pos)
+        if not m:
+            return len(texto)
+        if m.group(1).replace(".", "").upper() != atual:
             return m.start()
-    return len(texto)
+        pos = m.end()
 
 
 def main() -> int:
