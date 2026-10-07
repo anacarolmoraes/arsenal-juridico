@@ -1,5 +1,16 @@
 # Log do bundle — vicio-do-produto
 
+## 2026-10-06 — conferência da tese de coligação: STJ de 2026 exige prova do vínculo
+
+Conferência da tese `financiamento-coligado-cai-com-a-compra` em três frentes. **(1) Lei:** recorte literal do art. 54-F gerado em `raw/cdc-art-54-F.md`; o `recortar-artigo.py` foi corrigido porque em artigo com letra o fim do recorte buscava "o número seguinte" (55) e engolia o 54-G. **(2) Jurisprudência posterior:** busca no DJEN do STJ (termos "contratos coligados" e "54-F", desde 2022; 209 publicações, 40 triadas, 17 com banco financiador) não achou acórdão colegiado favorável aplicando o art. 54-F, mas achou duas monocráticas de Gallotti de 2026 que **mudam a leitura da tese**:
+
+- **AREsp 3.306.855/MS** (14/08/2026, DJEN 18/08), favorável, `vigente`: CCB para pagar energia solar, vendedores como correspondentes do banco; TJMS aplicou o art. 54-F; STJ manteve por Súmulas 5 e 7. Primeiro julgado do acervo com o artigo em vigor e aplicado.
+- **REsp 2.292.907/SP** (30/09/2026, DJEN 05/10), **contrário**, `vigente`: veículo, banco sem vínculo com a revendedora; receber documentação e repassar o valor é "operacionalização do financiamento", não parceria; art. 54-F não gera coligação automática. Reúne três acórdãos de Turma de 2025-2026 (AgInt no AREsp 3.051.952/SP, 3ª T.; AgInt no AgInt no AREsp 2.644.335/SP, 4ª T.; AREsp 2.847.988/SP, 3ª T.) que exigem vínculo concreto decidido na origem. Nenhum dos três depositado.
+
+**Correção na tese:** saiu a frase "o art. 54-F tornou a coligação regra legal"; entrou o parágrafo "a tese se ganha na prova do vínculo, no primeiro grau", a lista do que o STJ aceitou e recusou como prova, o pedido de declaração do fato dos incisos I/II na sentença e o contra-argumento da "operacionalização" com a exibição do contrato de parceria (art. 396 do CPC). Os dois julgados entraram em `fundamentos:`. **(3) Andamento do REsp 1.744.595/MG:** não conferido; o sítio do STJ devolve 403 a consulta automatizada e o DJEN não cobre 2021. É a única pendência para promover a tese a `vigente`; fica para a titular.
+
+Depósitos anonimizados conforme a regra dura 6 (consumidores, fornecedor pessoa física, advogados, OAB); ministra, empresas e números ficam. A placa do veículo citada na sentença transcrita ficou: identifica o bem. Rastro da busca em `tmp/radar-djen/vicio-54f*/` do motor, regenerável.
+
 ## 2026-10-02 — REsp 1.744.595/MG (contratos coligados)
 
 Depositado a partir de `consumir/` (`stj_dje_20210901_0_29990720.pdf`), convertido com `pdfmd --no-tables --page-breaks` e anonimizado (consumidora, quatro advogados e o número do contrato de financiamento). Decisão monocrática de Sanseverino (3ª T., 26/08/2021), página `vigente`, principal e **parcialmente contrária**: reconhece a coligação entre compra de móveis planejados e financiamento assinado na loja com preposto do Santander, resolve o financiamento e condena o banco a devolver o que recebeu; mas mantém a ilegitimidade do banco quanto ao dano moral, por falta de solidariedade entre coligados sem falha própria. Reúne cinco precedentes das duas Turmas (REsp 1.127.403/SP, REsp 1.406.245/SP, AgInt no REsp 1.519.556/SP, AgInt no AREsp 829.380/RJ, REsp 1.379.839/SP), nenhum depositado.

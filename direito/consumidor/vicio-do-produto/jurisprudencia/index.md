@@ -1,6 +1,6 @@
 # Jurisprudência — vício do produto
 
-Todas com inteiro teor em `raw/`, anonimizado (PDF fora do git), conferidas em 01/10/2026.
+Todas com inteiro teor em `raw/`, anonimizado (PDF fora do git), conferidas em 01/10/2026 (as de financiamento coligado, em 02 e 06/10/2026).
 
 ## Solidariedade e prazo de 30 dias
 
@@ -19,6 +19,8 @@ Todas com inteiro teor em `raw/`, anonimizado (PDF fora do git), conferidas em 0
 ## Financiamento coligado
 
 - [REsp 1.744.595/MG — decisão monocrática](resp-1744595-mg-contratos-coligados-moveis-planejados.md) *(vigente, parcialmente contrário)*: Sanseverino, 2021. Financiamento assinado na loja com preposto do banco é **coligado**: cai com a compra, banco legítimo e devolve o que recebeu. **Sem solidariedade pelo dano moral** sem falha própria do banco de varejo. Reúne os precedentes das duas Turmas sobre coligação e "banco da montadora".
+- [AREsp 3.306.855/MS — decisão monocrática](aresp-3306855-ms-energia-solar-ccb-coligada.md) *(vigente)*: Gallotti, 14/08/2026. CCB para pagar sistema de energia solar, intermediada pelos vendedores; TJMS aplicou o **art. 54-F** e o STJ manteve por Súmulas 5 e 7. Único julgado com o art. 54-F em vigor e aplicado. A prova do vínculo que convenceu está na voz do TJMS transcrita.
+- [REsp 2.292.907/SP — decisão monocrática](resp-2292907-sp-veiculo-banco-de-varejo-sem-coligacao.md) *(vigente, **contrário**)*: Gallotti, 30/09/2026. Veículo; banco sem vínculo com a revendedora; receber documentação e repassar o valor é **operacionalização**, não parceria; art. 54-F não gera coligação automática. Reúne três acórdãos de Turma de 2025-2026 no mesmo sentido (não depositados). Define o que a peça precisa provar.
 
 ## Contrários
 
