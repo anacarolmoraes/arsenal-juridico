@@ -1,11 +1,11 @@
 ---
 okf_version: "0.1"
-bundle_version: "0.1.0"
+bundle_version: "0.3.0"
 ---
 
 # Golpes Bancários — Bundle de Competência (Direito Bancário)
 
-Fraudes por engenharia social contra clientes bancários (falsa central de atendimento, golpe do PIX, falso funcionário): conhecimento estruturado a partir de **cadeias de litígio** — com destaque para os `contra-ataques/`: pares *fundamento desfavorável → argumento/prova que o venceu*, extraídos de casos reais.
+Fraudes por engenharia social contra clientes bancários (falsa central de atendimento, golpe do PIX, falso funcionário, falso advogado, golpe do motoboy, acesso remoto): conhecimento estruturado a partir de **cadeias de litígio** — com destaque para os `contra-ataques/`: pares *fundamento desfavorável → argumento/prova que o venceu*, extraídos de casos reais.
 
 Bundle de **matéria** (D12); a técnica de peça vive no bundle transversal `bundle-pecas` (a criar). Schema: `KnowledgeOperatingSystem/piloto/SCHEMA_BUNDLE_PILOTO.md` v0.4.
 
