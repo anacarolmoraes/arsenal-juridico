@@ -1,5 +1,11 @@
 # Log — imobiliario (rescisão contratual)
 
+## 2026-10-18 — sub-bundle `usucapiao/` aberto
+
+**Decisão de arquitetura.** O plano de 01/08 (Fase C, aprovada) mandava promover este bundle a `imobiliario/rescisao-lote/` e criar o irmão `usucapiao/`. **Não promovido**: 101 arquivos em `clientes/` do motor declaram `bundle: direito/imobiliario` e quebrariam. O tema novo entrou como **sub-bundle** (`imobiliario/usucapiao/`), no molde de `pecas/sucumbencia/`: caminho `/absoluto` resolve da raiz deste bundle (`/usucapiao/raw/...`), log aqui. A promoção continua possível quando a titular quiser pagar a migração dos `bundle:`.
+
+**Conteúdo.** A titular mandou abrir o tema para o PDF que estava em `consumir/` desde 30/09 (`STJ_202502495907_tipo_integra_379956716.pdf`). É o **AREsp 2.983.084/AL** (4ª T., Raul Araújo, j. 09/06/2026, DJEN 06/07/2026, unânime): descendente que ocupa imóvel de ascendente, integrante de herança indivisa, tem posse por tolerância e não usucape; a usucapião entre herdeiros é "caso especial, e não a regra"; não pode contornar a legítima. Depósito pseudonimizado em `usucapiao/raw/` (partes, interessados, a falecida, seis advogados com OAB e o endereço; o PDF e o `.integral.md` fora do git, regra nova no `.gitignore`); página `vigente` em `usucapiao/jurisprudencia/`; tese `em_teste` `usucapiao-entre-familiares-exige-ruptura-da-tolerancia` com os dois lados (defesa dos herdeiros e ônus de quem pede); recortes do CC, arts. 1.203, 1.208, 1.238, 1.784 e 1.791. **Pendências** no `usucapiao/index.md`: depositar REsp 1.631.859/SP e REsp 668.131/PR (favoráveis ao herdeiro, citados como exceção) e AgInt no AREsp 2.859.266/SP; sem TJTO; modalidades além da extraordinária não cobertas.
+
 ## 2026-10-01
 
 **Divergência entre Turmas pós-Lei 13.786 e fim do ciclo recursal do IRDR-TO.** Cinco depósitos vindos de `consumir/`, convertidos com `pdfmd --no-tables --page-breaks` e anonimizados (partes pessoas físicas e advogados; ficam magistrados, pessoas jurídicas, Defensoria, servidores da sessão e números). PDF e `.integral.md` fora do git (`.gitignore`, bloco de 01/10/2026).

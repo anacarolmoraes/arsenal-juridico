@@ -21,6 +21,8 @@ Rescisão de compromisso de compra e venda de lote urbano: conhecimento executá
 - [skills/](skills/skills-lock.json) — pipeline de redação: pre-peticionamento, legal-orchestrator, legal-writer, tipografia-pma, legal-consistency-validator, peca-pma-builder
 - [log.md](log.md) — histórico de ingestões, lints e alterações
 
+**Sub-bundle** (desde 18/10/2026): [usucapiao/](usucapiao/index.md) — usucapião, aberta pela usucapião entre familiares e herdeiros (AREsp 2.983.084/AL, 4ª Turma, 2026: posse por tolerância familiar não gera animus domini). Não herda as teses de rescisão de lote; registra-se neste `log.md`.
+
 ## O tema num parágrafo
 
 Comprador de lote urbano deseja (ou é forçado a) rescindir o compromisso de compra e venda — seja porque desistiu, seja porque a loteadora move ação de resolução/reintegração de posse. A espinha dorsal da atuação: determinar se o contrato é anterior ou posterior a 28/12/2018 (marco da Lei 13.786/2018, "Lei do Distrato" — se anterior, aplica-se o regime do STJ: retenção escalonada de 10-25%, restituição imediata em parcela única, fruição condicionada a prova de proveito econômico); verificar vícios na notificação extrajudicial que embasa a mora; e, sobretudo, atacar suspensões processuais baseadas no IRDR nº 0009560-46.2017.827.0000/TJTO cujo ciclo recursal no STJ **já se encerrou** (REsp 2.035.848/TO não conhecido em 06/11/2025; embargos de declaração rejeitados em 02/03/2026).
