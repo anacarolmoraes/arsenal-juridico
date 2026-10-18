@@ -4,6 +4,7 @@ title: Playbook — Embargos de Declaração
 description: Como construir EDcl pelos dois papéis — corretivo (sanar vício real) e prequestionador (preparar o REsp/RE) — com a anatomia dos quatro vícios, o regime da interrupção e da multa, e o checklist do prequestionamento eficaz. Técnica pura; a matéria vem do bundle temático.
 tags: [embargos-declaracao, prequestionamento, vicios, interrupcao]
 timestamp: '2026-07-09'
+atualizado: '2026-10-17'
 status: vigente
 autor: escritorio
 peca: embargos-declaracao
@@ -72,10 +73,30 @@ Regras do papel 2:
 5. **Um capítulo por vício**, em prosa, percorrendo sempre a mesma sequência lógica (sem rótulos visíveis): o vício e o inciso do 1.022 → onde foi suscitado (transcrição + folha) → o que a decisão disse/silenciou (transcrição) → o dispositivo cuja análise se requer → a conclusão do capítulo, como frase final variada.
 6. **Pedidos**: acolhimento com sanação de cada vício, individualizadamente; manifestação expressa sobre os dispositivos indicados; efeito modificativo quando decorrer; afastamento de multa (Súmula 98).
 
+## Extensão: concisão é requisito, não estilo (decisão da titular, 17/10/2026)
+
+Vale para os EDcl e para as **contrarrazões a EDcl**. Decisão embargada curta pede resposta curta: o juiz que vai julgar em cinco dias (1.024) lê uma peça de cinco páginas inteira e uma de treze por amostragem, e o argumento que decide pode cair na parte não lida. Lição de 16/10/2026: contrarrazões a EDcl de cinco páginas contra despacho de uma página saíram com treze, sem um argumento a mais do que caberia em seis.
+
+**Orçamento.** EDcl ou contrarrazões contra decisão interlocutória ou sentença de 1º grau: **até 6 páginas**, 3 a 4 capítulos. Contra acórdão, com papel prequestionador: até 8. Acima disso, voltar à estrutura (Estágio 0.5) antes de escrever, não cortar depois.
+
+**Onde o volume nasce, e a regra para cada fonte:**
+
+| Fonte de inflação | Regra |
+|---|---|
+| Transcrição em bloco | Só o que o juiz precisa ler com os próprios olhos para decidir: o trecho da decisão em que está o vício (ou a sua ausência), a cláusula ou documento que prova a distinção, a frase da parte contrária que se desmente. **Teto: 4 a 6 blocos na peça.** Dispositivo de lei, quadro de contrato, data de documento e fato incontroverso entram em prosa, com remissão entre parênteses |
+| Mesmo fato em dois capítulos | Cada fato entra uma vez, no capítulo que dele depende; os outros remetem ("como se viu no capítulo II") |
+| Explicar o que o juiz sabe | Não se explica o art. 435, o que é taxa média do BACEN nem a natureza integrativa dos EDcl; aplica-se, com o artigo entre parênteses |
+| Capítulo de dois parágrafos | Não é capítulo: é parágrafo de fecho do capítulo vizinho ou alínea dos pedidos (multa, pedido subsidiário, oitiva do 1.023, § 2º) |
+| Título de duas linhas | Título-tese é uma oração curta que enuncia a conclusão; a subordinada fica para o primeiro parágrafo |
+| Tempestividade | Uma frase, salvo quando o prazo é a controvérsia |
+
+**Teste antes de redigir cada parágrafo:** se ele fosse cortado, o pedido perderia um fundamento? Se não, não entra. Estrutura (Estágio 0.5) declara o orçamento de páginas e o número de transcrições ao lado do peso de cada seção.
+
 ## Checklist antes de protocolar
 
 | # | Teste |
 |---|---|
+| 0 | A peça cabe no orçamento (≤ 6 p. em 1º grau; ≤ 8 contra acórdão) com até 6 transcrições em bloco? Cada fato aparece uma vez? |
 | 1 | O vício é interno à decisão? (confronto com precedente ou com as próprias alegações não é vício) |
 | 2 | Cada vício está indicado especificamente, com transcrições? (sem indicação = sem interrupção = prazo do recurso principal correndo) |
 | 3 | Cada questão prequestionada tem os 4 elementos (suscitada+folha / silêncio / dispositivo / inciso+S.98)? |

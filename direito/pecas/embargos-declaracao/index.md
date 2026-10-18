@@ -4,7 +4,7 @@
 
 ## O essencial em 5 linhas
 
-Cabem contra **qualquer decisão** para sanar obscuridade, contradição (interna!), omissão ou erro material (CPC 1.022, I–III; omissão presumida no par. único). Prazo **5 dias úteis, sem preparo** (1.023) — **penal: 2 dias (CPP 619)**. **Interrompem** o prazo dos demais recursos (1.026) — mas sem indicação específica do vício não são conhecidos e **não interrompem**; contra inadmissão de REsp são erro grosseiro (rota AREsp). Prequestionador: Súmula 98/STJ + os 4 elementos por questão (suscitada+folha / silêncio / dispositivo / inciso) — redigidos **para acolher**, pois o 1.025 ficto exige que o STJ reconheça o vício. Multa 2%→10% com depósito prévio (1.026, §§2º–4º); modificativo exige contraditório prévio (1.023, §2º).
+Cabem contra **qualquer decisão** para sanar obscuridade, contradição (interna!), omissão ou erro material (CPC 1.022, I–III; omissão presumida no par. único). Prazo **5 dias úteis, sem preparo** (1.023) — **penal: 2 dias (CPP 619)**. **Interrompem** o prazo dos demais recursos (1.026) — mas sem indicação específica do vício não são conhecidos e **não interrompem**; contra inadmissão de REsp são erro grosseiro (rota AREsp). Prequestionador: Súmula 98/STJ + os 4 elementos por questão (suscitada+folha / silêncio / dispositivo / inciso) — redigidos **para acolher**, pois o 1.025 ficto exige que o STJ reconheça o vício. Multa 2%→10% com depósito prévio (1.026, §§2º–4º); modificativo exige contraditório prévio (1.023, §2º). **Extensão: até 6 páginas em 1º grau, até 6 transcrições, cada fato uma vez** (playbook, seção "Extensão", 17/10/2026): vale para EDcl e para as contrarrazões.
 
 ## Fluxo
 
