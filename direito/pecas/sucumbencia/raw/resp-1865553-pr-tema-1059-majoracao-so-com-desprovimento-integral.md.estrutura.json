@@ -1,0 +1,453 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1865553-pr-tema-1059-majoracao-so-com-desprovimento-integral.md",
+  "source_sha256": "b0a6fcbc6a94fa0e3f02f587ba3c53a133d5c35dae1e9918d42f275da3b0bbad",
+  "chars": 115463,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "PAULO SÉRGIO DOMINGUES",
+    "orgao_julgador": "CORTE ESPECIAL",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1865553"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 564,
+      "linha_inicio": 1,
+      "linha_fim": 12
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 564,
+      "fim": 890,
+      "linha_inicio": 13,
+      "linha_fim": 24
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 890,
+      "fim": 5065,
+      "linha_inicio": 25,
+      "linha_fim": 49
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 5065,
+      "fim": 7014,
+      "linha_inicio": 50,
+      "linha_fim": 75
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 7014,
+      "fim": 7340,
+      "linha_inicio": 76,
+      "linha_fim": 87
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 7340,
+      "fim": 11515,
+      "linha_inicio": 88,
+      "linha_fim": 112
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 11515,
+      "fim": 17522,
+      "linha_inicio": 113,
+      "linha_fim": 216
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 17522,
+      "fim": 38461,
+      "linha_inicio": 217,
+      "linha_fim": 512
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 38461,
+      "fim": 39288,
+      "linha_inicio": 513,
+      "linha_fim": 530
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 39288,
+      "fim": 39656,
+      "linha_inicio": 531,
+      "linha_fim": 541
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 39656,
+      "fim": 39978,
+      "linha_inicio": 542,
+      "linha_fim": 549
+    },
+    {
+      "nome": "voto_vencido",
+      "titulo": "VOTO VENCIDO",
+      "inicio": 39978,
+      "fim": 75616,
+      "linha_inicio": 550,
+      "linha_fim": 770
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VOGAL",
+      "inicio": 75616,
+      "fim": 110688,
+      "linha_inicio": 771,
+      "linha_fim": 981
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VOGAL",
+      "inicio": 110688,
+      "fim": 113069,
+      "linha_inicio": 982,
+      "linha_fim": 1032
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 113069,
+      "fim": 114074,
+      "linha_inicio": 1033,
+      "linha_fim": 1054
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 114074,
+      "fim": 115463,
+      "linha_inicio": 1055,
+      "linha_fim": 1066
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "ante o exposto",
+      "inicio": 38061,
+      "fim": 38124,
+      "linha_inicio": 506,
+      "linha_fim": 506,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 44405,
+      "fim": 44898,
+      "linha_inicio": 582,
+      "linha_fim": 582,
+      "chars": 493,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*ratio decidendi* do julgado paradigmático: *\"A majoração * *dos honorários de sucumbência prevista no art. 85, § 11, *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 51469,
+      "fim": 52323,
+      "linha_inicio": 610,
+      "linha_fim": 610,
+      "chars": 854,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\", para remunerá-lo por seu trabalho adicional em 2º grau. Esses honorários recursais - que poderiam ser fixados, por ex",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 52778,
+      "fim": 53189,
+      "linha_inicio": 615,
+      "linha_fim": 615,
+      "chars": 411,
+      "sinais": [
+        "aspas",
+        "frase-de-abertura"
+      ],
+      "amostra": "\". O texto legal elege o fato objetivo da derrota como fundamento para o surgimento do dever judicial de fixação da sucu",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 53310,
+      "fim": 53647,
+      "linha_inicio": 615,
+      "linha_fim": 615,
+      "chars": 337,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\", o que significa dizer que eventual má-fé no ato de recorrer deverá receber a adequada punição, cujo valor será devido",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 53703,
+      "fim": 54439,
+      "linha_inicio": 615,
+      "linha_fim": 615,
+      "chars": 736,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\", o dispositivo enaltece a finalidade precípua dos honorários advocatícios pela sucumbência recursal, que é remunerar o",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 68400,
+      "fim": 68729,
+      "linha_inicio": 753,
+      "linha_fim": 753,
+      "chars": 329,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "**RELATOR** **:** ** ** **MINISTRO PAULO SÉRGIO DOMINGUES** RECORRENTE: INSTITUTO NACIONAL DO SEGURO SOCIAL RECORRIDO: [",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 69393,
+      "fim": 69801,
+      "linha_inicio": 755,
+      "linha_fim": 755,
+      "chars": 408,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"A majoração dos honorários de sucumbência prevista no art. 85, § 11, do CPC pressupõe que o recurso tenha sido integra",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 71831,
+      "fim": 72206,
+      "linha_inicio": 762,
+      "linha_fim": 762,
+      "chars": 375,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\", mas sim novos honorários advocatícios fixados a partir da redefinição da sucumbência, que pode considerar o acréscimo",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 72215,
+      "fim": 73443,
+      "linha_inicio": 762,
+      "linha_fim": 762,
+      "chars": 1228,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\") à rubrica estabelecida previamente. Portanto, na hipótese de reforma da decisão anterior (ainda que em mínima parte),",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 93086,
+      "fim": 93571,
+      "linha_inicio": 915,
+      "linha_fim": 915,
+      "chars": 485,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"é devida a majoração da verba honorária sucumbencial, na forma do art. 85, § 11, do CPC/2015, quando estiverem presente",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 93772,
+      "fim": 94083,
+      "linha_inicio": 915,
+      "linha_fim": 915,
+      "chars": 311,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"a lei não exige comprovação do efetivo trabalho adicional realizado pelo advogado da parte recorrida para a majoração d",
+      "precedente": "AgInt 762.075",
+      "precedentes": [
+        "AgInt 762.075"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 101553,
+      "fim": 102038,
+      "linha_inicio": 942,
+      "linha_fim": 942,
+      "chars": 485,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"é devida a majoração da verba honorária sucumbencial, na forma do art. 85, § 11, do CPC/2015, quando estiverem presente",
+      "precedente": "AgInt 762.075",
+      "precedentes": [
+        "AgInt 762.075"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 103573,
+      "fim": 104072,
+      "linha_inicio": 944,
+      "linha_fim": 944,
+      "chars": 499,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"É devida a majoração da verba honorária sucumbencial, na forma do art. 85, § 11, do CPC/2015, quando estiverem presente",
+      "precedente": "AgInt 762.075",
+      "precedentes": [
+        "AgInt 762.075"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 106359,
+      "fim": 106850,
+      "linha_inicio": 955,
+      "linha_fim": 955,
+      "chars": 491,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"é devida a majoração da verba honorária sucumbencial, na forma do art. 85, § 11, do CPC/2015, quando estiverem present",
+      "precedente": null,
+      "precedentes": [
+        "AgInt 762.075",
+        "EDcl 2.146.696"
+      ],
+      "origem": "precedente-multiplo"
+    },
+    {
+      "inicio": 109091,
+      "fim": 109340,
+      "linha_inicio": 964,
+      "linha_fim": 964,
+      "chars": 249,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"Não é cabível a majoração dos honorários recursais, por ocasião do julgamento do agravo interno, tendo em vista que a",
+      "precedente": "AgInt 1374512",
+      "precedentes": [
+        "AgInt 1374512"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 109463,
+      "fim": 109954,
+      "linha_inicio": 964,
+      "linha_fim": 964,
+      "chars": 491,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"É devida a majoração da verba honorária sucumbencial, na forma do art. 85, § 11, do CPC/2015, quando estiverem present",
+      "precedente": "AgInt 762.075",
+      "precedentes": [
+        "AgInt 762.075"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 110889,
+      "fim": 111314,
+      "linha_inicio": 990,
+      "linha_fim": 990,
+      "chars": 425,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"A majoração dos honorários de sucumbência prevista no art. 85, § 11, do CPC * *pressupõe que o recurso tenha sido inte",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 114329,
+      "fim": 114737,
+      "linha_inicio": 1059,
+      "linha_fim": 1059,
+      "chars": 408,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"A majoração dos honorários de sucumbência prevista no art. 85, § 11, do CPC pressupõe que o recurso tenha sido integral",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "certidao",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto",
+      "voto_vencido"
+    ],
+    "blocos_citados": 18,
+    "chars_citados": 9015,
+    "proporcao_citada": 0.078
+  },
+  "avisos": [
+    "12 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

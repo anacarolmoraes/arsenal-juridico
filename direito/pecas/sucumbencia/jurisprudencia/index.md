@@ -27,3 +27,8 @@
 ## Honorários por equidade (CPC/1973, art. 20, § 4º)
 
 - [EREsp 1.652.847/DF — honorários abaixo de 1% do valor da causa](eresp-1652847-df-honorarios-irrisorios-abaixo-de-1-por-cento.md) *(vigente, raw/, 2026-10-07)* — STJ, Corte Especial, DJEN 30/04/2025, 6 x 5 na preliminar: verba equitativa abaixo de 1% do valor da causa presume-se irrisória, salvo justificativa concreta. Só regime do CPC/1973; no CPC/2015, analogia declarada e apenas para o dever de fundamentar.
+
+## Repetitivos sobre honorários (Temas 1.059 e 1.076)
+
+- [REsp 1.850.512/SP — Tema 1.076, equidade só com proveito irrisório/inestimável ou valor da causa muito baixo](resp-1850512-sp-tema-1076-equidade-so-proveito-irrisorio-ou-valor-muito-baixo.md) *(em_teste, raw/ pseudonimizado, 2026-10-18)* — STJ, Corte Especial, Rel. Min. Og Fernandes, DJe 31/05/2022: valores elevados exigem os percentuais dos §§ 2º ou 3º do art. 85; equidade só nas duas hipóteses do § 8º. **AMARELO**: RE da Fazenda/SP admitido e processo sobrestado pelo Tema 1.255/STF.
+- [REsp 1.865.553/PR — Tema 1.059, majoração do § 11 só com recurso integralmente desprovido ou não conhecido](resp-1865553-pr-tema-1059-majoracao-so-com-desprovimento-integral.md) *(em_teste, raw/ pseudonimizado, 2026-10-18)* — STJ, Corte Especial, Rel. Min. Paulo Sérgio Domingues, DJe 21/12/2023: provimento total ou parcial, ainda que mínimo ou limitado a consectários, afasta a majoração. VERDE (baixa definitiva 26/08/2024). A tese tem variante "ou/e limitada" dentro do acórdão; o `tese:` segue a ementa.

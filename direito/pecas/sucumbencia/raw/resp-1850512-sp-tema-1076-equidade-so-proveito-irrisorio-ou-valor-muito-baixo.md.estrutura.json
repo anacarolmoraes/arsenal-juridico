@@ -1,0 +1,410 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1850512-sp-tema-1076-equidade-so-proveito-irrisorio-ou-valor-muito-baixo.md",
+  "source_sha256": "0971322ac58c6a5b19a850efd75491a6532977f48997cd824a7dadbaca96445a",
+  "chars": 548244,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "OG FERNANDES",
+    "orgao_julgador": "CORTE ESPECIAL",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1.850.512"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 16873,
+      "linha_inicio": 1,
+      "linha_fim": 75
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 16873,
+      "fim": 18204,
+      "linha_inicio": 76,
+      "linha_fim": 126
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 18204,
+      "fim": 31062,
+      "linha_inicio": 127,
+      "linha_fim": 150
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 31062,
+      "fim": 36049,
+      "linha_inicio": 151,
+      "linha_fim": 224
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 36049,
+      "fim": 100656,
+      "linha_inicio": 225,
+      "linha_fim": 1353
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 100656,
+      "fim": 103021,
+      "linha_inicio": 1354,
+      "linha_fim": 1384
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 103021,
+      "fim": 104930,
+      "linha_inicio": 1385,
+      "linha_fim": 1402
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 104930,
+      "fim": 106824,
+      "linha_inicio": 1403,
+      "linha_fim": 1429
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 106824,
+      "fim": 108550,
+      "linha_inicio": 1430,
+      "linha_fim": 1451
+    },
+    {
+      "nome": "voto_vista",
+      "titulo": "VOTO-VISTA",
+      "inicio": 108550,
+      "fim": 185972,
+      "linha_inicio": 1452,
+      "linha_fim": 2994
+    },
+    {
+      "nome": "voto_vencido",
+      "titulo": "VOTO VENCIDO",
+      "inicio": 185972,
+      "fim": 227492,
+      "linha_inicio": 2995,
+      "linha_fim": 4087
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VOGAL",
+      "inicio": 227492,
+      "fim": 285675,
+      "linha_inicio": 4088,
+      "linha_fim": 4407
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 285675,
+      "fim": 287640,
+      "linha_inicio": 4408,
+      "linha_fim": 4436
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 287640,
+      "fim": 289113,
+      "linha_inicio": 4437,
+      "linha_fim": 4449
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 289113,
+      "fim": 292540,
+      "linha_inicio": 4450,
+      "linha_fim": 4458
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VOGAL",
+      "inicio": 292540,
+      "fim": 333334,
+      "linha_inicio": 4459,
+      "linha_fim": 4852
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 333334,
+      "fim": 402131,
+      "linha_inicio": 4853,
+      "linha_fim": 5475
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 402131,
+      "fim": 403437,
+      "linha_inicio": 5476,
+      "linha_fim": 5516
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 403437,
+      "fim": 411431,
+      "linha_inicio": 5517,
+      "linha_fim": 5601
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VOGAL",
+      "inicio": 411431,
+      "fim": 548244,
+      "linha_inicio": 5602,
+      "linha_fim": 7765
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "do exposto",
+      "inicio": 76353,
+      "fim": 94951,
+      "linha_inicio": 986,
+      "linha_fim": 1265,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 411554,
+      "fim": 412342,
+      "linha_inicio": 5608,
+      "linha_fim": 5608,
+      "chars": 788,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\" ***(i)*** * A fixação dos honorários por apreciação equitativa não é * *permitida quando os valores da condenação, da",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 419303,
+      "fim": 420299,
+      "linha_inicio": 5769,
+      "linha_fim": 5769,
+      "chars": 996,
+      "sinais": [
+        "aspas",
+        "caixa-alta"
+      ],
+      "amostra": "**RELATOR** **:MINISTRO OG FERNANDES** RECORRENTE:PLASTOY INDUSTRIAL DE PLASTICOS LTDA ADVOGADOS:[ADVOGADO 1] CÉSAR CIPR",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 423218,
+      "fim": 423726,
+      "linha_inicio": 5785,
+      "linha_fim": 5785,
+      "chars": 508,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*equidade* atende a *valores superlativos* abraçados pela sociedade, o que pressupõe que *a régua * *deve ser igual par",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 426345,
+      "fim": 429185,
+      "linha_inicio": 5792,
+      "linha_fim": 5792,
+      "chars": 2840,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\" *a contrario sensu*, de maneira implícita. Se o legislador pretende afastar princípios celebrados e imprescindíveis ao",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 489239,
+      "fim": 489592,
+      "linha_inicio": 6920,
+      "linha_fim": 6928,
+      "chars": 353,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*A fixação dos * *honorários, nos termos do artigo 85, § 3º, do CPC, nas demandas em que figuram como * *partes entes",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 503198,
+      "fim": 503991,
+      "linha_inicio": 7017,
+      "linha_fim": 7017,
+      "chars": 793,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\", entre outros. **Na hipótese de causas em que seja parte a Fazenda Pública, ** **o legislador também teve como propósi",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 507926,
+      "fim": 508305,
+      "linha_inicio": 7065,
+      "linha_fim": 7071,
+      "chars": 379,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "***equidade*** ** atende a ** ***valores superlativos*** ** abraçados pela sociedade, ** **o que pressupõe que ** ***a",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 524017,
+      "fim": 524352,
+      "linha_inicio": 7398,
+      "linha_fim": 7406,
+      "chars": 335,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*da assertiva acima não se extrai, como aliás já acontecia na * *vigência do CPC revogado, comando normativo que impeça",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 526906,
+      "fim": 527419,
+      "linha_inicio": 7467,
+      "linha_fim": 7479,
+      "chars": 513,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*astreintes*, *apesar de a literalidade da regra do art. 537, § * *1º, do CPC/2015 vedar a modificação do valor e/ou da",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "AgInt 1.915.182"
+      ]
+    },
+    {
+      "inicio": 533940,
+      "fim": 535272,
+      "linha_inicio": 7614,
+      "linha_fim": 7614,
+      "chars": 1332,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*4. O contexto narrado na petição inicial, em cotejo com a * *realidade fático-jurídica em que arbitrados os honorários",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 535964,
+      "fim": 536827,
+      "linha_inicio": 7623,
+      "linha_fim": 7623,
+      "chars": 863,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*2. A jurisprudência desta Corte Superior admite a revisão do * *juízo de equidade referente à fixação de honorários adv",
+      "precedente": "AgInt 1519915",
+      "precedentes": [
+        "AgInt 1519915"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 537481,
+      "fim": 538190,
+      "linha_inicio": 7625,
+      "linha_fim": 7625,
+      "chars": 709,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*2. In casu, consoante se infere das razões do recurso * *especial, a condenação em honorários importará na quantia apro",
+      "precedente": "AgInt 1140294",
+      "precedentes": [
+        "AgInt 1140294"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 539030,
+      "fim": 540161,
+      "linha_inicio": 7634,
+      "linha_fim": 7634,
+      "chars": 1131,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*4. Nesse contexto, a jurisprudência do STJ firmou-se no * *sentido de que os honorários advocatícios fixados à luz do a",
+      "precedente": "REsp 1584761",
+      "precedentes": [
+        "REsp 1584761"
+      ],
+      "origem": "precedente"
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "certidao",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto",
+      "voto_vencido",
+      "voto_vista"
+    ],
+    "blocos_citados": 13,
+    "chars_citados": 11540,
+    "proporcao_citada": 0.021
+  },
+  "avisos": [
+    "10 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

@@ -17,7 +17,7 @@ Conhecimento de **peça** (como construir cada recurso/petição, independente d
 - [replica/](replica/index.md) — portão de cabimento (dispensável se só mérito direto), os quatro eixos de resposta (preliminares, fato novo, documentos), regra de ouro anti-inovação (art. 329, II)
 - [contestacao/](contestacao/index.md) — tabela de impugnação especificada (art. 341: fato sem linha é fato incontroverso), checklist das treze preliminares com decisão registrada (relativa e arbitragem precluem), defesa direta × indireta e o ônus da prova, reconvenção na mesma peça
 - [gratuidade/](gratuidade/index.md) — núcleo transversal (semeado 05/09/2026): CPC 98-102 literal, art. 1.072, III (Lei 1.060/50 revogada), **ADC 80** (admissibilidade `vigente` com inteiro teor; mérito de 03/09/2026 `em_teste`: presunção até R$ 5.000,00 de salário, todos os ramos, só ações novas), heurística do pedido em duas formas pela faixa de salário e o repertório do banco contra a gratuidade com refutação item a item
-- [sucumbencia/](sucumbencia/index.md) — núcleo transversal: decaimento mínimo, bases autônomas e vedação à redução indireta dos honorários abaixo do piso do art. 85, § 2º
+- [sucumbencia/](sucumbencia/index.md) — núcleo transversal: decaimento mínimo, bases autônomas, vedação à redução indireta dos honorários abaixo do piso do art. 85, § 2º, e a decisão "pedir ou calar" sobre honorários na apelação do vencido (Temas 1.059 e 1.076, `em_teste`)
 - [peticao-inicial/](peticao-inicial/index.md) — decisões de abertura (rito, foro, tutela, autocomposição), esqueleto único com cinco variáveis, mapa probatório e exibição do art. 397, checklist de saída do 319/320, emenda
 
 ## Peças em estoque (fluxo próprio na fila)
