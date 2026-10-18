@@ -114,6 +114,8 @@ Mesma família das duas armadilhas já catalogadas (o `<strike>` do Planalto e o
 
 **Cobertura:** o depósito do CPC incorpora alterações até a **Lei nº 15.109, de 2025** (visível no art. 82). A **Lei nº 15.479, de 2026** aparece apenas como "Vide" na capa do PDF, **sem nota de alteração em nenhum artigo** — não mudou o texto do Código.
 
+> **Correção de 2026-10-18.** A Lei 15.479/2026 **altera** o CPC (parágrafo único do art. 196 e art. 529-A, novo), mas tem **vacatio de um ano** contado da publicação (art. 4º): por isso o compilado do Planalto ainda não incorpora o texto, e o "não mudou o texto do Código" acima vale só até a entrada em vigor. A lei está depositada em `lei-15479-2026-alimentos-transferencia-automatica.{html,md}`. Quando vigorar, redepositar o CPC compilado.
+
 ### ⚠️ Não converter o PDF do Planalto com o pdfmd para uso como fonte literal
 
 Tentado e **rejeitado em conferência** em 2026-08-01. A conversão do PDF pareceu boa (612 mil caracteres, 994 artigos, mesma contagem do HTML), mas a comparação artigo por artigo contra o HTML expôs 35 divergências, e nenhuma era alteração legislativa:
@@ -180,6 +182,29 @@ Outra armadilha da mesma família: o Planalto grafa o ordinal como letra nos par
 **O que os recortes ainda não fazem.** Depósito não é página. Só o art. 921 tem página derivada com transcrição conferida; os outros treze recortes estão em `raw/` esperando que se escreva a página `legislacao` correspondente, que é o que permite citá-los em peça pelo `resource` e o que o `lint-citacoes` confere. Enquanto isso, as teses e playbooks que se apoiam nesses artigos seguem `em_teste`.
 
 **Candidatos que a fila não previu** e que os bundles citam com destaque: art. 916 (moratória legal, no playbook do extrajudicial), art. 774, V (ato atentatório, na heurística de movimento) e art. 98, §§ 2º e 3º (gratuidade, na tese de honorários).
+
+**Depositados em 2026-10-18 — Lei 15.479/2026 e regimentos de tribunal estadual** (vindos de `consumir/` do motor):
+
+| Arquivo | Papel |
+|---|---|
+| `lei-15479-2026-alimentos-transferencia-automatica.{html,md}` | **Lei 15.479, de 29/07/2026** — transferência automática, mês a mês, da prestação alimentícia: insere o **art. 529-A** no CPC (requerimento em qualquer fase do cumprimento, ordem à instituição financeira por sistema eletrônico do supervisor do sistema financeiro, conta preferencial indicada pelo executado) e dá redação ao parágrafo único do art. 196 (ato eletrônico em formato que facilite coleta de dados, observada a LGPD); art. 3º manda o CNJ publicar estatísticas. **Vacatio de 1 ano** contado da publicação (art. 4º): até lá, não citar o 529-A como vigente. Transversal por falta de bundle de família/alimentos. `depositar-lei.py`, HTML cp1252, sem `<strike>`. |
+| `ritjto-consolidado-res48-2025.{pdf,md}` | **Regimento Interno do TJTO** (Resolução 104, de 21/06/2018, republicação), cobertura até a **Resolução 48, de 17/12/2025** (art. 3º, órgãos do Tribunal). Impressão do e-Legis do TJTO. 108 p., todas nativas. Seis artigos não têm ponto depois do número no próprio PDF (15, 20, 29, 35, 262 e 319: "Art. 15 Compete"); o `recortar-artigo.py` não os encontra, e eles se recortam à mão, declarando no cabeçalho. Fecha a lacuna "RITJTO não depositado" da heurística `apelacao/heuristicas/relator-prevento-pelo-primeiro-recurso.md`. |
+| `ri-turmas-recursais-tjto-res13-2026.{pdf,md}` | **Regimento Interno das Turmas Recursais e da Turma de Uniformização** dos Juizados Especiais Cíveis, Criminais e da Fazenda Pública do TO — **Resolução 13, de 07/07/2026**, em vigor na publicação; **revoga a Resolução 7/2017**. 96 artigos. O fecho do anexo diz "Palmas, 07 de julho de 2025": erro do próprio documento (a resolução é de 2026). |
+| `ritjsp-consolidado-ar596-2026.{pdf,md}` | **Regimento Interno do TJSP**, compilação aprovada pelo Órgão Especial em 25/09/2013, "atualizado em 30/04/2026" (último **Assento Regimental 596/2026**). 116 p., todas nativas, 290 artigos. |
+| `ritjgo-consolidado-er13-2025.{pdf,md}` | **Regimento Interno do TJGO** (novembro de 2021), atualizado até a **Emenda Regimental 13/2025** (juízes certos), assinado em 28/08/2025 (PROAD 202507000656025). 60 folhas em paisagem com **duas páginas por folha**: o texto nativo do PDF intercala as colunas, mas o pdfmd reconstrói a ordem de leitura (conferido na p. PDF 18, § 2º sobre o Segundo Vice-Presidente, que no texto nativo emenda no inciso XXXIX da página ao lado). **PDF fora do git** (16 MB; `.gitignore`), o `.md` circula. |
+| `ri-turmas-recursais-tjgo-res225-2023-er01-2024.{pdf,md}` | **Regimento Interno das Turmas Recursais e da Turma de Uniformização** do Sistema dos Juizados Especiais de GO — Resolução 225, de 22/03/2023, atualizado até a **ER 01/2024**. 36 p.; p. 1 e 36 por OCR (capa e contracapa). Os incisos saem sem travessão ("I os nomes das partes"): o glifo não existe no texto do PDF. |
+
+Cada `.md` vem com `.index.md` (mapa, regerado do texto limpo) e `.pdfmd.json` (manifesto; o `markdown_lines` dele se refere à conversão anterior à higiene — use as âncoras `pdf-page-N`), os dois locais e fora do git pela regra geral do `.gitignore`, e com o **`.higiene.diff`**, que circula e é o material da conferência. A higiene foi determinística e está toda no diff:
+
+1. **Resíduo de página removido** — cabeçalho de impressão do navegador (data, hora, URL do e-Legis, "n/108"), linha "Assinado digitalmente… PROAD", cabeçalho corrente "NN | TJGO - REGIMENTO INTERNO". Linha inteira ou trecho colado no começo da linha; nada no meio do texto normativo.
+2. **Hifenização de fim de linha reunida** quando a continuação começa por minúscula (RITJGO 453, RI-TR-GO 184): `devidamen-te → devidamente`. Mantêm o hífen ênclise e mesóclise (`suscitá-lo`, `reunir-se-á`) e compostos conhecidos (`procurador-geral`, `quartas-feiras`, `salvo-conduto`, `e-mail`, `pré-constituída`, `vice-coordenador`). Hífen repetido no começo da linha seguinte (`Vice-` / `-Presidente`) volta a um só. Toda palavra nova criada pela higiene foi listada e conferida: nenhuma junção espúria.
+3. **Cabeçalho de artigo em negrito partido** normalizado para o `recortar-artigo.py` achar o artigo: `**Art. ** **31**.` e `**Art. 13**.` → `**Art. 13.**` (RITJSP 290 artigos; RITJGO e RI-TR-GO). O lint normaliza pontuação, então nada muda para a conferência de transcrição.
+
+**Fidelidade medida** (5-gramas do texto normalizado, `.md` contra o texto nativo do PDF): 98,2 a 99,8% do que está no `.md` existe no PDF; no outro sentido, 91,7 a 99,8%, e a diferença é o resíduo removido. Ficaram como no PDF, porque é o PDF que os traz: palavras coladas sem espaço (`doTribunal`, `suasdecisões`, `odesembargador`, no TJGO) e hífen dentro de nota de emenda em itálico (`Regi-* *mental`). Transcrição que passe por um desses pontos reprova no `lint-citacoes`: conferir no PDF.
+
+**Antes desta leva, a conversão apagava alíneas.** O `pdfmd` trocava `a)`, `b)` por marcador de lista `-` (`render.py`, `_normalize_list_line`): "I - Colegiados: a) O Tribunal Pleno" saía "- O Tribunal Pleno". Corrigido no motor (`vendor/pdfmd`, com teste) em 18/10/2026, antes destes depósitos. **Conversões de PDF anteriores a essa data com alíneas em letra podem ter perdido a letra** — o RISTJ inclusive: o PDF do `ristj-consolidado-er55` tem 153 linhas que começam por alínea em letra, o `.md` depositado nenhuma. Reconverter o RISTJ é pendência; até lá, conferir no PDF antes de citar alínea de documento convertido antes de 18/10/2026.
+
+**Ainda sem recorte nem página derivada.** Recorte: `python recortar-artigo.py <n> <bundle> --codigo direito/pecas/raw/<regimento>.md --rotulo RITJTO` (testado nos cinco).
 
 ## Obras comerciais de terceiros — não circulam
 

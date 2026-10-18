@@ -61,6 +61,12 @@ direito/pecas/raw/tese-buril-objeto-dos-recursos-*
 # nao conteudo da obra.
 !direito/pecas/raw/tese-buril-objeto-dos-recursos-*.ligaduras.md
 
+# RITJGO consolidado ate a ER 13/2025 (2026-10-18): ato oficial, circula
+# (Lei 9.610/98, art. 8, IV), mas o PDF tem 16 MB. O .md, o mapa, o
+# manifesto e o .higiene.diff circulam; o PDF fica na maquina de quem
+# depositou (fonte: site do TJGO).
+direito/pecas/raw/ritjgo-consolidado-er13-2025.pdf
+
 
 # Coluna assinada de terceiro sobre LGPD em cartorios (Joelson Sell),
 # depositada em 2026-08-29. Obra intelectual publicada (Lei 9.610/98).
@@ -219,3 +225,6 @@ direito/imobiliario/raw/tjgo-agint-ac-5277023-94-2025-retencao-10-pago.pdf
 direito/imobiliario/raw/resp-2035848-to-re-negativa-seguimento.pdf
 direito/imobiliario/raw/irdr-0009560-46-2017-tjto-voto-relator-ev433.pdf
 direito/consumidor/vicio-do-produto/raw/*.pdf
+
+# Sub-bundle novo de usucapiao (18/10/2026): mesmo regime, PDF de processo de terceiro fora do git.
+direito/imobiliario/usucapiao/raw/*.pdf
