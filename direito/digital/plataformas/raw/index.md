@@ -22,3 +22,11 @@ Três cadeias de litígio de terceiros, com dado pessoal, pendentes de anonimiza
 **Cadeia 0809064-72.2026.8.18.0176 (TJPI — reativação de conta de Instagram, Juizado):**
 - `cadeia-0809064-inicial.{md,pdf}` — petição inicial (Juizado Especial; contém CPF e endereço da autora).
 - `cadeia-0809064-tutela-deferida.{md,pdf}` — decisão-carta deferindo a tutela de urgência.
+
+## No git (pseudonimizados, regra dura 6)
+
+Acórdãos de terceiros baixados do CJSG/e-SAJ (18/10/2026). Nome da parte autora e identificador
+da conta trocados por rótulo; PDF não depositado (fica em `jurisprudencia-tjsp/` do workspace).
+
+- `apelacao-1149661-tjsp-bloqueio-conta-candidata-facebook.md` — ApCiv 1149661-90.2024.8.26.0100, 30ª CDPriv, 14/07/2025. Sidecar `.estrutura.json` com `nao_segmentado: true`.
+- `apelacao-1051450-tjsp-restricao-funcionalidades-instagram.md` — ApCiv 1051450-82.2025.8.26.0100, 23ª CDPriv, 22/06/2026. Sem sidecar: o segmentador tomava a ementa do próprio acórdão por voz alheia.

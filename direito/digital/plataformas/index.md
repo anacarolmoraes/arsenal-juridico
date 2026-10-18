@@ -1,6 +1,6 @@
 ---
 okf_version: "0.1"
-bundle_version: "0.1.0"
+bundle_version: "0.2.0"
 ---
 
 # Plataformas Digitais — Bundle de Competência

@@ -1,0 +1,45 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "apelacao-1149661-tjsp-bloqueio-conta-candidata-facebook.md",
+  "source_sha256": "395486721dba926fd87a2bdfff636dd6d295ccf1b44aa83bf30dd046db4fd480",
+  "chars": 13646,
+  "nao_segmentado": true,
+  "metadados": {
+    "relator": null,
+    "orgao_julgador": null,
+    "classe": null,
+    "numero": null
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 661,
+      "linha_inicio": 1,
+      "linha_fim": 13
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 661,
+      "fim": 13646,
+      "linha_inicio": 14,
+      "linha_fim": 256
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa"
+    ],
+    "blocos_citados": 0,
+    "chars_citados": 0,
+    "proporcao_citada": 0.0
+  },
+  "avisos": [
+    "Nenhum cabecalho de EMENTA, RELATORIO ou VOTO encontrado: o documento nao expoe a estrutura do acordao. Deteccao de voz suprimida — conferir a vista antes de citar."
+  ]
+}

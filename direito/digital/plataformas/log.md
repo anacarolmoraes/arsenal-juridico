@@ -1,5 +1,29 @@
 # Log — digital/plataformas
 
+## 2026-10-18
+
+**Ingestão (v0.2.0).** Dois acórdãos do TJSP vindos de `consumir/` do motor, baixados do
+CJSG/e-SAJ pela skill `buscar-jurisprudencia-tjsp` na pesquisa de um caso de conta de Instagram
+desabilitada. São processos de terceiros; entraram pseudonimizados (regra dura 6: nome da autora,
+nome e ID da conta, município da candidatura e @ do perfil viraram rótulo). PDF não depositado.
+
+- ApCiv 1149661-90.2024.8.26.0100 (30ª CDPriv, 14/07/2025): conta de anúncios de candidata;
+  CDC por vulnerabilidade, art. 51, IV, dano moral de R$ 10 mil, Súmula 326. `vigente`.
+- ApCiv 1051450-82.2025.8.26.0100 (23ª CDPriv, 22/06/2026): restrição de funcionalidades de
+  perfil profissional no Instagram; documento juntado após a sentença precluso; lucros cessantes
+  negados sem prova mínima (liquidação não prova o *an debeatur*); dano moral de R$ 10 mil;
+  sucumbência mínima do autor. `vigente`.
+- Repertório de defesas: linhas 3 (parcial) e 7 saíram de lacuna; linhas 9 (prova tardia) e 10
+  (reativação no curso do processo) novas; linha 6 ganhou o contraponto dos lucros cessantes.
+- `segmentar-acordao.py`: o TJSP não usa cabeçalho "EMENTA". Na 1149661 o raw saiu
+  `nao_segmentado`; na 1051450 o segmentador marcou a ementa do próprio acórdão como voz alheia,
+  e o sidecar foi descartado para não bloquear a citação dela. As ementas alheias transcritas nos
+  votos estão listadas nas páginas, com número, para citar pela fonte certa.
+
+**Pendências:** ingerir o AgRg no AREsp 837.871/SP (finalismo mitigado) se a peça for citar o STJ;
+conferir trânsito da ApCiv 1051450; ensinar o segmentador a reconhecer a ementa do TJSP (bloco
+entre a autuação do voto e o relatório).
+
 ## 2026-08-02
 
 **Ingestão.** Semente v0.1.0 do bundle, criada na migração do acervo local
