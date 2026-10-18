@@ -1,5 +1,20 @@
 # Log — digital/plataformas
 
+## 2026-10-18 (v0.3.0)
+
+**Ingestão (v0.3.0).** Mais dois acórdãos do TJSP da mesma pesquisa (conta de Instagram
+desabilitada por "fraude e enganação"), baixados do CJSG/e-SAJ, inteiro teor lido. Processos de
+terceiros, pseudonimizados (nome da parte e @ ou URL dos perfis viraram rótulo; no AI, também a
+cidade de atuação). PDF não depositado.
+
+- ApCiv 1064147-38.2025.8.26.0100 (28ª CDPriv, 25/03/2026): paradigma de "fraude e enganação" sem
+  conduta descrita; ônus exclusivo da ré, abuso, contraditório. `vigente`.
+- AI 2249428-59.2025.8.26.0000 (11ª CDPriv, 19/02/2026): tutela de reativação concedida em 2º
+  grau; perfis vinculados; reversibilidade; multa de R$ 1.000/dia até R$ 30.000. `vigente`.
+
+**Pendências:** conferir trânsito dos dois; seis outros acórdãos da mesma pesquisa ficaram na
+biblioteca do motor (`jurisprudencia-tjsp/`), não ingeridos.
+
 ## 2026-10-18
 
 **Ingestão (v0.2.0).** Dois acórdãos do TJSP vindos de `consumir/` do motor, baixados do
