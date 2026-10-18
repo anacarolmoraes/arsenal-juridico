@@ -42,5 +42,6 @@ Na Parte 1 da [tabela de alegações](/replica/heuristicas/tabela-alegacoes-resp
 - [Loteadora, rescisão de lote](../../../imobiliario/heuristicas/repertorio-de-defesas-da-loteadora.md) (bundle `imobiliario`)
 - [Plataforma digital, desmonetização e bloqueio](../../../digital/plataformas/heuristicas/repertorio-de-defesas-da-plataforma.md) (bundle `digital/plataformas`)
 - [Banco contra a gratuidade](/gratuidade/heuristicas/repertorio-do-banco-contra-a-gratuidade.md) (transversal, já `vigente`; é o modelo de que os outros partem)
+- [Embargos da loteadora à sentença](../../../imobiliario/heuristicas/repertorio-de-embargos-da-loteadora.md) (bundle `imobiliario`, 2026-10-18): primeiro repertório da fase pós-sentença. Mesmo formato, com duas colunas a mais, "multa" e "não afirmar", porque a peça que responde é contrarrazão a EDcl, não réplica.
 
 Os três primeiros nasceram em 2026-09-05 como **esqueleto**: as teses defensivas listadas são as que qualquer advogado da área reconhece na contestação-padrão, e a coluna de página aponta o que o acervo já tem. As linhas de resposta e a coluna de estado são da titular; até ela passar por elas, a página vale como mapa de lacunas, não como repertório.

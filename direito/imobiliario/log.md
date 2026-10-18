@@ -1,5 +1,11 @@
 # Log — imobiliario (rescisão contratual)
 
+## 2026-10-18 — repertório de embargos da loteadora (v0.6.1 → v0.6.2)
+
+**Página nova** `heuristicas/repertorio-de-embargos-da-loteadora.md`, `em_teste`, por ordem da titular. Motivo: em outubro de 2026 o escritório respondeu a uma série de embargos de declaração da mesma banca adversa, todos pelo mesmo modelo, e cada contrarrazão nasceu do zero; o fluxo de `pecas/embargos-declaracao` está escrito para EDcl próprios e não tinha mapa dos embargos adversos. A página lista dezessete alegações na formulação em que aparecem, a resposta, a página do acervo, se o item conta para a multa do art. 1.026, § 2º (critério extraído das decisões da titular na série), o que não afirmar (encerramento do ciclo recursal do IRDR, objeto do Tema 1.465, composição do valor pago com cessão, páginas `em_teste` de IPTU) e o que fica reservado para a apelação. **Fonte declarada:** a experiência da titular na série; nenhum dado de caso (nome, número, evento, valor, data) entra na página. A regra transversal do repertório proíbe a pasta de cliente como fonte; aqui a titular ordenou a escrita e confere linha a linha antes de promover.
+
+**Lacunas abertas:** fonte do agravo interno pendente no STJ contra a negativa de seguimento do RE no IRDR; Tema 1.465; Tema 938 (corretagem); página do art. 31, § 1º, da Lei 6.766/79; encargos fiscais na compensação do IPTU; enunciado da tese de IPTU que favorece a ré. Índice de `heuristicas/`, repertório transversal (`pecas/replica/heuristicas/repertorio-de-defesas-tipicas.md`) e índice de `pecas/embargos-declaracao` apontam para a página.
+
 ## 2026-10-18 — sub-bundle `usucapiao/` aberto
 
 **Decisão de arquitetura.** O plano de 01/08 (Fase C, aprovada) mandava promover este bundle a `imobiliario/rescisao-lote/` e criar o irmão `usucapiao/`. **Não promovido**: 101 arquivos em `clientes/` do motor declaram `bundle: direito/imobiliario` e quebrariam. O tema novo entrou como **sub-bundle** (`imobiliario/usucapiao/`), no molde de `pecas/sucumbencia/`: caminho `/absoluto` resolve da raiz deste bundle (`/usucapiao/raw/...`), log aqui. A promoção continua possível quando a titular quiser pagar a migração dos `bundle:`.

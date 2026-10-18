@@ -11,6 +11,7 @@ Cabem contra **qualquer decisão** para sanar obscuridade, contradição (intern
 - **Playbook:** [playbooks/playbook-embargos-declaracao.md](playbooks/playbook-embargos-declaracao.md) — os dois papéis, anatomia dos 4 vícios, prequestionador eficaz, procedimento, checklist
 - **Workflow:** [workflows/embargos-declaracao.md](workflows/embargos-declaracao.md) — etapas executáveis com portões
 - **Heurística:** [heuristicas/tabela-vicios-prequestionamento.md](heuristicas/tabela-vicios-prequestionamento.md) — portão de redação (omissão × inovação)
+- **Contrarrazões a EDcl de loteadora:** [repertório de embargos da loteadora](../../imobiliario/heuristicas/repertorio-de-embargos-da-loteadora.md) (bundle `imobiliario`, 2026-10-18) — alegação-padrão, resposta, página, multa e o que não afirmar. A técnica (vícios, extensão) continua aqui; a matéria, lá
 
 ## Páginas
 

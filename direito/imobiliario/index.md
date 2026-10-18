@@ -1,6 +1,6 @@
 ---
 okf_version: "0.1"
-bundle_version: "0.6.1"
+bundle_version: "0.6.2"
 ---
 
 # Rescisão Contratual de Imóvel — Bundle de Competência (Direito Imobiliário)
