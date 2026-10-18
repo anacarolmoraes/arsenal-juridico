@@ -54,7 +54,9 @@ Esta matriz é **transversal**: vale para qualquer inicial. O bundle temático a
 
 ## Parte B — gerada do mapa probatório (por caso)
 
-Para cada linha da `ANALISE.md`, seção 3, com estado *frágil* ou *a produzir*:
+Para cada linha da `ANALISE.md`, seção 3, com estado *frágil* ou *a produzir*, e para cada item
+da lista **A esclarecer** da seção 1 (o que só morava ali escapava da matriz: retrofit de
+15/10/2026):
 
 | Pergunta ao cliente | Documento esperado | Se não existir |
 |---|---|---|
@@ -77,19 +79,24 @@ protocolo e três.
 
 ## Instanciação na pasta do caso
 
-`clientes/<caso>/DOCUMENTOS.md` (ou seção da `ANALISE.md`), uma linha por item:
+Seção 7 (**Documentos**) da `clientes/<caso>/ANALISE.md`, o único arquivo de estado do caso
+(decisão de 01/10/2026: não se cria `DOCUMENTOS.md`), uma linha por item:
 
 ```markdown
-| # | Documento | Estado | Arquivo | Fato que prova |
+| Doc. | Descrição | Estado | Arquivo | Fato que prova |
 |---|---|---|---|---|
-| 1 | Procuração | presente | docs/procuracao.pdf | — |
+| 1 | Procuração | presente | Doc-01_procuracao.pdf | — |
 | 2 | Comprovante de residência em nome próprio | pendente (pedido em 08/09) | — | qualificação |
-| 3 | Extrato Banco A, mar/2025 | presente | docs/extrato-a.pdf | transações 1 a 3 |
+| 3 | Extrato Banco A, mar/2025 | presente | Doc-03_extrato-a.pdf | transações 1 a 3 |
+| — | Print da tela de limite no dia do fato | pendente | — | fato frágil (Parte B) |
 ```
 
 Os itens `presente` viram o rol `documentos:` do frontmatter da peça (`n`, `descricao`,
 `arquivo`), conferido por `checar-docs.js`; o `lint-inicial` reprova peça que cita `Doc. N` sem o
-rol. Item `pendente` em documento bloqueante é motivo para não protocolar, não para placeholder.
+rol. Item **com número** é citado na peça: `pendente` nele é motivo para não protocolar, não para
+placeholder. Item **sem número** (`—`) é prova sugerida pela Parte B e fica *a decidir*: juntar,
+dispensar com motivo ou deixar para a instrução. `node scripts/caso.js <caso>` mostra os dois
+grupos separados.
 
 ## Retroalimentação
 

@@ -28,6 +28,7 @@ que traz o que o art. 320 sempre exige e a coleta da gratuidade. Aqui, só o que
 | Extrato ou comprovante da conta intermediária, quando o golpe passou por conta do próprio autor em outro banco | alta | a mesma transferência aparece duas vezes; [contra-ataque quantum](/contra-ataques/quantum-comprovado-extratos-vs-saldo.md) |
 | Contrato, cédula ou tela do empréstimo contratado durante o golpe (ou a negativa do banco em fornecer) | alta | base do pedido declaratório e da repetição em dobro (só sobre o que o banco **cobrou**); se o banco não fornece, exibição do art. 397 |
 | Registro do atendimento fraudulento: número que ligou, horário, prints de mensagens, e-mail ou SMS com link | alta | nomeia a alavanca de engenharia social ([transversal LGPD](../../../lgpd/heuristicas/engenharia-social-as-alavancas.md)): consumidor induzido, não descuidado; número que exibia o nome do banco é indício de vazamento de dado |
+| Registrato (Banco Central): relatório de chaves Pix, relatório de contas e relacionamentos (CCS) e SCR, emitidos pelo próprio cliente | alta | a data e a hora de criação de chave e de abertura de conta no CPF da vítima provam a conta intermediária (chave criada minutos antes do crédito); o CCS revela contas que o cliente esqueceu de mencionar e que o réu vai explorar; o SCR mostra a dívida derivada do golpe |
 | Boletim de ocorrência | média | fato frágil vira relato documentado; não prova o golpe, mas fixa a data e a versão do autor |
 | Protocolos junto ao banco: contestação da operação, pedido de MED (Mecanismo Especial de Devolução), resposta recebida | bloqueante | tentativa administrativa e decisão sobre autocomposição; a negativa fundamenta o desinteresse (art. 319, VII); a devolução parcial via MED entra como estorno na ficha |
 | Comprovante de negativação (consulta Serasa/SPC/Boa Vista com data) | bloqueante se há negativação | dano moral *in re ipsa* da inscrição indevida e pedido de tutela para baixa; a data fixa o termo da correção |
@@ -42,6 +43,8 @@ que traz o que o art. 320 sempre exige e a coleta da gratuidade. Aqui, só o que
 
 ## Instanciação
 
-Na pasta do caso, `DOCUMENTOS.md` com estado `presente | pendente | dispensado (motivo)`; os
-`presente` viram o rol `documentos:` do frontmatter e as transações viram o `dados_caso.json` da
-`ficha-golpe-bancario`, uma linha por transação com `fonte: Doc. N, p. X`.
+Na seção 7 (**Documentos**) da `clientes/<caso>/ANALISE.md`, com estado `presente | pendente |
+dispensado (motivo)`, no formato da matriz transversal (não se cria `DOCUMENTOS.md`); os
+`presente` viram o rol `documentos:` do frontmatter. As transações viram a ficha numérica da
+`ficha-golpe-bancario` (`dados_caso.json`), que é rastro de trabalho e mora em `tmp/<caso>/`,
+nunca na pasta do cliente, uma linha por transação com `fonte: Doc. N, p. X`.
