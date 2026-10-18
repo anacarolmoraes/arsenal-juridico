@@ -1,0 +1,161 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-2084975-mt.md",
+  "source_sha256": "64025156d16a3bc83b299d3e12bff3ce072c1992b31bf43b793afcbb8f558dee",
+  "chars": 30460,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "JOÃO OTÁVIO DE NORONHA",
+    "orgao_julgador": "QUARTA TURMA",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "2084975"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 562,
+      "linha_inicio": 1,
+      "linha_fim": 12
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 562,
+      "fim": 874,
+      "linha_inicio": 13,
+      "linha_fim": 24
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 874,
+      "fim": 4171,
+      "linha_inicio": 25,
+      "linha_fim": 67
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 4171,
+      "fim": 5568,
+      "linha_inicio": 68,
+      "linha_fim": 87
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 5568,
+      "fim": 5880,
+      "linha_inicio": 88,
+      "linha_fim": 99
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 5880,
+      "fim": 9139,
+      "linha_inicio": 100,
+      "linha_fim": 142
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 9139,
+      "fim": 17025,
+      "linha_inicio": 143,
+      "linha_fim": 217
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO **I - Contextualização**",
+      "inicio": 17025,
+      "fim": 30460,
+      "linha_inicio": 218,
+      "linha_fim": 422
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "ante o exposto",
+      "inicio": 27862,
+      "fim": 28253,
+      "linha_inicio": 354,
+      "linha_fim": 366,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": {
+    "caso_em_exame": 1052,
+    "questao_em_discussao": 2626,
+    "razoes_de_decidir": 2952,
+    "dispositivo_e_tese": 3288,
+    "tese_de_julgamento": 3383,
+    "dispositivos_citados": 3740,
+    "jurisprudencia_citada": 3833
+  },
+  "blocos_citados": [
+    {
+      "inicio": 8420,
+      "fim": 8801,
+      "linha_inicio": 135,
+      "linha_fim": 135,
+      "chars": 381,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\"1. Aplica-se o § 2º, da para *Tese de julgamento* art. 22, Lei n. 8.906/1994 reconhecer, em contrato de êxito com revog",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 22420,
+      "fim": 22837,
+      "linha_inicio": 300,
+      "linha_fim": 300,
+      "chars": 417,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "ARBITRAMENTO DE HONORÁRIOS. CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS. REVOGAÇÃO. VIOLAÇÃO DO DO ART. 1.022 CPC. CO",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 24786,
+      "fim": 25153,
+      "linha_inicio": 319,
+      "linha_fim": 319,
+      "chars": 367,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "HONORÁRIOS ADVOCATÍCIOS CONTRATUAIS. RESCISÃO UNILATERAL DO CONTRATO DE PRESTAÇÃO DE SERVIÇOS. AFASTADA A APLICAÇÃO DO D",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 3,
+    "chars_citados": 1165,
+    "proporcao_citada": 0.038
+  },
+  "avisos": [
+    "3 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}
