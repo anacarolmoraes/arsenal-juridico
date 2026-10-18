@@ -56,6 +56,14 @@ def decodificar(bruto: bytes) -> tuple[str, str]:
 
 def marcar_revogado(raw: str) -> tuple[str, int]:
     """Preserva o texto riscado com rotulo explicito, antes de achatar as tags."""
+    # O Planalto tambem risca com CSS: <span style="text-decoration:line-through">
+    # (Lei 11.419/2006, art. 11, §§ 5º e 6º). Vira <strike> antes da contagem; span
+    # riscado com span dentro nao tem fim seguro e recusa o deposito.
+    rx_risco = r'(?is)<span[^>]*text-decoration\s*:\s*line-through[^>]*>(.*?)</span>'
+    for m in re.finditer(rx_risco, raw):
+        if re.search(r"(?i)<span[\s>]", m.group(1)):
+            raise SystemExit("span riscado com span aninhado: conferir o HTML a mao")
+    raw = re.sub(rx_risco, r"<strike>\1</strike>", raw)
     n = len(re.findall(r"(?i)<strike[\s>]", raw))
 
     def rep(m):

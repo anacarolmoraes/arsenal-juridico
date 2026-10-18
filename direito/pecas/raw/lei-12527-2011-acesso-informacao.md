@@ -3,7 +3,7 @@ Lei 12.527/2011 — acesso à informação (LAI) — texto do Planalto. Deposito
 Convertido de lai.html (encoding cp1252) por depositar-lei.py.
 TEXTO DE LEI CIRCULA: nao e obra protegida (Lei 9.610/98, art. 8, IV).
 COBERTURA: cita alteracoes ate a Lei 15.141. Nada posterior esta refletido.
-ATENCAO — TEXTO REVOGADO MARCADO: o HTML usa <strike> em 1 trecho(s) para a
+ATENCAO — TEXTO REVOGADO MARCADO: o HTML usa <strike> em 2 trecho(s) para a
 redacao superada. A conversao os preserva com o rotulo [REVOGADO — NAO CITAR].
 NAO editar. E a fonte contra a qual o lint-citacoes confere transcricao.
 Recortes por artigo: python recortar-artigo.py <artigo> <bundle> --codigo <este .md>
@@ -300,13 +300,7 @@ III - comunicar que não possui a informação, indicar, se for do seu conhecime
 
 [REVOGADO — NAO CITAR] Art. 12. O serviço de busca e fornecimento da informação é gratuito, salvo nas hipóteses de reprodução de documentos pelo órgão ou entidade pública consultada, situação em que poderá ser cobrado exclusivamente o valor necessário ao ressarcimento do custo dos serviços e dos materiais utilizados. (Vide Lei nº 14.129, de 2021) (Vigência)
 
-Parágrafo único. Estará isento de ressarcir os custos previstos no
-
-caput
-
-todo aquele cuja situação econômica não lhe permita fazê-lo sem prejuízo do sustento próprio ou da família, declarada nos termos da
-
-Lei nº 7.115, de 29 de agosto de 1983.
+[REVOGADO — NAO CITAR] Parágrafo único. Estará isento de ressarcir os custos previstos no caput todo aquele cuja situação econômica não lhe permita fazê-lo sem prejuízo do sustento próprio ou da família, declarada nos termos da Lei nº 7.115, de 29 de agosto de 1983.
 
 Art. 12. O serviço de busca e de fornecimento de informação é gratuito.
 
