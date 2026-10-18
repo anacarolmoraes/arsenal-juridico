@@ -18,7 +18,8 @@ fundamentos:
 **Por que `em_teste`:** o texto do art. 272 é pacífico e está em [cpc-art-272](/apelacao/jurisprudencia/cpc-art-272.md).
 O roteiro vem de prática (Rinaldo Mouzalas, 22/04/2026, `instagram.com/p/DXcAa2ZFf-j/`) e ainda não foi
 conferido contra julgados do TJTO ou do STJ sobre o § 8º, nem contra a disciplina do eproc para
-intimação pelo portal (Lei 11.419/2006, art. 5º, não depositada). Serve para decidir o que fazer no
+intimação pelo portal (Lei 11.419/2006, art. 5º, depositada em `pecas/raw/` em 18/10/2026, sem página
+derivada ainda). Serve para decidir o que fazer no
 dia em que a intimação viciada aparece; não é fundamento citável sem o julgado.
 
 ## O erro que o CPC/2015 criou para quem pensa pelo CPC/1973

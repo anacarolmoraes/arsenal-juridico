@@ -1,0 +1,227 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1787491-sp-gratuidade-pedida-em-recurso-sem-preparo-em-dobro.md",
+  "source_sha256": "777d58195e6de1629277738f872f4b6583b83ce4d360c94e9f86828e490ba598",
+  "chars": 22460,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "RICARDO VILLAS BÔAS CUEVA",
+    "orgao_julgador": "TERCEIRA TURMA",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1.787.491"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 3444,
+      "linha_inicio": 1,
+      "linha_fim": 23
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 3444,
+      "fim": 7289,
+      "linha_inicio": 24,
+      "linha_fim": 64
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 7289,
+      "fim": 21272,
+      "linha_inicio": 65,
+      "linha_fim": 244
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 21272,
+      "fim": 21949,
+      "linha_inicio": 245,
+      "linha_fim": 264
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 21949,
+      "fim": 22460,
+      "linha_inicio": 265,
+      "linha_fim": 271
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "ante o exposto",
+      "inicio": 20781,
+      "fim": 21109,
+      "linha_inicio": 232,
+      "linha_fim": 238,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 3747,
+      "fim": 4214,
+      "linha_inicio": 32,
+      "linha_fim": 32,
+      "chars": 467,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"Agravo Interno. Insurgência contra decisão do relator de afastar o pedido de * *concessão de gratuidade processual e d",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 8542,
+      "fim": 9033,
+      "linha_inicio": 94,
+      "linha_fim": 94,
+      "chars": 491,
+      "sinais": [
+        "aspas",
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*\"I - Por não comprovada a alegada hipossuficiência, de modo a * *justificar a concessão da gratuidade processual, e por",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 9127,
+      "fim": 10692,
+      "linha_inicio": 98,
+      "linha_fim": 98,
+      "chars": 1565,
+      "sinais": [
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*\"(...)* ***A insurgência não se sustenta. Não foi requerida a Justiça *** ***gratuita em primeiro grau. Todavia, vem a",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 10854,
+      "fim": 11496,
+      "linha_inicio": 105,
+      "linha_fim": 105,
+      "chars": 642,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*É a interpretação que deve ser dada ao conjunto da nova disciplina * *processual, sob pena de instaurar-se a chicana pr",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 13623,
+      "fim": 14526,
+      "linha_inicio": 158,
+      "linha_fim": 162,
+      "chars": 903,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"§ 2º O juiz somente poderá indeferir o pedido se houver nos autos * *elementos que evidenciem a falta dos pressupostos",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 16418,
+      "fim": 17555,
+      "linha_inicio": 201,
+      "linha_fim": 207,
+      "chars": 1137,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*caput* e § 4º, do CPC/2015: *\"Art. 1.007. No ato de interposição do recurso, o recorrente * *comprovará, quando exigi",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 17706,
+      "fim": 18257,
+      "linha_inicio": 211,
+      "linha_fim": 211,
+      "chars": 551,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"AGRAVO INTERNO NO AGRAVO EM RECURSO ESPECIAL. AÇÃO DE * *OBRIGAÇÃO DE FAZER E DE REPARAÇÃO POR DANOS MORAIS. PREPARO.",
+      "precedente": "AgInt 1.319.650",
+      "precedentes": [
+        "AgInt 1.319.650"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 18372,
+      "fim": 19233,
+      "linha_inicio": 213,
+      "linha_fim": 213,
+      "chars": 861,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"AGRAVO INTERNO NO AGRAVO EM RECURSO ESPECIAL. PROCESSUAL * *CIVIL. * *PREPARO * *DO * *RECURSO * *DE * *APELAÇÃO. * *I",
+      "precedente": "AgInt 1.307.657",
+      "precedentes": [
+        "AgInt 1.307.657"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 19505,
+      "fim": 20254,
+      "linha_inicio": 222,
+      "linha_fim": 222,
+      "chars": 749,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"PROCESSUAL CIVIL. RECURSO ESPECIAL. PREPARO. IRREGULARIDADE. * *INTIMAÇÃO PARA RECOLHIMENTO EM DOBRO. ART. 1007, § 4º,",
+      "precedente": "REsp 1.754.999",
+      "precedentes": [
+        "REsp 1.754.999"
+      ],
+      "origem": "precedente"
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "capa",
+      "certidao",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 9,
+    "chars_citados": 7366,
+    "proporcao_citada": 0.328
+  },
+  "avisos": [
+    "5 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

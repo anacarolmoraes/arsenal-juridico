@@ -1,4 +1,5 @@
 # Heurísticas — gratuidade
 
 - [pedido-de-gratuidade-pos-adc-80.md](pedido-de-gratuidade-pos-adc-80.md) — portão da data (ata da ADC 80) e a pergunta única do atendimento: salário passa de R$ 5.000,00? Forma A (presunção, enxuto) × Forma B (prova, subsidiário do § 2º); o que não fazer acima da faixa; acórdão que cita a Lei 1.060/50.
+- [gratuidade-revogada-apos-interposicao-preparo.md](gratuidade-revogada-apos-interposicao-preparo.md) — *(em_teste, 2026-10-18)* o tribunal revoga a gratuidade depois de interposto o recurso: o regime é o do art. 101, § 2º (5 dias, custas), não o do 1.007, § 4º (dobro), porque quem litigava amparado por decisão não "deixou de comprovar"; cautela do escritório: recolher em dobro, declarar "por extrema cautela", ratificar o entendimento e pedir devolução do excesso. Precedente do STJ em conferência.
 - [repertorio-do-banco-contra-a-gratuidade.md](repertorio-do-banco-contra-a-gratuidade.md) — os cinco argumentos da CONSIF na ADC 80 e a refutação de cada um (CPC 99 § 2º e 100, voto vencido de Fachin, PGR, Tema 1.178); e o lado inverso: impugnar só com fonte patrimonial concreta.

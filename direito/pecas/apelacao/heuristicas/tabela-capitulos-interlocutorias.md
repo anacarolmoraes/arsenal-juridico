@@ -16,9 +16,14 @@ Duas listas, um destino: a peça. O que ficar fora dela preclui — capítulo de
 
 ## Parte A — capítulos da sentença
 
-| # | Capítulo (transcrição do dispositivo + folha) | Resultado p/ cliente | Prejuízo concreto (R$, obrigação, efeito) | Chance real de reforma (alta / média / baixa, e por quê) | Ganho efetivo se reformado | Risco de reabrir (adesivo da parte contrária, § 11, capítulo favorável exposto) | Rota (apelo próprio / adesivo / contrarrazões / transitar) | Tipo (*in judicando* = reforma / *in procedendo* = nulidade) | Fundamentos da sentença a atacar (um a um) | Capítulo do apelo |
-|---|---|---|---|---|---|---|---|---|---|---|
-| A1 | | favorável / desfavorável | | | | | | | | |
+| # | Capítulo (transcrição do dispositivo + folha) | Resultado p/ cliente | Prejuízo concreto (R$, obrigação, efeito) | Chance real de reforma (alta / média / baixa, e por quê) | Ganho efetivo se reformado | Risco de reabrir (adesivo da parte contrária, § 11, capítulo favorável exposto) | Rota (apelo próprio / adesivo / contrarrazões / transitar) | Tipo (*in judicando* = reforma / *in procedendo* = nulidade) | Fundamentos da sentença a atacar (um a um) | Argumento não enfrentado / prova desconsiderada (peça e evento onde está) | Capítulo do apelo |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| A1 | | favorável / desfavorável | | | | | | | | | |
+
+As colunas "fundamentos a atacar" e "argumento não enfrentado / prova desconsiderada" se preenchem
+pelas cinco passagens de [ler a sentença contra os autos](/apelacao/heuristicas/sentenca-contra-os-autos.md),
+com o `conferir-decisao.js` rodado antes: argumento não enfrentado é omissão (489, § 1º, IV) para os
+EDcl e nulidade para a apelação; prova desconsiderada é reforma e decide a posição sobre causa madura.
 
 **Como decidir a rota.** As quatro colunas do meio (prejuízo, chance, ganho, risco) existem para que a coluna "Rota" não seja preenchida por reflexo. Perguntas, nesta ordem, para cada capítulo desfavorável:
 

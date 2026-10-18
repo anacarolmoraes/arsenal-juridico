@@ -41,6 +41,9 @@ processos ajuizados após a publicação da ata**. Contra o indeferimento: agrav
   fonte patrimonial" do log de 05/09 é respondida pela heurística do repertório.
 - **Recurso:** requerida no recurso, dispensa a comprovação do preparo até o relator decidir
   (99, § 7º); indeferida, 5 dias para recolher sob pena de não conhecimento (101, § 2º).
+  **Revogada depois de interposto o recurso:** preparo simples no prazo do 101, § 2º, não o
+  dobro do 1.007, § 4º; cautela do escritório e redação da petição de juntada na
+  [heurística própria](heuristicas/gratuidade-revogada-apos-interposicao-preparo.md).
 
 ## Pendências
 

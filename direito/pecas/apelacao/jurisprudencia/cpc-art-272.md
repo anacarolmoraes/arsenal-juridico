@@ -40,8 +40,9 @@ preclusão. O § 9º é a exceção estreita: só quando o ato não pode ser pra
 autos. Método na [heurística própria](/apelacao/heuristicas/intimacao-nula-arguir-no-proprio-ato.md).
 
 O caput limita o artigo às intimações **não eletrônicas**. A intimação pelo portal do sistema
-(eproc, PJe) segue a Lei 11.419/2006, art. 5º, e as regras do tribunal; a publicação no DJEN é
-publicação em órgão oficial e atrai os §§ 2º a 5º. Qual regime vale em cada processo é a primeira
+(eproc, PJe) segue a [Lei 11.419/2006](/raw/lei-11419-2006-processo-eletronico.md), art. 5º
+(depositada em `pecas/raw/` em 18/10/2026, ainda sem página derivada), e as regras do tribunal; a
+publicação no DJEN é publicação em órgão oficial e atrai os §§ 2º a 5º. Qual regime vale em cada processo é a primeira
 pergunta da heurística.
 
 ## Remissões
