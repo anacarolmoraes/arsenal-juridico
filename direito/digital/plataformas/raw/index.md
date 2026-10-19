@@ -32,3 +32,5 @@ da conta trocados por rótulo; PDF não depositado (fica em `jurisprudencia-tjsp
 - `apelacao-1051450-tjsp-restricao-funcionalidades-instagram.md` — ApCiv 1051450-82.2025.8.26.0100, 23ª CDPriv, 22/06/2026. Sem sidecar: o segmentador tomava a ementa do próprio acórdão por voz alheia.
 - `apelacao-1064147-tjsp-instagram-fraude-enganacao-onus-re.md` — ApCiv 1064147-38.2025.8.26.0100, 28ª CDPriv, 25/03/2026. Sem sidecar (mesmo motivo da 1051450).
 - `agravo-2249428-tjsp-tutela-reativacao-perfis-instagram.md` — AI 2249428-59.2025.8.26.0000, 11ª CDPriv, 19/02/2026. Sem sidecar.
+- `apelacao-1031722-tjsp-instagram-fraude-enganacao-dever-informacao.md` — ApCiv 1031722-55.2025.8.26.0100, 27ª CDPriv, 13/04/2026. Sem sidecar.
+- `agravo-2159834-tjsp-meta-alega-exclusao-permanente.md` — AI 2159834-97.2026.8.26.0000, 31ª CDPriv, 17/08/2026. Sem sidecar; parte e perfil de terceiro em precedente transcrito também pseudonimizados.

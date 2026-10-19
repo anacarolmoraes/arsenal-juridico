@@ -1,5 +1,15 @@
 # Log — digital/plataformas
 
+## 2026-10-18 (v0.4.0)
+
+**Ingestão (v0.4.0).** Mais dois acórdãos do TJSP da mesma pesquisa, inteiro teor lido,
+pseudonimizados (parte, @ do perfil; no AI, também parte e perfil de terceiro em precedente
+transcrito). PDF não depositado.
+
+- ApCiv 1031722-55.2025.8.26.0100 (27ª CDPriv, 13/04/2026): dever de justificar a conduta exata. `vigente`.
+- AI 2159834-97.2026.8.26.0000 (31ª CDPriv, 17/08/2026): Meta alega exclusão permanente no
+  cumprimento; alegação unilateral rejeitada. `vigente`.
+
 ## 2026-10-18 (v0.3.0)
 
 **Ingestão (v0.3.0).** Mais dois acórdãos do TJSP da mesma pesquisa (conta de Instagram
