@@ -1,0 +1,154 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-1894973-pr-tema-1230-salario-penhora-onus-do-devedor.md",
+  "source_sha256": "6f66e692bcc645086968218c09db052db7f3ed5585bc9edfb5286caf3d6be3c6",
+  "chars": 201773,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "RAUL ARAÚJO",
+    "orgao_julgador": "CORTE ESPECIAL",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "1894973"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 613,
+      "linha_inicio": 1,
+      "linha_fim": 12
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 613,
+      "fim": 1542,
+      "linha_inicio": 13,
+      "linha_fim": 26
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 1542,
+      "fim": 4379,
+      "linha_inicio": 27,
+      "linha_fim": 39
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 4379,
+      "fim": 6613,
+      "linha_inicio": 40,
+      "linha_fim": 57
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 6613,
+      "fim": 7520,
+      "linha_inicio": 58,
+      "linha_fim": 67
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 7520,
+      "fim": 11532,
+      "linha_inicio": 68,
+      "linha_fim": 86
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 11532,
+      "fim": 24702,
+      "linha_inicio": 87,
+      "linha_fim": 126
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 24702,
+      "fim": 130554,
+      "linha_inicio": 127,
+      "linha_fim": 540
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 130554,
+      "fim": 131710,
+      "linha_inicio": 541,
+      "linha_fim": 555
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 131710,
+      "fim": 133021,
+      "linha_inicio": 556,
+      "linha_fim": 586
+    },
+    {
+      "nome": "voto_vista",
+      "titulo": "VOTO-VISTA",
+      "inicio": 133021,
+      "fim": 154427,
+      "linha_inicio": 587,
+      "linha_fim": 915
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 154427,
+      "fim": 155331,
+      "linha_inicio": 916,
+      "linha_fim": 925
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO-VOGAL",
+      "inicio": 155331,
+      "fim": 187338,
+      "linha_inicio": 926,
+      "linha_fim": 1601
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 187338,
+      "fim": 201773,
+      "linha_inicio": 1602,
+      "linha_fim": 1745
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "diante do exposto",
+      "inicio": 127507,
+      "fim": 127611,
+      "linha_inicio": 497,
+      "linha_fim": 497,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "certidao",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto",
+      "voto_vista"
+    ],
+    "blocos_citados": 0,
+    "chars_citados": 0,
+    "proporcao_citada": 0.0
+  },
+  "avisos": []
+}

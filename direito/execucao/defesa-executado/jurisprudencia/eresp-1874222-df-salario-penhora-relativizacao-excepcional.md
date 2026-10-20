@@ -93,6 +93,7 @@ O voto também resume a orientação restritiva da Quarta Turma (só alimentos o
 
 ## Fronteiras
 
+- **Tema 1.230/STJ** ([REsp 1.894.973/PR](/jurisprudencia/resp-1894973-pr-tema-1230-salario-penhora-onus-do-devedor.md), repetitivo, DJEN 21/09/2026) confirmou este EREsp como tese vinculante e acrescentou que o **ônus de provar o comprometimento da subsistência é do devedor**. Para citar a regra, citar o repetitivo; este EREsp fica como antecedente.
 - **Honorários advocatícios** não são prestação alimentícia para o § 2º ([REsp 1.954.382/SP, repetitivo](/jurisprudencia/resp-1954380-honorarios-nao-sao-prestacao-alimenticia.md), cujo relator remete expressamente a este EREsp); o credor de honorários fica com a via deste EREsp, que exige os requisitos do item 3.
 - **Reserva de até 40 SM em aplicação financeira** (art. 833, X) é outra impenhorabilidade, com outro regime e preclusão própria ([Tema 1.235](/jurisprudencia/tema-1235-stj-impenhorabilidade-40sm-preclui.md)).
 - Tese do bundle que aplica este julgado: [salário impenhorável, mitigação só excepcional](/teses/salario-impenhoravel-mitigacao-so-excepcional.md).

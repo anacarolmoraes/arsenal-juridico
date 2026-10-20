@@ -1,6 +1,6 @@
 ---
 okf_version: "0.1"
-bundle_version: "0.4.0"
+bundle_version: "0.5.0"
 ---
 
 # Defesa do Executado — Bundle de Competência (Execução Civil)

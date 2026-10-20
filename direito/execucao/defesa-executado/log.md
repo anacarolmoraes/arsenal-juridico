@@ -1,5 +1,20 @@
 # Log — defesa do executado
 
+## 2026-10-20 — Tema 1.230/STJ julgado (REsp 1.894.973/PR), bundle v0.5.0
+
+**Origem:** `consumir/` do motor trouxe `STJ_202002358023_tipo_91_298480684.pdf`, que é **o voto original do relator** (32 p., assinado 08/09/2026), com tese em duas partes e critérios percentuais. **Não foi depositado:** o portal de repetitivos do STJ e o acórdão oficial (SCON, 65 p., DJEN 21/09/2026, baixado pelo radar-jurisprudencia-stj) mostram que a segunda parte ficou vencida. Depositado o acórdão oficial em `raw/`, pseudonimizado.
+
+- **Tese fixada** (por maioria; recurso desprovido por unanimidade): mitigação excepcional para dívida não alimentar, (a) frustrados outros meios e (b) comprovado que a constrição não compromete a subsistência digna, **cabendo ao devedor o ônus probatório**. Redação do voto-vista do Min. João Otávio de Noronha, acolhida pelo relator em aditamento. Vencidos na redação: Nancy Andrighi, Og Fernandes, Mauro Campbell Marques.
+- **Vencido:** mínimo existencial sempre impenhorável; teto de 35% a 45% entre o mínimo e 50 SM (analogia à Lei 10.820/2003); graduação pela essencialidade do crédito. O voto-vista recusou percentual na tese, mas mandou usar a fundamentação como baliza do exame concreto.
+- **O texto corrigiu a [tese do salário](teses/salario-impenhoravel-mitigacao-so-excepcional.md):** ela dizia que o ônus de demonstrar a preservação do mínimo existencial era "do juízo/exequente". Agora é do devedor; ao juiz fica o controle dos requisitos (aditamento, p. PDF 62). Reescritas a tese e o índice de teses (que dizia "honorários não penhoram salário", em desacordo com o EREsp 1.874.222). Atualizada a página do EREsp 1.874.222/DF (Fronteiras).
+- **Pseudonimização:** o `depositar.js` deixou escapar três advogados (nome seguido de "E OUTRO(S)" ou com espaço duplo) e quatro nomes da certidão de sustentação oral, e trocou "Defensoria Pública do Estado do Rio de Janeiro" por `[ADVOGADO 13]`. Corrigido à mão; sidecar de voz regenerado.
+
+**Pendências novas:**
+
+1. **EDcl** juntados em 12/10/2026 (petição 1085269/2026), vista publicada em 19/10/2026. Página `em_teste` até a titular promover; conferir o julgamento dos EDcl antes de citar.
+2. Votos de Nancy Andrighi e Og Fernandes (vencidos na redação) não lidos.
+3. O bundle `execucao/credor` não tem tese de penhora de salário; o Tema 1.230 o favorece (ônus do devedor).
+
 ## 2026-10-07 — seis decisões do STJ (prescrição intercorrente, salário, garantia na LEF), bundle v0.4.0
 
 **Origem:** `consumir/` do motor. Depositados em `raw/` (inteiro teor anonimizado; PDF e conversão crua fora do git) e derivadas seis páginas `vigente` em `jurisprudencia/`, com as transcrições conferidas literalmente contra o depósito:
