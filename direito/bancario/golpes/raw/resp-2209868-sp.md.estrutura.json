@@ -1,0 +1,158 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-2209868-sp.md",
+  "source_sha256": "5bc3683f5fdf86d995f0ade448b38b614127dbc3b556574e5951445802081c77",
+  "chars": 29518,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "HUMBERTO MARTINS",
+    "orgao_julgador": "TERCEIRA TURMA",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "2209868"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 558,
+      "linha_inicio": 1,
+      "linha_fim": 12
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 558,
+      "fim": 760,
+      "linha_inicio": 13,
+      "linha_fim": 16
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 760,
+      "fim": 2443,
+      "linha_inicio": 17,
+      "linha_fim": 20
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 2443,
+      "fim": 4460,
+      "linha_inicio": 21,
+      "linha_fim": 56
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 4460,
+      "fim": 5140,
+      "linha_inicio": 57,
+      "linha_fim": 71
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 5140,
+      "fim": 5342,
+      "linha_inicio": 72,
+      "linha_fim": 75
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 5342,
+      "fim": 7025,
+      "linha_inicio": 76,
+      "linha_fim": 79
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 7025,
+      "fim": 10384,
+      "linha_inicio": 80,
+      "linha_fim": 125
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 10384,
+      "fim": 28669,
+      "linha_inicio": 126,
+      "linha_fim": 329
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 28669,
+      "fim": 29518,
+      "linha_inicio": 330,
+      "linha_fim": 338
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "ante o exposto",
+      "inicio": 27367,
+      "fim": 27728,
+      "linha_inicio": 292,
+      "linha_fim": 299,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": {
+    "caso_em_exame": 16577,
+    "questao_em_discussao": 17286,
+    "razoes_de_decidir": 17603
+  },
+  "blocos_citados": [
+    {
+      "inicio": 12248,
+      "fim": 13582,
+      "linha_inicio": 169,
+      "linha_fim": 169,
+      "chars": 1334,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\", supostamente da Central de Atendimento da ré, pela qual pessoa se passou como sua preposta, especificamente co",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 23695,
+      "fim": 24068,
+      "linha_inicio": 263,
+      "linha_fim": 263,
+      "chars": 373,
+      "sinais": [
+        "caixa-alta"
+      ],
+      "amostra": "ESPECIAL. NEGATIVA DE PRESTAÇÃO JURISDICIONAL. NÃO OCORRÊNCIA. RESPONSABILIDADE CIVIL. GOLPE DA FALSA CENTRAL DE A",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "certidao",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 2,
+    "chars_citados": 1707,
+    "proporcao_citada": 0.058
+  },
+  "avisos": [
+    "2 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}
