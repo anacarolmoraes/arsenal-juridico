@@ -1,5 +1,45 @@
 # Log
 
+## 2026-10-20
+
+- **Ingestão (20/10)** — **API do DICT, v2.12.1, "Consultar Vínculo"** (BCB): recorte da documentação
+  oficial fornecida pela titular (HTML Redoc), depositado em `raw/dict-api-2-12-1-consultar-vinculo.md`
+  + página `vigente`. Prova que o participante pagador recebe `CreationDate`/`KeyOwnershipDate` da
+  chave de destino antes de liquidar. Fecha a ressalva MÉDIA da validação da inicial do caso de golpe
+  (IV.1, idade da chave vista pelo pagador).
+
+## 2026-10-19
+
+- **Ingestão** — **ApCiv 1026252-80.2024.8.26.0196** (TJSP, 12ª CDPriv., Rel. Alexandre David
+  Malfatti, j. 24/11/2025), a pedido da titular, a partir da triagem CJSG de 18/10/2026 (caso de
+  golpe do falso advogado; 319 acórdãos, relatório em `tmp/radar-tjsp/welson/` do motor).
+  Mercado Pago como instituição **de origem** e Bradesco como **recebedor**, ambos condenados;
+  regulamento do Pix (arts. 39, 88, 89, 39-B) e Res. 4.753 (arts. 2º e 4º) transcritos no voto.
+  Raw pseudonimizado (autora PJ e beneficiário → rótulo) + página `vigente`.
+  - **Ressalva registrada na página:** a p. 8 do voto traz trecho de modelo de outro caso
+    (celular subtraído, cartão de débito), incompatível com os fatos das pp. 5–6; não transcrever.
+    Ementa nomeia "MERCADOPAGO.COM REPRESENTAÇÕES LTDA"; relatório, "MERCADO PAGO INSTITUIÇÃO
+    DE PAGAMENTO LTDA".
+- **Ingestão** — **ApCiv 1007466-06.2025.8.26.0405** (TJSP, 12ª CDPriv., Rel. Malfatti, j.
+  17/12/2025, origem 1ª Vara Cível de Osasco), a pedido da titular. Falso funcionário, três Pix
+  sequenciais; Mercado Pago (origem) e Bradesco (recebedor) solidários; dano moral R$ 5 mil;
+  restituição simples; juros da citação. Raw pseudonimizado (autora → rótulo) + página `vigente`.
+  - **Achados:** (i) a 12ª Câmara reconhece perfil desviado sem laudo (valor elevado + sequência);
+    (ii) nega o art. 42 para o principal do Pix: a tese do dobro deve ficar restrita a encargos
+    cobrados; (iii) juros da citação por relação contratual, contra a Súmula 54 de outras câmaras.
+- **Ingestão** — **ApCiv 1004155-48.2025.8.26.0068** (TJSP, 17ª CDPriv., Rel. designado Irineu
+  Fava, maioria em julgamento estendido, j. 28/07/2026). Falso advogado; o banco que não prova a
+  compatibilidade da operação com o perfil (ônus do saneador, art. 373, II) responde pelo
+  prejuízo integral; dano moral negado. Raw pseudonimizado + página `vigente`. Entra na inicial
+  do caso de golpe (IV.1) como contraponto ao precedente de Osasco que exigiu do autor a prova da
+  atipicidade.
+  - **Pendências novas:** os demais acórdãos da triagem de 18/10/2026 (relatório
+    `tmp/radar-tjsp/welson/TRIAGEM-RELATORIO.md` do motor; inteiros teores de 20840716, 20037894,
+    20884353, 21034123, 19336426, 20856691, 20378185 e 20806766 já na biblioteca
+    `jurisprudencia-tjsp/`): depositar os que a titular escolher. Precedentes do STJ citados nos
+    votos e ainda sem página: AREsp 2.843.388/RJ, REsp 2.179.133/SP, AgInt nos EDcl no REsp
+    2.029.860/MG.
+
 ## 2026-10-15
 
 - **Ingestão (3ª leva)** — sete julgados capturados a partir das citações do REsp 2.052.228 e da
