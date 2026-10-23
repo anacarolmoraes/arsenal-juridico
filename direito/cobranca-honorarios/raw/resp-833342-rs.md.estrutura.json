@@ -1,0 +1,118 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-833342-rs.md",
+  "source_sha256": "550e81b5b7b2aad1f3e2cffaaea5de31c16c8eeef128e5153de4cf0ce02bcdc0",
+  "chars": 14679,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "NANCY ANDRIGHI",
+    "orgao_julgador": "TERCEIRA TURMA",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "833.342"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 2635,
+      "linha_inicio": 1,
+      "linha_fim": 16
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 2635,
+      "fim": 3741,
+      "linha_inicio": 17,
+      "linha_fim": 38
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 3741,
+      "fim": 6432,
+      "linha_inicio": 39,
+      "linha_fim": 102
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 6432,
+      "fim": 13391,
+      "linha_inicio": 103,
+      "linha_fim": 284
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 13391,
+      "fim": 14043,
+      "linha_inicio": 285,
+      "linha_fim": 304
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 14043,
+      "fim": 14679,
+      "linha_inicio": 305,
+      "linha_fim": 313
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "forte em tais razoes",
+      "inicio": 13092,
+      "fim": 13230,
+      "linha_inicio": 276,
+      "linha_fim": 278,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 4579,
+      "fim": 4894,
+      "linha_inicio": 61,
+      "linha_fim": 61,
+      "chars": 315,
+      "sinais": [
+        "caixa-alta",
+        "italico"
+      ],
+      "amostra": "*COM FUNDAMENTO NO ART. 267, IV, DO CPC. FALTA DE * *CAPACIDADE * *POSTULATÓRIA. * *PATRONO * *SUSPENSO * *TEMPORARIAMEN",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 12365,
+      "fim": 12627,
+      "linha_inicio": 262,
+      "linha_fim": 262,
+      "chars": 262,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "*\"PROCESSUAL CIVIL - AUSÊNCIA DE REGULAR * *REPRESENTAÇÃO PROCESSUAL - INTIMAÇÃO DA PARTE.* *1. Suspenso o advogado do e",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "certidao",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 2,
+    "chars_citados": 577,
+    "proporcao_citada": 0.039
+  },
+  "avisos": []
+}

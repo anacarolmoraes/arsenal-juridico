@@ -1,5 +1,9 @@
 # Log
 
+## 2026-10-20 (consumo: Recomendação CNJ 159/2024)
+
+`raw/recomendacao-cnj-159-2024-litigancia-abusiva.{pdf,md}`, vinda de `consumir/` com nome de arquivo opaco (`original2331012024...pdf`, impressão do SEI/CNJ, documento 2007215). Conversão limpa, sem higiene. Página `vigente` em [jurisprudencia/](jurisprudencia/recomendacao-cnj-159-2024-litigancia-abusiva.md): conceito de litigância abusiva (inclusive no polo passivo), Anexo A como checklist do que blindar na inicial, Anexo B (diligências; item 10 = prova da tentativa administrativa). Ligada à heurística `comprovar-tentativa-administrativa-previa` do `emprestimo-nao-realizado`. Pendência: o repetitivo do STJ sobre litigância predatória não está no acervo.
+
 ## 2026-10-18 (consumo: Lei 11.419/2006; LAI redepositada)
 
 `raw/lei-11419-2006-processo-eletronico.{html,md}` (processo eletrônico, cobertura Lei 14.318/2022), vinda de `consumir/`. O HTML risca a redação superada do art. 11, §§ 5º e 6º, por CSS (`text-decoration:line-through`), não por `<strike>`, e a primeira conversão apresentou as duas redações como vigentes. `depositar-lei.py` corrigido para tratar o span riscado como `<strike>`. Varredura dos HTML já depositados: a **LAI** tinha o mesmo defeito (antigo parágrafo único do art. 12 sem marca) e foi redepositada; os spans riscados do CPC compilado são vazios. Nenhuma página do acervo cita o trecho; o pedido de e-SIC do motor que cita o art. 12 fala só do ressarcimento, que continua no § 1º.

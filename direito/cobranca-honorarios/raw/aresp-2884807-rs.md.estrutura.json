@@ -1,0 +1,173 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "aresp-2884807-rs.md",
+  "source_sha256": "2cb58d435febd9b15c7c6b5f9f494c8dd7993d02047306f4915210b259e2acc3",
+  "chars": 23462,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "DANIELA TEIXEIRA",
+    "orgao_julgador": "TERCEIRA TURMA",
+    "classe": "AGRAVO EM RECURSO ESPECIAL",
+    "numero": "2884807"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 569,
+      "linha_inicio": 1,
+      "linha_fim": 12
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATORA",
+      "inicio": 569,
+      "fim": 771,
+      "linha_inicio": 13,
+      "linha_fim": 20
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 771,
+      "fim": 3001,
+      "linha_inicio": 21,
+      "linha_fim": 31
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 3001,
+      "fim": 3983,
+      "linha_inicio": 32,
+      "linha_fim": 48
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATORA",
+      "inicio": 3983,
+      "fim": 4185,
+      "linha_inicio": 49,
+      "linha_fim": 56
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 4185,
+      "fim": 6378,
+      "linha_inicio": 57,
+      "linha_fim": 67
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 6378,
+      "fim": 7460,
+      "linha_inicio": 68,
+      "linha_fim": 79
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 7460,
+      "fim": 23462,
+      "linha_inicio": 80,
+      "linha_fim": 233
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "ante o exposto",
+      "inicio": 21141,
+      "fim": 21345,
+      "linha_inicio": 179,
+      "linha_fim": 181,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": {
+    "questao_em_discussao": 1598,
+    "razoes_de_decidir": 1978
+  },
+  "blocos_citados": [
+    {
+      "inicio": 9482,
+      "fim": 9822,
+      "linha_inicio": 93,
+      "linha_fim": 93,
+      "chars": 340,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\", há que se contar o prazo prescricional quinquenal somente a partir do alcance do resultado objetivado. \\[...\\]. Note-",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 9922,
+      "fim": 11003,
+      "linha_inicio": 93,
+      "linha_fim": 93,
+      "chars": 1081,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\". Com efeito, o ajuste de remuneração sobre o êxito condicionou o direito à remuneração do contratado ao efetivo levant",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 12412,
+      "fim": 13314,
+      "linha_inicio": 100,
+      "linha_fim": 100,
+      "chars": 902,
+      "sinais": [
+        "aspas"
+      ],
+      "amostra": "\"o termo inicial do prazo de prescrição da pretensão ao recebimento de honorários advocatícios contratados sob a condiçã",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": [
+        "AgInt 1.554.329"
+      ]
+    },
+    {
+      "inicio": 15723,
+      "fim": 16165,
+      "linha_inicio": 121,
+      "linha_fim": 121,
+      "chars": 442,
+      "sinais": [
+        "caixa-alta",
+        "frase-de-abertura"
+      ],
+      "amostra": "CIVIL. RECURSO ESPECIAL. AÇÃO DE ARBITRAMENTO DE HONORÁRIOS. EMBARGOS DE DECLARAÇÃO. OMISSÃO, CONTRADIÇÃO OU OBSCURIDADE",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 4,
+    "chars_citados": 2765,
+    "proporcao_citada": 0.118
+  },
+  "avisos": [
+    "4 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

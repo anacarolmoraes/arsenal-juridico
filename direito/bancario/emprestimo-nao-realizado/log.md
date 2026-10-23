@@ -1,5 +1,28 @@
 # Log
 
+## 2026-10-20
+
+**Ligação (mesmo dia, depois).** `heuristicas/comprovar-tentativa-administrativa-previa.md` passa a apontar a Recomendação CNJ 159/2024 (Anexo B, item 10; Anexo A, item 17), depositada em `pecas/`. A Res. CMN 4.753 ganhou norma-irmã no `golpes`: Res. BCB 96/2021 (conta de pagamento) e BC Protege+ (Res. CMN 5.218/2025, que incluiu o art. 2º-A na própria 4.753). A página `res-bacen-4753-2019-art-2` daqui não foi alterada; o PDF dela continua ausente.
+
+**Heurísticas (v0.4.1 → v0.5.0).** Cinco páginas `em_teste` em `heuristicas/`, da mesma triagem
+registrada em `golpes/log.md` (20/10/2026): impugnar a cadeia de autenticação digital elo por elo;
+hash, biometria e selfie não provam autoria; conferir a contestação documento por documento;
+compensação só com proveito econômico; qualificar a causa de pedir como nulidade (prazo decenal,
+com o risco do art. 27 do CDC declarado na página). Nenhuma transcrição nova. Acórdãos citados no
+perfil, a capturar e conferir antes de promover: TJPB 0800102-79.2024.8.15.0381 e
+0806156-49.2022.8.15.0731 (este com número lido por OCR); TJBA 8044044-81.2022.8.05.0001; TJSP
+1022245-39.2024.8.26.0004; TJMS 0858838-50.2024.8.12.0001; TJPE 0156858-56.2022.8.17.2001,
+0000111-39.2020.8.17.3330 e 0000604-69.2023.8.17.2470. Pendência no motor: script de conferência
+da contestação contra a `ANALISE.md`; dois parâmetros novos (dispositivo, cadastro) na
+`analise-perfil`.
+
+**Legislação (v0.5.0 → v0.5.1).** Lei 12.965/2014 (Marco Civil): texto oficial consolidado do
+Planalto depositado em `raw/lei-12965-2014-marco-civil.md` (capturado pela titular em `consumir/`,
+convertido do HTML) e página `vigente` dos arts. 10, 13, 15 e 22 em `jurisprudencia/`, com as
+transcrições conferidas. É o fundamento para o pedido de IP e dispositivo quando o banco opõe
+sigilo ou LGPD; ligado em `impugnar-a-cadeia-de-autenticacao-digital.md` e, no bundle `golpes`, em
+`marcacao-de-fraude-no-dict-antes-do-pix.md`. Encerra o resíduo das notas estratégicas de `golpes/raw/`.
+
 ## 2026-09-13
 
 **Recortes do CDC (v0.4.0 → v0.4.1).** As cinco páginas de legislação do CDC (arts. 6º, VIII; 7º, parágrafo único; 14; 34; 42, parágrafo único) estavam `vigente` sem depósito em `raw/` (aviso W3 do lint). Gerados os recortes a partir do CDC transversal depositado em 02/08/2026, transcrições conferidas contra eles (todas literais), campo `raw:` preenchido. Mesmo tratamento para as quatro páginas do CPC (arts. 300; 319, VII; 429, II; 98-99), com recortes do CPC transversal redepositado hoje. Resta um W3: a Resolução CNJ 345/2020, sem depósito.

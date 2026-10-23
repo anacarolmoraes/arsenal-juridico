@@ -24,4 +24,5 @@ Todas as páginas têm `status` de vigência e `verificado_em` (última checagem
 - [CPC, art. 319, VII](cpc-art-319-vii.md) — opção sobre audiência de conciliação (c/c art. 334, §§ 4º e 5º).
 - [CPC, art. 429, II](cpc-art-429-ii.md) — ônus da prova da autenticidade de documento impugnado (tríade com arts. 6º e 369).
 - [Res. CMN 4.753/2019, art. 2º](res-bacen-4753-2019-art-2.md) — dever regulatório de verificação de identidade do contratante.
+- [Lei 12.965/2014 (Marco Civil), arts. 10, 13, 15 e 22](lei-12965-2014-arts-10-13-15-22.md) — registros de conexão e de acesso a aplicações só se fornecem por ordem judicial; a parte pede ao juiz para formar prova (art. 22, três requisitos); guarda de 6 meses. Fundamento para IP e dispositivo quando o banco opõe sigilo. **vigente**
 - [Res. CNJ 345/2020](res-cnj-345-2020.md) — Juízo 100% Digital.

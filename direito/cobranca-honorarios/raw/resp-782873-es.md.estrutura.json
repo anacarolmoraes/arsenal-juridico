@@ -1,0 +1,119 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "resp-782873-es.md",
+  "source_sha256": "8e54158569abcac7b9bd4f3bdbffc75757ef8695fa75772d38a6919190b41cee",
+  "chars": 13394,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "CARLOS ALBERTO MENEZES DIREITO",
+    "orgao_julgador": "TERCEIRA TURMA",
+    "classe": "RECURSO ESPECIAL",
+    "numero": "782.873"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 1498,
+      "linha_inicio": 1,
+      "linha_fim": 30
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 1498,
+      "fim": 4687,
+      "linha_inicio": 31,
+      "linha_fim": 100
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 4687,
+      "fim": 12113,
+      "linha_inicio": 101,
+      "linha_fim": 286
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO DE JULGAMENTO",
+      "inicio": 12113,
+      "fim": 12784,
+      "linha_inicio": 287,
+      "linha_fim": 304
+    },
+    {
+      "nome": "certidao",
+      "titulo": "CERTIDÃO",
+      "inicio": 12784,
+      "fim": 13394,
+      "linha_inicio": 305,
+      "linha_fim": 313
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 2558,
+      "fim": 3157,
+      "linha_inicio": 62,
+      "linha_fim": 62,
+      "chars": 599,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "\"* ***APELAÇÃO CÍVEL EM AÇÃO DE ARBITRAMENTO DE *** ***HONORÁRIOS ADVOCATÍCIOS. RESCISÃO DE CONTRATO DE *** ***PRESTAÇÃO",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 8619,
+      "fim": 8947,
+      "linha_inicio": 199,
+      "linha_fim": 205,
+      "chars": 328,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*advogado prestou ao cliente, com o que o fato de não estar concluído aquele processo * *não tem repercussão sobre o pe",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 9120,
+      "fim": 9334,
+      "linha_inicio": 211,
+      "linha_fim": 215,
+      "chars": 214,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*\"se, antes de ultimado o processo, revogar a procuração, estará * *sujeito ao pagamento dos honorários de advogado, na",
+      "precedente": "REsp 402.578",
+      "precedentes": [
+        "REsp 402.578"
+      ],
+      "origem": "precedente"
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "certidao",
+      "voto"
+    ],
+    "blocos_citados": 3,
+    "chars_citados": 1141,
+    "proporcao_citada": 0.085
+  },
+  "avisos": [
+    "Secao VOTO sem conectivo de dispositivo reconhecido — conferir o fecho a vista.",
+    "1 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

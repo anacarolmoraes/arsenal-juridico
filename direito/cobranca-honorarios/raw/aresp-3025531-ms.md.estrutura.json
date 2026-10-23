@@ -1,0 +1,282 @@
+{
+  "schema": "estrutura-acordao/1.0",
+  "arquivo": "aresp-3025531-ms.md",
+  "source_sha256": "7afd28b6f9bb6761c6b2023424c815304d321d3f9d586fc703e0524923116357",
+  "chars": 27373,
+  "nao_segmentado": false,
+  "metadados": {
+    "relator": "MOURA RIBEIRO",
+    "orgao_julgador": "TERCEIRA TURMA",
+    "classe": "AGRAVO EM RECURSO ESPECIAL",
+    "numero": "3025531"
+  },
+  "secoes": [
+    {
+      "nome": "capa",
+      "titulo": "(cabecalho)",
+      "inicio": 0,
+      "fim": 566,
+      "linha_inicio": 1,
+      "linha_fim": 12
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 566,
+      "fim": 820,
+      "linha_inicio": 13,
+      "linha_fim": 18
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 820,
+      "fim": 3069,
+      "linha_inicio": 19,
+      "linha_fim": 33
+    },
+    {
+      "nome": "acordao",
+      "titulo": "ACÓRDÃO",
+      "inicio": 3069,
+      "fim": 4094,
+      "linha_inicio": 34,
+      "linha_fim": 48
+    },
+    {
+      "nome": "relator",
+      "titulo": "RELATOR",
+      "inicio": 4094,
+      "fim": 4348,
+      "linha_inicio": 49,
+      "linha_fim": 54
+    },
+    {
+      "nome": "ementa",
+      "titulo": "EMENTA",
+      "inicio": 4348,
+      "fim": 6559,
+      "linha_inicio": 55,
+      "linha_fim": 69
+    },
+    {
+      "nome": "relatorio",
+      "titulo": "RELATÓRIO",
+      "inicio": 6559,
+      "fim": 8235,
+      "linha_inicio": 70,
+      "linha_fim": 84
+    },
+    {
+      "nome": "voto",
+      "titulo": "VOTO",
+      "inicio": 8235,
+      "fim": 27373,
+      "linha_inicio": 85,
+      "linha_fim": 247
+    },
+    {
+      "nome": "dispositivo",
+      "titulo": "posto isso",
+      "inicio": 13896,
+      "fim": 24949,
+      "linha_inicio": 133,
+      "linha_fim": 193,
+      "dentro_de": "voto"
+    }
+  ],
+  "ementa_cnj": null,
+  "blocos_citados": [
+    {
+      "inicio": 6820,
+      "fim": 7712,
+      "linha_inicio": 74,
+      "linha_fim": 74,
+      "chars": 892,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*EMENTA - APELAÇÃO CÍVEL - AÇÃO DE ARBITRAMENTO DE* *HONORÁRIOS - REVOGAÇÃO DO MANDATO - CONTRATO AD* *EXITUM - AUTOCOMP",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "acordao-recorrido"
+    },
+    {
+      "inicio": 10341,
+      "fim": 10693,
+      "linha_inicio": 112,
+      "linha_fim": 112,
+      "chars": 352,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*OCORRÊNCIA. * *AGRAVO * *CONHECIDO. * *RECURSO * *ESPECIAL* *CONHECIDO E DESPROVIDO.* *\\[...\\]* *6.* *** A contradição",
+      "precedente": "AREsp 2.956.666",
+      "precedentes": [
+        "AREsp 2.956.666"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 11707,
+      "fim": 12528,
+      "linha_inicio": 122,
+      "linha_fim": 126,
+      "chars": 821,
+      "sinais": [
+        "aspas",
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*Certamente não se pode desconsiderar a atuação da parte apelante no* *processo de execução (o que justifica a remuneraç",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 12867,
+      "fim": 14230,
+      "linha_inicio": 133,
+      "linha_fim": 133,
+      "chars": 1363,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*Questionado ainda se para o acordo jurídico teve auxílio dos apelantes* *disse: * \"não, nada\". *Portanto, inexistindo p",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 14477,
+      "fim": 15413,
+      "linha_inicio": 137,
+      "linha_fim": 137,
+      "chars": 936,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*PROCESSUAL CIVIL. AGRAVO INTERNO NO AGRAVO EM* *RECURSO ESPECIAL. AÇÃO DE ARBITRAMENTO DE HONORÁRIOS* *ADVOCATÍCIOS. *",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 15757,
+      "fim": 15993,
+      "linha_inicio": 144,
+      "linha_fim": 144,
+      "chars": 236,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*** Revogado imotivadamente o mandato judicial, é cabível o*** ***ajuizamento da ação de arbitramento para cobrar os hon",
+      "precedente": "AREsp 2.860.621",
+      "precedentes": [
+        "AREsp 2.860.621"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 16139,
+      "fim": 16640,
+      "linha_inicio": 144,
+      "linha_fim": 146,
+      "chars": 501,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*AGRAVO INTERNO NO AGRAVO EM RECURSO ESPECIAL - AÇÃO* *DE ARBITRAMENTO DE HONORÁRIOS - DECISÃO MONOCRÁTICA* *QUE CONHECE",
+      "precedente": "AREsp 2.695.384",
+      "precedentes": [
+        "AREsp 2.695.384"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 17072,
+      "fim": 17948,
+      "linha_inicio": 152,
+      "linha_fim": 152,
+      "chars": 876,
+      "sinais": [
+        "caixa-alta",
+        "italico",
+        "frase-de-abertura"
+      ],
+      "amostra": "*MANEJADO SOB A ÉGIDE DO NCPC. AÇÃO DE ARBITRAMENTO DE* *HONORÁRIOS ADVOCATÍCIOS. CONTRATO DE PRESTAÇÃO DE* *SERVIÇOS. R",
+      "precedente": null,
+      "precedentes": [],
+      "origem": "indeterminada",
+      "pistas": []
+    },
+    {
+      "inicio": 18291,
+      "fim": 19300,
+      "linha_inicio": 159,
+      "linha_fim": 159,
+      "chars": 1009,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*** Nas ações de arbitramento de honorários advocatícios, deve o*** ***julgador levar em consideração o trabalho realiza",
+      "precedente": "REsp 1.866.108",
+      "precedentes": [
+        "REsp 1.866.108"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 19423,
+      "fim": 20726,
+      "linha_inicio": 161,
+      "linha_fim": 161,
+      "chars": 1303,
+      "sinais": [
+        "italico"
+      ],
+      "amostra": "*DIREITO CIVIL E PROCESSUAL CIVIL. AGRAVO INTERNO NO* *RECURSO ESPECIAL. AÇÃO DE ARBITRAMENTO DE HONORÁRIOS.* *AUSÊNCIA",
+      "precedente": "REsp 1.561.080",
+      "precedentes": [
+        "REsp 1.561.080"
+      ],
+      "origem": "precedente"
+    },
+    {
+      "inicio": 21873,
+      "fim": 22398,
+      "linha_inicio": 168,
+      "linha_fim": 168,
+      "chars": 525,
+      "sinais": [
+        "aspas",
+        "italico"
+      ],
+      "amostra": "***(§ 2º).*** *2. \"O Estatuto da Advocacia assegura o direito do advogado ao* *recebimento dos honorários da sucumbência",
+      "precedente": "REsp 782.873",
+      "precedentes": [
+        "REsp 782.873"
+      ],
+      "origem": "precedente"
+    }
+  ],
+  "resumo": {
+    "secoes": [
+      "acordao",
+      "capa",
+      "ementa",
+      "relator",
+      "relatorio",
+      "voto"
+    ],
+    "blocos_citados": 11,
+    "chars_citados": 8814,
+    "proporcao_citada": 0.322
+  },
+  "avisos": [
+    "4 bloco(s) citado(s) sem atribuicao rastreavel: a transcricao e visivel, a autoria nao. Conferir a quem pertencem antes de cita-los."
+  ]
+}

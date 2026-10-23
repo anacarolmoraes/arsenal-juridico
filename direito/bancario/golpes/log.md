@@ -8,6 +8,59 @@
   chave de destino antes de liquidar. Fecha a ressalva MÉDIA da validação da inicial do caso de golpe
   (IV.1, idade da chave vista pelo pagador).
 
+- **Ingestão (v0.4.0 → v0.5.0)** — consumo de `consumir/` do motor. Cumpre parte das pendências
+  das heurísticas da manhã.
+  - **Normas** em `raw/` (texto oficial impresso do Exibe Normativo, com `.higiene.diff`):
+    Res. BCB 96/2021 consolidada (24/11/2025), Res. CMN 5.218/2025, IN BCB 661/2025, Res. BCB
+    103/2021 (MED); FAQ do BC Protege+; exposições de motivos (Votos 107/2021-BCB, 119/2021-BCB,
+    24/2025-CMN). Três páginas de legislação: [Res. BCB 96, arts. 4º, 4º-A e 13](jurisprudencia/res-bcb-96-2021-art-4-conta-de-pagamento.md)
+    e [BC Protege+](jurisprudencia/bc-protege-consulta-previa-res-cmn-5218-in-bcb-661.md) `vigente`;
+    [MED](jurisprudencia/res-bcb-103-2021-med-mecanismo-especial-de-devolucao.md) `em_teste`.
+  - **Conferência das heurísticas contra o texto:** batem o art. 4º da Res. 96 como dever de validar
+    conta de pagamento, a consulta ao Protege+ desde 1º/12/2025 e a guarda da prova por dez anos.
+    **Precisão nova:** na conta de pagamento, o Protege+ alcança só a **pré-paga** (art. 4º-A); a IN
+    661, art. 10, proíbe abrir conta com o sistema fora do ar; a Res. BCB 518/2025 tornou
+    obrigatório encerrar conta com irregularidade grave (art. 13).
+  - **Achado sobre o MED:** a Res. BCB 103/2021 é a resolução **alteradora** de 2021, não o
+    regulamento do Pix consolidado; o MED mudou depois e a redação vigente não está no acervo. Por
+    isso a página fica `em_teste`.
+  - **Alerta de injeção do `pdfmd`** em `bb_protege.pdf` e na Res. 96: era só U+200B do HTML do
+    BCB nos títulos. Removido na higiene; nenhum texto oculto.
+  - **TJPE RI 0046473-94.2024.8.17.8201** (2ª Turma Recursal da Capital, proclamação 12/05/2026):
+    capturado do PJe em .docx, raw pseudonimizado + página `vigente`. Falso advogado; Nubank
+    recebedor condenado pela confissão do encerramento da conta na própria contestação; BB pagador
+    absolvido sem falha específica; dano moral R$ 5 mil por maioria. Ligado às heurísticas
+    [abertura da conta recebedora](heuristicas/abertura-da-conta-recebedora-sem-validacao.md),
+    [individualizar cada ré](heuristicas/individualizar-a-falha-de-cada-re.md) e
+    [MED](heuristicas/med-e-conduta-do-banco-apos-o-aviso.md).
+  - **CPF tarjado:** a folha de rosto do Voto CMN 24/2025 trazia o CPF do servidor que autenticou a
+    cópia; no `.md` virou `[CPF]` e o PDF não foi depositado.
+  - **Pendências:** Res. BCB 475/2025; regulamento do Pix consolidado e Manual Operacional do DICT
+    (promover o MED); TJSP 1081556-32.2022.8.26.0100; demais acórdãos da triagem do perfil.
+
+- **Heurísticas (v0.3.0 → v0.4.0)** — oito páginas `em_teste` em `heuristicas/`, destiladas da
+  triagem de 17–20/10/2026 de um perfil público de advocacia bancária (@jessicaabreuadv; 49 posts
+  sobre fraude lidos por legenda e OCR, reels sem transcrição), cruzada com o que o bundle já tinha:
+  ato primário × ato secundário (também cumpre a pendência de 02/08/2026 sobre
+  `raw/notas-estrategicas-fraudes-bancarias.md`); MED e conduta pós-aviso; abertura da conta
+  recebedora (Res. BCB 96/2021, BC Protege+); marcação de fraude no DICT; individualizar cada ré;
+  cronologia minuto a minuto e dispositivo novo; empréstimo seguido de Pix; inquirir o preposto.
+  Cada página traz `momento:` (inicial / réplica / audiência / alegações finais) e a seção
+  "Quando NÃO usar". Repertório de defesas: lacunas 5 e 6 passam a **parcial**.
+  - **Nenhuma transcrição nova.** Os precedentes citados no perfil ficaram como "a capturar"
+    dentro de cada página. O **REsp 2.209.868/SP** (3ª Turma, j. 16/06/2026, Súmula 7 sobre culpa
+    exclusiva fixada na origem) foi depositado hoje por outra sessão (`em_teste`, órfão no lint) e
+    já está ligado pela heurística do ato primário; falta conferir o voto. A capturar: TJPE RI 0046473-94.2024.8.17.8201; TJSP 1081556-32.2022.8.26.0100; e os quatro acórdãos sem
+    número (MED não instaurado; sequência empréstimo+Pix; selfie insuficiente; perícia digital).
+  - **Normas a depositar em `raw/`:** Res. BCB 103/2021 (MED); Res. BCB 96/2021; Res. CMN
+    5.218/2025; IN BCB 661/2025; regulamento do Pix (marcação de fraude, DICT).
+  - Páginas irmãs sobre contratação digital, compensação e prazo foram para
+    `emprestimo-nao-realizado/heuristicas/` (log de lá).
+- **Pendência de 02/08/2026 encerrada** — `raw/notas-estrategicas-fraudes-bancarias.md` está
+  destilado (ver `raw/index.md`): os dois resíduos entraram hoje, a nomenclatura pela falha na
+  heurística do ato primário e o Marco Civil (arts. 10, 13, 15 e 22) como página de legislação
+  `vigente` no bundle irmão, com texto oficial do Planalto em `raw/`.
+
 ## 2026-10-19
 
 - **Ingestão** — **ApCiv 1026252-80.2024.8.26.0196** (TJSP, 12ª CDPriv., Rel. Alexandre David

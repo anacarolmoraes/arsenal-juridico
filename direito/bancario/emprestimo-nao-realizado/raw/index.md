@@ -22,3 +22,7 @@ pendente de anonimização:
 - `cadeia-tjro-7004672-inicial.{md,pdf}` — petição inicial.
 - `cadeia-tjro-7004672-sentenca.{md,pdf}` — sentença.
 - `cadeia-tjro-7004672-acordao-tj.{md,pdf}` — acórdão da 1ª Câmara Cível do TJRO.
+
+## Legislação
+
+- `lei-12965-2014-marco-civil.md` — Lei 12.965/2014 (Marco Civil da Internet), texto oficial consolidado do Planalto, convertido de HTML em 20/10/2026. Página derivada: `jurisprudencia/lei-12965-2014-arts-10-13-15-22.md`.

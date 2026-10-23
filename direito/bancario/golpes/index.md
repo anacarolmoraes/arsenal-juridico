@@ -1,6 +1,6 @@
 ---
 okf_version: "0.1"
-bundle_version: "0.3.0"
+bundle_version: "0.5.0"
 ---
 
 # Golpes Bancários — Bundle de Competência (Direito Bancário)
